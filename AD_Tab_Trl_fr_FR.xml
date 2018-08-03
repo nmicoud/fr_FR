@@ -5431,9 +5431,9 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="53374" trl="N">
-  <value column="Name" original="Payment Schedule">Payment Schedule</value>
+  <value column="Name" original="Payment Schedule">Echelonnement</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Order Payment Schedule">Order Payment Schedule</value>
+  <value column="Description" original="Order Payment Schedule"/>
   <value column="Help" original=""/>
  </row>
  <row id="53375" trl="N">

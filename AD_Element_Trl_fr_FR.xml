@@ -28729,10 +28729,10 @@ Credit Work in Process Account]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53809" trl="N">
-  <value column="Name" original="Promotion Code">Promotion Code</value>
-  <value column="PrintName" original="Promotion Code">Promotion Code</value>
-  <value column="Description" original="User entered promotion code at sales time">User entered promotion code at sales time</value>
-  <value column="Help" original="If present, user entered the promotion code at sales time to get this promotion">If present, user entered the promotion code at sales time to get this promotion</value>
+  <value column="Name" original="Promotion Code">Code promotion</value>
+  <value column="PrintName" original="Promotion Code">Code promotion</value>
+  <value column="Description" original="User entered promotion code at sales time"/>
+  <value column="Help" original="If present, user entered the promotion code at sales time to get this promotion"/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>

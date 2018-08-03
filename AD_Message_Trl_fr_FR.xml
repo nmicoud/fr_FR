@@ -1871,7 +1871,7 @@ Details: </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="566" trl="N">
-  <value column="MsgText" original="Today">Today</value>
+  <value column="MsgText" original="Today">Aujourd'hui</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="567" trl="Y">
