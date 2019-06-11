@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Window">
+<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Window">
  <row id="100" trl="N">
   <value column="Name" original="Table and Column">Table and Column</value>
   <value column="Description" original="Maintain Tables and Columns">Maintain Tables and Columns</value>
@@ -11,9 +11,9 @@
   <value column="Help" original="The Reference Window defines field/display types and validations. This window is for System Admin use only.">The Reference Window defines field/display types and validations. This window is for System Admin use only.</value>
  </row>
  <row id="102" trl="N">
-  <value column="Name" original="Window, Tab &amp; Field"><![CDATA[Window, Tab & Field]]></value>
-  <value column="Description" original="Maintain Windows, Tabs &amp; Fields"><![CDATA[Maintain Windows, Tabs & Fields]]></value>
-  <value column="Help" original="The Window, Tab &amp; Field Window defines the presentation of tables and columns within each window."><![CDATA[The Window, Tab & Field Window defines the presentation of tables and columns within each window.]]></value>
+  <value column="Name" original="Window, Tab &amp; Field" xml:space="preserve"><![CDATA[Window, Tab & Field]]></value>
+  <value column="Description" original="Maintain Windows, Tabs &amp; Fields" xml:space="preserve"><![CDATA[Maintain Windows, Tabs & Fields]]></value>
+  <value column="Help" original="The Window, Tab &amp; Field Window defines the presentation of tables and columns within each window." xml:space="preserve"><![CDATA[The Window, Tab & Field Window defines the presentation of tables and columns within each window.]]></value>
  </row>
  <row id="103" trl="N">
   <value column="Name" original="Validation Rules">Validation Rules</value>
@@ -180,7 +180,7 @@ Review and change the GL and Default accounts. The actual accounts used in trans
   <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.</value>
  </row>
  <row id="139" trl="Y">
-  <value column="Name" original="Warehouse &amp; Locators"><![CDATA[Entrepôts & Emplacements]]></value>
+  <value column="Name" original="Warehouse &amp; Locators" xml:space="preserve"><![CDATA[Entrepôts & Emplacements]]></value>
   <value column="Description" original="Maintain Warehouses and Locators"/>
   <value column="Help" original="The Warehouse and Locators Window defines each Warehouse, any Locators for that Warehouse and the Accounting parameters to be used for inventory in that Warehouse."/>
  </row>
@@ -201,7 +201,7 @@ Review and change the GL and Default accounts. The actual accounts used in trans
  </row>
  <row id="143" trl="Y">
   <value column="Name" original="Sales Order">Ordres de vente</value>
-  <value column="Description" original="Enter and change sales orders"><![CDATA[Devis & Commandes]]></value>
+  <value column="Description" original="Enter and change sales orders" xml:space="preserve"><![CDATA[Devis & Commandes]]></value>
   <value column="Help" original="The Order Window allows you to enter and modify Sales Orders.  "/>
  </row>
  <row id="144" trl="Y">
@@ -212,7 +212,7 @@ Review and change the GL and Default accounts. The actual accounts used in trans
  <row id="146" trl="N">
   <value column="Name" original="Price List">Listes de prix</value>
   <value column="Description" original="Maintain Product Price Lists">Maintain Product Price Lists</value>
-  <value column="Help" original="The Price List Window allows you to generate product price lists for your Business Partners.  Price lists determine currency and tax treatment.  Price list versions allow to maintain parallel lists for different date ranges.  The most current pricelist version is used based on the document date.&#10;&lt;BR&gt;&#10;All pricelists have three prices: List, Standard and Limit&#10;&lt;BR&gt;&#10;First step is to create a base price list.  You can manually add products and enter the prices or create them automatically.  The base price list is often the purchase price list with list price ('official' retail price), the standard price (your purchase price).  The limit price can be used to check your final purchase costs after discounts, rebates, etc.&#10;&lt;BR&gt; &#10;Pricelists can be calculated and copied.  To speed up the calculation, the parameters are stored an used when creating a new price list version."><![CDATA[The Price List Window allows you to generate product price lists for your Business Partners.  Price lists determine currency and tax treatment.  Price list versions allow to maintain parallel lists for different date ranges.  The most current pricelist version is used based on the document date.
+  <value column="Help" original="The Price List Window allows you to generate product price lists for your Business Partners.  Price lists determine currency and tax treatment.  Price list versions allow to maintain parallel lists for different date ranges.  The most current pricelist version is used based on the document date.&#10;&lt;BR&gt;&#10;All pricelists have three prices: List, Standard and Limit&#10;&lt;BR&gt;&#10;First step is to create a base price list.  You can manually add products and enter the prices or create them automatically.  The base price list is often the purchase price list with list price ('official' retail price), the standard price (your purchase price).  The limit price can be used to check your final purchase costs after discounts, rebates, etc.&#10;&lt;BR&gt; &#10;Pricelists can be calculated and copied.  To speed up the calculation, the parameters are stored an used when creating a new price list version." xml:space="preserve"><![CDATA[The Price List Window allows you to generate product price lists for your Business Partners.  Price lists determine currency and tax treatment.  Price list versions allow to maintain parallel lists for different date ranges.  The most current pricelist version is used based on the document date.
 <BR>
 All pricelists have three prices: List, Standard and Limit
 <BR>
@@ -281,9 +281,9 @@ Pricelists can be calculated and copied.  To speed up the calculation, the param
   <value column="Help" original="The Tree Window defines the descriptors and images that will be used when a Tree is displayed."/>
  </row>
  <row id="165" trl="N">
-  <value column="Name" original="Report &amp; Process"><![CDATA[Report & Process]]></value>
-  <value column="Description" original="Maintain Reports &amp; Processes"><![CDATA[Maintain Reports & Processes]]></value>
-  <value column="Help" original="The Report &amp; Process Window is used to define the parameters and access rules for every Report and Process within the system.  This window is for System Admin use only."><![CDATA[The Report & Process Window is used to define the parameters and access rules for every Report and Process within the system.  This window is for System Admin use only.]]></value>
+  <value column="Name" original="Report &amp; Process" xml:space="preserve"><![CDATA[Report & Process]]></value>
+  <value column="Description" original="Maintain Reports &amp; Processes" xml:space="preserve"><![CDATA[Maintain Reports & Processes]]></value>
+  <value column="Help" original="The Report &amp; Process Window is used to define the parameters and access rules for every Report and Process within the system.  This window is for System Admin use only." xml:space="preserve"><![CDATA[The Report & Process Window is used to define the parameters and access rules for every Report and Process within the system.  This window is for System Admin use only.]]></value>
  </row>
  <row id="167" trl="Y">
   <value column="Name" original="Invoice (Customer)">Factures (Client)</value>
@@ -310,6 +310,11 @@ Pricelists can be calculated and copied.  To speed up the calculation, the param
   <value column="Description" original="Import Business Partner"/>
   <value column="Help" original="The Import Business Partner Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records."/>
  </row>
+ <row id="174" trl="N">
+  <value column="Name" original="Revenue Recognition">Revenue Recognition</value>
+  <value column="Description" original="Revenue Recognition Rules">Revenue Recognition Rules</value>
+  <value column="Help" original="The Revenue Recognition Window defines the intervals at which revenue will be recognized. Alternatively, the revenue recognition may be linked to service levels provided.">The Revenue Recognition Window defines the intervals at which revenue will be recognized. Alternatively, the revenue recognition may be linked to service levels provided.</value>
+ </row>
  <row id="176" trl="N">
   <value column="Name" original="Vendor Details">Vendor Details</value>
   <value column="Description" original="Maintain Vendor Details">Maintain Vendor Details</value>
@@ -331,7 +336,7 @@ Pricelists can be calculated and copied.  To speed up the calculation, the param
   <value column="Help" original="The Purchase Order Window defines a purchase order for an organization.  When a Purchase Order has been entered you can generate a Shipment Document or Invoice from this Purchase Order"/>
  </row>
  <row id="183" trl="Y">
-  <value column="Name" original="Invoice (Vendor)"><![CDATA[Factures (Fournisseurs & Salariés)]]></value>
+  <value column="Name" original="Invoice (Vendor)" xml:space="preserve"><![CDATA[Factures (Fournisseurs & Salariés)]]></value>
   <value column="Description" original="Vendor Invoice Entry">Les factures reçues et les notes de frais</value>
   <value column="Help" original="The Vendor Invoice Window allows you to display and enter Invoices from a Vendor.  Vendor Invoices can also be generated from Purchase Orders or Delivery Receipts."/>
  </row>
@@ -393,7 +398,7 @@ Pricelists can be calculated and copied.  To speed up the calculation, the param
  <row id="204" trl="Y">
   <value column="Name" original="Mail Template">Modèles de courriels</value>
   <value column="Description" original="Maintain Mail Template">Paramétrage des modèles de courriels</value>
-  <value column="Help" original="Mail templates can contain variables of the user, business partner or a general object.  The priority of parsing is User/Contact, Business Partner and then the underlying business object (like Request, Dunning, Workflow object).&lt;br&gt;&#10;So, @Name@ would resolve into the User name (if user is defined defined), then Business Partner name (if business partner is defined) and then the Name of the business object if it has a Name.&lt;br&gt;&#10;For Multi-Lingual systems, the template is translated based on the Business Partner's language selection."><![CDATA[Les modèles de courriels peuvent contenir des variables des contacts, tiers ou d'un document.
+  <value column="Help" original="Mail templates can contain variables of the user, business partner or a general object.  The priority of parsing is User/Contact, Business Partner and then the underlying business object (like Request, Dunning, Workflow object).&lt;br&gt;&#10;So, @Name@ would resolve into the User name (if user is defined defined), then Business Partner name (if business partner is defined) and then the Name of the business object if it has a Name.&lt;br&gt;&#10;For Multi-Lingual systems, the template is translated based on the Business Partner's language selection." xml:space="preserve"><![CDATA[Les modèles de courriels peuvent contenir des variables des contacts, tiers ou d'un document.
 L'ordre de prise en compte est : <br>
 contact, <br>
 tiers, <br>
@@ -441,7 +446,7 @@ You may want to define several Project cycles to differentiate the different typ
  <row id="213" trl="N">
   <value column="Name" original="Performance Measure Calculation">Performance Measure Calculation</value>
   <value column="Description" original="Define how you calculate your performance measures">Define how you calculate your performance measures</value>
-  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. &#10;The sql needs to return a single value.  Please check examples.&lt;br&gt;&#10;The date trestriction is defined in the Goal. &#10;Any restrictions for Organizations, Business Partners, Products, etc. are  as Performance Goal Restrictions."><![CDATA[The Performance Measure Calculation defines how performance measures will be calculated. 
+  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. &#10;The sql needs to return a single value.  Please check examples.&lt;br&gt;&#10;The date trestriction is defined in the Goal. &#10;Any restrictions for Organizations, Business Partners, Products, etc. are  as Performance Goal Restrictions." xml:space="preserve"><![CDATA[The Performance Measure Calculation defines how performance measures will be calculated. 
 The sql needs to return a single value.  Please check examples.<br>
 The date trestriction is defined in the Goal. 
 Any restrictions for Organizations, Business Partners, Products, etc. are  as Performance Goal Restrictions.]]></value>
@@ -479,13 +484,8 @@ Any restrictions for Organizations, Business Partners, Products, etc. are  as Pe
  <row id="224" trl="N">
   <value column="Name" original="Print Form">Print Form</value>
   <value column="Description" original="Maintain Print Forms (Invoices, Checks, ..) used">Maintain Print Forms (Invoices, Checks, ..) used</value>
-  <value column="Help" original="Define the documents you use for this Client/Organnization.  Note that the check format is defined in the Bank (Account) Window.&lt;p&gt;&#10;The highest priotity has the Print Format, you define on a Document Type (example specific Export Invoice format). The next level is the set of Print Formats, you defined for the organziation of the document printed. The default is the set of Print Formats defines for all organizations of the Client (Organization=*)."><![CDATA[Define the documents you use for this Client/Organnization.  Note that the check format is defined in the Bank (Account) Window.<p>
+  <value column="Help" original="Define the documents you use for this Client/Organnization.  Note that the check format is defined in the Bank (Account) Window.&lt;p&gt;&#10;The highest priotity has the Print Format, you define on a Document Type (example specific Export Invoice format). The next level is the set of Print Formats, you defined for the organziation of the document printed. The default is the set of Print Formats defines for all organizations of the Client (Organization=*)." xml:space="preserve"><![CDATA[Define the documents you use for this Client/Organnization.  Note that the check format is defined in the Bank (Account) Window.<p>
 The highest priotity has the Print Format, you define on a Document Type (example specific Export Invoice format). The next level is the set of Print Formats, you defined for the organziation of the document printed. The default is the set of Print Formats defines for all organizations of the Client (Organization=*).]]></value>
- </row>
- <row id="225" trl="N">
-  <value column="Name" original="System Color">System Color</value>
-  <value column="Description" original="Maintain System Colors">Maintain System Colors</value>
-  <value column="Help" original="System colors are used for background and indicators">System colors are used for background and indicators</value>
  </row>
  <row id="227" trl="N">
   <value column="Name" original="System Image">System Image</value>
@@ -736,7 +736,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="284" trl="N">
   <value column="Name" original="Replication">Replication</value>
   <value column="Description" original="Maintain Data Replication Targets">Maintain Data Replication Targets</value>
-  <value column="Help" original="Data Replication Target Details. Set up your system completely on the central system, before setting up the replication. Define the Replication target here and export the database and import it on the remote system.&lt;p&gt;&#10;Before(!) entering transactions, Start the Replication Run to set up the remote system."><![CDATA[Data Replication Target Details. Set up your system completely on the central system, before setting up the replication. Define the Replication target here and export the database and import it on the remote system.<p>
+  <value column="Help" original="Data Replication Target Details. Set up your system completely on the central system, before setting up the replication. Define the Replication target here and export the database and import it on the remote system.&lt;p&gt;&#10;Before(!) entering transactions, Start the Replication Run to set up the remote system." xml:space="preserve"><![CDATA[Data Replication Target Details. Set up your system completely on the central system, before setting up the replication. Define the Replication target here and export the database and import it on the remote system.<p>
 Before(!) entering transactions, Start the Replication Run to set up the remote system.]]></value>
  </row>
  <row id="285" trl="N">
@@ -1001,6 +1001,11 @@ If not defined, the first matching document type is used (e.g. AR Invoice - firs
   <value column="Description" original="Maintain Job Position Categories"/>
   <value column="Help" original=""/>
  </row>
+ <row id="353" trl="N">
+  <value column="Name" original="Remuneration">Remuneration</value>
+  <value column="Description" original="Maintain Remuneration">Maintain Remuneration</value>
+  <value column="Help" original="Wages and Salaries">Wages and Salaries</value>
+ </row>
  <row id="355" trl="N">
   <value column="Name" original="BOM Change Notice">BOM Change Notice</value>
   <value column="Description" original="Maintain Bill of Materials (Engineering) Change Notice (Version)">Maintain Bill of Materials (Engineering) Change Notice (Version)</value>
@@ -1117,8 +1122,8 @@ A Specific production facility consisting of one or more people and/or machines 
   <value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.</value>
  </row>
  <row id="53006" trl="N">
-  <value column="Name" original="Bill of Materials &amp; Formula "><![CDATA[Bill of Materials & Formula ]]></value>
-  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula "><![CDATA[Maintain Product Bill of Materials & Formula ]]></value>
+  <value column="Name" original="Bill of Materials &amp; Formula " xml:space="preserve"><![CDATA[Bill of Materials & Formula ]]></value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula " xml:space="preserve"><![CDATA[Maintain Product Bill of Materials & Formula ]]></value>
   <value column="Help" original="It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called &quot;formula&quot;, &quot;recipe&quot;, &quot;ingredients list&quot; in certain industries.&#10;It answers the question, what are the components of the product?">It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called "formula", "recipe", "ingredients list" in certain industries.
 It answers the question, what are the components of the product?</value>
  </row>
@@ -1740,6 +1745,16 @@ MRP - 110	 No exists Dem</value>
  <row id="200093" trl="N">
   <value column="Name" original="All Users">All Users</value>
   <value column="Description" original="Users from All Clients">Users from All Clients</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200107" trl="N">
+  <value column="Name" original="All User Roles">All User Roles</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200108" trl="N">
+  <value column="Name" original="All Roles">All Roles</value>
+  <value column="Description" original="Roles from All Clients">Roles from All Clients</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>
