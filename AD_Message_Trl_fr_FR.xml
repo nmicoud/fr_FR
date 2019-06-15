@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Message">
  <row id="101" trl="N">
-  <value column="MsgText" original="zero">zero</value>
+  <value column="MsgText" original="zero">zéro</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="102" trl="N">
-  <value column="MsgText" original="one">one</value>
+  <value column="MsgText" original="one">un</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="103" trl="N">
-  <value column="MsgText" original="two">two</value>
+  <value column="MsgText" original="two">deux</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="104" trl="N">
-  <value column="MsgText" original="three">three</value>
+  <value column="MsgText" original="three">trois</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="105" trl="N">
-  <value column="MsgText" original="four">four</value>
+  <value column="MsgText" original="four">quatre</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="106" trl="N">
-  <value column="MsgText" original="five">five</value>
+  <value column="MsgText" original="five">cinq</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="107" trl="N">
@@ -29,15 +29,15 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="108" trl="N">
-  <value column="MsgText" original="seven">seven</value>
+  <value column="MsgText" original="seven">sept</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="109" trl="N">
-  <value column="MsgText" original="eight">eight</value>
+  <value column="MsgText" original="eight">huit</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="110" trl="N">
-  <value column="MsgText" original="nine">nine</value>
+  <value column="MsgText" original="nine">neuf</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="111" trl="Y">
@@ -133,7 +133,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="134" trl="N">
-  <value column="MsgText" original="Address">Address</value>
+  <value column="MsgText" original="Address">Adresse</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="135" trl="Y">
@@ -358,7 +358,7 @@ Please change Cashbook only after completion of transaction</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="190" trl="N">
-  <value column="MsgText" original="Could not copy: ">Could not copy: </value>
+  <value column="MsgText" original="Could not copy: ">Impossible de copier : </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="191" trl="Y">
@@ -899,7 +899,7 @@ Continue?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="326" trl="N">
-  <value column="MsgText" original="Login">Login</value>
+  <value column="MsgText" original="Login">Connexion</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="327" trl="N">
@@ -1250,7 +1250,7 @@ Enter the payment after completing the transaction</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="413" trl="N">
-  <value column="MsgText" original="Posting Error">Posting Error</value>
+  <value column="MsgText" original="Posting Error">Erreur de comptabilisation</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="414" trl="N">
@@ -2154,7 +2154,7 @@ Si non, le règlement n'est pas créé (ne pas imprimer)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="636" trl="N">
-  <value column="MsgText" original="No Currency Conversion Rate between currencies found">No Currency Conversion Rate between currencies found</value>
+  <value column="MsgText" original="No Currency Conversion Rate between currencies found">Aucun taux de conversion trouvé entre les devises</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="637" trl="Y">
@@ -2575,7 +2575,7 @@ Thank you for using Adempiere Customer Asset Management
   <value column="MsgTip" original="Deselect Automatic Write-off to manually enter the write-off amount">Deselect Automatic Write-off to manually enter the write-off amount</value>
  </row>
  <row id="749" trl="N">
-  <value column="MsgText" original="Answer">Answer</value>
+  <value column="MsgText" original="Answer">Réponse</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="750" trl="N">
@@ -2664,11 +2664,11 @@ Thank you for using Adempiere Customer Asset Management
   <value column="MsgTip" original=""/>
  </row>
  <row id="771" trl="N">
-  <value column="MsgText" original="Old Password is Mandatory">Old Password is Mandatory</value>
+  <value column="MsgText" original="Old Password is Mandatory">L'ancien mot de passe est obligatoire</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="772" trl="N">
-  <value column="MsgText" original="Old Password does not match">Old Password does not match</value>
+  <value column="MsgText" original="Old Password does not match">L'ancien mot de passe ne correspond pas</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="773" trl="N">
@@ -2911,11 +2911,11 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="832" trl="N">
-  <value column="MsgText" original="Yes">Yes</value>
+  <value column="MsgText" original="Yes">Oui</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="833" trl="N">
-  <value column="MsgText" original="No">No</value>
+  <value column="MsgText" original="No">Non</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="834" trl="N">
@@ -2992,7 +2992,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="852" trl="N">
-  <value column="MsgText" original="Query returned more records then allowed in role - requery">Query returned more records then allowed in role - requery</value>
+  <value column="MsgText" original="Query returned more records then allowed in role - requery">La recherche retourne plus de résultats qu'autorisé pour votre rôle :  limite </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="853" trl="Y">
@@ -5876,11 +5876,11 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200075" trl="N">
-  <value column="MsgText" original="Passwords for all tenants using ({0}) as email have been reset">Passwords for all tenants using ({0}) as email have been reset</value>
+  <value column="MsgText" original="Passwords for all tenants using ({0}) as email have been reset">Les mots de passe liés à {0} ont été réinitialisés</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="200076" trl="N">
-  <value column="MsgText" original="The new password is now valid for all tenants">The new password is now valid for all tenants</value>
+  <value column="MsgText" original="The new password is now valid for all tenants">Votre nouveau mot de passe est bien enregistré</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="200077" trl="N">
@@ -6032,7 +6032,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200118" trl="N">
-  <value column="MsgText" original="Show Colors">Show Colors</value>
+  <value column="MsgText" original="Show Colors">Utiliser couleurs</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200119" trl="N">
@@ -6144,7 +6144,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200151" trl="N">
-  <value column="MsgText" original="Entered value is less than the minimum ({0}) required">Entered value is less than the minimum ({0}) required</value>
+  <value column="MsgText" original="Entered value is less than the minimum ({0}) required">La valeur saisie est inférieure au minimum ({0}) </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200152" trl="N">
@@ -6764,7 +6764,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200486" trl="N">
-  <value column="MsgText" original="Defaults">Defaults</value>
+  <value column="MsgText" original="Defaults">Valeurs par défaut</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200487" trl="N">
@@ -6828,11 +6828,11 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200510" trl="N">
-  <value column="MsgText" original="Close Windows to the Right">Close Windows to the Right</value>
+  <value column="MsgText" original="Close Windows to the Right">Fermer les fenêtres à droite</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200511" trl="N">
-  <value column="MsgText" original="Close Windows to the Left">Close Windows to the Left</value>
+  <value column="MsgText" original="Close Windows to the Left">Fermer les fenêtres à gauche</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200512" trl="N">
