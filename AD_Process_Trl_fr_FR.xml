@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Process">
+<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Process">
  <row id="100" trl="Y">
   <value column="Name" original="Create Periods ">Créer les périodes</value>
   <value column="Description" original="Create 12 standard calendar periods.">Créé 12 périodes standards qui correspondent aux 12 mois de l'année</value>
@@ -243,7 +243,7 @@ Movements are only created, if a sourcing warehouse is defined for the warehouse
  <row id="151" trl="Y">
   <value column="Name" original="Invoice Transactions (Doc)">Factures</value>
   <value column="Description" original="Invoice Transactions by Invoice Date">Liste de factures</value>
-  <value column="Help" original="The report lists the invoice transactiobs by invoice date"/>
+  <value column="Help" original="The report lists the invoice transactions by invoice date"/>
  </row>
  <row id="152" trl="Y">
   <value column="Name" original="Invoice Detail &amp; Margin">Détail facturation</value>
@@ -490,11 +490,6 @@ Remark: If you only enter a Document No FROM value, all invoices greater or equa
   <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.&#10;Note that only Prepare and Complete are valid document actions.">The Parameters are default values for null import record values, they do not overwrite any data.
 Note that only Prepare and Complete are valid document actions.</value>
  </row>
- <row id="208" trl="N">
-  <value column="Name" original="Start Replication Run">Start Replication Run</value>
-  <value column="Description" original="Start Replication with Remote Host">Start Replication with Remote Host</value>
-  <value column="Help" original=""/>
- </row>
  <row id="209" trl="N">
   <value column="Name" original="Send Mail Text">Send Mail Text</value>
   <value column="Description" original="Send EMails to active subscribers of an Interest Area OR a Business Partner Group from a selected User">Send EMails to active subscribers of an Interest Area OR a Business Partner Group from a selected User</value>
@@ -654,7 +649,7 @@ The costs are in the currency of the Accounting Schema - the lines are in the cu
  <row id="238" trl="Y">
   <value column="Name" original="Aging">Balance âgée</value>
   <value column="Description" original="Aging Report"/>
-  <value column="Help" original="The aging report allows you to report on Open Items (Invoices). Select the aging buckets, you want to have in your report. If you select a currency, you get only invoices of that currency, otherwise the amounts are converted to your primary accounting currency. If you do not select a Statement Date, the system date is used to calculate the buckets. If you do not list the individual invoices, the Due Date is the earliest due date for the business partner and the Due Days are the average due days of all invoices.&lt;br&gt;&#10;&lt;br&gt;&#10;If you select an Account Date the report will generate the Aging as of that date. The report will exclude documents after the selected date.&lt;br&gt;&#10;&lt;br&gt;&#10;For example: A customer has one invoice for $100 with the Account Date of 03/31/08 and one payment for $100 with the Account Date of 05/01/08. The report will show the following balances based on the Account Date selected: 03/15/08= 0; 04/15/08=100; 05/15/08 = 0.&#10;">Cet état dresse une liste de factures selon les critères suivants.
+  <value column="Help" original="The aging report allows you to report on Open Items (Invoices). Select the aging buckets, you want to have in your report. If you select a currency, you get only invoices of that currency.&#10;If you fill the &quot;Convert Amounts in Currency&quot;, all amounts will be converted in that currency. If you do not select a Statement Date, the system date is used to calculate the buckets. If you do not list the individual invoices, the Due Date is the earliest due date for the business partner and the Due Days are the average due days of all invoices.&lt;br&gt;&#10;&lt;br&gt;&#10;If you select an Account Date the report will generate the Aging as of that date. The report will exclude documents after the selected date.&lt;br&gt;&#10;&lt;br&gt;&#10;For example: A customer has one invoice for $100 with the Account Date of 03/31/08 and one payment for $100 with the Account Date of 05/01/08. The report will show the following balances based on the Account Date selected: 03/15/08= 0; 04/15/08=100; 05/15/08 = 0.&#10;">Cet état dresse une liste de factures selon les critères suivants.
 
 Si le champ "date d'édtion" reste vide, c'est la date du jour qui est utilisée pour déterminer les plages.
 
@@ -939,7 +934,7 @@ If a magin is entered on RfQ Line Quantity, it overwrites the general margin.  T
  <row id="295" trl="Y">
   <value column="Name" original="Role Access Update">Mise à jour droits accès</value>
   <value column="Description" original="Update the access rights of a role or roles of a client">Met à jour les droits d'accès d'un rôle ou des rôles d'une entité</value>
-  <value column="Help" original="Update the access rights of a role or all roles of a client to windows, forms, processes and workflows. If run for System, all roles of all clients are updated. Note that a role is only updated if it is not marked as manual.">Permet de mettre à jour les droits d'accès aux fenêtres, états, traitements, formulaires et workflows. Un rôle n'est impacté que s'il n'est pas typé comme étant "manuel".</value>
+  <value column="Help" original="Update the access rights of a role or all roles of a client to windows, forms, processes and workflows. Note that a role is only updated if it is not marked as manual. Note that if is executed from System client and role is not set, all tenant will be udpated">Permet de mettre à jour les droits d'accès aux fenêtres, états, traitements, formulaires et workflows. Un rôle n'est impacté que s'il n'est pas typé comme étant "manuel".</value>
  </row>
  <row id="296" trl="N">
   <value column="Name" original="Import Confirmations">Import Confirmations</value>
@@ -1255,7 +1250,7 @@ Note that support is restricted to setup and test, but not data recovery.]]></va
   <value column="Help" original=""/>
  </row>
  <row id="53004" trl="N">
-  <value column="Name" original="PP_Product_BOM CopyFrom">PP_Product_BOM CopyFrom</value>
+  <value column="Name" original="Copy BOM Lines From">PP_Product_BOM CopyFrom</value>
   <value column="Description" original=""/>
   <value column="Help" original="This process copies BOM Lines from the Selected BOM to the Current BOM. The BOM being copied to must have any existing BOM Lines">This process copies BOM Lines from the Selected BOM to the Current BOM. The BOM being copied to must have any existing BOM Lines</value>
  </row>
@@ -1677,7 +1672,7 @@ This process should be implemented when the users are not connected.</value>
   <value column="Help" original="Lets freeze or unfreeze the cost, If the Cost is UnFrozen then can be changed">Lets freeze or unfreeze the cost, If the Cost is UnFrozen then can be changed</value>
  </row>
  <row id="53161" trl="N">
-  <value column="Name" original="Initial Client Setup Process">Initial Client Setup Process</value>
+  <value column="Name" original="Initial Client Setup">Initial Client Setup Process</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1925,7 +1920,7 @@ d. Transaction Date, will become in-service-date for the newly created asset.</v
   <value column="Help" original=""/>
  </row>
  <row id="200015" trl="N">
-  <value column="Name" original="Tab Editor">Tab Editor</value>
+  <value column="Name" original="Tab Editor">Editeur d'onglet</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2037,7 +2032,7 @@ d. Transaction Date, will become in-service-date for the newly created asset.</v
  <row id="200040" trl="N">
   <value column="Name" original="Change Base Language">Change Base Language</value>
   <value column="Description" original="Change Base Language">Change Base Language</value>
-  <value column="Help" original="In order to enable en_US as a translation you can enable any other language as base language. &#10;If you don't want to have a base language choose a language that won't be used for login. &#10;If all languages are going to be used as login, create a xx_XX language not login and use it as base. &#10;Please note that base language cannot be a system language.">In order to enable en_US as a translation you can enable any other language as base language. 
+  <value column="Help" original="In order to enable en_US as a translation you can enable any other language as base language.&lt;br&gt;&#10;If you don't want to have a base language choose a language that won't be used for login.&lt;br&gt;&#10;If all languages are going to be used as login, create an xx_XX language not login and use it as base.&lt;br&gt;&#10;Please note that base language cannot be a system language.&lt;br&gt;&#10;After running this process you must close all sessions and login again.&lt;br&gt;">In order to enable en_US as a translation you can enable any other language as base language. 
 If you don't want to have a base language choose a language that won't be used for login. 
 If all languages are going to be used as login, create a xx_XX language not login and use it as base.</value>
  </row>
@@ -2172,9 +2167,9 @@ For example:<br />
 ]]></value>
  </row>
  <row id="200100" trl="N">
-  <value column="Name" original="Create Credit Memo">Create Credit Memo</value>
-  <value column="Description" original="Creates a credit memo based on the invoice.">Creates a credit memo based on the invoice.</value>
-  <value column="Help" original="The invoice should be correct and completed.">The invoice should be correct and completed.</value>
+  <value column="Name" original="Create Credit Memo">Créer un avoir</value>
+  <value column="Description" original="Creates a credit memo based on the invoice.">Créer un avoir basé sur la facture courante</value>
+  <value column="Help" original="The invoice should be correct and completed.">La facture doit être validée</value>
  </row>
  <row id="200102" trl="N">
   <value column="Name" original="Clean Orphan Cascade Records">Clean Orphan Cascade Records</value>
@@ -2210,5 +2205,112 @@ For example:<br />
   <value column="Name" original="Delete">Delete</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+ </row>
+ <row id="200117" trl="N">
+  <value column="Name" original="Migrate Storage Provider">Migrate Storage Provider</value>
+  <value column="Description" original="Migrate the storage provider for attachments, archives and/or images">Migrate the storage provider for attachments, archives and/or images</value>
+  <value column="Help" original="&lt;p&gt;&lt;span style=&quot;color:#ff0000&quot;&gt;&lt;b&gt;WARNING: This process can be destructive, so please be sure that you have a backup of the database, as well as a backup of your old storage provider.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;The process migrates files between storage providers.&lt;/p&gt;&#10;&#10;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Client:&lt;/b&gt; Optional, select a client to migrate, when empty it will migrate all clients with the Actual Storage Provider&lt;/li&gt;&lt;li&gt;&lt;b&gt;Actual Storage Provider:&lt;/b&gt; Alternatively, you can define here the storage provider to migrate&lt;/li&gt;&lt;li&gt;&lt;b&gt;Storage Provider:&lt;/b&gt; The new storage provider to migrate the files&lt;/li&gt;&lt;li&gt;&lt;b&gt;Migrate Attachment:&lt;/b&gt; Migrate the attachment files&lt;/li&gt;&lt;li&gt;&lt;b&gt;Migrate Archive:&lt;/b&gt; Migate the archive files&lt;/li&gt;&lt;li&gt;&lt;b&gt;Migrate Image:&lt;/b&gt; Migrate the image  files&lt;/li&gt;&lt;li&gt;&lt;b&gt;Migrate Data:&lt;/b&gt; When unchecked, just the storage provider is changed in client, but the files are not migrated (they can be migrated in a future execution of this same process)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Record ID Range:&lt;/b&gt; Optionally you can define a range of IDs for the records to migrate, so you can run this process in parallel to migrate the data&lt;/li&gt;&lt;li&gt;&lt;b&gt;Delete old/existing files:&lt;/b&gt; If enabled, when a file is migrated the program tries to free space deleting the file from the previous storage provider.  &lt;span style=&quot;color:#ff0000&quot;&gt;Note that migrating from/to a DB storage provider is a destructive action that cannot be recovered, it implies deleting the old/existing files&lt;/span&gt;.&lt;/li&gt;&lt;/ul&gt;&#10;&#10;&lt;p&gt;In case of failure or timeout, the process can be launched again, it commits on every file migrated.&lt;/p&gt;" xml:space="preserve"><![CDATA[<p><span style="color:#ff0000"><b>WARNING: This process can be destructive, so please be sure that you have a backup of the database, as well as a backup of your old storage provider.</b></span></p>
+
+<p>The process migrates files between storage providers.</p>
+
+<ul><li><b>Client:</b> Optional, you can select a client to migrate, if empty it will try to migrate storage providers from all clients with the Actual Storage Provider selected below.</li><li><b>Actual Storage Provider:</b> If the client is empty, you define here the storage provider to migrate, if empty it migrates clients with the storage provider not set (this is by default DB).</li><li><b>Storage Provider:</b> The new storage provider to migrate the files.</li><li><b>Migrate Attachment:</b> If enabled, it migrates the attachment files to the new storage provider.</li><li><b>Migrate Archive:</b> If enabled, it migrates the archive files to the new storage provider.</li><li><b>Migrate Image:</b> If enabled, it migrates the image files to the new storage provider.</li><li><b>Delete old/existing files:</b> If enabled, after the files are migrated the program tries to free space deleting the files from the previous storage provider.  <span style="color:#ff0000">Note that migrating from/to a DB storage provider is a destructive action that cannot be recovered, it implies deleting the old/existing files</span>.</li></ul>
+
+<p>Please note that during the migration the whole set of records in the table being migrated (attachment, archive, image) is locked, so operations on these records are not permitted.  Because of this, it is recommended to run this process in a <b>maintenance window</b> without users logged in the system.</p>
+
+<p>In case of failure the attachments / archives / images that succeeded as a whole from a client are still migrated, but not partial records (which would result in data corruption if allowed).</p>
+]]></value>
+ </row>
+ <row id="200118" trl="N">
+  <value column="Name" original="Create Window, Tab &amp; Field from Table" xml:space="preserve"><![CDATA[Create Window, Tab & Field from Table]]></value>
+  <value column="Description" original="Create Window, Tab &amp; Field record of the Table" xml:space="preserve"><![CDATA[Create Window, Tab & Field record of the Table]]></value>
+  <value column="Help" original="This process will take the table definition and create the Window/Tab and field record with these options:&lt;br&gt;&#10;&#10;New Window: if selected the process will create a new Window record. Otherwise, the process will create a new tab and add it to the selected window.&lt;br&gt;&#10;Create Menu: if selected the process creates the menu record for the new window." xml:space="preserve"><![CDATA[This process will take the table definition and create the Window/Tab and field record with these options:<br>
+
+New Window: if selected the process will create a new Window record. Otherwise, the process will create a new tab and add it to the selected window.<br>
+Create Menu: if selected the process creates the menu record for the new window.]]></value>
+ </row>
+ <row id="200119" trl="N">
+  <value column="Name" original="Create Default Parameters">Create Default Parameters</value>
+  <value column="Description" original="This process will add required parameters for current web service type">This process will add required parameters for current web service type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200120" trl="N">
+  <value column="Name" original="Drop Database Table">Drop Database Table</value>
+  <value column="Description" original="Drop the table in the database">Drop the table in the database</value>
+  <value column="Help" original="WARNING!!!  This is a destructive action, please make a backup before proceeding.">WARNING!!!  This is a destructive action, please make a backup before proceeding.</value>
+ </row>
+ <row id="200121" trl="N">
+  <value column="Name" original="Rename Database Table">Rename Database Table</value>
+  <value column="Description" original="Rename the table in the database and dictionary">Rename the table in the database and dictionary</value>
+  <value column="Help" original="This process renames the table in database, the dictionary and also the associated columns _ID and _UU">This process renames the table in database, the dictionary and also the associated columns _ID and _UU</value>
+ </row>
+ <row id="200122" trl="N">
+  <value column="Name" original="Drop Database Column">Drop Database Column</value>
+  <value column="Description" original="Drop the column in the database">Drop the column in the database</value>
+  <value column="Help" original="WARNING!!!  This is a destructive action, please make a backup before proceeding.">WARNING!!!  This is a destructive action, please make a backup before proceeding.</value>
+ </row>
+ <row id="200123" trl="N">
+  <value column="Name" original="Drop Database Constraint">Drop Database Constraint</value>
+  <value column="Description" original="Drop the constraint in the database">Drop the constraint in the database</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200124" trl="N">
+  <value column="Name" original="Rename Column(s) in Database">Rename Column(s) in Database</value>
+  <value column="Description" original="Rename Column(s) in Database">Rename Column(s) in Database</value>
+  <value column="Help" original="This process rename all the columns associated with the element">This process rename all the columns associated with the element</value>
+ </row>
+ <row id="200126" trl="N">
+  <value column="Name" original="Translation Import/Export">Translation Import/Export</value>
+  <value column="Description" original="Import or Export Language Translation">Import or Export Language Translation</value>
+  <value column="Help" original="Export/Import Translation info to/from xml for translation in external tool.  Please note that the Language MUST be an enabled and verified System Language.">Export/Import Translation info to/from xml for translation in external tool.  Please note that the Language MUST be an enabled and verified System Language.</value>
+ </row>
+ <row id="200127" trl="N">
+  <value column="Name" original="Rename Column in Database">Rename Column in Database</value>
+  <value column="Description" original="Rename Column in Database">Rename Column in Database</value>
+  <value column="Help" original="This process rename the column on the database">This process rename the column on the database</value>
+ </row>
+ <row id="200128" trl="N">
+  <value column="Name" original="Add Authorization Account">Add Authorization Mail Account</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200129" trl="N">
+  <value column="Name" original="Unregister MFA Mechanism">Unregister MFA Mechanism</value>
+  <value column="Description" original="Unregister a multi-factor authentication registration">Unregister a multi-factor authentication registration</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200130" trl="N">
+  <value column="Name" original="Complete MFA Registration">Complete MFA Registration</value>
+  <value column="Description" original="Complete a registration for a multi-factor authentication mechanism">Complete a registration for a multi-factor authentication mechanism</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200131" trl="N">
+  <value column="Name" original="Revoke MFA Trusted Device">Revoke MFA Trusted Device</value>
+  <value column="Description" original="Revoke one multi-factor authentication trusted device or all">Revoke one multi-factor authentication trusted device or all</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200132" trl="N">
+  <value column="Name" original="Register MFA">Register MFA</value>
+  <value column="Description" original="Register a multi-factor authentication mechanism">Register a multi-factor authentication mechanism</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200133" trl="N">
+  <value column="Name" original="Copy from Pack Out">Copy from Pack Out</value>
+  <value column="Description" original="Copy Package Details from another Pack Out">Copy Package Details from another Pack Out</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200134" trl="N">
+  <value column="Name" original="Create/Complete Table">Create/Complete Table</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200135" trl="N">
+  <value column="Name" original="Process Project Issue">Process Project Issue</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200136" trl="N">
+  <value column="Name" original="Reverse Prepare Payment">Reverse Prepare Payment</value>
+  <value column="Description" original="Reverse what Prepare Payment process did">Reverse what Prepare Payment process did</value>
+  <value column="Help" original="Delete prepared payments and allow to add/remove invoices">Delete prepared payments and allow to add/remove invoices</value>
  </row>
 </idempiereTrl>

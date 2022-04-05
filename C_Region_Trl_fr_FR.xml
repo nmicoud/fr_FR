@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="C_Region">
+<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="C_Region">
  <row id="102" trl="N">
   <value column="Name" original="CT">CT</value>
  </row>
@@ -814,249 +814,375 @@
   <value column="Name" original="Thüringen">Thüringen</value>
  </row>
  <row id="50018" trl="N">
-  <value column="Name" original="ÐÐ´Ñ‹Ð³ÐµÑ (ÐÐ´Ñ‹Ð³ÐµÑ) Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">Ð&#144;Ð´Ñ‹Ð³ÐµÑ&#143; (Ð&#144;Ð´Ñ‹Ð³ÐµÑ&#143;) Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Адыгея (Адыгея) Республика">Адыгея (Адыгея) Республика</value>
  </row>
  <row id="50019" trl="N">
-  <value column="Name" original="Ð‘Ð°ÑˆÐºÐ¾Ñ€Ñ‚Ð¾ÑÑ‚Ð°Ð½ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">Ð‘Ð°ÑˆÐºÐ¾Ñ€Ñ‚Ð¾Ñ&#129;Ñ‚Ð°Ð½ Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Башкортостан Республика">Башкортостан Республика</value>
  </row>
  <row id="50020" trl="N">
-  <value column="Name" original="Ð‘ÑƒÑ€ÑÑ‚Ð¸Ñ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">Ð‘ÑƒÑ€Ñ&#143;Ñ‚Ð¸Ñ&#143; Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Бурятия Республика">Бурятия Республика</value>
  </row>
  <row id="50021" trl="N">
-  <value column="Name" original="ÐÐ»Ñ‚Ð°Ð¹ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">Ð&#144;Ð»Ñ‚Ð°Ð¹ Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Алтай Республика">Алтай Республика</value>
  </row>
  <row id="50022" trl="N">
-  <value column="Name" original="Ð”Ð°Ð³ÐµÑÑ‚Ð°Ð½ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">Ð”Ð°Ð³ÐµÑ&#129;Ñ‚Ð°Ð½ Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Дагестан Республика">Дагестан Республика</value>
  </row>
  <row id="50023" trl="N">
-  <value column="Name" original="Ð˜Ð½Ð³ÑƒÑˆÐµÑ‚Ð¸Ñ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">Ð˜Ð½Ð³ÑƒÑˆÐµÑ‚Ð¸Ñ&#143; Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Ингушетия Республика">Ингушетия Республика</value>
  </row>
  <row id="50024" trl="N">
-  <value column="Name" original="ÐšÐ°Ð±Ð°Ñ€Ð´Ð¸Ð½Ð¾-Ð‘Ð°Ð»ÐºÐ°Ñ€ÑÐºÐ°Ñ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">ÐšÐ°Ð±Ð°Ñ€Ð´Ð¸Ð½Ð¾-Ð‘Ð°Ð»ÐºÐ°Ñ€Ñ&#129;ÐºÐ°Ñ&#143; Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Кабардино-Балкарская Республика">Кабардино-Балкарская Республика</value>
  </row>
  <row id="50025" trl="N">
-  <value column="Name" original="ÐšÐ°Ð»Ð¼Ñ‹ÐºÐ¸Ñ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">ÐšÐ°Ð»Ð¼Ñ‹ÐºÐ¸Ñ&#143; Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Калмыкия Республика">Калмыкия Республика</value>
  </row>
  <row id="50026" trl="N">
-  <value column="Name" original="ÐšÐ°Ñ€Ð°Ñ‡Ð°ÐµÐ²Ð¾-Ð§ÐµÑ€ÐºÐµÑÑÐºÐ°Ñ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">ÐšÐ°Ñ€Ð°Ñ‡Ð°ÐµÐ²Ð¾-Ð§ÐµÑ€ÐºÐµÑ&#129;Ñ&#129;ÐºÐ°Ñ&#143; Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Карачаево-Черкесская Республика">Карачаево-Черкесская Республика</value>
  </row>
  <row id="50027" trl="N">
-  <value column="Name" original="ÐšÐ°Ñ€ÐµÐ»Ð¸Ñ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">ÐšÐ°Ñ€ÐµÐ»Ð¸Ñ&#143; Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Карелия Республика">Карелия Республика</value>
  </row>
  <row id="50028" trl="N">
-  <value column="Name" original="ÐšÐ¾Ð¼Ð¸ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">ÐšÐ¾Ð¼Ð¸ Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Коми Республика">Коми Республика</value>
  </row>
  <row id="50029" trl="N">
-  <value column="Name" original="ÐœÐ°Ñ€Ð¸Ð¹ Ð­Ð» Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">ÐœÐ°Ñ€Ð¸Ð¹ Ð­Ð» Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Марий Эл Республика">Марий Эл Республика</value>
  </row>
  <row id="50030" trl="N">
-  <value column="Name" original="ÐœÐ¾Ñ€Ð´Ð¾Ð²Ð¸Ñ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">ÐœÐ¾Ñ€Ð´Ð¾Ð²Ð¸Ñ&#143; Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Мордовия Республика">Мордовия Республика</value>
  </row>
  <row id="50031" trl="N">
-  <value column="Name" original="Ð¡Ð°Ñ…Ð° /Ð¯ÐºÑƒÑ‚Ð¸Ñ/ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">Ð¡Ð°Ñ…Ð° /Ð¯ÐºÑƒÑ‚Ð¸Ñ&#143;/ Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Саха /Якутия/ Республика">Саха /Якутия/ Республика</value>
  </row>
  <row id="50033" trl="N">
-  <value column="Name" original="Ð¢Ð°Ñ‚Ð°Ñ€ÑÑ‚Ð°Ð½ (Ð¢Ð°Ñ‚Ð°Ñ€ÑÑ‚Ð°Ð½) Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">Ð¢Ð°Ñ‚Ð°Ñ€Ñ&#129;Ñ‚Ð°Ð½ (Ð¢Ð°Ñ‚Ð°Ñ€Ñ&#129;Ñ‚Ð°Ð½) Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Татарстан (Татарстан) Республика">Татарстан (Татарстан) Республика</value>
  </row>
  <row id="50034" trl="N">
-  <value column="Name" original="Ð¢Ñ‹Ð²Ð° Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">Ð¢Ñ‹Ð²Ð° Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Тыва Республика">Тыва Республика</value>
  </row>
  <row id="50035" trl="N">
-  <value column="Name" original="Ð£Ð´Ð¼ÑƒÑ€Ñ‚ÑÐºÐ°Ñ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">Ð£Ð´Ð¼ÑƒÑ€Ñ‚Ñ&#129;ÐºÐ°Ñ&#143; Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Удмуртская Республика">Удмуртская Республика</value>
  </row>
  <row id="50036" trl="N">
-  <value column="Name" original="Ð¥Ð°ÐºÐ°ÑÐ¸Ñ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">Ð¥Ð°ÐºÐ°Ñ&#129;Ð¸Ñ&#143; Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Хакасия Республика">Хакасия Республика</value>
  </row>
  <row id="50037" trl="N">
-  <value column="Name" original="Ð§ÐµÑ‡ÐµÐ½ÑÐºÐ°Ñ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">Ð§ÐµÑ‡ÐµÐ½Ñ&#129;ÐºÐ°Ñ&#143; Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Чеченская Республика">Чеченская Республика</value>
  </row>
  <row id="50038" trl="N">
-  <value column="Name" original="Ð§ÑƒÐ²Ð°ÑˆÑÐºÐ°Ñ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°">Ð§ÑƒÐ²Ð°ÑˆÑ&#129;ÐºÐ°Ñ&#143; Ð ÐµÑ&#129;Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°</value>
+  <value column="Name" original="Чувашская Республика">Чувашская Республика</value>
  </row>
  <row id="50039" trl="N">
-  <value column="Name" original="ÐÐ»Ñ‚Ð°Ð¹ÑÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹">Ð&#144;Ð»Ñ‚Ð°Ð¹Ñ&#129;ÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹</value>
+  <value column="Name" original="Алтайский край">Алтайский край</value>
  </row>
  <row id="50040" trl="N">
-  <value column="Name" original="ÐšÑ€Ð°ÑÐ½Ð¾Ð´Ð°Ñ€ÑÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹">ÐšÑ€Ð°Ñ&#129;Ð½Ð¾Ð´Ð°Ñ€Ñ&#129;ÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹</value>
+  <value column="Name" original="Краснодарский край">Краснодарский край</value>
  </row>
  <row id="50041" trl="N">
-  <value column="Name" original="ÐšÑ€Ð°ÑÐ½Ð¾ÑÑ€ÑÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹">ÐšÑ€Ð°Ñ&#129;Ð½Ð¾Ñ&#143;Ñ€Ñ&#129;ÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹</value>
+  <value column="Name" original="Красноярский край">Красноярский край</value>
  </row>
  <row id="50042" trl="N">
-  <value column="Name" original="ÐŸÑ€Ð¸Ð¼Ð¾Ñ€ÑÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹">ÐŸÑ€Ð¸Ð¼Ð¾Ñ€Ñ&#129;ÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹</value>
+  <value column="Name" original="Приморский край">Приморский край</value>
  </row>
  <row id="50043" trl="N">
-  <value column="Name" original="Ð¡Ñ‚Ð°Ð²Ñ€Ð¾Ð¿Ð¾Ð»ÑŒÑÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹">Ð¡Ñ‚Ð°Ð²Ñ€Ð¾Ð¿Ð¾Ð»ÑŒÑ&#129;ÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹</value>
+  <value column="Name" original="Ставропольский край">Ставропольский край</value>
  </row>
  <row id="50044" trl="N">
-  <value column="Name" original="Ð¥Ð°Ð±Ð°Ñ€Ð¾Ð²ÑÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹">Ð¥Ð°Ð±Ð°Ñ€Ð¾Ð²Ñ&#129;ÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹</value>
+  <value column="Name" original="Хабаровский край">Хабаровский край</value>
  </row>
  <row id="50045" trl="N">
-  <value column="Name" original="ÐÐ¼ÑƒÑ€ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð&#144;Ð¼ÑƒÑ€Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Амурская область">Амурская область</value>
  </row>
  <row id="50046" trl="N">
-  <value column="Name" original="ÐÑ€Ñ…Ð°Ð½Ð³ÐµÐ»ÑŒÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð&#144;Ñ€Ñ…Ð°Ð½Ð³ÐµÐ»ÑŒÑ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Архангельская область">Архангельская область</value>
  </row>
  <row id="50047" trl="N">
-  <value column="Name" original="ÐÑÑ‚Ñ€Ð°Ñ…Ð°Ð½ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð&#144;Ñ&#129;Ñ‚Ñ€Ð°Ñ…Ð°Ð½Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Астраханская область">Астраханская область</value>
  </row>
  <row id="50048" trl="N">
-  <value column="Name" original="Ð‘ÐµÐ»Ð³Ð¾Ñ€Ð¾Ð´ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð‘ÐµÐ»Ð³Ð¾Ñ€Ð¾Ð´Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Белгородская область">Белгородская область</value>
  </row>
  <row id="50049" trl="N">
-  <value column="Name" original="Ð‘Ñ€ÑÐ½ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð‘Ñ€Ñ&#143;Ð½Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Брянская область">Брянская область</value>
  </row>
  <row id="50050" trl="N">
-  <value column="Name" original="Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Владимирская область">Владимирская область</value>
  </row>
  <row id="50051" trl="N">
-  <value column="Name" original="Ð’Ð¾Ð»Ð³Ð¾Ð³Ñ€Ð°Ð´ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð’Ð¾Ð»Ð³Ð¾Ð³Ñ€Ð°Ð´Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Волгоградская область">Волгоградская область</value>
  </row>
  <row id="50052" trl="N">
-  <value column="Name" original="Ð’Ð¾Ð»Ð¾Ð³Ð¾Ð´ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð’Ð¾Ð»Ð¾Ð³Ð¾Ð´Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Вологодская область">Вологодская область</value>
  </row>
  <row id="50053" trl="N">
-  <value column="Name" original="Ð’Ð¾Ñ€Ð¾Ð½ÐµÐ¶ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð’Ð¾Ñ€Ð¾Ð½ÐµÐ¶Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Воронежская область">Воронежская область</value>
  </row>
  <row id="50054" trl="N">
-  <value column="Name" original="Ð˜Ð²Ð°Ð½Ð¾Ð²ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð˜Ð²Ð°Ð½Ð¾Ð²Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Ивановская область">Ивановская область</value>
  </row>
  <row id="50055" trl="N">
-  <value column="Name" original="Ð˜Ñ€ÐºÑƒÑ‚ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð˜Ñ€ÐºÑƒÑ‚Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Иркутская область">Иркутская область</value>
  </row>
  <row id="50056" trl="N">
-  <value column="Name" original="ÐšÐ°Ð»Ð¸Ð½Ð¸Ð½Ð³Ñ€Ð°Ð´ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">ÐšÐ°Ð»Ð¸Ð½Ð¸Ð½Ð³Ñ€Ð°Ð´Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Калининградская область">Калининградская область</value>
  </row>
  <row id="50057" trl="N">
-  <value column="Name" original="ÐšÐ°Ð»ÑƒÐ¶ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">ÐšÐ°Ð»ÑƒÐ¶Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Калужская область">Калужская область</value>
  </row>
  <row id="50058" trl="N">
-  <value column="Name" original="ÐšÐ°Ð¼Ñ‡Ð°Ñ‚ÑÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹">ÐšÐ°Ð¼Ñ‡Ð°Ñ‚Ñ&#129;ÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹</value>
+  <value column="Name" original="Камчатский край">Камчатский край</value>
  </row>
  <row id="50059" trl="N">
-  <value column="Name" original="ÐšÐµÐ¼ÐµÑ€Ð¾Ð²ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">ÐšÐµÐ¼ÐµÑ€Ð¾Ð²Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Кемеровская область">Кемеровская область</value>
  </row>
  <row id="50060" trl="N">
-  <value column="Name" original="ÐšÐ¸Ñ€Ð¾Ð²ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">ÐšÐ¸Ñ€Ð¾Ð²Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Кировская область">Кировская область</value>
  </row>
  <row id="50061" trl="N">
-  <value column="Name" original="ÐšÐ¾ÑÑ‚Ñ€Ð¾Ð¼ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">ÐšÐ¾Ñ&#129;Ñ‚Ñ€Ð¾Ð¼Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Костромская область">Костромская область</value>
  </row>
  <row id="50062" trl="N">
-  <value column="Name" original="ÐšÑƒÑ€Ð³Ð°Ð½ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">ÐšÑƒÑ€Ð³Ð°Ð½Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Курганская область">Курганская область</value>
  </row>
  <row id="50063" trl="N">
-  <value column="Name" original="ÐšÑƒÑ€ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">ÐšÑƒÑ€Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Курская область">Курская область</value>
  </row>
  <row id="50064" trl="N">
-  <value column="Name" original="Ð›ÐµÐ½Ð¸Ð½Ð³Ñ€Ð°Ð´ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð›ÐµÐ½Ð¸Ð½Ð³Ñ€Ð°Ð´Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Ленинградская область">Ленинградская область</value>
  </row>
  <row id="50065" trl="N">
-  <value column="Name" original="Ð›Ð¸Ð¿ÐµÑ†ÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð›Ð¸Ð¿ÐµÑ†ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Липецкая область">Липецкая область</value>
  </row>
  <row id="50066" trl="N">
-  <value column="Name" original="ÐœÐ°Ð³Ð°Ð´Ð°Ð½ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">ÐœÐ°Ð³Ð°Ð´Ð°Ð½Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Магаданская область">Магаданская область</value>
  </row>
  <row id="50067" trl="N">
-  <value column="Name" original="ÐœÐ¾ÑÐºÐ¾Ð²ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">ÐœÐ¾Ñ&#129;ÐºÐ¾Ð²Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Московская область">Московская область</value>
  </row>
  <row id="50068" trl="N">
-  <value column="Name" original="ÐœÑƒÑ€Ð¼Ð°Ð½ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">ÐœÑƒÑ€Ð¼Ð°Ð½Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Мурманская область">Мурманская область</value>
  </row>
  <row id="50069" trl="N">
-  <value column="Name" original="ÐÐ¸Ð¶ÐµÐ³Ð¾Ñ€Ð¾Ð´ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð&#157;Ð¸Ð¶ÐµÐ³Ð¾Ñ€Ð¾Ð´Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Нижегородская область">Нижегородская область</value>
  </row>
  <row id="50070" trl="N">
-  <value column="Name" original="ÐÐ¾Ð²Ð³Ð¾Ñ€Ð¾Ð´ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð&#157;Ð¾Ð²Ð³Ð¾Ñ€Ð¾Ð´Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Новгородская область">Новгородская область</value>
  </row>
  <row id="50071" trl="N">
-  <value column="Name" original="ÐÐ¾Ð²Ð¾ÑÐ¸Ð±Ð¸Ñ€ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð&#157;Ð¾Ð²Ð¾Ñ&#129;Ð¸Ð±Ð¸Ñ€Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Новосибирская область">Новосибирская область</value>
  </row>
  <row id="50072" trl="N">
-  <value column="Name" original="ÐžÐ¼ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">ÐžÐ¼Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Омская область">Омская область</value>
  </row>
  <row id="50073" trl="N">
-  <value column="Name" original="ÐžÑ€ÐµÐ½Ð±ÑƒÑ€Ð³ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">ÐžÑ€ÐµÐ½Ð±ÑƒÑ€Ð³Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Оренбургская область">Оренбургская область</value>
  </row>
  <row id="50074" trl="N">
-  <value column="Name" original="ÐžÑ€Ð»Ð¾Ð²ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">ÐžÑ€Ð»Ð¾Ð²Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Орловская область">Орловская область</value>
  </row>
  <row id="50075" trl="N">
-  <value column="Name" original="ÐŸÐµÐ½Ð·ÐµÐ½ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">ÐŸÐµÐ½Ð·ÐµÐ½Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Пензенская область">Пензенская область</value>
  </row>
  <row id="50076" trl="N">
-  <value column="Name" original="ÐŸÐµÑ€Ð¼ÑÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹">ÐŸÐµÑ€Ð¼Ñ&#129;ÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹</value>
+  <value column="Name" original="Пермский край">Пермский край</value>
  </row>
  <row id="50077" trl="N">
-  <value column="Name" original="ÐŸÑÐºÐ¾Ð²ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">ÐŸÑ&#129;ÐºÐ¾Ð²Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Псковская область">Псковская область</value>
  </row>
  <row id="50078" trl="N">
-  <value column="Name" original="Ð Ð¾ÑÑ‚Ð¾Ð²ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð Ð¾Ñ&#129;Ñ‚Ð¾Ð²Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Ростовская область">Ростовская область</value>
  </row>
  <row id="50079" trl="N">
-  <value column="Name" original="Ð ÑÐ·Ð°Ð½ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð Ñ&#143;Ð·Ð°Ð½Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Рязанская область">Рязанская область</value>
  </row>
  <row id="50080" trl="N">
-  <value column="Name" original="Ð¡Ð°Ð¼Ð°Ñ€ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð¡Ð°Ð¼Ð°Ñ€Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Самарская область">Самарская область</value>
  </row>
  <row id="50081" trl="N">
-  <value column="Name" original="Ð¡Ð°Ñ€Ð°Ñ‚Ð¾Ð²ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð¡Ð°Ñ€Ð°Ñ‚Ð¾Ð²Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Саратовская область">Саратовская область</value>
  </row>
  <row id="50082" trl="N">
-  <value column="Name" original="Ð¡Ð°Ñ…Ð°Ð»Ð¸Ð½ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð¡Ð°Ñ…Ð°Ð»Ð¸Ð½Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Сахалинская область">Сахалинская область</value>
  </row>
  <row id="50083" trl="N">
-  <value column="Name" original="Ð¡Ð²ÐµÑ€Ð´Ð»Ð¾Ð²ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð¡Ð²ÐµÑ€Ð´Ð»Ð¾Ð²Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Свердловская область">Свердловская область</value>
  </row>
  <row id="50084" trl="N">
-  <value column="Name" original="Ð¡Ð¼Ð¾Ð»ÐµÐ½ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð¡Ð¼Ð¾Ð»ÐµÐ½Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Смоленская область">Смоленская область</value>
  </row>
  <row id="50085" trl="N">
-  <value column="Name" original="Ð¢Ð°Ð¼Ð±Ð¾Ð²ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð¢Ð°Ð¼Ð±Ð¾Ð²Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Тамбовская область">Тамбовская область</value>
  </row>
  <row id="50086" trl="N">
-  <value column="Name" original="Ð¢Ð²ÐµÑ€ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð¢Ð²ÐµÑ€Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Тверская область">Тверская область</value>
  </row>
  <row id="50087" trl="N">
-  <value column="Name" original="Ð¢Ð¾Ð¼ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð¢Ð¾Ð¼Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Томская область">Томская область</value>
  </row>
  <row id="50088" trl="N">
-  <value column="Name" original="Ð¢ÑƒÐ»ÑŒÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð¢ÑƒÐ»ÑŒÑ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Тульская область">Тульская область</value>
  </row>
  <row id="50089" trl="N">
-  <value column="Name" original="Ð¢ÑŽÐ¼ÐµÐ½ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð¢ÑŽÐ¼ÐµÐ½Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Тюменская область">Тюменская область</value>
  </row>
  <row id="50090" trl="N">
-  <value column="Name" original="Ð£Ð»ÑŒÑÐ½Ð¾Ð²ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð£Ð»ÑŒÑ&#143;Ð½Ð¾Ð²Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Ульяновская область">Ульяновская область</value>
  </row>
  <row id="50091" trl="N">
-  <value column="Name" original="Ð§ÐµÐ»ÑÐ±Ð¸Ð½ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð§ÐµÐ»Ñ&#143;Ð±Ð¸Ð½Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Челябинская область">Челябинская область</value>
  </row>
  <row id="50092" trl="N">
-  <value column="Name" original="Ð—Ð°Ð±Ð°Ð¹ÐºÐ°Ð»ÑŒÑÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹">Ð—Ð°Ð±Ð°Ð¹ÐºÐ°Ð»ÑŒÑ&#129;ÐºÐ¸Ð¹ ÐºÑ€Ð°Ð¹</value>
+  <value column="Name" original="Забайкальский край">Забайкальский край</value>
  </row>
  <row id="50093" trl="N">
-  <value column="Name" original="Ð¯Ñ€Ð¾ÑÐ»Ð°Ð²ÑÐºÐ°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð¯Ñ€Ð¾Ñ&#129;Ð»Ð°Ð²Ñ&#129;ÐºÐ°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Ярославская область">Ярославская область</value>
  </row>
  <row id="50094" trl="N">
-  <value column="Name" original="ÐœÐ¾ÑÐºÐ²Ð° Ð³Ð¾Ñ€Ð¾Ð´">ÐœÐ¾Ñ&#129;ÐºÐ²Ð° Ð³Ð¾Ñ€Ð¾Ð´</value>
+  <value column="Name" original="Москва город">Москва город</value>
  </row>
  <row id="50095" trl="N">
-  <value column="Name" original="Ð¡Ð°Ð½ÐºÑ‚-ÐŸÐµÑ‚ÐµÑ€Ð±ÑƒÑ€Ð³ Ð³Ð¾Ñ€Ð¾Ð´">Ð¡Ð°Ð½ÐºÑ‚-ÐŸÐµÑ‚ÐµÑ€Ð±ÑƒÑ€Ð³ Ð³Ð¾Ñ€Ð¾Ð´</value>
+  <value column="Name" original="Санкт-Петербург город">Санкт-Петербург город</value>
  </row>
  <row id="50096" trl="N">
-  <value column="Name" original="Ð•Ð²Ñ€ÐµÐ¹ÑÐºÐ°Ñ Ð°Ð²Ñ‚Ð¾Ð½Ð¾Ð¼Ð½Ð°Ñ Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ">Ð•Ð²Ñ€ÐµÐ¹Ñ&#129;ÐºÐ°Ñ&#143; Ð°Ð²Ñ‚Ð¾Ð½Ð¾Ð¼Ð½Ð°Ñ&#143; Ð¾Ð±Ð»Ð°Ñ&#129;Ñ‚ÑŒ</value>
+  <value column="Name" original="Еврейская автономная область">Еврейская автономная область</value>
  </row>
  <row id="50098" trl="N">
-  <value column="Name" original="ÐÐµÐ½ÐµÑ†ÐºÐ¸Ð¹ Ð°Ð²Ñ‚Ð¾Ð½Ð¾Ð¼Ð½Ñ‹Ð¹ Ð¾ÐºÑ€ÑƒÐ³">Ð&#157;ÐµÐ½ÐµÑ†ÐºÐ¸Ð¹ Ð°Ð²Ñ‚Ð¾Ð½Ð¾Ð¼Ð½Ñ‹Ð¹ Ð¾ÐºÑ€ÑƒÐ³</value>
+  <value column="Name" original="Ненецкий автономный округ">Ненецкий автономный округ</value>
  </row>
  <row id="50101" trl="N">
-  <value column="Name" original="Ð§ÑƒÐºÐ¾Ñ‚ÑÐºÐ¸Ð¹ Ð°Ð²Ñ‚Ð¾Ð½Ð¾Ð¼Ð½Ñ‹Ð¹ Ð¾ÐºÑ€ÑƒÐ³">Ð§ÑƒÐºÐ¾Ñ‚Ñ&#129;ÐºÐ¸Ð¹ Ð°Ð²Ñ‚Ð¾Ð½Ð¾Ð¼Ð½Ñ‹Ð¹ Ð¾ÐºÑ€ÑƒÐ³</value>
+  <value column="Name" original="Чукотский автономный округ">Чукотский автономный округ</value>
  </row>
  <row id="50102" trl="N">
-  <value column="Name" original="Ð¯Ð¼Ð°Ð»Ð¾-ÐÐµÐ½ÐµÑ†ÐºÐ¸Ð¹ Ð°Ð²Ñ‚Ð¾Ð½Ð¾Ð¼Ð½Ñ‹Ð¹ Ð¾ÐºÑ€ÑƒÐ³">Ð¯Ð¼Ð°Ð»Ð¾-Ð&#157;ÐµÐ½ÐµÑ†ÐºÐ¸Ð¹ Ð°Ð²Ñ‚Ð¾Ð½Ð¾Ð¼Ð½Ñ‹Ð¹ Ð¾ÐºÑ€ÑƒÐ³</value>
+  <value column="Name" original="Ямало-Ненецкий автономный округ">Ямало-Ненецкий автономный округ</value>
  </row>
  <row id="50103" trl="N">
-  <value column="Name" original="Ð‘Ð°Ð¹ÐºÐ¾Ð½ÑƒÑ€ Ð³Ð¾Ñ€Ð¾Ð´">Ð‘Ð°Ð¹ÐºÐ¾Ð½ÑƒÑ€ Ð³Ð¾Ñ€Ð¾Ð´</value>
+  <value column="Name" original="Байконур город">Байконур город</value>
+ </row>
+ <row id="200109" trl="N">
+  <value column="Name" original="ANTIOQUIA">ANTIOQUIA</value>
+ </row>
+ <row id="200110" trl="N">
+  <value column="Name" original="ATLÁNTICO">ATLÁNTICO</value>
+ </row>
+ <row id="200111" trl="N">
+  <value column="Name" original="D.C.">D.C.</value>
+ </row>
+ <row id="200112" trl="N">
+  <value column="Name" original="BOLÍVAR">BOLÍVAR</value>
+ </row>
+ <row id="200113" trl="N">
+  <value column="Name" original="BOYACÁ">BOYACÁ</value>
+ </row>
+ <row id="200114" trl="N">
+  <value column="Name" original="CALDAS">CALDAS</value>
+ </row>
+ <row id="200115" trl="N">
+  <value column="Name" original="CAQUETÁ">CAQUETÁ</value>
+ </row>
+ <row id="200116" trl="N">
+  <value column="Name" original="CAUCA">CAUCA</value>
+ </row>
+ <row id="200117" trl="N">
+  <value column="Name" original="CESAR">CESAR</value>
+ </row>
+ <row id="200118" trl="N">
+  <value column="Name" original="CÓRDOBA">CÓRDOBA</value>
+ </row>
+ <row id="200119" trl="N">
+  <value column="Name" original="CUNDINAMARCA">CUNDINAMARCA</value>
+ </row>
+ <row id="200120" trl="N">
+  <value column="Name" original="CHOCÓ">CHOCÓ</value>
+ </row>
+ <row id="200121" trl="N">
+  <value column="Name" original="HUILA">HUILA</value>
+ </row>
+ <row id="200122" trl="N">
+  <value column="Name" original="LA GUAJIRA">LA GUAJIRA</value>
+ </row>
+ <row id="200123" trl="N">
+  <value column="Name" original="MAGDALENA">MAGDALENA</value>
+ </row>
+ <row id="200124" trl="N">
+  <value column="Name" original="META">META</value>
+ </row>
+ <row id="200125" trl="N">
+  <value column="Name" original="NARIÑO">NARIÑO</value>
+ </row>
+ <row id="200126" trl="N">
+  <value column="Name" original="NORTE DE SANTANDER">NORTE DE SANTANDER</value>
+ </row>
+ <row id="200127" trl="N">
+  <value column="Name" original="QUINDÍO">QUINDÍO</value>
+ </row>
+ <row id="200128" trl="N">
+  <value column="Name" original="RISARALDA">RISARALDA</value>
+ </row>
+ <row id="200129" trl="N">
+  <value column="Name" original="SANTANDER">SANTANDER</value>
+ </row>
+ <row id="200130" trl="N">
+  <value column="Name" original="SUCRE">SUCRE</value>
+ </row>
+ <row id="200131" trl="N">
+  <value column="Name" original="TOLIMA">TOLIMA</value>
+ </row>
+ <row id="200132" trl="N">
+  <value column="Name" original="VALLE">VALLE</value>
+ </row>
+ <row id="200133" trl="N">
+  <value column="Name" original="ARAUCA">ARAUCA</value>
+ </row>
+ <row id="200134" trl="N">
+  <value column="Name" original="CASANARE">CASANARE</value>
+ </row>
+ <row id="200135" trl="N">
+  <value column="Name" original="PUTUMAYO">PUTUMAYO</value>
+ </row>
+ <row id="200136" trl="N">
+  <value column="Name" original="SAN ANDRÉS">SAN ANDRÉS</value>
+ </row>
+ <row id="200137" trl="N">
+  <value column="Name" original="AMAZONAS">AMAZONAS</value>
+ </row>
+ <row id="200138" trl="N">
+  <value column="Name" original="GUAINÍA">GUAINÍA</value>
+ </row>
+ <row id="200139" trl="N">
+  <value column="Name" original="GUAVIARE">GUAVIARE</value>
+ </row>
+ <row id="200140" trl="N">
+  <value column="Name" original="VAUPÉS">VAUPÉS</value>
+ </row>
+ <row id="200141" trl="N">
+  <value column="Name" original="VICHADA">VICHADA</value>
+ </row>
+ <row id="200142" trl="N">
+  <value column="Name" original="Vienna">Vienna</value>
+ </row>
+ <row id="200143" trl="N">
+  <value column="Name" original="Lower Austria">Lower Austria</value>
+ </row>
+ <row id="200144" trl="N">
+  <value column="Name" original="Upper Austria">Upper Austria</value>
+ </row>
+ <row id="200145" trl="N">
+  <value column="Name" original="Styria">Styria</value>
+ </row>
+ <row id="200146" trl="N">
+  <value column="Name" original="Tyrol">Tyrol</value>
+ </row>
+ <row id="200147" trl="N">
+  <value column="Name" original="Carinthia">Carinthia</value>
+ </row>
+ <row id="200148" trl="N">
+  <value column="Name" original="Salzburg">Salzburg</value>
+ </row>
+ <row id="200149" trl="N">
+  <value column="Name" original="Vorarlberg">Vorarlberg</value>
+ </row>
+ <row id="200150" trl="N">
+  <value column="Name" original="Burgenland">Burgenland</value>
  </row>
 </idempiereTrl>

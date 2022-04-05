@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Field">
+<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Field">
  <row id="1546" trl="N">
   <value column="Name" original="Link Column">Link Column</value>
   <value column="Description" original="Link Column for Multi-Parent tables">Link Column for Multi-Parent tables</value>
@@ -68,6 +68,12 @@ If the document type of your document has no automatic document sequence defined
   <value column="Help" original="The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.">Un commercial doit être enregistré comme utilisateur de l'application.</value>
   <value column="Placeholder" original=""/>
  </row>
+ <row id="10089" trl="N">
+  <value column="Name" original="Wait Time">Wait Time</value>
+  <value column="Description" original="Time in minutes to wait (sleep)">Time in minutes to wait (sleep)</value>
+  <value column="Help" original="Time in minutes to be suspended (sleep).  A value of -1 means to wait and execute after the commit of the workflow transaction.">Time in minutes to be suspended (sleep)</value>
+  <value column="Placeholder" original=""/>
+ </row>
  <row id="10097" trl="N">
   <value column="Name" original="Value">Value</value>
   <value column="Description" original="Condition Value">Condition Value</value>
@@ -89,7 +95,7 @@ If the document type of your document has no automatic document sequence defined
  <row id="11264" trl="N">
   <value column="Name" original="Column SQL">Column SQL</value>
   <value column="Description" original="Virtual Column (r/o)">Virtual Column (r/o)</value>
-  <value column="Help" original="You can define virtual columns (not stored in the database). If defined, the Column name is the synonym of the SQL expression defined here. The SQL expression must be valid.&lt;br&gt;&#10;Example: &quot;Updated-Created&quot; would list the age of the entry in days.&#10;You can also use the syntax @SQL= to define a UI virtual column - this is calculated on the fly and can use context variables in the query, virtual UI columns are not searchable, and they are not shown in reports." xml:space="preserve"><![CDATA[You can define virtual columns (not stored in the database). If defined, the Column name is the synonym of the SQL expression defined here. The SQL expression must be valid.<br>
+  <value column="Help" original="You can define virtual columns (not stored in the database). If defined, the Column name is the synonym of the SQL expression defined here. The SQL expression must be valid.&lt;br&gt;&#10;Example: &quot;Updated-Created&quot; would list the age of the entry in days.&lt;br&gt;&#10;It is not recommended to add complex queries in virtual columns as the impact on the database performance can be too expensive.&lt;br&gt;&#10;However, you can use the prefix @SQLFIND= for virtual columns that can be used for queries and reports, they have less impact on the database, but as a field they don't show values.&lt;br&gt;&#10;Additionally, the prefix @SQL= allows to define a virtual UI column, this is calculated on the fly and can use context variables in the query, virtual UI columns are shown in grid just on the current row, they are not searchable, and not shown in reports." xml:space="preserve"><![CDATA[You can define virtual columns (not stored in the database). If defined, the Column name is the synonym of the SQL expression defined here. The SQL expression must be valid.<br>
 Example: "Updated-Created" would list the age of the entry in days]]></value>
   <value column="Placeholder" original=""/>
  </row>
@@ -97,6 +103,12 @@ Example: "Updated-Created" would list the age of the entry in days]]></value>
   <value column="Name" original="Attribute Set Instance">Attribute Set Instance</value>
   <value column="Description" original="Product Attribute Values">Product Attribute Values</value>
   <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="12249" trl="N">
+  <value column="Name" original="Validation code">Validation code</value>
+  <value column="Description" original="Validation Code">Validation Code</value>
+  <value column="Help" original="The Validation Code displays the date, time and message of the error.&#10;&#10;You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].&#10;Do not include the WHERE statement and use Fully qualified SQL statements. F.e:&#10;&#10;@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ &#10;&#10;will filter orders by active and where the sales representative is the current user.">The Validation Code displays the date, time and message of the error.</value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="12732" trl="N">
@@ -288,12 +300,6 @@ Email of the responsible person for the system (registered in WebStore)</value>
  </row>
  <row id="50110" trl="N">
   <value column="Name" original="Workflow">Workflow</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
- </row>
- <row id="50112" trl="N">
-  <value column="Name" original="Workbench">Workbench</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -937,6 +943,43 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Name" original="Display Search Key">Display Search Key</value>
   <value column="Description" original="Displays Search Key in the tree">Displays Search Key in the tree</value>
   <value column="Help" original="The Display Search Key checkbox indicates if the Search Key will display in the tree before the Name">The Display Search Key checkbox indicates if the Search Key will display in the tree before the Name</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="206305" trl="N">
+  <value column="Name" original="Validation code">Validation code</value>
+  <value column="Description" original="Validation Code">Validation Code</value>
+  <value column="Help" original="The Validation Code displays the date, time and message of the error.&#10;&#10;You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].&#10;Do not include the WHERE statement and use Fully qualified SQL statements. F.e:&#10;&#10;@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ &#10;&#10;will filter orders by active and where the sales representative is the current user.">The Validation Code displays the date, time and message of the error.
+
+You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].
+Do not include the WHERE statement and use Fully qualified SQL statements. F.e:
+
+@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ 
+
+will filter orders by active and where the sales representative is the current user.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="206515" trl="N">
+  <value column="Name" original="Invoice Contact">Invoice Contact</value>
+  <value column="Description" original="Business Partner Invoice/Bill Contact">Business Partner Invoice/Bill Contact</value>
+  <value column="Help" original="If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.">If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="206516" trl="N">
+  <value column="Name" original="Ship Contact">Ship Contact</value>
+  <value column="Description" original="Business Partner Shipment Contact">Business Partner Shipment Contact</value>
+  <value column="Help" original="If the Ship Contact is selected, the contact is used for notification.">If the Ship Contact is selected, the contact is used for notification.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="206517" trl="N">
+  <value column="Name" original="Ship Contact">Ship Contact</value>
+  <value column="Description" original="Business Partner Shipment Contact">Business Partner Shipment Contact</value>
+  <value column="Help" original="If the Ship Contact is selected, the contact is used for notification.">If the Ship Contact is selected, the contact is used for notification.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="206518" trl="N">
+  <value column="Name" original="Invoice Contact">Invoice Contact</value>
+  <value column="Description" original="Business Partner Invoice/Bill Contact">Business Partner Invoice/Bill Contact</value>
+  <value column="Help" original="If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.">If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.</value>
   <value column="Placeholder" original=""/>
  </row>
 </idempiereTrl>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Workflow">
+<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Workflow">
  <row id="101" trl="N">
   <value column="Name" original="Project Setup and Use">Project Setup and Use</value>
   <value column="Description" original="Setup of projects and project reporting">Setup of projects and project reporting</value>
@@ -72,11 +72,6 @@ The system converts the measures into percentages (based on the target and achie
  <row id="113" trl="N">
   <value column="Name" original="Request Setup">Request Setup</value>
   <value column="Description" original="Set up the client to process requests">Set up the client to process requests</value>
-  <value column="Help" original=""/>
- </row>
- <row id="114" trl="N">
-  <value column="Name" original="Requisition Setup">Requisition Setup</value>
-  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="115" trl="N">
@@ -205,6 +200,11 @@ The system converts the measures into percentages (based on the target and achie
  </row>
  <row id="200002" trl="N">
   <value column="Name" original="Process_Production">Process_Production</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200007" trl="N">
+  <value column="Name" original="Process_C_ProjectIssue">Process_C_ProjectIssue</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

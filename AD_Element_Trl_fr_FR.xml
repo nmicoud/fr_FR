@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Element">
+<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Element">
  <row id="101" trl="N">
   <value column="Name" original="Attachment">Attachment</value>
   <value column="PrintName" original="Attachment">Attachment</value>
@@ -684,8 +684,8 @@ Sinon, il appartient aux utilisateurs de le faire.</value>
   <value column="PO_PrintName" original="">Schéma comptable</value>
  </row>
  <row id="187" trl="N">
-  <value column="Name" original="Business Partner ">Tiers</value>
-  <value column="PrintName" original="Business Partner ">Tiers</value>
+  <value column="Name" original="Business Partner">Tiers</value>
+  <value column="PrintName" original="Business Partner">Tiers</value>
   <value column="Description" original="Identifies a Business Partner"/>
   <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson" xml:space="preserve"><![CDATA[Un tiers est une entité avec laquelle vous êtes en affaire. <br>Il peut être client, fournisseur, salarié ou représentant]]></value>
   <value column="Placeholder" original=""/>
@@ -1437,7 +1437,7 @@ Otherwise the total Debit amount must be equal to the control amount, before the
   <value column="Name" original="Display Logic">Display Logic</value>
   <value column="PrintName" original="Display Logic">Display Logic</value>
   <value column="Description" original="If the Field is displayed, the result determines if the field is actually displayed">If the Field is displayed, the result determines if the field is actually displayed</value>
-  <value column="Help" original="format := {expression} [{logic} {expression}]&lt;br&gt; &#10;expression := @{context}@{operand}{value} or @{context}@{operand}{value}&lt;br&gt; &#10;logic := {|}|{&amp;}&lt;br&gt;&#10;context := any global or window context &lt;br&gt;&#10;value := strings or numbers&lt;br&gt;&#10;logic operators&#9;:= AND or OR with the previous result from left to right &lt;br&gt;&#10;operand := eq{=}, gt{&amp;gt;}, le{&amp;lt;}, not{~^!} &lt;br&gt;&#10;Examples: &lt;br&gt;&#10;@AD_Table_ID@=14 | @Language@!GERGER &lt;br&gt;&#10;@PriceLimit@&gt;10 | @PriceList@&gt;@PriceActual@&lt;br&gt;&#10;@Name@&gt;J&lt;br&gt;&#10;Strings may be in single quotes (optional)" xml:space="preserve"><![CDATA[format := {expression} [{logic} {expression}]<br> 
+  <value column="Help" original="format := {expression} [{logic} {expression}]&lt;br&gt; &#10;expression := @{context}@{operand}{value} or @{context}@{operand}{value}&lt;br&gt; &#10;logic := {|}|{&amp;}&lt;br&gt;&#10;context := any global or window context &lt;br&gt;&#10;value := strings or numbers&lt;br&gt;&#10;logic operators&#9;:= AND or OR with the previous result from left to right &lt;br&gt;&#10;operand := eq{=}, gt{&amp;gt;}, le{&amp;lt;}, not{~^!} &lt;br&gt;&#10;Examples: &lt;br&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt; @AD_Table_ID@=14 | @Language@!GERGER&lt;/li&gt;&#10;&lt;li&gt; @PriceLimit@&gt;10 | @PriceList@&gt;@PriceActual@&lt;/li&gt;&#10;&lt;li&gt; @Name@&gt;J&lt;/li&gt;&#10;&lt;/ul&gt;&#10;Strings may be in single quotes (optional)" xml:space="preserve"><![CDATA[format := {expression} [{logic} {expression}]<br> 
 expression := @{context}@{operand}{value} or @{context}@{operand}{value}<br> 
 logic := {|}|{&}<br>
 context := any global or window context <br>
@@ -2103,10 +2103,10 @@ Pourquoi privilégier la désactivation :
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="368" trl="N">
-  <value column="Name" original="Displayed">Displayed</value>
-  <value column="PrintName" original="Displayed">Displayed</value>
-  <value column="Description" original="Determines, if this field is displayed">Determines, if this field is displayed</value>
-  <value column="Help" original="If the field is displayed, the field Display Logic will determine at runtime, if it is actually displayed">If the field is displayed, the field Display Logic will determine at runtime, if it is actually displayed</value>
+  <value column="Name" original="Displayed">Affiché</value>
+  <value column="PrintName" original="Displayed">Affiché</value>
+  <value column="Description" original="Determines, if this field is displayed"/>
+  <value column="Help" original="If the field is displayed, the field Display Logic will determine at runtime, if it is actually displayed"/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -3284,7 +3284,7 @@ Il est utilisé dans les recherches.</value>
  </row>
  <row id="538" trl="Y">
   <value column="Name" original="Record ID">Zoom</value>
-  <value column="PrintName" original="Record ID">Zoom</value>
+  <value column="PrintName" original="Record ID">ID enregistrement</value>
   <value column="Description" original="Direct internal record ID">Accès direct à l'enregistrement (document, fiche, ...)</value>
   <value column="Help" original="The Record ID is the internal unique identifier of a record. Please note that zooming to the record may not be successful for Orders, Invoices and Shipment/Receipts as sometimes the Sales Order type is not known."/>
   <value column="Placeholder" original=""/>
@@ -5068,8 +5068,8 @@ SO Sub Type of <b>POS</b> (Point of Sale) will generate all document]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1021" trl="N">
-  <value column="Name" original="Error Msg">Error Msg</value>
-  <value column="PrintName" original="Error Msg">Error Msg</value>
+  <value column="Name" original="Error Msg">Message d'erreur</value>
+  <value column="PrintName" original="Error Msg">Message d'erreur</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -6181,7 +6181,7 @@ Incoming receipts are stored at the location with the highest priority, if not e
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1175" trl="N">
-  <value column="Name" original="Print detail records on invoice ">Print detail records on invoice </value>
+  <value column="Name" original="Print detail records on invoice">Print detail records on invoice </value>
   <value column="PrintName" original="Print detail on invoice">Print detail on invoice</value>
   <value column="Description" original="Print detail BOM elements on the invoice">Print detail BOM elements on the invoice</value>
   <value column="Help" original="The Print Details on Invoice indicates that the BOM element products will print on the Invoice as opposed to this product.">The Print Details on Invoice indicates that the BOM element products will print on the Invoice as opposed to this product.</value>
@@ -7360,10 +7360,10 @@ Incoming receipts are stored at the location with the highest priority, if not e
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1354" trl="N">
-  <value column="Name" original="Account Name">Account Name</value>
-  <value column="PrintName" original="Account Name">Account Name</value>
-  <value column="Description" original="Name on Credit Card or Account holder">Name on Credit Card or Account holder</value>
-  <value column="Help" original="The Name of the Credit Card or Account holder.">The Name of the Credit Card or Account holder.</value>
+  <value column="Name" original="Account Name">Nom sur carte crédit ou détenteur du compte</value>
+  <value column="PrintName" original="Account Name">Nom sur carte crédit ou détenteur du compte</value>
+  <value column="Description" original="Name on Credit Card or Account holder">Le nom sur carte crédit ou du détenteur du compte </value>
+  <value column="Help" original="The Name of the Credit Card or Account holder."/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -9145,10 +9145,10 @@ Dans le cas d'un système multi-langue, c'est la langue du tiers qui est utilis�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1555" trl="N">
-  <value column="Name" original="Converted Amount">Converted Amount</value>
-  <value column="PrintName" original="Converted">Converted</value>
-  <value column="Description" original="Converted Amount">Converted Amount</value>
-  <value column="Help" original="The Converted Amount is the result of multiplying the Source Amount by the Conversion Rate for this target currency.">The Converted Amount is the result of multiplying the Source Amount by the Conversion Rate for this target currency.</value>
+  <value column="Name" original="Converted Amount">Montant converti</value>
+  <value column="PrintName" original="Converted">Converti</value>
+  <value column="Description" original="Converted Amount">Montant converti</value>
+  <value column="Help" original="The Converted Amount is the result of multiplying the Source Amount by the Conversion Rate for this target currency.">Le montant converti est égal au montant source multiplié par le taux de change entre les deux devises</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -10153,7 +10153,7 @@ You can either load the image (in the database) or point to a graphic via a URI 
   <value column="Name" original="Read Only Logic">Read Only Logic</value>
   <value column="PrintName" original="Read Only Logic">Read Only Logic</value>
   <value column="Description" original="Logic to determine if field is read only (applies only when field is read-write)">Logic to determine if field is read only (applies only when field is read-write)</value>
-  <value column="Help" original="format := {expression} [{logic} {expression}]&lt;br&gt; &#10;expression := @{context}@{operand}{value} or @{context}@{operand}{value}&lt;br&gt; &#10;logic := {|}|{&amp;}&lt;br&gt;&#10;context := any global or window context &lt;br&gt;&#10;value := strings or numbers&lt;br&gt;&#10;logic operators&#9;:= AND or OR with the previous result from left to right &lt;br&gt;&#10;operand := eq{=}, gt{&amp;gt;}, le{&amp;lt;}, not{~^!} &lt;br&gt;&#10;Examples: &lt;br&gt;&#10;@AD_Table_ID@=14 | @Language@!GERGER &lt;br&gt;&#10;@PriceLimit@&gt;10 | @PriceList@&gt;@PriceActual@&lt;br&gt;&#10;@Name@&gt;J&lt;br&gt;&#10;Strings may be in single quotes (optional)" xml:space="preserve"><![CDATA[format := {expression} [{logic} {expression}]<br> 
+  <value column="Help" original="format := {expression} [{logic} {expression}]&lt;br&gt; &#10;expression := @{context}@{operand}{value} or @{context}@{operand}{value}&lt;br&gt; &#10;logic := {|}|{&amp;}&lt;br&gt;&#10;context := any global or window context &lt;br&gt;&#10;value := strings or numbers&lt;br&gt;&#10;logic operators&#9;:= AND or OR with the previous result from left to right &lt;br&gt;&#10;operand := eq{=}, gt{&amp;gt;}, le{&amp;lt;}, not{~^!} &lt;br&gt;&#10;Examples: &lt;br&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt; @AD_Table_ID@=14 | @Language@!GERGER&lt;/li&gt;&#10;&lt;li&gt; @PriceLimit@&gt;10 | @PriceList@&gt;@PriceActual@&lt;/li&gt;&#10;&lt;li&gt; @Name@&gt;J&lt;/li&gt;&#10;&lt;/ul&gt;&#10;Strings may be in single quotes (optional)" xml:space="preserve"><![CDATA[format := {expression} [{logic} {expression}]<br> 
 expression := @{context}@{operand}{value} or @{context}@{operand}{value}<br> 
 logic := {|}|{&}<br>
 context := any global or window context <br>
@@ -10592,7 +10592,7 @@ For customizations, copy the entity and select "User"!</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1708" trl="N">
-  <value column="Name" original="Break Value">Break Value</value>
+  <value column="Name" original="Break Value">Palier</value>
   <value column="PrintName" original="Break Value">Break Value</value>
   <value column="Description" original="Low Value of trade discount break level">Low Value of trade discount break level</value>
   <value column="Help" original="Starting Quantity or Amount Value for break level">Starting Quantity or Amount Value for break level</value>
@@ -10702,7 +10702,7 @@ For customizations, copy the entity and select "User"!</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1719" trl="N">
-  <value column="Name" original="Image Alpha ">Image Alpha </value>
+  <value column="Name" original="Image Alpha">Image Alpha </value>
   <value column="PrintName" original="Image Alpha">Image Alpha</value>
   <value column="Description" original="Image Texture Composite Alpha">Image Texture Composite Alpha</value>
   <value column="Help" original="Composite Alpha factor for taint color.">Composite Alpha factor for taint color.</value>
@@ -14064,7 +14064,7 @@ Dans un état standard, si tous les éléments d'une même colonne sont NULL, la
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2045" trl="N">
-  <value column="Name" original="Quantity Invoiced ">Quantity Invoiced </value>
+  <value column="Name" original="Quantity Invoiced">Quantity Invoiced </value>
   <value column="PrintName" original="Quantity Invoiced">Quantity Invoiced</value>
   <value column="Description" original="The quantity invoiced">The quantity invoiced</value>
   <value column="Help" original=""/>
@@ -17649,9 +17649,9 @@ Automatique => Implicitement par le système ; Manuel => Explicitement par l'uti
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2396" trl="N">
-  <value column="Name" original="Internal">Internal</value>
-  <value column="PrintName" original="Internal">Internal</value>
-  <value column="Description" original="Internal Organization">Internal Organization</value>
+  <value column="Name" original="Internal">Interne</value>
+  <value column="PrintName" original="Internal">Interne</value>
+  <value column="Description" original="Internal Organization"/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -18412,8 +18412,8 @@ If the ratio and quantity is not 0, the quantity is calculated based on the rati
  <row id="2466" trl="N">
   <value column="Name" original="Drop Shipment">Livraison directe</value>
   <value column="PrintName" original="Drop Ship">Livraison directe</value>
-  <value column="Description" original="Drop Shipments are sent from the Vendor directly to the Customer">Drop Shipments are sent from the Vendor directly to the Customer</value>
-  <value column="Help" original="Drop Shipments do not cause any Inventory reservations or movements as the Shipment is from the Vendor's inventory. The Shipment of the Vendor to the Customer must be confirmed.">Drop Shipments do not cause any Inventory reservations or movements as the Shipment is from the Vendor's inventory. The Shipment of the Vendor to the Customer must be confirmed.</value>
+  <value column="Description" original="Drop Shipments are sent directly to the Drop Shipment Location">Drop Shipments are sent from the Vendor directly to the Customer</value>
+  <value column="Help" original="Drop Shipments are sent directly to the Drop Shipment Location using the Drop Ship Business Partner name and contact.">Drop Shipments do not cause any Inventory reservations or movements as the Shipment is from the Vendor's inventory. The Shipment of the Vendor to the Customer must be confirmed.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -20492,8 +20492,7 @@ The Remind Days are the days when the next email reminder is sent.</value>
   <value column="Name" original="IBAN">IBAN</value>
   <value column="PrintName" original="IBAN">IBAN</value>
   <value column="Description" original="International Bank Account Number">International Bank Account Number</value>
-  <value column="Help" original="If your bank provides an International Bank Account Number, enter it here&#10;Details ISO 13616 and http://www.ecbs.org. The account number has the maximum length of 22 characters (without spaces). The IBAN is often printed with a apace after 4 characters. Do not enter the spaces in iDempiere.">If your bank provides an International Bank Account Number, enter it here
-Details ISO 13616 and http://www.ecbs.org. The account number has the maximum length of 22 characters (without spaces). The IBAN is often printed with a apace after 4 characters. Do not enter the spaces in Adempiere.</value>
+  <value column="Help" original="If your bank provides an International Bank Account Number, enter it here&#10;Details ISO 13616 and http://www.ecbs.org. The account number has the maximum length of 22 characters (without spaces). The IBAN is often printed with a apace after 4 characters. Do not enter the spaces in iDempiere.">Si votre banque fournit un 'International Bank Account Number', le saisir ici.   (Détails ISO 13616 et http://www.ecbs.org)Ce numéro possède un maximum de 22 caractères maximum (sans espace)  ; il  est souvent imprimé avec un espace après 4 caractères.NE PAS SAISIR LES ESPACES dans Expert Light.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22889,8 +22888,8 @@ Example: if the purchase price is $100 and the tolerance is 1 (percent), the inv
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2892" trl="N">
-  <value column="Name" original="Operating System">Operating System</value>
-  <value column="PrintName" original="Operating System">Operating System</value>
+  <value column="Name" original="Operating System">Système d'exploitation</value>
+  <value column="PrintName" original="Operating System">Système d'exploitation</value>
   <value column="Description" original="Operating System Info">Operating System Info</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -24887,10 +24886,10 @@ The ID is related 1 to 1 to the container ID</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="3086" trl="N">
-  <value column="Name" original="Account Usage">Account Usage</value>
-  <value column="PrintName" original="Account Usage">Account Usage</value>
-  <value column="Description" original="Business Partner Bank Account usage">Business Partner Bank Account usage</value>
-  <value column="Help" original="Determines how the bank account is used.">Determines how the bank account is used.</value>
+  <value column="Name" original="Account Usage">Usage du compte</value>
+  <value column="PrintName" original="Account Usage">Usage du compte</value>
+  <value column="Description" original="Business Partner Bank Account usage">Détermine comment le compte est utilisé</value>
+  <value column="Help" original="Determines how the bank account is used."/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -25382,8 +25381,8 @@ The ID is related 1 to 1 to the container ID</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="50028" trl="N">
-  <value column="Name" original="SQLStatement">SQLStatement</value>
-  <value column="PrintName" original="SQLStatement">SQLStatement</value>
+  <value column="Name" original="SQL Expression/Statement">SQLStatement</value>
+  <value column="PrintName" original="SQL Expression/Statement">SQLStatement</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -28596,36 +28595,36 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53458" trl="N">
-  <value column="Name" original="Drop Ship Business Partner">Drop Shipment Partner</value>
+  <value column="Name" original="Drop Ship Business Partner">Fournisseur</value>
   <value column="PrintName" original="Drop Ship Business Partner">Drop Shipment  Partner</value>
   <value column="Description" original="Business Partner to ship to">Business Partner to ship to</value>
   <value column="Help" original="If empty the business partner will be shipped to.">If empty the business partner will be shipped to.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
+  <value column="PO_Name" original="">Client à livrer</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53459" trl="N">
-  <value column="Name" original="Drop Shipment Location">Drop Shipment Location</value>
+  <value column="Name" original="Drop Shipment Location">Adresse fournisseur</value>
   <value column="PrintName" original="Drop Shipment Location">Drop Shipment Location</value>
   <value column="Description" original="Business Partner Location for shipping to">Business Partner Location for shipping to</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
+  <value column="PO_Name" original="">Adresse de livraison</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53460" trl="N">
-  <value column="Name" original="Drop Shipment Contact">Drop Shipment Contact</value>
+  <value column="Name" original="Drop Shipment Contact">Contact</value>
   <value column="PrintName" original="Drop Shipment Contact">Drop Shipment Contact</value>
   <value column="Description" original="Business Partner Contact for drop shipment">Business Partner Contact for drop shipment</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
+  <value column="PO_Name" original="">Contact</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53461" trl="N">
@@ -33383,8 +33382,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54268" trl="N">
-  <value column="Name" original="Chart">Chart</value>
-  <value column="PrintName" original="Chart">Chart</value>
+  <value column="Name" original="Chart">Graphique</value>
+  <value column="PrintName" original="Chart">Graphique</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -33394,8 +33393,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54269" trl="N">
-  <value column="Name" original="Chart Datasource">Chart Datasource</value>
-  <value column="PrintName" original="Chart Datasource">Chart Datasource</value>
+  <value column="Name" original="Chart Datasource">Source de données du graphique</value>
+  <value column="PrintName" original="Chart Datasource">Source de données du graphique</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -48178,8 +48177,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201001" trl="N">
-  <value column="Name" original="bp_issalesrep">bp_issalesrep</value>
-  <value column="PrintName" original="bp_issalesrep">bp_issalesrep</value>
+  <value column="Name" original="bp_issalesrep">BP est commercial</value>
+  <value column="PrintName" original="bp_issalesrep">BP est commercial</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -51016,8 +51015,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201353" trl="N">
-  <value column="Name" original="m_product_m_attributeset_id">m_product_m_attributeset_id</value>
-  <value column="PrintName" original="m_product_m_attributeset_id">m_product_m_attributeset_id</value>
+  <value column="Name" original="Product Attribute Set">m_product_m_attributeset_id</value>
+  <value column="PrintName" original="Product Attribute Set">m_product_m_attributeset_id</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -58716,10 +58715,10 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202202" trl="N">
-  <value column="Name" original="Short list">Short list</value>
-  <value column="PrintName" original="Short list">Short list</value>
-  <value column="Description" original="This record is in the short list">This record is in the short list</value>
-  <value column="Help" original="The most used records could be set into the short list in order to be selected faster">The most used records could be set into the short list in order to be selected faster</value>
+  <value column="Name" original="Short list">Liste restreinte</value>
+  <value column="PrintName" original="Short list">Liste restreinte</value>
+  <value column="Description" original="This record is in the short list">Appartient à la liste de sélection réduite</value>
+  <value column="Help" original="The most used records could be set into the short list in order to be selected faster">Les éléments les plus fréquemment utilisés sont à classer en liste réduite afin d'être affichés et sélectionnés plus rapidement</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -59760,17 +59759,6 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="202541" trl="N">
-  <value column="Name" original="Document type for reversal">Document type for reversal</value>
-  <value column="PrintName" original="Doc type for reversal">Doc type for reversal</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
  <row id="202542" trl="N">
   <value column="Name" original="Table Index">Table Index</value>
   <value column="PrintName" original="Table Index">Table Index</value>
@@ -60025,8 +60013,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202575" trl="N">
-  <value column="Name" original="Access Advanced ">Access Advanced </value>
-  <value column="PrintName" original="Access Advanced ">Access Advanced </value>
+  <value column="Name" original="Access Advanced">Access Advanced </value>
+  <value column="PrintName" original="Access Advanced">Access Advanced </value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -60402,7 +60390,7 @@ Product: used to quickly add products to POS order</value>
   <value column="Name" original="Title Logic">Title Logic</value>
   <value column="PrintName" original="Title Logic">Title Logic</value>
   <value column="Description" original="The result determines the title to be displayed for this window">The result determines the title to be displayed for this window</value>
-  <value column="Help" original="The result determines the title to be displayed for this Window, used also as the label for Recent Items. &#10;Format is just one or several context variables surrounded by @, examples: &#10;@TaxID@ &#10;@DocumentNo@ &#10;@Value@ @Name@ &#10;if this field is left empty a default title/label is created using the DocumentNo, Value and Name fields if they exist.">The result determines the title to be displayed for this Window, used also as the label for Recent Items. 
+  <value column="Help" original="The result determines the title to be displayed for this Window, used also as the label for Recent Items.&#10;Format is just one or several context variables surrounded by @, examples:&#10;&lt;ul&gt;&#10;&lt;li&gt; @TaxID@&lt;/li&gt;&#10;&lt;li&gt; @DocumentNo@&lt;/li&gt;&#10;&lt;li&gt; @Value@ @Name@&lt;/li&gt;&#10;&lt;/ul&gt;&#10;if this field is left empty a default title/label is created using the DocumentNo, Value and Name fields if they exist.">The result determines the title to be displayed for this Window, used also as the label for Recent Items. 
 Format is just one or several context variables surrounded by @, examples: 
 @TaxID@ 
 @DocumentNo@ 
@@ -60550,7 +60538,7 @@ if this field is left empty a default title/label is created using the DocumentN
   <value column="Name" original="Zoom Logic">Zoom Logic</value>
   <value column="PrintName" original="Zoom Logic">Zoom Logic</value>
   <value column="Description" original="the result determines if the zoom condition is applied">the result determines if the zoom condition is applied</value>
-  <value column="Help" original="format := {expression} [{logic} {expression}]&lt;br&gt;  &#10;expression := @{context}@{operand}{value} or @{context}@{operand}{value}&lt;br&gt;  &#10;logic := {|}|{&amp;}&lt;br&gt; &#10;context := any global or window context &lt;br&gt; &#10;value := strings or numbers&lt;br&gt; &#10;logic operators&#9;:= AND or OR with the previous result from left to right &lt;br&gt; &#10;operand := eq{=}, gt{&amp;gt;}, le{&amp;lt;}, not{~^!} &lt;br&gt; &#10;Examples: &lt;br&gt; &#10;@AD_Table_ID@=14 | @Language@!GERGER &lt;br&gt; &#10;@PriceLimit@&gt;10 | @PriceList@&gt;@PriceActual@&lt;br&gt; &#10;@Name@&gt;J&lt;br&gt; &#10;Strings may be in single quotes (optional)" xml:space="preserve"><![CDATA[format := {expression} [{logic} {expression}]<br>  
+  <value column="Help" original="format := {expression} [{logic} {expression}]&lt;br&gt; &#10;expression := @{context}@{operand}{value} or @{context}@{operand}{value}&lt;br&gt; &#10;logic := {|}|{&amp;}&lt;br&gt;&#10;context := any global or window context &lt;br&gt;&#10;value := strings or numbers&lt;br&gt;&#10;logic operators&#9;:= AND or OR with the previous result from left to right &lt;br&gt;&#10;operand := eq{=}, gt{&amp;gt;}, le{&amp;lt;}, not{~^!} &lt;br&gt;&#10;Examples: &lt;br&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt; @AD_Table_ID@=14 | @Language@!GERGER&lt;/li&gt;&#10;&lt;li&gt; @PriceLimit@&gt;10 | @PriceList@&gt;@PriceActual@&lt;/li&gt;&#10;&lt;li&gt; @Name@&gt;J&lt;/li&gt;&#10;&lt;/ul&gt;&#10;Strings may be in single quotes (optional)" xml:space="preserve"><![CDATA[format := {expression} [{logic} {expression}]<br>  
 expression := @{context}@{operand}{value} or @{context}@{operand}{value}<br>  
 logic := {|}|{&}<br> 
 context := any global or window context <br> 
@@ -61440,6 +61428,17 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
+ <row id="202952" trl="N">
+  <value column="Name" original="AttributeSet Type">AttributeSet Type</value>
+  <value column="PrintName" original="AttributeSet Type">AttributeSet Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
  <row id="202958" trl="N">
   <value column="Name" original="Favourite">Raccourci</value>
   <value column="PrintName" original="Favourite">Raccourci</value>
@@ -61455,6 +61454,17 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="Name" original="Login automatic open sequence">Ordre d'ouverture</value>
   <value column="PrintName" original="Login automatic open sequence">Ordre d'ouverture</value>
   <value column="Description" original="Determine the order items will be automatically opened when user logs in">Détermine l'ordre dans lequel les éléments s'ouvrent quand l'utilisateur se connecte</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202974" trl="N">
+  <value column="Name" original="Tab Type">Tab Type</value>
+  <value column="PrintName" original="Tab Type">Tab Type</value>
+  <value column="Description" original="Defines Tab Type">Defines Tab Type</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -61682,6 +61692,17 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
+ <row id="203038" trl="N">
+  <value column="Name" original="Image Store">Image Store</value>
+  <value column="PrintName" original="Image Store">Image Store</value>
+  <value column="Description" original="Storage provider for Image">Storage provider for Image</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
  <row id="203056" trl="N">
   <value column="Name" original="Post-it">Post-it</value>
   <value column="PrintName" original="Post-it">Post-it</value>
@@ -61814,6 +61835,50 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
+ <row id="203084" trl="N">
+  <value column="Name" original="Favorite Tree">Favorite Tree</value>
+  <value column="PrintName" original="Favorite Tree">Favorite Tree</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203085" trl="N">
+  <value column="Name" original="Favorite Tree">Favorite Tree</value>
+  <value column="PrintName" original="Favorite Tree">Favorite Tree</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203086" trl="N">
+  <value column="Name" original="Favorite Node Tree">Favorite Node Tree</value>
+  <value column="PrintName" original="Favorite Node Tree">Favorite Node Tree</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203087" trl="N">
+  <value column="Name" original="Favorite Node Tree">Favorite Node Tree</value>
+  <value column="PrintName" original="Favorite Node Tree">Favorite Node Tree</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
  <row id="203117" trl="N">
   <value column="Name" original="Address 5">Adresse 5</value>
   <value column="PrintName" original="Address 5">Adresse 5</value>
@@ -61869,6 +61934,17 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
+ <row id="203123" trl="N">
+  <value column="Name" original="Print Attributes">Print Attributes</value>
+  <value column="PrintName" original="Print Attributes">Print Attributes</value>
+  <value column="Description" original="Print each attributes as report column instead of printing the description of attribute set instance">Print each attributes as report column instead of printing the description of attribute set instance</value>
+  <value column="Help" original="This control the printing of product attribute set instance. When checked, the report will have one column for each attribute instead of printing the description of attribute set instance.">This control the printing of product attribute set instance. When checked, the report will have one column for each attribute instead of printing the description of attribute set instance.</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
  <row id="203132" trl="N">
   <value column="Name" original="Workflow Activity Approver">Workflow Activity Approver</value>
   <value column="PrintName" original="Workflow Activity Approver">Workflow Activity Approver</value>
@@ -61891,6 +61967,72 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
+ <row id="203140" trl="N">
+  <value column="Name" original="Page break per record">Page break per record</value>
+  <value column="PrintName" original="Page break per record">Page break per record</value>
+  <value column="Description" original="Page Break after each record">Page Break after each record</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203142" trl="N">
+  <value column="Name" original="Quick Form">Quick Form</value>
+  <value column="PrintName" original="Quick Form">Quick Form</value>
+  <value column="Description" original="Display in Quick Form">Display in Quick Form</value>
+  <value column="Help" original="The field will be displayed in Quick Form for easy entry.">The field will be displayed in Quick Form for easy entry.</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203143" trl="N">
+  <value column="Name" original="User defined Process">AD_UserDef_Proc_ID</value>
+  <value column="PrintName" original="User defined Process">AD_UserDef_Proc_ID</value>
+  <value column="Description" original="Primary Key : User defined Process">Primary Key : User defined Process</value>
+  <value column="Help" original="Primary Key : User defined Process">Primary Key : User defined Process</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203144" trl="N">
+  <value column="Name" original="AD_UserDef_Proc_UU">AD_UserDef_Proc_UU</value>
+  <value column="PrintName" original="AD_UserDef_Proc_UU">AD_UserDef_Proc_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203145" trl="N">
+  <value column="Name" original="AD_UserDef_Proc_Parameter_ID">AD_UserDef_Proc_Parameter_ID</value>
+  <value column="PrintName" original="AD_UserDef_Proc_Parameter_ID">AD_UserDef_Proc_Parameter_ID</value>
+  <value column="Description" original="Primary Key : User defined Process Parameter">Primary Key : User defined Process Parameter</value>
+  <value column="Help" original="Primary Key : User defined Process Parameter">Primary Key : User defined Process Parameter</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203146" trl="N">
+  <value column="Name" original="AD_UserDef_Proc_Parameter_UU">AD_UserDef_Proc_Parameter_UU</value>
+  <value column="PrintName" original="AD_UserDef_Proc_Parameter_UU">AD_UserDef_Proc_Parameter_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
  <row id="203147" trl="N">
   <value column="Name" original="Preserve custom name">Conserver le nom modifié</value>
   <value column="PrintName" original="Preserve custom name">Conserver le nom modifié</value>
@@ -61902,11 +62044,11 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="203157" trl="N">
-  <value column="Name" original="Detailed Zoom Across">Detailed Zoom Across</value>
-  <value column="PrintName" original="Detailed Zoom Across">Detailed Zoom Across</value>
+ <row id="203157" trl="Y">
+  <value column="Name" original="Detailed Zoom Across">Zoom Across détaillé</value>
+  <value column="PrintName" original="Detailed Zoom Across">Zoom Across détaillé</value>
   <value column="Description" original=""/>
-  <value column="Help" original="The toolbar button zoom across discover where the record on screen is used on first tabs of windows.  With detailed zoom across it goes deeper in the discovery of relationships within detailed tabs.">The toolbar button zoom across discover where the record on screen is used on first tabs of windows.  With detailed zoom across it goes deeper in the discovery of relationships within detailed tabs.</value>
+  <value column="Help" original="The toolbar button zoom across discover where the record on screen is used on first tabs of windows.  With detailed zoom across it goes deeper in the discovery of relationships within detailed tabs.">Le bouton de la barre d'outils Zoom Across indique où l'enregistrement est utilisé en utilisant le premier onglet de chaque fenêtre. Avec cette fonctionnalité, la recherche se fait aussi sur les sous-onglets.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -62045,6 +62187,28 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
+ <row id="203210" trl="N">
+  <value column="Name" original="Print Header/Footer">Print Header/Footer</value>
+  <value column="PrintName" original="Print Header/Footer">Print Header/Footer</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203211" trl="N">
+  <value column="Name" original="AD_PrintHeaderFooter_UU">AD_PrintHeaderFooter_UU</value>
+  <value column="PrintName" original="AD_PrintHeaderFooter_UU">AD_PrintHeaderFooter_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
  <row id="203216" trl="N">
   <value column="Name" original="Input field validation">Input field validation</value>
   <value column="PrintName" original="Input field validation">Input field validation</value>
@@ -62060,6 +62224,17 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="Name" original="Color">Couleur</value>
   <value column="PrintName" original="Color">Couleur</value>
   <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203258" trl="N">
+  <value column="Name" original="Override Currency Conversion Rate">Override Currency Conversion Rate</value>
+  <value column="PrintName" original="Override Currency Conversion Rate">Override Currency Conversion Rate</value>
+  <value column="Description" original="Override Currency Conversion Rate">Override Currency Conversion Rate</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -62105,6 +62280,17 @@ Example this value = 60. user can't reuse password in history has age < 60
  <row id="203286" trl="N">
   <value column="Name" original="C_RevenueRecog_Service_UU">C_RevenueRecog_Service_UU</value>
   <value column="PrintName" original="C_RevenueRecog_Service_UU">C_RevenueRecog_Service_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203288" trl="N">
+  <value column="Name" original="One Payment Per Invoice">One Payment Per Invoice</value>
+  <value column="PrintName" original="One Payment Per Invoice">One Payment Per Invoice</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -62271,6 +62457,1480 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="Name" original="Report Output Type">Report Output Type</value>
   <value column="PrintName" original="Report Output Type">Report Output Type</value>
   <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203338" trl="N">
+  <value column="Name" original="Allow Advanced Lookup">Allow Advanced Lookup</value>
+  <value column="PrintName" original="Allow Advanced Lookup">Allow Advanced Lookup</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203339" trl="N">
+  <value column="Name" original="Lookup Only Selection Columns">Lookup Only Selection Columns</value>
+  <value column="PrintName" original="Lookup Only Selection Columns">Lookup Only Selection Columns</value>
+  <value column="Description" original="When defined to true Lookup panel will display only selection columns. Default to false.">When defined to true Lookup panel will display only selection columns. Default to false.</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203344" trl="N">
+  <value column="Name" original="Dynamic Validation (Lookup)">Dynamic Validation (Lookup)</value>
+  <value column="PrintName" original="Validation (Lookup)">Validation (Lookup)</value>
+  <value column="Description" original="Override Dynamic Validation Rule for Lookup Window">Override Dynamic Validation Rule for Lookup Window</value>
+  <value column="Help" original="For some situations the dynamic validation rule for a Lookup window should be different from user data entry window. ">For some situations the dynamic validation rule for a Lookup window should be different from user data entry window. </value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203345" trl="N">
+  <value column="Name" original="View find result">Mode fenêtre après une recherche</value>
+  <value column="PrintName" original="View find result">Mode fenêtre après une recherche</value>
+  <value column="Description" original="Does the system must switch to grid mode after the Find panel closes">Est-ce que le système doit passer en mode grille à la fermeture du panneau de recherche</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203346" trl="N">
+  <value column="Name" original="Threshold">Seuil</value>
+  <value column="PrintName" original="Threshold">Seuil</value>
+  <value column="Description" original="Force grid view when Find panel closes if number of records exceed threshold">Mode grille forcé si, à la fermeture du panneau de recherche,  le nombre d'enregistrements ramené dépasse le seuil</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203347" trl="N">
+  <value column="Name" original="Create Allocation">Créer affectation</value>
+  <value column="PrintName" original="Create Allocation">Créer affectation</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203348" trl="N">
+  <value column="Name" original="Related Invoice">Facture liée</value>
+  <value column="PrintName" original="Related Invoice">Facture liée</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203349" trl="N">
+  <value column="Name" original="Paging Size">Paging Size</value>
+  <value column="PrintName" original="Paging Size">Paging Size</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203350" trl="N">
+  <value column="Name" original="Convert Amounts in Currency">Convert Amounts in Currency</value>
+  <value column="PrintName" original="Convert Amounts in Currency">Convert Amounts in Currency</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203354" trl="N">
+  <value column="Name" original="PA_ReportLine_Trl_UU">PA_ReportLine_Trl_UU</value>
+  <value column="PrintName" original="PA_ReportLine_Trl_UU">PA_ReportLine_Trl_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203355" trl="N">
+  <value column="Name" original="PA_ReportColumn_Trl_UU">PA_ReportColumn_Trl_UU</value>
+  <value column="PrintName" original="PA_ReportColumn_Trl_UU">PA_ReportColumn_Trl_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203357" trl="N">
+  <value column="Name" original="Only positive balance">Only positive balance</value>
+  <value column="PrintName" original="Only positive balance">Only positive balance</value>
+  <value column="Description" original="Include only positive balance">Include only positive balance</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203363" trl="N">
+  <value column="Name" original="Referenced Match PO">Referenced Match PO</value>
+  <value column="PrintName" original="Referenced Match PO">Referenced Match PO</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203364" trl="N">
+  <value column="Name" original="Referenced Match Invoice">Referenced Match Invoice</value>
+  <value column="PrintName" original="Referenced Match Invoice">Referenced Match Invoice</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203365" trl="N">
+  <value column="Name" original="Allow Opposite Sign">Allow Opposite Sign</value>
+  <value column="PrintName" original="Allow Opposite Sign">Allow Opposite Sign</value>
+  <value column="Description" original="Allow column values to be displayed with the opposite sign">Allow column values to be displayed with the opposite sign</value>
+  <value column="Help" original="Allows values to be displayed with the opposite sign to the calculated value if the &quot;Show Opposite Sign&quot; flag is set on the Report Line. Note that all report calculations are performed before the sign is reversed.">Allows values to be displayed with the opposite sign to the calculated value if the "Show Opposite Sign" flag is set on the Report Line. Note that all report calculations are performed before the sign is reversed.</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203366" trl="N">
+  <value column="Name" original="Show Opposite Sign">Show Opposite Sign</value>
+  <value column="PrintName" original="Show Opposite Sign">Show Opposite Sign</value>
+  <value column="Description" original="Display values with the opposite sign">Display values with the opposite sign</value>
+  <value column="Help" original="Displays values for a Report Line with the opposite sign to the calculated value. The &quot;Allow Opposite Sign&quot; flag on Report Column must also be set for this to take effect. Note that all report calculations are performed before the sign is reversed.">Displays values for a Report Line with the opposite sign to the calculated value. The "Allow Opposite Sign" flag on Report Column must also be set for this to take effect. Note that all report calculations are performed before the sign is reversed.</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203368" trl="N">
+  <value column="Name" original="Scheduler State">Scheduler State</value>
+  <value column="PrintName" original="Scheduler State">Scheduler State</value>
+  <value column="Description" original="State of this scheduler record (not scheduled, started or stopped)">State of this scheduler record (not scheduled, started or stopped)</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203370" trl="N">
+  <value column="Name" original="Relative Period To">Relative Period To</value>
+  <value column="PrintName" original="Relative Period To">Relative Period To</value>
+  <value column="Description" original="Period offset (0 is current)">Period offset (0 is current)</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203371" trl="N">
+  <value column="Name" original="Overline Stroke Type">Overline Stroke Type</value>
+  <value column="PrintName" original="Overline Stroke Type">Overline Stroke Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203372" trl="N">
+  <value column="Name" original="Underline Stroke Type">Underline Stroke Type</value>
+  <value column="PrintName" original="Underline Stroke Type">Underline Stroke Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203380" trl="N">
+  <value column="Name" original="Col_21">Col_21</value>
+  <value column="PrintName" original="Col_21">Col_21</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203381" trl="N">
+  <value column="Name" original="Col_22">Col_22</value>
+  <value column="PrintName" original="Col_22">Col_22</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203382" trl="N">
+  <value column="Name" original="Col_23">Col_23</value>
+  <value column="PrintName" original="Col_23">Col_23</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203383" trl="N">
+  <value column="Name" original="Col_24">Col_24</value>
+  <value column="PrintName" original="Col_24">Col_24</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203384" trl="N">
+  <value column="Name" original="Col_25">Col_25</value>
+  <value column="PrintName" original="Col_25">Col_25</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203385" trl="N">
+  <value column="Name" original="Col_26">Col_26</value>
+  <value column="PrintName" original="Col_26">Col_26</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203386" trl="N">
+  <value column="Name" original="Col_27">Col_27</value>
+  <value column="PrintName" original="Col_27">Col_27</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203387" trl="N">
+  <value column="Name" original="Col_28">Col_28</value>
+  <value column="PrintName" original="Col_28">Col_28</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203388" trl="N">
+  <value column="Name" original="Col_29">Col_29</value>
+  <value column="PrintName" original="Col_29">Col_29</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203389" trl="N">
+  <value column="Name" original="Col_30">Col_30</value>
+  <value column="PrintName" original="Col_30">Col_30</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203396" trl="N">
+  <value column="Name" original="Group in show more">Group in show more</value>
+  <value column="PrintName" original="Group in show more">Group in show more</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203404" trl="N">
+  <value column="Name" original="Actual Storage Provider">Actual Storage Provider</value>
+  <value column="PrintName" original="Actual Storage Provider">Actual Storage Provider</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203405" trl="N">
+  <value column="Name" original="Migrate Attachment">Migrate Attachment</value>
+  <value column="PrintName" original="Migrate Attachment">Migrate Attachment</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203406" trl="N">
+  <value column="Name" original="Migrate Archive">Migrate Archive</value>
+  <value column="PrintName" original="Migrate Archive">Migrate Archive</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203407" trl="N">
+  <value column="Name" original="Migrate Image">Migrate Image</value>
+  <value column="PrintName" original="Migrate Image">Migrate Image</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203417" trl="N">
+  <value column="Name" original="Migration Script Comment">Migration Script Comment</value>
+  <value column="PrintName" original="Migration Script Comment">Migration Script Comment</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203419" trl="N">
+  <value column="Name" original="New Window">New Window</value>
+  <value column="PrintName" original="New Window">New Window</value>
+  <value column="Description" original="Defines if it creates a new window record or creates a new tab on an existing window">Defines if it creates a new window record or creates a new tab on an existing window</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203420" trl="N">
+  <value column="Name" original="Create Menu">Create Menu</value>
+  <value column="PrintName" original="Create Menu">Create Menu</value>
+  <value column="Description" original="Defines if it creates a new menu record for the new window">Defines if it creates a new menu record for the new window</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203422" trl="N">
+  <value column="Name" original="Create Window From Table">Create Window From Table</value>
+  <value column="PrintName" original="Create Window From Table">Create Window From Table</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203423" trl="N">
+  <value column="Name" original="Create Default Parameters">Create Default Parameters</value>
+  <value column="PrintName" original="Create Default Parameters">Create Default Parameters</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203424" trl="N">
+  <value column="Name" original="Are you sure?">Etes-vous certain ?</value>
+  <value column="PrintName" original="Are you sure?">Etes-vous certain ?</value>
+  <value column="Description" original="Confirmation request when doing dangerous actions.">Confirmation nécessaire pour une action dangereuse</value>
+  <value column="Help" original="Please confirm you understand the risk of the action you are taking.">Merci de confirmer que vous comprenez les risques liés à l'action que vous entreprenez</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203425" trl="N">
+  <value column="Name" original="Even with data?">Even with data?</value>
+  <value column="PrintName" original="Even with data?">Even with data?</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203426" trl="N">
+  <value column="Name" original="New Table Name">New Table Name</value>
+  <value column="PrintName" original="New Table Name">New Table Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203427" trl="N">
+  <value column="Name" original="New Column Name">New Column Name</value>
+  <value column="PrintName" original="New Column Name">New Column Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203433" trl="N">
+  <value column="Name" original="User defined Info Window">Panneau de recherche personnalisé</value>
+  <value column="PrintName" original="User Info Win">Panneau de recherche personnalisé</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203434" trl="N">
+  <value column="Name" original="User defined Info Column">User defined Info Column</value>
+  <value column="PrintName" original="User Info Column">User Info Column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203435" trl="N">
+  <value column="Name" original="User defined Info Related">User defined Info Related</value>
+  <value column="PrintName" original="User Info Related">User Info Related</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203436" trl="N">
+  <value column="Name" original="AD_UserDef_Info_UU">AD_UserDef_Info_UU</value>
+  <value column="PrintName" original="AD_UserDef_Info_UU">AD_UserDef_Info_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203437" trl="N">
+  <value column="Name" original="AD_UserDef_Info_Related_UU">AD_UserDef_Info_Related_UU</value>
+  <value column="PrintName" original="AD_UserDef_Info_Related_UU">AD_UserDef_Info_Related_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203438" trl="N">
+  <value column="Name" original="AD_UserDef_Info_Column_UU">AD_UserDef_Info_Column_UU</value>
+  <value column="PrintName" original="AD_UserDef_Info_Column_UU">AD_UserDef_Info_Column_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203439" trl="N">
+  <value column="Name" original="Ignore Current Vendor Flag">Ignore Current Vendor Flag</value>
+  <value column="PrintName" original="Ignore Current Vendor Flag">Ignore Current Vendor Flag</value>
+  <value column="Description" original="take all PO prices into account">take all PO prices into account</value>
+  <value column="Help" original="will use PO price even if it is not marked as current vendor">will use PO price even if it is not marked as current vendor</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203440" trl="N">
+  <value column="Name" original="Max Weight">Max Weight</value>
+  <value column="PrintName" original="Max Weight">Max Weight</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203441" trl="N">
+  <value column="Name" original="Max Dimension">Max Dimension</value>
+  <value column="PrintName" original="Max Dimension">Max Dimension</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203448" trl="N">
+  <value column="Name" original="Import/Export">Import/Export</value>
+  <value column="PrintName" original="Import/Export">Import/Export</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203449" trl="N">
+  <value column="Name" original="Only Centralized Data">Only Centralized Data</value>
+  <value column="PrintName" original="Only Centralized Data">Only Centralized Data</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203450" trl="N">
+  <value column="Name" original="Vendor Lead">Vendor Lead</value>
+  <value column="PrintName" original="Vendor Lead">Vendor Lead</value>
+  <value column="Description" original="This contact is a vendor lead">This contact is a vendor lead</value>
+  <value column="Help" original="Vendor leads can be converted into full contacts with Business Partners.">Vendor leads can be converted into full contacts with Business Partners.</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203451" trl="N">
+  <value column="Name" original="Customs Tariff Number">Customs Tariff Number</value>
+  <value column="PrintName" original="Customs Tariff Number">Customs Tariff Number</value>
+  <value column="Description" original="Customs Tariff Number, usually the HS-Code">Customs Tariff Number, usually the HS-Code</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203452" trl="N">
+  <value column="Name" original="Authorization Provider">Authorization Provider</value>
+  <value column="PrintName" original="Authorization Provider">Authorization Provider</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203453" trl="N">
+  <value column="Name" original="AD_AuthorizationProvider_UU">AD_AuthorizationProvider_UU</value>
+  <value column="PrintName" original="AD_AuthorizationProvider_UU">AD_AuthorizationProvider_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203454" trl="N">
+  <value column="Name" original="Authorization Endpoint">Authorization Endpoint</value>
+  <value column="PrintName" original="Authorization Endpoint">Authorization Endpoint</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203455" trl="N">
+  <value column="Name" original="Token Endpoint">Token Endpoint</value>
+  <value column="PrintName" original="Token Endpoint">Token Endpoint</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203456" trl="N">
+  <value column="Name" original="Revoke Endpoint">Revoke Endpoint</value>
+  <value column="PrintName" original="Revoke Endpoint">Revoke Endpoint</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203457" trl="N">
+  <value column="Name" original="Authorization Type">Authorization Type</value>
+  <value column="PrintName" original="Authorization Type">Authorization Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203458" trl="N">
+  <value column="Name" original="Authorization Scope Provider">Authorization Scope Provider</value>
+  <value column="PrintName" original="Authorization Scope Provider">Authorization Scope Provider</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203459" trl="N">
+  <value column="Name" original="AD_AuthorizationScopeProv_UU">AD_AuthorizationScopeProv_UU</value>
+  <value column="PrintName" original="AD_AuthorizationScopeProv_UU">AD_AuthorizationScopeProv_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203460" trl="N">
+  <value column="Name" original="Authorization Scope">Authorization Scope</value>
+  <value column="PrintName" original="Authorization Scope">Authorization Scope</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203461" trl="N">
+  <value column="Name" original="Scope URL">Scope URL</value>
+  <value column="PrintName" original="Scope URL">Scope URL</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203462" trl="N">
+  <value column="Name" original="Authorization Credential">Authorization Credential</value>
+  <value column="PrintName" original="Authorization Credential">Authorization Credential</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203463" trl="N">
+  <value column="Name" original="AD_AuthorizationCredential_UU">AD_AuthorizationCredential_UU</value>
+  <value column="PrintName" original="AD_AuthorizationCredential_UU">AD_AuthorizationCredential_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203464" trl="N">
+  <value column="Name" original="Authorization client-id">Authorization client-id</value>
+  <value column="PrintName" original="Authorization client-id">Authorization client-id</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203465" trl="N">
+  <value column="Name" original="Authorization client-secret">Authorization client-secret</value>
+  <value column="PrintName" original="Authorization client-secret">Authorization client-secret</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203466" trl="N">
+  <value column="Name" original="Authorization Redirect URL">Authorization Redirect URL</value>
+  <value column="PrintName" original="Authorization Redirect URL">Authorization Redirect URL</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203467" trl="N">
+  <value column="Name" original="Authorization Account">Authorization Account</value>
+  <value column="PrintName" original="Authorization Account">Authorization Account</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203468" trl="N">
+  <value column="Name" original="AD_AuthorizationAccount_UU">AD_AuthorizationAccount_UU</value>
+  <value column="PrintName" original="AD_AuthorizationAccount_UU">AD_AuthorizationAccount_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203469" trl="N">
+  <value column="Name" original="Access Token">Access Token</value>
+  <value column="PrintName" original="Access Token">Access Token</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203470" trl="N">
+  <value column="Name" original="Refresh Token">Refresh Token</value>
+  <value column="PrintName" original="Refresh Token">Refresh Token</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203471" trl="N">
+  <value column="Name" original="Expire in Seconds">Expire in Seconds</value>
+  <value column="PrintName" original="Expire in Seconds">Expire in Seconds</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203472" trl="N">
+  <value column="Name" original="Access Token Timestamp">Access Token Timestamp</value>
+  <value column="PrintName" original="Access Token Timestamp">Access Token Timestamp</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203473" trl="N">
+  <value column="Name" original="Authorized">Authorized</value>
+  <value column="PrintName" original="Authorized">Authorized</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203474" trl="N">
+  <value column="Name" original="Access Revoked">Access Revoked</value>
+  <value column="PrintName" original="Access Revoked">Access Revoked</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203475" trl="N">
+  <value column="Name" original="Predefined Context Variables">Predefined Context Variables</value>
+  <value column="PrintName" original="Predefined Context Variables">Predefined Context Variables</value>
+  <value column="Description" original="Predefined context variables to inject when opening a menu entry or a window">Predefined context variables to inject when opening a menu entry or a window</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203476" trl="N">
+  <value column="Name" original="Scope List">Scope List</value>
+  <value column="PrintName" original="Scope List">Scope List</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203477" trl="N">
+  <value column="Name" original="Open Authorization in Popup Window">Open Authorization in Popup Window</value>
+  <value column="PrintName" original="Open Authorization in Popup Window">Open Authorization in Popup Window</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203478" trl="N">
+  <value column="Name" original="Callback Answer">Callback Answer</value>
+  <value column="PrintName" original="Callback Answer">Callback Answer</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203480" trl="N">
+  <value column="Name" original="Import prefix">Import prefix</value>
+  <value column="PrintName" original="Import prefix">Import prefix</value>
+  <value column="Description" original="This prefix will be added in front of import string if they are not empty">This prefix will be added in front of import string if they are not empty</value>
+  <value column="Help" original="Use it e.g. when concatening input fields into one import field to add a blank">Use it e.g. when concatening input fields into one import field to add a blank</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203483" trl="N">
+  <value column="Name" original="Migrate Data">Migrate Data</value>
+  <value column="PrintName" original="Migrate Data">Migrate Data</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203484" trl="N">
+  <value column="Name" original="Upload">Upload</value>
+  <value column="PrintName" original="Upload">Upload</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203485" trl="N">
+  <value column="Name" original="Authorization Scopes">Authorization Scopes</value>
+  <value column="PrintName" original="Authorization Scopes">Authorization Scopes</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203486" trl="N">
+  <value column="Name" original="HTML Attachment Type">HTML Attachment Type</value>
+  <value column="PrintName" original="HTML Attachment Type">HTML Attachment Type</value>
+  <value column="Description" original="Define html email body processing behaviour. HTML Email body can be converted as attachment *.html file or parse images into attachment.">Define html email body processing behaviour. HTML Email body can be converted as attachment *.html file or parse images into attachment.</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203487" trl="N">
+  <value column="Name" original="MFA Registration">MFA Registration</value>
+  <value column="PrintName" original="MFA Registration">MFA Registration</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203488" trl="N">
+  <value column="Name" original="Validation Code">Validation Code</value>
+  <value column="PrintName" original="Validation Code">Validation Code</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203489" trl="N">
+  <value column="Name" original="Preferred">Preferred</value>
+  <value column="PrintName" original="Preferred">Preferred</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203490" trl="N">
+  <value column="Name" original="MFA Method">MFA Method</value>
+  <value column="PrintName" original="MFA Method">MFA Method</value>
+  <value column="Description" original="Multi-factor Authentication Method">Multi-factor Authentication Method</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203491" trl="N">
+  <value column="Name" original="MFA_Method_UU">MFA_Method_UU</value>
+  <value column="PrintName" original="MFA_Method_UU">MFA_Method_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203492" trl="N">
+  <value column="Name" original="MFA Type">MFA Type</value>
+  <value column="PrintName" original="MFA Type">MFA Type</value>
+  <value column="Description" original="Multi-factor authentication type (Something you Know/Have/Are, Location)">Multi-factor authentication type (Something you Know/Have/Are, Location)</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203493" trl="N">
+  <value column="Name" original="Issuer">Issuer</value>
+  <value column="PrintName" original="Issuer">Issuer</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203494" trl="N">
+  <value column="Name" original="Allowed Time Period Discrepancy">Allowed Time Period Discrepancy</value>
+  <value column="PrintName" original="Allowed Time Period Discrepancy">Allowed Time Period Discrepancy</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203495" trl="N">
+  <value column="Name" original="Time Provider">Time Provider</value>
+  <value column="PrintName" original="Time Provider">Time Provider</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203496" trl="N">
+  <value column="Name" original="Time Server">Time Server</value>
+  <value column="PrintName" original="Time Server">Time Server</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203497" trl="N">
+  <value column="Name" original="Expire in Minutes">Expire in Minutes</value>
+  <value column="PrintName" original="Expire in Minutes">Expire in Minutes</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203498" trl="N">
+  <value column="Name" original="Parameter Element">Parameter Element</value>
+  <value column="PrintName" original="Parameter Element">Parameter Element</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203499" trl="N">
+  <value column="Name" original="Revoke All">Revoke All</value>
+  <value column="PrintName" original="Revoke All">Revoke All</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203500" trl="N">
+  <value column="Name" original="MFA Registered Device">MFA Registered Device</value>
+  <value column="PrintName" original="MFA Registered Device">MFA Registered Device</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203501" trl="N">
+  <value column="Name" original="MFA_RegisteredDevice_UU">MFA_RegisteredDevice_UU</value>
+  <value column="PrintName" original="MFA_RegisteredDevice_UU">MFA_RegisteredDevice_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203502" trl="N">
+  <value column="Name" original="MFA Device Identifier">MFA Device Identifier</value>
+  <value column="PrintName" original="MFA Device Identifier">MFA Device Identifier</value>
+  <value column="Description" original="Multi-factor Authentication Device Identifier">Multi-factor Authentication Device Identifier</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203503" trl="N">
+  <value column="Name" original="MFA_Registration_UU">MFA_Registration_UU</value>
+  <value column="PrintName" original="MFA_Registration_UU">MFA_Registration_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203504" trl="N">
+  <value column="Name" original="MFA Secret">MFA Secret</value>
+  <value column="PrintName" original="MFA Secret">MFA Secret</value>
+  <value column="Description" original="Multi-factor Authentication Secret">Multi-factor Authentication Secret</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203505" trl="N">
+  <value column="Name" original="Validated at">Validated at</value>
+  <value column="PrintName" original="Validated at">Validated at</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203506" trl="N">
+  <value column="Name" original="Unregistered at">Unregistered at</value>
+  <value column="PrintName" original="Unregistered at">Unregistered at</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203507" trl="N">
+  <value column="Name" original="MFA Rule">MFA Rule</value>
+  <value column="PrintName" original="MFA Rule">MFA Rule</value>
+  <value column="Description" original="Multi-factor Authentication Rule">Multi-factor Authentication Rule</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203508" trl="N">
+  <value column="Name" original="MFA_Rule_UU">MFA_Rule_UU</value>
+  <value column="PrintName" original="MFA_Rule_UU">MFA_Rule_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203513" trl="N">
+  <value column="Name" original="Last Success">Last Success</value>
+  <value column="PrintName" original="Last Success">Last Success</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203514" trl="N">
+  <value column="Name" original="Last Failure">Last Failure</value>
+  <value column="PrintName" original="Last Failure">Last Failure</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203515" trl="N">
+  <value column="Name" original="Last MFA Secret">Last MFA Secret</value>
+  <value column="PrintName" original="Last MFA Secret">Last MFA Secret</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203516" trl="N">
+  <value column="Name" original="Auto Hide Empty Column">Auto Hide Empty Column</value>
+  <value column="PrintName" original="Auto Hide Empty Column">Auto Hide Empty Column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203519" trl="N">
+  <value column="Name" original="Document Status Access">Document Status Access</value>
+  <value column="PrintName" original="Document Status Access">Document Status Access</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203520" trl="N">
+  <value column="Name" original="PA_DocumentStatusAccess_UU">PA_DocumentStatusAccess_UU</value>
+  <value column="PrintName" original="PA_DocumentStatusAccess_UU">PA_DocumentStatusAccess_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203521" trl="N">
+  <value column="Name" original="Customization of the Wlistbox">Customization of the Wlistbox</value>
+  <value column="PrintName" original="Customization of the Wlistbox">Customization of the Wlistbox</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203522" trl="N">
+  <value column="Name" original="WlistboxName">WlistboxName</value>
+  <value column="PrintName" original="WlistboxName">WlistboxName</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203523" trl="N">
+  <value column="Name" original="AD_Wlistbox_Customization_UU">AD_Wlistbox_Customization_UU</value>
+  <value column="PrintName" original="AD_Wlistbox_Customization_UU">AD_Wlistbox_Customization_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203525" trl="N">
+  <value column="Name" original="SMTP Server">Serveur SMTP</value>
+  <value column="PrintName" original="SMTP Server">Serveur SMTP</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203526" trl="N">
+  <value column="Name" original="AD_SMTP_UU">AD_SMTP_UU</value>
+  <value column="PrintName" original="AD_SMTP_UU">AD_SMTP_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203527" trl="N">
+  <value column="Name" original="Used by email or domain">Utilisé par cette adresse courriel ou ce domaine</value>
+  <value column="PrintName" original="Used by email or domain">Utilisé par cette adresse courriel ou ce domaine</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203528" trl="N">
+  <value column="Name" original="Warehouse To">Warehouse To</value>
+  <value column="PrintName" original="Warehouse To">Warehouse To</value>
+  <value column="Description" original="To Storage Warehouse and Service Point">To Storage Warehouse and Service Point</value>
+  <value column="Help" original="The Warehouse To indicates the Warehouse where the inventory is being moved to">The Warehouse To indicates the Warehouse where the inventory is being moved to</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203533" trl="N">
+  <value column="Name" original="Exclude Adjustment Periods">Exclude Adjustment Periods</value>
+  <value column="PrintName" original="Exclude Adjustment Periods">Exclude Adjustment Periods</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203542" trl="N">
+  <value column="Name" original="Execution Code">Execution Code</value>
+  <value column="PrintName" original="Execution Code">Execution Code</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203543" trl="N">
+  <value column="Name" original="Allow Product Without Pricelist">Allow Product Without Pricelist</value>
+  <value column="PrintName" original="Allow Product Without Pricelist">Allow Product Without Pricelist</value>
+  <value column="Description" original=""/>
+  <value column="Help" original="Allow product without pricelist on this document type.">Allow product without pricelist on this document type.</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203546" trl="N">
+  <value column="Name" original="Storage Reservation Log">Storage Reservation Log</value>
+  <value column="PrintName" original="Storage Reservation Log">Storage Reservation Log</value>
+  <value column="Description" original="Log for every storage reservation quantity change">Log for every storage reservation quantity change</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203547" trl="N">
+  <value column="Name" original="M_StorageReservationLog_UU">M_StorageReservationLog_UU</value>
+  <value column="PrintName" original="M_StorageReservationLog_UU">M_StorageReservationLog_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203548" trl="N">
+  <value column="Name" original="Auto Produce">Auto Produce</value>
+  <value column="PrintName" original="Auto Produce">Auto Produce</value>
+  <value column="Description" original="Auto create production to fulfill shipment">Auto create production to fulfill shipment</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203549" trl="N">
+  <value column="Name" original="Is UNION ALL">Is UNION ALL</value>
+  <value column="PrintName" original="Is UNION ALL">Is UNION ALL</value>
+  <value column="Description" original="The component view is UNION ALL">The component view is UNION ALL</value>
+  <value column="Help" original="When this is set the component view is joined to the others using UNION ALL, otherwise just UNION">When this is set the component view is joined to the others using UNION ALL, otherwise just UNION</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203552" trl="N">
+  <value column="Name" original="Virtual Quantity">Virtual Quantity</value>
+  <value column="PrintName" original="Test Virtual Column (Quantity)">Test Virtual Column (Quantity)</value>
+  <value column="Description" original="Used only for testing purposes">Used only for testing purposes</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203554" trl="N">
+  <value column="Name" original="Reverse Prepare Payment">Reverse Prepare Payment</value>
+  <value column="PrintName" original="Reverse Prepare Payment">Reverse Prepare Payment</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203566" trl="N">
+  <value column="Name" original="Client Administrator">Administrateur société</value>
+  <value column="PrintName" original="Client Administrator">Administrateur société</value>
+  <value column="Description" original="This role is a client administrator">Ce rôle est un administrateur société</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>

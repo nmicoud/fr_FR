@@ -1,5 +1,96 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Process_Para">
+<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Process_Para">
+ <row id="133" trl="Y">
+  <value column="Name" original="Warehouse">Entrepôt</value>
+  <value column="Description" original="Storage Warehouse and Service Point"/>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">Endroit où sont stockés les articles ou sont fournis les services</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="134" trl="N">
+  <value column="Name" original="Movement Type">Movement Type</value>
+  <value column="Description" original="Method of moving the inventory">Method of moving the inventory</value>
+  <value column="Help" original="The Movement Type indicates the type of movement (in, out, to production, etc)">The Movement Type indicates the type of movement (in, out, to production, etc)</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="139" trl="N">
+  <value column="Name" original="Product">Article</value>
+  <value column="Description" original="Product, Service, Item"/>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="Business Partner ">Tiers</value>
+  <value column="Description" original="Identifies a Business Partner"/>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson" xml:space="preserve"><![CDATA[Un tiers est une entité avec laquelle vous êtes en affaire. <br>Il peut être client, fournisseur, salarié ou représentant]]></value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="163" trl="Y">
+  <value column="Name" original="Business Partner ">Tiers</value>
+  <value column="Description" original="Identifies a Business Partner"/>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson" xml:space="preserve"><![CDATA[Un tiers est une entité avec laquelle vous êtes en affaire. <br>Il peut être client, fournisseur, salarié ou représentant]]></value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="172" trl="Y">
+  <value column="Name" original="Business Partner ">Tiers</value>
+  <value column="Description" original="Identifies a Business Partner"/>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson" xml:space="preserve"><![CDATA[Un tiers est une entité avec laquelle vous êtes en affaire. <br>Il peut être client, fournisseur, salarié ou représentant]]></value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="174" trl="Y">
+  <value column="Name" original="Business Partner ">Tiers</value>
+  <value column="Description" original="Identifies a Business Partner"/>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson" xml:space="preserve"><![CDATA[Un tiers est une entité avec laquelle vous êtes en affaire. <br>Il peut être client, fournisseur, salarié ou représentant]]></value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="176" trl="Y">
+  <value column="Name" original="Business Partner ">Tiers</value>
+  <value column="Description" original="Identifies a Business Partner"/>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson" xml:space="preserve"><![CDATA[Un tiers est une entité avec laquelle vous êtes en affaire. <br>Il peut être client, fournisseur, salarié ou représentant]]></value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="178" trl="Y">
+  <value column="Name" original="Business Partner ">Tiers</value>
+  <value column="Description" original="Identifies a Business Partner"/>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson" xml:space="preserve"><![CDATA[Un tiers est une entité avec laquelle vous êtes en affaire. <br>Il peut être client, fournisseur, salarié ou représentant]]></value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="179" trl="Y">
+  <value column="Name" original="Product Category">Catégorie d'article</value>
+  <value column="Description" original="Category of a Product">Catégorie de l'article</value>
+  <value column="Help" original="Identifies the category which this product belongs to.  Product categories are used for pricing and selection."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="180" trl="N">
+  <value column="Name" original="Product">Article</value>
+  <value column="Description" original="Product, Service, Item"/>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="189" trl="Y">
+  <value column="Name" original="Product Category">Catégorie d'article</value>
+  <value column="Description" original="Category of a Product">Catégorie de l'article</value>
+  <value column="Help" original="Identifies the category which this product belongs to.  Product categories are used for pricing and selection."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="190" trl="Y">
+  <value column="Name" original="Business Partner ">Tiers</value>
+  <value column="Description" original="Identifies a Business Partner"/>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson" xml:space="preserve"><![CDATA[Un tiers est une entité avec laquelle vous êtes en affaire. <br>Il peut être client, fournisseur, salarié ou représentant]]></value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
  <row id="210" trl="Y">
   <value column="Name" original="Period Action">Action</value>
   <value column="Description" original="Action taken for this period"/>
@@ -18,6 +109,20 @@
   <value column="Name" original="Pricelist Version">Pricelist Version</value>
   <value column="Description" original="Only used if Price List is used to set future/standard cost price">Only used if Price List is used to set future/standard cost price</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="240" trl="Y">
+  <value column="Name" original="Business Partner ">Tiers</value>
+  <value column="Description" original="Identifies a Business Partner"/>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson" xml:space="preserve"><![CDATA[Un tiers est une entité avec laquelle vous êtes en affaire. <br>Il peut être client, fournisseur, salarié ou représentant]]></value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="241" trl="N">
+  <value column="Name" original="Product">Article</value>
+  <value column="Description" original="Product, Service, Item"/>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization."/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
@@ -515,6 +620,174 @@ this field define where request, error,.. occupy.</value>
  <row id="200226" trl="N">
   <value column="Name" original="Folder">Folder</value>
   <value column="Description" original="Path on the server where the pack in files are located">Path on the server where the pack in files are located</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200287" trl="N">
+  <value column="Name" original="Client">Client</value>
+  <value column="Description" original="Client/Tenant for this installation.">Client/Tenant for this installation.</value>
+  <value column="Help" original="A Client is a company or a legal entity. You cannot share data between Clients. Tenant is a synonym for Client.">A Client is a company or a legal entity. You cannot share data between Clients. Tenant is a synonym for Client.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200293" trl="N">
+  <value column="Name" original="Delete old/existing files">Delete old/existing files</value>
+  <value column="Description" original="Delete the records from the old storage provider after moved">Delete the records from the old storage provider after moved</value>
+  <value column="Help" original="WARNING!  This option cannot be rolled back!  Be cautious, take backups.  If not enabled, the system administrator can/must remove manually the old files from the previous storage provider later.">WARNING!  This option cannot be rolled back!  Be cautious, take backups.  If not enabled, the system administrator can/must remove manually the old files from the previous storage provider later.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200359" trl="N">
+  <value column="Name" original="Create 'Value' column">Create 'Value' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200360" trl="N">
+  <value column="Name" original="Create 'Name' column">Create 'Name' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200361" trl="N">
+  <value column="Name" original="Create KeyColumn">Create KeyColumn</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200362" trl="N">
+  <value column="Name" original="Create a Workflow">Create a Workflow</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200363" trl="N">
+  <value column="Name" original="Create a Translation Table">Create a Translation Table</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200364" trl="N">
+  <value column="Name" original="Create 'Description' column">Create 'Description' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200365" trl="N">
+  <value column="Name" original="Create 'Help' column">Create 'Help' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200366" trl="N">
+  <value column="Name" original="Create 'DocumentNo' column">Create 'DocumentNo' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200367" trl="N">
+  <value column="Name" original="Create 'DocAction' column">Create 'DocAction' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200368" trl="N">
+  <value column="Name" original="Create 'DocStatus' column">Create 'DocStatus' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200369" trl="N">
+  <value column="Name" original="Create 'Processed' column">Create 'Processed' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200370" trl="N">
+  <value column="Name" original="Create 'ProcessedOn' column">Create 'ProcessedOn' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200371" trl="N">
+  <value column="Name" original="Create 'Processing' column">Create 'Processing' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200372" trl="N">
+  <value column="Name" original="Create 'C_DocTypeTarget_ID' column">Create 'C_DocTypeTarget_ID' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200373" trl="N">
+  <value column="Name" original="Create 'C_DocType_ID' column">Create 'C_DocType_ID' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200374" trl="N">
+  <value column="Name" original="Create 'C_Currency_ID' column">Create 'C_Currency_ID' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200375" trl="N">
+  <value column="Name" original="Create 'DateTrx' column">Create 'DateTrx' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200376" trl="N">
+  <value column="Name" original="Create 'DateAcct' column">Create 'DateAcct' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200377" trl="N">
+  <value column="Name" original="Create 'Posted' column">Create 'Posted' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200378" trl="N">
+  <value column="Name" original="Create 'IsApproved' column">Create 'IsApproved' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200379" trl="N">
+  <value column="Name" original="Create 'SalesRep_ID' column">Create 'SalesRep_ID' column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200380" trl="N">
+  <value column="Name" original="Create 'AD_User_ID' column">Create 'AD_User_ID' column</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>

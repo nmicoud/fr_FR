@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Form">
+<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Form">
  <row id="100" trl="Y">
   <value column="Name" original="Generate Invoices (manual)">Générer les factures (manuel)</value>
   <value column="Description" original="Select and generate invoices">Sélection des commandes à facturer</value>
@@ -40,11 +40,6 @@
   <value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices">Match Purchase Orders, Receipts, Vendor Invoices</value>
   <value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected.">Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that "Same Quantity" is not selected.</value>
  </row>
- <row id="109" trl="N">
-  <value column="Name" original="Translation Import/Export">Translation Import/Export</value>
-  <value column="Description" original="Import or Export Language Translation">Import or Export Language Translation</value>
-  <value column="Help" original="Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage.">Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage.</value>
- </row>
  <row id="110" trl="Y">
   <value column="Name" original="Generate Shipments (manual)">Générer les expéditions (manuel)</value>
   <value column="Description" original="Select and generate shipments"/>
@@ -77,7 +72,7 @@ The From entity (e.g. Customer A) is deleted.
  </row>
  <row id="115" trl="Y">
   <value column="Name" original="Tree Maintenance">Arborescences et noeuds</value>
-  <value column="Description" original="Maintain Trees">Gestion des noeuds des arbprescences</value>
+  <value column="Description" original="Maintain Trees">Gestion des noeuds des arborescences</value>
   <value column="Help" original="View and change trees. Maintain the entries in their specific Windows."/>
  </row>
  <row id="116" trl="N">
@@ -207,8 +202,8 @@ Selecting the "Where Used" check box will display the BOMs that this product is 
   <value column="Help" original=""/>
  </row>
  <row id="200001" trl="N">
-  <value column="Name" original="Reset Password">Reset Password</value>
-  <value column="Description" original="Reset Password">Reset Password</value>
+  <value column="Name" original="Reset Password">Réinitialisation mot de passe</value>
+  <value column="Description" original="Reset Password"/>
   <value column="Help" original=""/>
  </row>
  <row id="200002" trl="N">
@@ -217,7 +212,7 @@ Selecting the "Where Used" check box will display the BOMs that this product is 
   <value column="Help" original=""/>
  </row>
  <row id="200005" trl="N">
-  <value column="Name" original="Tab Editor">Tab Editor</value>
+  <value column="Name" original="Tab Editor">Editeur d'onglet</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -249,6 +244,21 @@ Selecting the "Where Used" check box will display the BOMs that this product is 
  <row id="200012" trl="N">
   <value column="Name" original="Apache Felix Web Console">Apache Felix Web Console</value>
   <value column="Description" original="Form to configure access to /osgi/system/console - do not add to menu">Form to configure access to /osgi/system/console - do not add to menu</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200015" trl="N">
+  <value column="Name" original="Plugin Manager">Plugin Manager</value>
+  <value column="Description" original="Plugin Manager">Plugin Manager</value>
+  <value column="Help" original="Plugin Manager">Plugin Manager</value>
+ </row>
+ <row id="200016" trl="N">
+  <value column="Name" original="Add Authorization Mail Account">Add Authorization Mail Account</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200017" trl="N">
+  <value column="Name" original="Register MFA">Register MFA</value>
+  <value column="Description" original="Register a multi-factor authentication mechanism">Register a multi-factor authentication mechanism</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

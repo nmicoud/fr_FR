@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Window">
+<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Window">
  <row id="100" trl="N">
   <value column="Name" original="Table and Column">Table and Column</value>
   <value column="Description" original="Maintain Tables and Columns">Maintain Tables and Columns</value>
@@ -1067,11 +1067,6 @@ Accounting Segments like Organization, Account, Product may have several hierarc
   <value column="Description" original="Define Info and search/select Window">Define Info and search/select Window</value>
   <value column="Help" original="The Info window is used to search and select records as well as display information relevant to the selection.">The Info window is used to search and select records as well as display information relevant to the selection.</value>
  </row>
- <row id="389" trl="N">
-  <value column="Name" original="LDAP Server">LDAP Server</value>
-  <value column="Description" original="LDAP Server to authenticate and authorize external systems based on iDempiere">LDAP Server to authenticate and authorize external systems based on Adempiere</value>
-  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per Adempiere system.  The "o" is the Client key and the optional "ou" is the Interest Area key.</value>
- </row>
  <row id="50001" trl="N">
   <value column="Name" original="Packages Installed">Packages Installed</value>
   <value column="Description" original="List of packages installed">List of packages installed</value>
@@ -1122,8 +1117,8 @@ A Specific production facility consisting of one or more people and/or machines 
   <value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.</value>
  </row>
  <row id="53006" trl="N">
-  <value column="Name" original="Bill of Materials &amp; Formula " xml:space="preserve"><![CDATA[Bill of Materials & Formula ]]></value>
-  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula " xml:space="preserve"><![CDATA[Maintain Product Bill of Materials & Formula ]]></value>
+  <value column="Name" original="Bill of Materials &amp; Formula" xml:space="preserve"><![CDATA[Bill of Materials & Formula ]]></value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula" xml:space="preserve"><![CDATA[Maintain Product Bill of Materials & Formula ]]></value>
   <value column="Help" original="It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called &quot;formula&quot;, &quot;recipe&quot;, &quot;ingredients list&quot; in certain industries.&#10;It answers the question, what are the components of the product?">It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called "formula", "recipe", "ingredients list" in certain industries.
 It answers the question, what are the components of the product?</value>
  </row>
@@ -1296,11 +1291,6 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53057" trl="N">
-  <value column="Name" original="Depreciation Period Spread Type">Depreciation Period Spread Type</value>
-  <value column="Description" original="Period Spread Type">Period Spread Type</value>
-  <value column="Help" original="The Period Spread Type window allows you to setup and review depreciation spread by period">The Period Spread Type window allows you to setup and review depreciation spread by period</value>
- </row>
  <row id="53058" trl="N">
   <value column="Name" original="Depreciation Methods">Depreciation Methods</value>
   <value column="Description" original="Depreciation Methods">Depreciation Methods</value>
@@ -1453,8 +1443,8 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="53124" trl="N">
-  <value column="Name" original="Chart">Chart</value>
-  <value column="Description" original="Chart Definition">Chart Definition</value>
+  <value column="Name" original="Chart">Graphiques</value>
+  <value column="Description" original="Chart Definition">Paramétrage des graphiques</value>
   <value column="Help" original=""/>
  </row>
  <row id="53125" trl="N">
@@ -1495,7 +1485,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53153" trl="N">
   <value column="Name" original="Lead">Lead</value>
   <value column="Description" original="Maintain Leads">Maintain Leads</value>
-  <value column="Help" original="The Lead Window allows you to maintain Sales Leads.  These are unqualified contacts to who you wish to market to. ">The Lead Window allows you to maintain Sales Leads.  These are unqualified contacts to who you wish to market to. </value>
+  <value column="Help" original="The Lead Window allows you to maintain Leads (can be Sales or Purchase). These are unqualified contacts to who you wish to recruit or market to. ">The Lead Window allows you to maintain Sales Leads.  These are unqualified contacts to who you wish to market to. </value>
  </row>
  <row id="53154" trl="N">
   <value column="Name" original="Sales Stage">Sales Stage</value>
@@ -1688,7 +1678,7 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="200061" trl="N">
-  <value column="Name" original="Country Group">Country Group</value>
+  <value column="Name" original="Country Group">Groupes de pays</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1704,11 +1694,6 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="200074" trl="N">
   <value column="Name" original="Locator Type">Locator Type</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="200083" trl="N">
-  <value column="Name" original="Menu favourites">Menu favourites</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1747,6 +1732,16 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original="Users from All Clients">Users from All Clients</value>
   <value column="Help" original=""/>
  </row>
+ <row id="200095" trl="N">
+  <value column="Name" original="Process Customization">User defined Process</value>
+  <value column="Description" original="Define Process Customization for Role/User">User defined Process</value>
+  <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">User defined Process</value>
+ </row>
+ <row id="200100" trl="N">
+  <value column="Name" original="Print Header/Footer">Print Header/Footer</value>
+  <value column="Description" original="Maintain Print Header/Footer">Maintain Print Header/Footer</value>
+  <value column="Help" original=""/>
+ </row>
  <row id="200107" trl="N">
   <value column="Name" original="All User Roles">All User Roles</value>
   <value column="Description" original=""/>
@@ -1755,6 +1750,66 @@ MRP - 110	 No exists Dem</value>
  <row id="200108" trl="N">
   <value column="Name" original="All Roles">All Roles</value>
   <value column="Description" original="Roles from All Clients">Roles from All Clients</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200109" trl="N">
+  <value column="Name" original="User Queries">User Queries</value>
+  <value column="Description" original="View and maintain saved queries">View and maintain saved queries</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200110" trl="N">
+  <value column="Name" original="Info Window Customization">Info Window Customization</value>
+  <value column="Description" original="Define Info Window Customization for Role/User">Define Info Window Customization for Role/User</value>
+  <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">The customization values defined here overwrite/replace the default system definition if defined.</value>
+ </row>
+ <row id="200111" trl="N">
+  <value column="Name" original="Menu user favourites">Menu user favourites</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200112" trl="N">
+  <value column="Name" original="Authorization Provider">Authorization Provider</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200113" trl="N">
+  <value column="Name" original="Authorization Credential">Authorization Credential</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200114" trl="N">
+  <value column="Name" original="MFA Method">MFA Method</value>
+  <value column="Description" original="Multi-factor Authentication Method">Multi-factor Authentication Method</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200115" trl="N">
+  <value column="Name" original="MFA Registered Device">MFA Registered Device</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200116" trl="N">
+  <value column="Name" original="MFA Registration">MFA Registration</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200117" trl="N">
+  <value column="Name" original="MFA Rule">MFA Rule</value>
+  <value column="Description" original="Multi-factor Authentication Rule">Multi-factor Authentication Rule</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200118" trl="N">
+  <value column="Name" original="SMTP Server">Serveurs SMTP</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200119" trl="N">
+  <value column="Name" original="Customization of the Wlistbox">Customization of the Wlistbox</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200120" trl="N">
+  <value column="Name" original="Client level messages">Messages niveau société</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

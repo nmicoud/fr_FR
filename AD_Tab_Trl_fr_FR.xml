@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Tab">
+<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Tab">
  <row id="100" trl="N">
   <value column="Name" original="Table">Table</value>
   <value column="CommitWarning" original=""/>
@@ -130,7 +130,7 @@
   <value column="Name" original="Node">Node</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define workflow nodes">Define workflow nodes</value>
-  <value column="Help" original="The Node Tab defines each Node, Activity or step in this Workflow.&lt;br&gt;&#10;The action (actibity) type determines the execution: &quot;Route&quot; may be used in routing control conditions.  &quot;None&quot; identifies manual execution." xml:space="preserve"><![CDATA[The Node Tab defines each Node, Activity or step in this Workflow.<br>
+  <value column="Help" original="The Node Tab defines each Node, Activity or step in this Workflow.&lt;br&gt;&#10;The action (activity) type determines the execution: &quot;Route&quot; may be used in routing control conditions.  &quot;None&quot; identifies manual execution." xml:space="preserve"><![CDATA[The Node Tab defines each Node, Activity or step in this Workflow.<br>
 The action (actibity) type determines the execution: "Route" may be used in routing control conditions.  "None" identifies manual execution.]]></value>
  </row>
  <row id="123" trl="N">
@@ -995,26 +995,6 @@ H_ItemClass => Classification (A,B,C..)
 V_OperAmt_T_Cur => Currency
 V_OperAmt_T => Price 
 </pre>]]></value>
- </row>
- <row id="317" trl="N">
-  <value column="Name" original="Bill of Materials">Bill of Materials</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Bill of Material product lines">Bill of Material product lines</value>
-  <value column="Help" original="The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.&#10;&#10;Available Quantity:&#10;- Stored BOMs have to be created via &quot;Production&quot;&#10;- The available quantity of a non-stored BOMs is dynamically calculated&#10;- The attribute &quot;Stored&quot; is defined in the &quot;Product&quot; tab&#10;&#10;Price:&#10;- BOMs must be listed in Pricelists&#10;- If the price is 0.00, the price is dynamically calculated&#10;&#10;Printing:&#10;- Usually, only the BOM information is printed&#10;- For invoices, delivery slips and pick lists, you have the option to print the details&#10;- In the details, the quantity is listed - and the price, if this is dynamically calculated">The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.
-
-Available Quantity:
-- Stored BOMs have to be created via "Production"
-- The available quantity of a non-stored BOMs is dynamically calculated
-- The attribute "Stored" is defined in the "Product" tab
-
-Price:
-- BOMs must be listed in Pricelists
-- If the price is 0.00, the price is dynamically calculated
-
-Printing:
-- Usually, only the BOM information is printed
-- For invoices, delivery slips and pick lists, you have the option to print the details
-- In the details, the quantity is listed - and the price, if this is dynamically calculated</value>
  </row>
  <row id="319" trl="N">
   <value column="Name" original="Production Header">Production Header</value>
@@ -4896,12 +4876,6 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Description" original="Setup for Group Accounts">Setup for Group Accounts</value>
   <value column="Help" original="">Setup of Group Accounts allows the user to set the default values for a particular asset group.  If  "Use as defaults" on this tab is checked then the predefined values on this tab will be populated in the appropriate fields for an individual asset.</value>
  </row>
- <row id="53170" trl="N">
-  <value column="Name" original="Period Spread Type">Period Spread Type</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
  <row id="53171" trl="N">
   <value column="Name" original="Depreciation Functions">Depreciation Functions</value>
   <value column="CommitWarning" original=""/>
@@ -5256,6 +5230,32 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="53286" trl="Y">
+  <value column="Name" original="BOM">Nomenclature</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Bill of Material product lines">Nomenclature de l'article</value>
+  <value column="Help" original="The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.&#10;&#10;Available Quantity:&#10;- Stored BOMs have to be created via &quot;Production&quot;&#10;- The available quantity of a non-stored BOMs is dynamically calculated&#10;- The attribute &quot;Stored&quot; is defined in the &quot;Product&quot; tab&#10;&#10;Price:&#10;- BOMs must be listed in Pricelists&#10;- If the price is 0.00, the price is dynamically calculated&#10;&#10;Printing:&#10;- Usually, only the BOM information is printed&#10;- For invoices, delivery slips and pick lists, you have the option to print the details&#10;- In the details, the quantity is listed - and the price, if this is dynamically calculated">The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.
+
+Available Quantity:
+- Stored BOMs have to be created via "Production"
+- The available quantity of a non-stored BOMs is dynamically calculated
+- The attribute "Stored" is defined in the "Product" tab
+
+Price:
+- BOMs must be listed in Pricelists
+- If the price is 0.00, the price is dynamically calculated
+
+Printing:
+- Usually, only the BOM information is printed
+- For invoices, delivery slips and pick lists, you have the option to print the details
+- In the details, the quantity is listed - and the price, if this is dynamically calculated</value>
+ </row>
+ <row id="53287" trl="N">
+  <value column="Name" original="Components">Components</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Components">Components</value>
+  <value column="Help" original="Components of Bill fo Material">Components of Bill fo Material</value>
+ </row>
  <row id="53289" trl="N">
   <value column="Name" original="Costs">Costs</value>
   <value column="CommitWarning" original=""/>
@@ -5383,7 +5383,7 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="53340" trl="N">
-  <value column="Name" original="Datasource">Datasource</value>
+  <value column="Name" original="Datasource">Source(s) de données</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6175,7 +6175,7 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="200132" trl="N">
-  <value column="Name" original="Translation">Translation</value>
+  <value column="Name" original="Translation">Traduction</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6366,6 +6366,24 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="200234" trl="N">
+  <value column="Name" original="Process Customization">User defined Process</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="User defined Process">User defined Process</value>
+  <value column="Help" original="User defined Process">User defined Process</value>
+ </row>
+ <row id="200235" trl="N">
+  <value column="Name" original="User defined Process Parameter">User defined Process Parameter</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="User defined Process Parameter">User defined Process Parameter</value>
+  <value column="Help" original="User defined Process Parameter">User defined Process Parameter</value>
+ </row>
+ <row id="200249" trl="N">
+  <value column="Name" original="Print Header/Footer">Print Header/Footer</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="200262" trl="N">
   <value column="Name" original="User Roles">User Roles</value>
   <value column="CommitWarning" original=""/>
@@ -6392,6 +6410,156 @@ Valid From/To is determined by the parent tax.]]></value>
  </row>
  <row id="200266" trl="N">
   <value column="Name" original="User Roles">User Roles</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200269" trl="N">
+  <value column="Name" original="Used in Column (Lookup)">Used in Column (Lookup)</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Used in Column (Lookup)">Used in Column (Lookup)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200271" trl="N">
+  <value column="Name" original="Translation">Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200272" trl="N">
+  <value column="Name" original="Translation">Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200275" trl="N">
+  <value column="Name" original="User Queries">User Queries</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="View and maintain saved queries">View and maintain saved queries</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200279" trl="N">
+  <value column="Name" original="Column Customization">Column Customization</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200280" trl="N">
+  <value column="Name" original="Info Window Customization">Info Window Customization</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200281" trl="N">
+  <value column="Name" original="Related Customization">Related Customization</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200282" trl="N">
+  <value column="Name" original="User favourite tree">User favourite tree</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="In this tab, you can see to manage user and role wise favourite tree references">In this tab, you can see to manage user and role wise favourite tree references</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200283" trl="N">
+  <value column="Name" original="Favorite tree node">Favorite tree node</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200284" trl="N">
+  <value column="Name" original="Authorization Provider">Authorization Provider</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200285" trl="N">
+  <value column="Name" original="Authorization Scope Provider">Authorization Scope Provider</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200286" trl="N">
+  <value column="Name" original="Authorization Credential">Authorization Credential</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200287" trl="N">
+  <value column="Name" original="Authorization Account">Authorization Account</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200288" trl="N">
+  <value column="Name" original="MFA Method">MFA Method</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Multi-factor Authentication Method">Multi-factor Authentication Method</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200289" trl="N">
+  <value column="Name" original="MFA Registered Device">MFA Registered Device</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200290" trl="N">
+  <value column="Name" original="MFA Registration">MFA Registration</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200291" trl="N">
+  <value column="Name" original="MFA Rule">MFA Rule</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Multi-factor Authentication Rule">Multi-factor Authentication Rule</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200295" trl="N">
+  <value column="Name" original="Document Status Access">Document Status Access</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200296" trl="N">
+  <value column="Name" original="Document Status Access">Document Status Access</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200297" trl="N">
+  <value column="Name" original="Document Status Access">Document Status Access</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200298" trl="N">
+  <value column="Name" original="SMTP Server">Serveurs SMTP</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200299" trl="N">
+  <value column="Name" original="Customization of the Wlistbox">Customization of the Wlistbox</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200300" trl="N">
+  <value column="Name" original="Reserved Quantity Log">Reserved Quantity Log</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200301" trl="N">
+  <value column="Name" original="Ordered Quantity Log">Ordered Quantity Log</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200302" trl="N">
+  <value column="Name" original="Client level messages">Messages niveau société</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
