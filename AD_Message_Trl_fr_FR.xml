@@ -137,7 +137,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="135" trl="Y">
-  <value column="MsgText" original="Advanced" xml:space="preserve"><![CDATA[&Avancée]]></value>
+  <value column="MsgText" original="Advanced">Avancée</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="136" trl="N">
@@ -261,7 +261,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="166" trl="Y">
-  <value column="MsgText" original="Cancel" xml:space="preserve"><![CDATA[&Annuler]]></value>
+  <value column="MsgText" original="Cancel">Annuler</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="167" trl="Y">
@@ -350,7 +350,7 @@ Please change Cashbook only after completion of transaction</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="188" trl="Y">
-  <value column="MsgText" original="Copy Record" xml:space="preserve"><![CDATA[&Copier]]></value>
+  <value column="MsgText" original="Copy Record">Copier</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="189" trl="N">
@@ -455,7 +455,7 @@ Continue?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="214" trl="N">
-  <value column="MsgText" original="Delete Record" xml:space="preserve"><![CDATA[&Supprimer l'enregistrement]]></value>
+  <value column="MsgText" original="Delete Record">Supprimer l'enregistrement</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="215" trl="N">
@@ -535,7 +535,7 @@ Continue?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="234" trl="Y">
-  <value column="MsgText" original="Edit" xml:space="preserve"><![CDATA[&Edition]]></value>
+  <value column="MsgText" original="Edit">Edition</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="235" trl="Y">
@@ -579,7 +579,7 @@ Continue?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="245" trl="Y">
-  <value column="MsgText" original="Expand Tree" xml:space="preserve"><![CDATA[&Développer/Réduire le menu]]></value>
+  <value column="MsgText" original="Expand Tree">Développer/Réduire le menu</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="246" trl="N">
@@ -611,7 +611,7 @@ Continue?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="253" trl="Y">
-  <value column="MsgText" original="File" xml:space="preserve"><![CDATA[&Fichier]]></value>
+  <value column="MsgText" original="File">Fichier</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="254" trl="N">
@@ -679,7 +679,7 @@ Continue?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="270" trl="Y">
-  <value column="MsgText" original="Lookup Record" xml:space="preserve"><![CDATA[&Rechercher]]></value>
+  <value column="MsgText" original="Lookup Record">Rechercher</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="271" trl="N">
@@ -771,7 +771,7 @@ Continue?</value>
   <value column="MsgTip" original="">Filtre les enregistrements sur leur date de création</value>
  </row>
  <row id="293" trl="N">
-  <value column="MsgText" original="Home" xml:space="preserve"><![CDATA[&Home]]></value>
+  <value column="MsgText" original="Home">Home</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="294" trl="N">
@@ -779,7 +779,7 @@ Continue?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="295" trl="Y">
-  <value column="MsgText" original="Undo Changes" xml:space="preserve"><![CDATA[&Restaurer]]></value>
+  <value column="MsgText" original="Undo Changes">Restaurer</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="296" trl="N">
@@ -931,7 +931,7 @@ Continue?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="334" trl="N">
-  <value column="MsgText" original="Menu" xml:space="preserve"><![CDATA[&Menu]]></value>
+  <value column="MsgText" original="Menu">Menu</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="335" trl="N">
@@ -969,7 +969,7 @@ Problème : </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="343" trl="Y">
-  <value column="MsgText" original="Name" xml:space="preserve"><![CDATA[&Nom]]></value>
+  <value column="MsgText" original="Name">Nom</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="344" trl="N">
@@ -985,7 +985,7 @@ Problème : </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="347" trl="Y">
-  <value column="MsgText" original="New" xml:space="preserve"><![CDATA[&Nouvel enregistrement]]></value>
+  <value column="MsgText" original="New">Nouvel enregistrement</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="348" trl="N">
@@ -1061,7 +1061,7 @@ Problème : </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="366" trl="N">
-  <value column="MsgText" original="OK" xml:space="preserve"><![CDATA[&OK]]></value>
+  <value column="MsgText" original="OK">OK</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="367" trl="N">
@@ -1298,7 +1298,7 @@ Enter the payment after completing the transaction</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="425" trl="Y">
-  <value column="MsgText" original="Print" xml:space="preserve"><![CDATA[&Imprimer]]></value>
+  <value column="MsgText" original="Print">Imprimer</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="426" trl="N">
@@ -1595,7 +1595,7 @@ Details: </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="497" trl="Y">
-  <value column="MsgText" original="Save Changes" xml:space="preserve"><![CDATA[&Sauvegarder]]></value>
+  <value column="MsgText" original="Save Changes">Sauvegarder</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="498" trl="Y">
@@ -1875,7 +1875,7 @@ Details: </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="567" trl="Y">
-  <value column="MsgText" original="Tools" xml:space="preserve"><![CDATA[&Outils]]></value>
+  <value column="MsgText" original="Tools">Outils</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="568" trl="N">
@@ -1977,7 +1977,7 @@ Si non, le règlement n'est pas créé (ne pas imprimer)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="592" trl="Y">
-  <value column="MsgText" original="Key" xml:space="preserve"><![CDATA[&Clé]]></value>
+  <value column="MsgText" original="Key">Clé</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="593" trl="Y">
@@ -2005,7 +2005,7 @@ Si non, le règlement n'est pas créé (ne pas imprimer)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="599" trl="Y">
-  <value column="MsgText" original="View" xml:space="preserve"><![CDATA[&Vues]]></value>
+  <value column="MsgText" original="View">Vues</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="600" trl="N">
@@ -2057,7 +2057,7 @@ Si non, le règlement n'est pas créé (ne pas imprimer)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="612" trl="Y">
-  <value column="MsgText" original="Warehouse" xml:space="preserve"><![CDATA[&Entrepôt]]></value>
+  <value column="MsgText" original="Warehouse">Entrepôt</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="613" trl="Y">
@@ -2081,7 +2081,7 @@ Si non, le règlement n'est pas créé (ne pas imprimer)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="618" trl="N">
-  <value column="MsgText" original="Zoom" xml:space="preserve"><![CDATA[&Zoom]]></value>
+  <value column="MsgText" original="Zoom">Zoom</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="619" trl="N">
@@ -2615,7 +2615,7 @@ Thank you for using Adempiere Customer Asset Management
   <value column="MsgTip" original=""/>
  </row>
  <row id="759" trl="Y">
-  <value column="MsgText" original="Zoom Across (where used)" xml:space="preserve"><![CDATA[&Zoom Across (où l'enregistrement est utilisé)]]></value>
+  <value column="MsgText" original="Zoom Across (where used)">Zoom Across (où l'enregistrement est utilisé)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="760" trl="Y">
@@ -2688,11 +2688,11 @@ Thank you for using Adempiere Customer Asset Management
   <value column="MsgTip" original=""/>
  </row>
  <row id="777" trl="N">
-  <value column="MsgText" original="Product" xml:space="preserve"><![CDATA[&Product]]></value>
+  <value column="MsgText" original="Product">Product</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="778" trl="Y">
-  <value column="MsgText" original="Business Partner" xml:space="preserve"><![CDATA[&Tiers]]></value>
+  <value column="MsgText" original="Business Partner">Tiers</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="779" trl="N">
@@ -2866,7 +2866,7 @@ Check the error log and the format of the Accounting*.cvs file - No duplicate Ac
   <value column="MsgTip" original=""/>
  </row>
  <row id="821" trl="Y">
-  <value column="MsgText" original="Check Requests" xml:space="preserve"><![CDATA[&Requête(s)]]></value>
+  <value column="MsgText" original="Check Requests">Requête(s)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="822" trl="Y">
@@ -3020,11 +3020,11 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="859" trl="N">
-  <value column="MsgText" original="Workflow" xml:space="preserve"><![CDATA[&Workflow]]></value>
+  <value column="MsgText" original="Workflow">Workflow</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="860" trl="Y">
-  <value column="MsgText" original="Lookup" xml:space="preserve"><![CDATA[&Recherche]]></value>
+  <value column="MsgText" original="Lookup">Recherche</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="861" trl="Y">
@@ -3036,11 +3036,11 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="863" trl="N">
-  <value column="MsgText" original="OK" xml:space="preserve"><![CDATA[&OK]]></value>
+  <value column="MsgText" original="OK">OK</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="864" trl="Y">
-  <value column="MsgText" original="Document No" xml:space="preserve"><![CDATA[&N° Document]]></value>
+  <value column="MsgText" original="Document No">N° Document</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="865" trl="Y">
@@ -3048,7 +3048,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original="Cache Window Definitions on Client">Permet de diminuer le temps nécessaire à la construction des fenêtres, mais peut ne pas prendre en comptes les dernières modifications</value>
  </row>
  <row id="866" trl="N">
-  <value column="MsgText" original="Performance" xml:space="preserve"><![CDATA[&Performance]]></value>
+  <value column="MsgText" original="Performance">Performance</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="867" trl="N">
