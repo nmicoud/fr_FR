@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Element">
- <row id="101" trl="N">
-  <value column="Name" original="Attachment">Attachment</value>
-  <value column="PrintName" original="Attachment">Attachment</value>
-  <value column="Description" original="Attachment for the document">Attachment for the document</value>
-  <value column="Help" original="Attachment can be of any document/file type and can be attached to any record in the system.">Attachment can be of any document/file type and can be attached to any record in the system.</value>
+ <row id="101" trl="Y">
+  <value column="Name" original="Attachment">Pièce jointe</value>
+  <value column="PrintName" original="Attachment">Pièce jointe</value>
+  <value column="Description" original="Attachment for the document"/>
+  <value column="Help" original="Attachment can be of any document/file type and can be attached to any record in the system."/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
