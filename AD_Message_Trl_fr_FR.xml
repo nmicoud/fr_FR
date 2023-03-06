@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Message">
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Message">
  <row id="101" trl="N">
   <value column="MsgText" original="zero">zéro</value>
   <value column="MsgTip" original=""/>
@@ -65,7 +65,7 @@
   <value column="MsgTip" original="You don't have the privileges">You don't have the privileges</value>
  </row>
  <row id="117" trl="N">
-  <value column="MsgText" original="Client &amp; Organization Data" xml:space="preserve"><![CDATA[Client & Organization Data]]></value>
+  <value column="MsgText" original="Tenant &amp; Organization Data" xml:space="preserve"><![CDATA[Client & Organization Data]]></value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="118" trl="Y">
@@ -85,7 +85,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="122" trl="N">
-  <value column="MsgText" original="System &amp; Client Data" xml:space="preserve"><![CDATA[System & Client Data]]></value>
+  <value column="MsgText" original="System &amp; Tenant Data" xml:space="preserve"><![CDATA[System & Client Data]]></value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="123" trl="N">
@@ -310,7 +310,7 @@ Please change Cashbook only after completion of transaction</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="178" trl="N">
-  <value column="MsgText" original="Client">Société</value>
+  <value column="MsgText" original="Tenant">Société</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="179" trl="N">
@@ -1215,7 +1215,7 @@ Enter the payment after completing the transaction</value>
  </row>
  <row id="404" trl="N">
   <value column="MsgText" original="Calendar Period not found">Calendar Period not found</value>
-  <value column="MsgTip" original="Check setup of Calendar and Accounting Schema as well as Accounting Schema assignment to Client or Organization">Check setup of Calendar and Accounting Schema as well as Accounting Schema assignment to Client or Organization</value>
+  <value column="MsgTip" original="Check setup of Calendar and Accounting Schema as well as Accounting Schema assignment to Tenant or Organization">Check setup of Calendar and Accounting Schema as well as Accounting Schema assignment to Client or Organization</value>
  </row>
  <row id="405" trl="Y">
   <value column="MsgText" original="No valid period for this accounting date.">Pas de période pour cette date comptable</value>
@@ -1290,7 +1290,7 @@ Enter the payment after completing the transaction</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="423" trl="N">
-  <value column="MsgText" original="Pricelist Version">Pricelist Version</value>
+  <value column="MsgText" original="Price List Version">Pricelist Version</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="424" trl="N">
@@ -1520,7 +1520,7 @@ No originator (from) address - Check User</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="480" trl="N">
-  <value column="MsgText" original="Cannot send EMail:&#10;No Mail Server (SMTP) found; Check Client Info">Cannot send EMail:
+  <value column="MsgText" original="Cannot send EMail:&#10;No Mail Server (SMTP) found; Check Tenant Info">Cannot send EMail:
 No Mail Server (SMTP) found; Check Client Info</value>
   <value column="MsgTip" original=""/>
  </row>
@@ -1558,7 +1558,7 @@ No destination (to) address - Check Contact</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="489" trl="N">
-  <value column="MsgText" original="Role and Client/Organization inconsistent">Role and Client/Organization inconsistent</value>
+  <value column="MsgText" original="Role and Tenant/Organization inconsistent">Role and Client/Organization inconsistent</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="490" trl="N">
@@ -1969,7 +1969,7 @@ Si non, le règlement n'est pas créé (ne pas imprimer)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="590" trl="N">
-  <value column="MsgText" original="Initial Client Setup">Initial Client Setup</value>
+  <value column="MsgText" original="Initial Tenant Setup">Initial Client Setup</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="591" trl="N">
@@ -2413,7 +2413,7 @@ Please stop and migrate the database immediately.</value>
   <value column="MsgTip" original="You don't have the privileges">You don't have the privileges</value>
  </row>
  <row id="708" trl="N">
-  <value column="MsgText" original="Client Data">Client Data</value>
+  <value column="MsgText" original="Tenant Data">Client Data</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="709" trl="N">
@@ -2801,7 +2801,7 @@ Example: To convert Each to Pair, the Multiply Rate is 0.5]]></value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="805" trl="N">
-  <value column="MsgText" original="Product is not on PriceList">Product is not on PriceList</value>
+  <value column="MsgText" original="Product is not on Price List">Product is not on PriceList</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="806" trl="Y">
@@ -2809,7 +2809,7 @@ Example: To convert Each to Pair, the Multiply Rate is 0.5]]></value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="807" trl="N">
-  <value column="MsgText" original="Error while creating the Accounting Setup. &#10;Check the error log and the format of the Accounting*.cvs file - No duplicate Accounts and all all defaut accounts must be included (even if you will not use them).">Error while creating the Accounting Setup. 
+  <value column="MsgText" original="Error while creating the Accounting Setup. &#10;Check the error log and the format of the Accounting*.csv file - No duplicate Accounts and all default accounts must be included (even if you will not use them).">Error while creating the Accounting Setup. 
 Check the error log and the format of the Accounting*.cvs file - No duplicate Accounts and all all defaut accounts must be included (even if you will not use them).</value>
   <value column="MsgTip" original=""/>
  </row>
@@ -2972,7 +2972,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="847" trl="N">
-  <value column="MsgText" original="Costing Level defined on Client Level - You cannot specify Organization nor Attribute">Costing Level defined on Client Level - You cannot specify Organization nor Attribute</value>
+  <value column="MsgText" original="Costing Level defined on Tenant Level - You cannot specify Organization nor Attribute">Costing Level defined on Client Level - You cannot specify Organization nor Attribute</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="848" trl="N">
@@ -3045,7 +3045,7 @@ Voulez-vous continuer ?</value>
  </row>
  <row id="865" trl="Y">
   <value column="MsgText" original="Cache Windows">Utiliser le cache</value>
-  <value column="MsgTip" original="Cache Window Definitions on Client">Permet de diminuer le temps nécessaire à la construction des fenêtres, mais peut ne pas prendre en comptes les dernières modifications</value>
+  <value column="MsgTip" original="Cache Window Definitions on Tenant">Permet de diminuer le temps nécessaire à la construction des fenêtres, mais peut ne pas prendre en comptes les dernières modifications</value>
  </row>
  <row id="866" trl="N">
   <value column="MsgText" original="Performance">Performance</value>
@@ -3184,7 +3184,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="50010" trl="N">
-  <value column="MsgText" original="If you change the attachment storage method, the old attachments are no longer available to your client.">If you change the attachment storage method, the old attachments are no longer available to your client.</value>
+  <value column="MsgText" original="If you change the attachment storage method, the old attachments are no longer available to your tenant.">If you change the attachment storage method, the old attachments are no longer available to your client.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="50011" trl="N">
@@ -3196,7 +3196,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="50015" trl="N">
-  <value column="MsgText" original="If you change the archive storage method, the old archive entries are no longer available to your client.">If you change the archive storage method, the old archive entries are no longer available to your client.</value>
+  <value column="MsgText" original="If you change the archive storage method, the old archive entries are no longer available to your tenant.">If you change the archive storage method, the old archive entries are no longer available to your client.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="50016" trl="N">
@@ -3364,7 +3364,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52040" trl="N">
-  <value column="MsgText" original="Some error occured while communicating with the server. Please try again.">Some error occured while communicating with the server. Please try again.</value>
+  <value column="MsgText" original="Some error occurred while communicating with the server. Please try again.">Some error occured while communicating with the server. Please try again.</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52041" trl="N">
@@ -3956,7 +3956,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52188" trl="N">
-  <value column="MsgText" original="This utility is to import the products and Stock in Hand from a csv file into the system,&lt;br&gt; For importing the garment products, the CSV file name should containg the word 'Garment' &lt;br&gt;The csv file should look like the one shown below including the header" xml:space="preserve"><![CDATA[This utility is to import the products and Stock in Hand from a csv file into the system,<br> For importing the garment products, the CSV file name should containg the word 'Garment' <br>The csv file should look like the one shown below including the header]]></value>
+  <value column="MsgText" original="This utility is to import the products and Stock in Hand from a csv file into the system,&lt;br&gt; For importing the garment products, the CSV file name should contain the word 'Garment' &lt;br&gt;The csv file should look like the one shown below including the header" xml:space="preserve"><![CDATA[This utility is to import the products and Stock in Hand from a csv file into the system,<br> For importing the garment products, the CSV file name should containg the word 'Garment' <br>The csv file should look like the one shown below including the header]]></value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52189" trl="N">
@@ -4096,7 +4096,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52223" trl="N">
-  <value column="MsgText" original="Moblie No">Moblie No</value>
+  <value column="MsgText" original="Mobile No">Moblie No</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52224" trl="N">
@@ -5144,11 +5144,11 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52488" trl="N">
-  <value column="MsgText" original="Enforce Discount Upto Limit Price">Enforce Discount Upto Limit Price</value>
+  <value column="MsgText" original="Enforce Discount up to Limit Price">Enforce Discount Upto Limit Price</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="52489" trl="N">
-  <value column="MsgText" original="Enforce Overide Limit Price">Enforce Overide Limit Price</value>
+  <value column="MsgText" original="Enforce Override Limit Price">Enforce Overide Limit Price</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="52490" trl="N">
@@ -5212,11 +5212,11 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53009" trl="N">
-  <value column="MsgText" original="This is a system or client parameter, you can't save it as organization parameter">This is a system or client parameter, you can't save it as organization parameter</value>
+  <value column="MsgText" original="This is a system or tenant parameter, you can't save it as organization parameter">This is a system or client parameter, you can't save it as organization parameter</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53010" trl="N">
-  <value column="MsgText" original="This is a system parameter, you can't save it as client parameter">This is a system parameter, you can't save it as client parameter</value>
+  <value column="MsgText" original="This is a system parameter, you can't save it as tenant parameter">This is a system parameter, you can't save it as client parameter</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53011" trl="N">
@@ -5306,8 +5306,8 @@ Please contact administrator.</value>
   <value column="MsgTip" original="Do not exist Transit Warehouse to this Organization">Do not exist Transit Warehouse to this Organization</value>
  </row>
  <row id="53036" trl="N">
-  <value column="MsgText" original="Org targer do not linked to BPartner">Org targer do not linked to BPartner</value>
-  <value column="MsgTip" original="Org targer do not linked to BPartner">Org targer do not linked to BPartner</value>
+  <value column="MsgText" original="Org target is not  linked to BPartner">Org targer do not linked to BPartner</value>
+  <value column="MsgTip" original="Org target is not linked to BPartner">Org targer do not linked to BPartner</value>
  </row>
  <row id="53038" trl="N">
   <value column="MsgText" original="Check Missing Translation Records">Check Missing Translation Records</value>
@@ -5439,8 +5439,8 @@ Positionnez-vous sur l'onglet et actualisez</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53083" trl="N">
-  <value column="MsgText" original="Client Accounting is not enabled">Client Accounting is not enabled</value>
-  <value column="MsgTip" original="In order to run this process you need to enable client accounting, this can be done in window System Configurator, setting the parameter CLIENT_ACCOUNTING to [I]mmediate or [Q]ueue">In order to run this process you need to enable client accounting, this can be done in window System Configurator, setting the parameter CLIENT_ACCOUNTING to [I]mmediate or [Q]ueue</value>
+  <value column="MsgText" original="Tenant Accounting is not enabled">Client Accounting is not enabled</value>
+  <value column="MsgTip" original="In order to run this process you need to enable tenant accounting, this can be done in window System Configurator, setting the parameter CLIENT_ACCOUNTING to [I]mmediate or [Q]ueue">In order to run this process you need to enable client accounting, this can be done in window System Configurator, setting the parameter CLIENT_ACCOUNTING to [I]mmediate or [Q]ueue</value>
  </row>
  <row id="53084" trl="N">
   <value column="MsgText" original="Not exists a Business Partner linked for Organization">Not exists a Business Partner linked for Organization</value>
@@ -6168,7 +6168,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200157" trl="N">
-  <value column="MsgText" original="If you change the client language is recommended that you run the Synchronize Doc Translation after that">If you change the client language is recommended that you run the Synchronize Doc Translation after that</value>
+  <value column="MsgText" original="If you change the tenant language is recommended that you run the Synchronize Doc Translation after that">If you change the client language is recommended that you run the Synchronize Doc Translation after that</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200158" trl="N">
@@ -6296,7 +6296,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200196" trl="N">
-  <value column="MsgText" original="Created index succesfully">Created index succesfully</value>
+  <value column="MsgText" original="Created index successfully">Created index succesfully</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200197" trl="N">
@@ -6508,7 +6508,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200264" trl="N">
-  <value column="MsgText" original="Exceed maximum number of running jobs allowed per client">Dépassement du nombre de tâches de fond autorisées pour votre société</value>
+  <value column="MsgText" original="Exceed maximum number of running jobs allowed per tenant">Dépassement du nombre de tâches de fond autorisées pour votre société</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200265" trl="N">
@@ -6625,6 +6625,94 @@ This will solve the problem if you're trying to access a new feature.</value>
  </row>
  <row id="200370" trl="N">
   <value column="MsgText" original="Click to copy a permanent link to this record">Clic droit et copier le lien pour avoir le permalien de cet enregistrement</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200371" trl="N">
+  <value column="MsgText" original="Password matches one of %1$s previous passwords.">Le mot de passe correspond à %1$s mots de passe précédents.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200372" trl="N">
+  <value column="MsgText" original="Password contains the dictionary word '%1$s'.">Le mot de passe contient un mot interdit '%1$s'.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200373" trl="N">
+  <value column="MsgText" original="Password contains the reversed dictionary word '%1$s'.">Le mot de passe contient un mot interdit inversé '%1$s'.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200374" trl="N">
+  <value column="MsgText" original="Password matches the illegal pattern '%1$s'.">Le mot de passe contient la séquence interdite '%1$s'.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200375" trl="N">
+  <value column="MsgText" original="Password must match pattern '%1$s'.">Le mot de passe doit correspondre au modèle '%1$s'.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200376" trl="N">
+  <value column="MsgText" original="Password contains the illegal character '%1$s'.">Le mot de passe contient le caractère interdit '%1$s'.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200377" trl="N">
+  <value column="MsgText" original="Password contains the illegal character '%1$s'.">Le mot de passe contient le caractère interdit '%1$s'.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200378" trl="N">
+  <value column="MsgText" original="Password contains the illegal QWERTY sequence '%1$s'.">Le mot de passe contient la séquence AZERTY interdite '%1$s'.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200379" trl="N">
+  <value column="MsgText" original="Password contains the illegal alphabetical sequence '%1$s'.">Le mot de passe contient la séquence alphabétique interdite '%1$s'.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200380" trl="N">
+  <value column="MsgText" original="Password contains the illegal numerical sequence '%1$s'.">Le mot de passe contient la séquence numérique interdite '%1$s'.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200381" trl="N">
+  <value column="MsgText" original="Password contains the user id '%1$s'.">Le mot de passe contient l'identifiant de utilisateur '%1$s'.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200382" trl="N">
+  <value column="MsgText" original="Password contains the user id '%1$s' in reverse.">Le mot de passe contient l'identifiant '%1$s' à l'envers</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200383" trl="N">
+  <value column="MsgText" original="Password cannot contain whitespace characters.">Le mot de passe ne peut pas contenir le caractère espace.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200384" trl="N">
+  <value column="MsgText" original="Password must contain at least %1$s uppercase characters.">Le mot de passe doit contenir au moins %1$s caractère(s) en majuscule.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200385" trl="N">
+  <value column="MsgText" original="Password must contain at least %1$s lowercase characters.">Le mot de passe doit contenir au moins %1$s caractère(s) en minuscule.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200386" trl="N">
+  <value column="MsgText" original="Password must contain at least %1$s alphabetical characters.">Le mot de passe doit contenir au moins %1$s caractère(s) alphabétique(s).</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200387" trl="N">
+  <value column="MsgText" original="Password must contain at least %1$s digit characters.">Le mot de passe doit contenir au moins %1$s caractère(s) numérique(s)</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200388" trl="N">
+  <value column="MsgText" original="Password must contain at least %1$s special characters.">Le mot de passe doit contenir au moins %1$s caractère(s) spécial(aux).</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200389" trl="N">
+  <value column="MsgText" original="Password matches %1$s of %3$s character rules, but %2$s are required.">Le mot de passe respecte %1$s des %3$s règles, mais %2$s sont requises.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200390" trl="N">
+  <value column="MsgText" original="Password cannot be the same as your %1$s password.">Le mot de passe ne peut être identique à votre %1$s mot de passe.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200391" trl="N">
+  <value column="MsgText" original="Password must be no more than %2$s characters in length.">Le mot de passe ne doit pas dépasser %2$s caractères.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200392" trl="N">
+  <value column="MsgText" original="Password must be at least %1$s characters in length.">Le mot de passe doit avoir au moins %1$s caractères.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200393" trl="N">
@@ -6848,11 +6936,11 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200493" trl="N">
-  <value column="MsgText" original="this Client and Organization">this Client and Organization</value>
+  <value column="MsgText" original="this Tenant and Organization">this Client and Organization</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200494" trl="N">
-  <value column="MsgText" original="all Organizations of this Client">all Organizations of this Client</value>
+  <value column="MsgText" original="all Organizations of this Tenant">all Organizations of this Client</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200495" trl="N">
@@ -6924,11 +7012,11 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200522" trl="N">
-  <value column="MsgText" original="AdminUserEmail is required">AdminUserEmail is required</value>
+  <value column="MsgText" original="Admin User Email is required">AdminUserEmail is required</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200523" trl="N">
-  <value column="MsgText" original="AdminUserEmail">AdminUserEmail</value>
+  <value column="MsgText" original="Admin User Email">AdminUserEmail</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200524" trl="N">
@@ -6936,15 +7024,15 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200525" trl="N">
-  <value column="MsgText" original="NormalUserEmail is required">NormalUserEmail is required</value>
+  <value column="MsgText" original="Normal User Email is required">NormalUserEmail is required</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200526" trl="N">
-  <value column="MsgText" original="NormalUserEmail">NormalUserEmail</value>
+  <value column="MsgText" original="Normal User Email">NormalUserEmail</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200527" trl="N">
-  <value column="MsgText" original="CoaFile">CoaFile</value>
+  <value column="MsgText" original="CoA File">CoaFile</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200528" trl="N">
@@ -6952,7 +7040,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200529" trl="N">
-  <value column="MsgText" original="Cannot read CoaFile">Cannot read CoaFile</value>
+  <value column="MsgText" original="Cannot read CoA File">Cannot read CoaFile</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200530" trl="N">
@@ -6964,7 +7052,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200532" trl="N">
-  <value column="MsgText" original="Create client failed">Create client failed</value>
+  <value column="MsgText" original="Create tenant failed">Create client failed</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200535" trl="N">
@@ -6980,7 +7068,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200539" trl="N">
-  <value column="MsgText" original="No OrderLine">No OrderLine</value>
+  <value column="MsgText" original="No Order Line">No OrderLine</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200543" trl="N">
@@ -7004,7 +7092,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200548" trl="N">
-  <value column="MsgText" original="FactLine DR not created">FactLine DR not created</value>
+  <value column="MsgText" original="Fact Line DR not created">FactLine DR not created</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200549" trl="N">
@@ -7012,7 +7100,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200550" trl="N">
-  <value column="MsgText" original="FactLine CR not created">FactLine CR not created</value>
+  <value column="MsgText" original="Fact Line CR not created">FactLine CR not created</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200553" trl="N">
@@ -7040,7 +7128,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200560" trl="N">
-  <value column="MsgText" original="DocumentType unknown">DocumentType unknown</value>
+  <value column="MsgText" original="Document Type unknown">DocumentType unknown</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200563" trl="N">
@@ -7572,6 +7660,14 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgText" original="Color Picker">Sélecteur de couleur</value>
   <value column="MsgTip" original=""/>
  </row>
+ <row id="200731" trl="N">
+  <value column="MsgText" original="Only one completed RfQ Response found">Only one completed RfQ Response found</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200732" trl="N">
+  <value column="MsgText" original="Production has already been created: {0}">Production has already been created: {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
  <row id="200733" trl="N">
   <value column="MsgText" original="Copy SELECT">Copier SELECT</value>
   <value column="MsgTip" original=""/>
@@ -7580,12 +7676,239 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgText" original="Click to copy a SELECT SQL query pointing to this record">Cliquer pour copier un SQL pointant sur cet enregistrement</value>
   <value column="MsgTip" original=""/>
  </row>
+ <row id="200735" trl="N">
+  <value column="MsgText" original="No posting if not matched to Shipment">No posting if not matched to Shipment</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200736" trl="N">
+  <value column="MsgText" original="Purchase Order not convertible - {0}">Purchase Order not convertible - {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200737" trl="N">
+  <value column="MsgText" original="Failed to create reversal entry for ACCTTYPE_PPVOffset">Failed to create reversal entry for ACCTTYPE_PPVOffset</value>
+  <value column="MsgTip" original=""/>
+ </row>
  <row id="200738" trl="N">
   <value column="MsgText" original="Document Attached">Document Attached</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200739" trl="N">
   <value column="MsgText" original="Attach Error">Attach Error</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200740" trl="N">
+  <value column="MsgText" original="Assistant">Assistant</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200741" trl="N">
+  <value column="MsgText" original="Selected Items">Selected Items</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200744" trl="N">
+  <value column="MsgText" original="Drill Assistant">Drill Assistant</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200745" trl="N">
+  <value column="MsgText" original="Drill Column">Drill Column</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200749" trl="N">
+  <value column="MsgText" original="&lt;html&gt;There was an error previewing this file.&lt;/html&gt;" xml:space="preserve"><![CDATA[<html>There was an error previewing this file.</html>]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200750" trl="N">
+  <value column="MsgText" original="Run it again with new parameters">Run it again with new parameters</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200752" trl="N">
+  <value column="MsgText" original="Copy Report">Copy Report</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200753" trl="N">
+  <value column="MsgText" original="You selected the Copy Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views&lt;br /&gt;&#10;Print Format Name:" xml:space="preserve"><![CDATA[You selected the Copy Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views<br />
+Print Format Name:]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200754" trl="N">
+  <value column="MsgText" original="You selected the New Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views&lt;br /&gt;&#10;Print Format Name:" xml:space="preserve"><![CDATA[You selected the New Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views<br />
+Print Format Name:]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200755" trl="N">
+  <value column="MsgText" original="Create Print Format Copy">Create Print Format Copy</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200756" trl="N">
+  <value column="MsgText" original="Create New Print Format">Create New Print Format</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200757" trl="N">
+  <value column="MsgText" original="Business Partner is different from Invoice - Business Partner">Business Partner is different from Invoice - Business Partner</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200758" trl="N">
+  <value column="MsgText" original="Business Partner is different from Order - Business Partner">Business Partner is different from Order - Business Partner</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200759" trl="N">
+  <value column="MsgText" original="Type to Search or Create">Type to Search or Create</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200761" trl="N">
+  <value column="MsgText" original="Cannot find Drill Across for Column in Tables.">Cannot find Drill Across for Column in Tables.</value>
+  <value column="MsgTip" original="You can enable Drill Across in Application Dictionary as System User in the Table window.">You can enable Drill Across in Application Dictionary as System User in the Table window.</value>
+ </row>
+ <row id="200762" trl="N">
+  <value column="MsgText" original="Cannot find Drill Rule for the selected Column.">Cannot find Drill Rule for the selected Column.</value>
+  <value column="MsgTip" original="You can define new definitions in Drill Rule window.">You can define new definitions in Drill Rule window.</value>
+ </row>
+ <row id="200763" trl="N">
+  <value column="MsgText" original="Do you want to delete the record?&lt;br /&gt;&#10;Please confirm by typing: &lt;b&gt;{0}&lt;b/&gt;" xml:space="preserve"><![CDATA[Do you want to delete the record?<br />
+Please confirm by typing: <b>{0}<b/>]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200764" trl="N">
+  <value column="MsgText" original="Do you want to delete {0} (selected) items?&lt;br /&gt;&#10;Please confirm by typing: &lt;b&gt;{1}&lt;b/&gt;" xml:space="preserve"><![CDATA[Do you want to delete {0} (selected) items?<br />
+Please confirm by typing: <b>{1}<b/>]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200765" trl="N">
+  <value column="MsgText" original="Entered Value Is Not Correct">Entered Value Is Not Correct</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200766" trl="N">
+  <value column="MsgText" original="Drill Key Parameter is Not Set">Drill Key Parameter is Not Set</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200767" trl="N">
+  <value column="MsgText" original="Fill Mandatory Drill Rule Parameters">Fill Mandatory Drill Rule Parameters</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200781" trl="N">
+  <value column="MsgText" original="No Data Available">No Data Available</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200786" trl="N">
+  <value column="MsgText" original="Tenant not specified at login">Tenant not specified at login</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200787" trl="N">
+  <value column="MsgText" original="User not specified at login">User not specified at login</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200788" trl="N">
+  <value column="MsgText" original="Tenant {0} not found">Tenant {0} not found</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200789" trl="N">
+  <value column="MsgText" original="Label / Tag">Label / Tag</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200790" trl="N">
+  <value column="MsgText" original="After {0}">After {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200791" trl="N">
+  <value column="MsgText" original="Before {0}">Before {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200792" trl="N">
+  <value column="MsgText" original="On {0}">On {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200793" trl="N">
+  <value column="MsgText" original="Apply">Appliquer</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200794" trl="N">
+  <value column="MsgText" original="Current Year Months">Mois année en cours</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200795" trl="N">
+  <value column="MsgText" original="Current Year Quarters">Trimestres année en cours</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200796" trl="N">
+  <value column="MsgText" original="Range">Sélection</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200797" trl="N">
+  <value column="MsgText" original="End Date must be after Start Date">La date de fin doit être après la date de début</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200798" trl="N">
+  <value column="MsgText" original="{0} {1,choice,1#|1&lt;{1}}{1,choice,1#Year|1&lt; Years}" xml:space="preserve"><![CDATA[{0} {1,choice,1#|1<{1}}{1,choice,1#Year|1< Years}]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200799" trl="N">
+  <value column="MsgText" original="{0} {1,choice,1#|1&lt;{1}}{1,choice,1#Quarter|1&lt; Quarters}" xml:space="preserve"><![CDATA[{0} {1,choice,1#|1<{1}}{1,choice,1#Quarter|1< Quarters}]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200800" trl="N">
+  <value column="MsgText" original="{0} {1,choice,1#|1&lt;{1}}{1,choice,1#Month|1&lt; Months}" xml:space="preserve"><![CDATA[{0} {1,choice,1#|1<{1}}{1,choice,1#Month|1< Months}]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200801" trl="N">
+  <value column="MsgText" original="{0} {1,choice,1#|1&lt;{1}}{1,choice,1#Week|1&lt; Weeks}}" xml:space="preserve"><![CDATA[{0} {1,choice,1#|1<{1}}{1,choice,1#Week|1< Weeks}}]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200802" trl="N">
+  <value column="MsgText" original="{0} {1,choice,1#|1&lt;{1}}{1,choice,1#Day|1&lt; Days}" xml:space="preserve"><![CDATA[{0} {1,choice,1#|1<{1}}{1,choice,1#Day|1< Days}]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200804" trl="N">
+  <value column="MsgText" original="Exclude selected values">Les valeurs sélectionnées sont exclues</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200805" trl="N">
+  <value column="MsgText" original="Include selected values">Les valeurs sélectionnées sont inclues</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200806" trl="N">
+  <value column="MsgText" original="Your text is too long and exceed maximum size ({0} / {1}) ; please reduce it before proceeding">Votre texte est trop long et dépasse la taille maximum autorisée ({0} / {1}) ; il faut le réduire pour pouvoir continuer</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200807" trl="N">
+  <value column="MsgText" original="You'll lose all your unsaved changes ; proceed?">Vous allez perdre les modifications en cours, continuer ?</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200808" trl="N">
+  <value column="MsgText" original="Text">Texte</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200811" trl="N">
+  <value column="MsgText" original="{0} recursively contains {1}">{0} recursively contains {1}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200812" trl="N">
+  <value column="MsgText" original="No default BOM for product {0}">No default BOM for product {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200813" trl="N">
+  <value column="MsgText" original="BOM missing for product {0}">BOM missing for product {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200814" trl="N">
+  <value column="MsgText" original="BOM {0} for product {1} does not have lines">BOM {0} for product {1} does not have lines</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200816" trl="N">
+  <value column="MsgText" original="Expected Value differs from Current Value.&#10;The column {0} in record {1} was customized on {2,date,long} by {3}">Expected Value differs from Current Value.
+The column {0} in record {1} was customized on {2,date,long} by {3}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200817" trl="N">
+  <value column="MsgText" original="The verify migration process cannot be discarded because it has ignored records.">The verify migration process cannot be discarded because it has ignored records.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200818" trl="N">
+  <value column="MsgText" original="Column View does not exist in database.&#10;The custom view column {0} was created on {1,date,long} by {2}">Column View does not exist in database.
+The custom view column {0} was created on {1,date,long} by {2}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200819" trl="N">
+  <value column="MsgText" original="A customized record does not exist in the database.&#10;The column {0} was customized on {1,date,long} by {2} in record {3} that no longer exists">A customized record does not exist in the database.
+The column {0} was customized on {1,date,long} by {2} in record {3} that no longer exists</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="520010" trl="N">

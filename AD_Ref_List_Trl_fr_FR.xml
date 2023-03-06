@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Ref_List">
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Ref_List">
  <row id="51" trl="N">
   <value column="Name" original="Organization">Organization</value>
   <value column="Description" original=""/>
@@ -1081,7 +1081,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="410" trl="N">
-  <value column="Name" original="Savings">Savings</value>
+  <value column="Name" original="Savings">Compte épargne</value>
   <value column="Description" original=""/>
  </row>
  <row id="411" trl="N">
@@ -3254,11 +3254,11 @@
  </row>
  <row id="53229" trl="N">
   <value column="Name" original="Client">Client</value>
-  <value column="Description" original="Allowed system and client configuration">Allowed system and client configuration</value>
+  <value column="Description" original="Allowed system and tenant configuration">Allowed system and client configuration</value>
  </row>
  <row id="53230" trl="N">
   <value column="Name" original="Organization">Organization</value>
-  <value column="Description" original="Allowed system, client and organization configuration">Allowed system, client and organization configuration</value>
+  <value column="Description" original="Allowed system, tenant and organization configuration">Allowed system, client and organization configuration</value>
  </row>
  <row id="53232" trl="N">
   <value column="Name" original="Maintenance Order">Maintenance Order</value>
@@ -4489,23 +4489,23 @@
   <value column="Description" original=""/>
  </row>
  <row id="53632" trl="N">
-  <value column="Name" original="Day">Day</value>
+  <value column="Name" original="Day">Jour</value>
   <value column="Description" original=""/>
  </row>
  <row id="53633" trl="N">
-  <value column="Name" original="Week">Week</value>
+  <value column="Name" original="Week">Semaine</value>
   <value column="Description" original=""/>
  </row>
  <row id="53634" trl="N">
-  <value column="Name" original="Month">Month</value>
+  <value column="Name" original="Month">Mois</value>
   <value column="Description" original=""/>
  </row>
  <row id="53635" trl="N">
-  <value column="Name" original="Quarter">Quarter</value>
+  <value column="Name" original="Quarter">Trimestre</value>
   <value column="Description" original=""/>
  </row>
  <row id="53636" trl="N">
-  <value column="Name" original="Year">Year</value>
+  <value column="Name" original="Year">Année</value>
   <value column="Description" original=""/>
  </row>
  <row id="53637" trl="N">
@@ -4834,7 +4834,7 @@
  </row>
  <row id="200050" trl="N">
   <value column="Name" original="Client">Client</value>
-  <value column="Description" original="Client">Client</value>
+  <value column="Description" original="Tenant">Client</value>
  </row>
  <row id="200051" trl="N">
   <value column="Name" original="Everybody">Everybody</value>
@@ -5280,6 +5280,14 @@
   <value column="Name" original="Process">Process</value>
   <value column="Description" original=""/>
  </row>
+ <row id="200190" trl="N">
+  <value column="Name" original="Order">Order</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200191" trl="N">
+  <value column="Name" original="RMA">RMA</value>
+  <value column="Description" original=""/>
+ </row>
  <row id="200261" trl="N">
   <value column="Name" original="User Info">User Info</value>
   <value column="Description" original="Show a info window">Show a info window</value>
@@ -5391,6 +5399,14 @@
  <row id="200445" trl="N">
   <value column="Name" original="Info Window">Info Window</value>
   <value column="Description" original=""/>
+ </row>
+ <row id="200446" trl="N">
+  <value column="Name" original="Separate Tax Posting">Separate Tax Posting</value>
+  <value column="Description" original="Tax is calculated on the full amount of the item and posted separately.">Tax is calculated on the full amount of the item and posted separately.</value>
+ </row>
+ <row id="200447" trl="N">
+  <value column="Name" original="Distribute Tax with Relevant Expense">Distribute Tax with Relevant Expense</value>
+  <value column="Description" original="Tax amount is added to the item amount during account posting time and for updating of Product Cost.">Tax amount is added to the item amount during account posting time and for updating of Product Cost.</value>
  </row>
  <row id="200448" trl="N">
   <value column="Name" original="Deferred">Deferred</value>
@@ -5618,6 +5634,118 @@
  </row>
  <row id="200521" trl="N">
   <value column="Name" original="Shell Script">Shell Script</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200528" trl="N">
+  <value column="Name" original="Customer Account">Customer Account</value>
+  <value column="Description" original="Charge to receiver/customer shipper account">Charge to receiver/customer shipper account</value>
+ </row>
+ <row id="200544" trl="N">
+  <value column="Name" original="Gauge Indicator">Gauge Indicator</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200561" trl="N">
+  <value column="Name" original="Previous">Précédent</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200562" trl="N">
+  <value column="Name" original="Next">Suivant</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200563" trl="N">
+  <value column="Name" original="Current">En cours</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200564" trl="N">
+  <value column="Name" original="Before">Avant</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200565" trl="N">
+  <value column="Name" original="After">Après</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200566" trl="N">
+  <value column="Name" original="On">Date</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200567" trl="N">
+  <value column="Name" original="Between">Entre</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200568" trl="N">
+  <value column="Name" original="Quick">Rapide</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200600" trl="N">
+  <value column="Name" original="January">Janvier</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200601" trl="N">
+  <value column="Name" original="February">Février</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200602" trl="N">
+  <value column="Name" original="March">Mars</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200603" trl="N">
+  <value column="Name" original="April">Avril</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200604" trl="N">
+  <value column="Name" original="May">Mai</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200605" trl="N">
+  <value column="Name" original="June">Juin</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200606" trl="N">
+  <value column="Name" original="July">Juillet</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200607" trl="N">
+  <value column="Name" original="August">Août</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200608" trl="N">
+  <value column="Name" original="September">Septembre</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200609" trl="N">
+  <value column="Name" original="October">Octobre</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200610" trl="N">
+  <value column="Name" original="November">Novembre</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200611" trl="N">
+  <value column="Name" original="December">Décembre</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200612" trl="N">
+  <value column="Name" original="First Quarter">Premier trimestre</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200613" trl="N">
+  <value column="Name" original="Second Quarter">Deuxième trimestre</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200614" trl="N">
+  <value column="Name" original="Third Quarter">Troisième trimestre</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200615" trl="N">
+  <value column="Name" original="Fourth Quarter">Quatirème trimestre</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200620" trl="N">
+  <value column="Name" original="Table">Table</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200621" trl="N">
+  <value column="Name" original="ReportView Column">ReportView Column</value>
   <value column="Description" original=""/>
  </row>
 </idempiereTrl>

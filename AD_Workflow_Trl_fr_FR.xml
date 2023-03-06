@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Workflow">
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Workflow">
  <row id="101" trl="N">
   <value column="Name" original="Project Setup and Use">Project Setup and Use</value>
   <value column="Description" original="Setup of projects and project reporting">Setup of projects and project reporting</value>
@@ -11,9 +11,9 @@
   <value column="Help" original="Define a new language as a system language.">Define a new language as a system language.</value>
  </row>
  <row id="104" trl="N">
-  <value column="Name" original="Initial Client Setup Review">Initial Client Setup Review</value>
-  <value column="Description" original="Review of system level setup of a new  Client">Review of system level setup of a new  Client</value>
-  <value column="Help" original="This workflow reviews the system setup of a new client as performed by the automatic Initial Client Setup.&#10;You may want to check also the following Workflows:&#10;- Accounting Setup&#10;- Business Partner Setup&#10;- Product Setup&#10;- Price list Setup&#10;- Warehouse Setup&#10;- Tax Setup">This workflow reviews the system setup of a new client as performed by the automatic Initial Client Setup.
+  <value column="Name" original="Initial Tenant Setup Review">Initial Client Setup Review</value>
+  <value column="Description" original="Review of system level setup of a new  Tenant">Review of system level setup of a new  Client</value>
+  <value column="Help" original="This workflow reviews the system setup of a new tenant as performed by the automatic Initial Tenant Setup.&#10;You may want to check also the following Workflows:&#10;- Accounting Setup&#10;- Business Partner Setup&#10;- Product Setup&#10;- Price list Setup&#10;- Warehouse Setup&#10;- Tax Setup">This workflow reviews the system setup of a new client as performed by the automatic Initial Client Setup.
 You may want to check also the following Workflows:
 - Accounting Setup
 - Business Partner Setup
@@ -71,7 +71,7 @@ The system converts the measures into percentages (based on the target and achie
  </row>
  <row id="113" trl="N">
   <value column="Name" original="Request Setup">Request Setup</value>
-  <value column="Description" original="Set up the client to process requests">Set up the client to process requests</value>
+  <value column="Description" original="Set up the tenant to process requests">Set up the client to process requests</value>
   <value column="Help" original=""/>
  </row>
  <row id="115" trl="N">
@@ -201,6 +201,11 @@ The system converts the measures into percentages (based on the target and achie
  <row id="200002" trl="N">
   <value column="Name" original="Process_Production">Process_Production</value>
   <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="Process_BankTransfer">Process_BankTransfer</value>
+  <value column="Description" original="(Standard Process_BankTransfer)">(Standard Process_BankTransfer)</value>
   <value column="Help" original=""/>
  </row>
  <row id="200007" trl="N">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Tab">
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Tab">
  <row id="100" trl="N">
   <value column="Name" original="Table">Table</value>
   <value column="CommitWarning" original=""/>
@@ -112,7 +112,7 @@
   <value column="Name" original="Role">Rôle</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define responsibility roles"/>
-  <value column="Help" original="Define the role and add the client and organizations the role has access to. You can give users access to this role and modify the access of this role to windows, forms, processes and reports as well as tasks. &lt;br&gt;&#10;If the Role User Level is Manual, the assigned acces rights are not automatically updated (e.g. if a role has a restricted number of Windows/Processes it can access). You need to add organizational access unless the role has access to all organizations. The SuperUser and the user creating a new role are assigned to the role automatically.  &lt;br&gt;&#10;If you select an Organization Tree, the user has access to the leaves of  summary organizations.&#10;Note: You cannot change the System Administrator role."/>
+  <value column="Help" original="Define the role and add the tenant and organizations the role has access to. You can give users access to this role and modify the access of this role to windows, forms, processes and reports as well as tasks. &lt;br&gt;&#10;If the Role User Level is Manual, the assigned acces rights are not automatically updated (e.g. if a role has a restricted number of Windows/Processes it can access). You need to add organizational access unless the role has access to all organizations. The SuperUser and the user creating a new role are assigned to the role automatically.  &lt;br&gt;&#10;If you select an Organization Tree, the user has access to the leaves of  summary organizations.&#10;Note: You cannot change the System Administrator role."/>
  </row>
  <row id="120" trl="Y">
   <value column="Name" original="User Assignment">Utilisateurs</value>
@@ -219,10 +219,10 @@ Conversions need to be direct (i.e. if you have only a conversion between A-B an
   <value column="Help" original="The Organization Tab is used to define an Organization.  Each Organization has a Key and Name and optionally a Description.  &#10;When adding a new organization, you must re-login to be able to access the new organization."/>
  </row>
  <row id="145" trl="Y">
-  <value column="Name" original="Client">Société</value>
-  <value column="CommitWarning" original="Create a new client via &quot;Initial Client Setup&quot;. You can only change information here!  You need execute Cache Reset and re-login for most changes made here to be effective.  The change of the Material Policy applies to future transactions.">Create a new client via "Initial Client Setup". You can only change information here!  You need re-login and restart your application server for most changes made here to be effective.  The change of the Material Policy applies to future transactions.</value>
-  <value column="Description" original="Client/Tenant Definition"/>
-  <value column="Help" original="The Client Definition Tab defines a unique client.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; (System Administrator Role) to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">The Client Definition Tab defines a unique client.
+  <value column="Name" original="Tenant">Société</value>
+  <value column="CommitWarning" original="Create a new tenant via &quot;Initial Tenant Setup&quot;. You can only change information here!  You need execute Cache Reset and re-login for most changes made here to be effective.  The change of the Material Policy applies to future transactions.">Create a new client via "Initial Client Setup". You can only change information here!  You need re-login and restart your application server for most changes made here to be effective.  The change of the Material Policy applies to future transactions.</value>
+  <value column="Description" original="Tenant Definition"/>
+  <value column="Help" original="The Tenant Definition Tab defines a unique tenant.&#10;Do not create a new tenant in this window, but use &quot;Initial Tenant Setup&quot; (System Administrator Role) to set up the required security and access rules. If you create a new tenant here, you will not be able to view it and also the required tenant infrastructure would not have been set up.">The Client Definition Tab defines a unique client.
 Do not create a new client in this window, but use "Initial Client Setup" (System Administrator Role) to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.</value>
  </row>
  <row id="146" trl="Y">
@@ -276,7 +276,7 @@ Do not create a new client in this window, but use "Initial Client Setup" (Syste
  <row id="156" trl="N">
   <value column="Name" original="Preference">Preference</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain System Client Org and User Preferences">Maintain System Client Org and User Preferences</value>
+  <value column="Description" original="Maintain System Tenant Org and User Preferences">Maintain System Client Org and User Preferences</value>
   <value column="Help" original=""/>
  </row>
  <row id="157" trl="N">
@@ -316,10 +316,10 @@ Do not create a new client in this window, but use "Initial Client Setup" (Syste
   <value column="Help" original="The Document Definition Tab defines the processing parameters and controls for the document.  Note that shipments for automatic documents like POS/Warehouse Orders cannot have confirmations!">The Document Definition Tab defines the processing parameters and controls for the document.  Note that shipments for automatic documents like POS/Warehouse Orders cannot have confirmations!</value>
  </row>
  <row id="169" trl="Y">
-  <value column="Name" original="Client Info">Informations société</value>
+  <value column="Name" original="Tenant Info">Informations société</value>
   <value column="CommitWarning" original="You need to execute Cache Reset and re-login for most changes made here to be effective.">Il faut se reconnecter et éventuellement redémarrer le service pour mettre à jour le paramétrage</value>
-  <value column="Description" original="Client Info">Client Info</value>
-  <value column="Help" original="The Client Info Tab defines the details for each client.  The accounting rules and high level defaults are defined here. The Calendar is used to determine if a period is open or closed.">The Client Info Tab defines the details for each client.  The accounting rules and high level defaults are defined here. The Calendar is used to determine if a period is open or closed.</value>
+  <value column="Description" original="Tenant Info">Client Info</value>
+  <value column="Help" original="The Tenant Info Tab defines the details for each tenant.  The accounting rules and high level defaults are defined here. The Calendar is used to determine if a period is open or closed.">The Client Info Tab defines the details for each client.  The accounting rules and high level defaults are defined here. The Calendar is used to determine if a period is open or closed.</value>
  </row>
  <row id="170" trl="Y">
   <value column="Name" original="Organization Info">Informations</value>
@@ -459,7 +459,7 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Name" original="Accounting Schema">Schémas comptables</value>
   <value column="CommitWarning" original="If you change the currency or costing method, you must reset all accounting transactions.&#10;For changes to become effective, you must execute Cache Reset. ">Un changment de devise ou de méthode de calcul de coût nécessite une recomptabilisation; Pour que les changements prennent effet, il faut relancer le service et se reconnecter à l'application.</value>
   <value column="Description" original="Define your Account Schema Structure"/>
-  <value column="Help" original="The Accounting Schema Tab defines the controls used for accounting.  You can define multiple accounting schema per client (for parallel accounting).  &#10;Postings are generated for an accounting schema, if the schema is valid and you have defined GL and Default accounts and after completion of the Add / Copy Accounts process."/>
+  <value column="Help" original="The Accounting Schema Tab defines the controls used for accounting.  You can define multiple accounting schema per tenant (for parallel accounting).  &#10;Postings are generated for an accounting schema, if the schema is valid and you have defined GL and Default accounts and after completion of the Add / Copy Accounts process."/>
  </row>
  <row id="200" trl="Y">
   <value column="Name" original="General Ledger">Comptes par défaut</value>
@@ -1166,7 +1166,7 @@ Note that printed payments are archived in Payment Selection (Prepared Payment).
   <value column="Name" original="Org Access">Accès org</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Role Org Access"/>
-  <value column="Help" original="Add the client and organizations the user has access to. Entries here are ignored, if User Org Access is selected or the role has access to all roles.&lt;br&gt;&#10;Note that access information is cached and requires re-login or reset of cache."/>
+  <value column="Help" original="Add the tenant and organizations the user has access to. Entries here are ignored, if User Org Access is selected or the role has access to all roles.&lt;br&gt;&#10;Note that access information is cached and requires re-login or reset of cache."/>
  </row>
  <row id="352" trl="Y">
   <value column="Name" original="Payment Selection">Préparations</value>
@@ -1260,7 +1260,7 @@ The amounts are converted from the transaction currency to the Commission Curren
   <value column="Name" original="Performance Measure Calculation">Performance Measure Calculation</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain your Performance Measure Calculation">Maintain your Performance Measure Calculation</value>
-  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. See examples.&lt;br&gt;&#10;The SELECT definition must contain the SELECT and FROM keywords in upper case, the WHERE definition must contain the WHERE keyword in upper case.  The main table must not have an alias!  The WHERE clause can only contain values of the main table (e.g. when selecting from Header and lines, only header variables can be used in the where clause) and be fully qualified if there is more then one table." xml:space="preserve"><![CDATA[The Performance Measure Calculation defines how performance measures will be calculated. See examples.<br>
+  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. See examples.&lt;br&gt;&#10;The SELECT definition must contain the SELECT and FROM keywords in upper case.  The WHERE clause can only contain values of the main table (e.g. when selecting from Header and lines, only header variables can be used in the where clause) and be fully qualified if there is more then one table." xml:space="preserve"><![CDATA[The Performance Measure Calculation defines how performance measures will be calculated. See examples.<br>
 The SELECT definition must contain the SELECT and FROM keywords in upper case, the WHERE definition must contain the WHERE keyword in upper case.  The main table must not have an alias!  The WHERE clause can only contain values of the main table (e.g. when selecting from Header and lines, only header variables can be used in the where clause) and be fully qualified if there is more then one table.]]></value>
  </row>
  <row id="370" trl="N">
@@ -1599,7 +1599,7 @@ Please note that the Business Partner <b>must</b> be an Employee with an Address
   <value column="Name" original="Format Item">Eléments</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Print Format Item">Print Format Item</value>
-  <value column="Help" original="Item in the print format maintaining layout information.  The following additional variables are available when printing:&#10;&lt;p&gt;@*Page@ - the current page number&#10;&lt;br&gt;@*PageCount@ - the total number of pages&#10;&lt;br&gt;@*MultiPageInfo@ - &quot;Page x of y&quot; - only printed if more than one page&#10;&lt;br&gt;@*CopyInfo@ - if it is a copy of the document &quot;Duplicate&quot; is printed&#10;&lt;br&gt;@*ReportName@ - name of the report&#10;&lt;br&gt;@*Header@ - Full Header with user/client/org name and connection&#10;&lt;br&gt;@*CurrentDate@ - the print date&#10;&lt;br&gt;@*CurrentDateTime@ - the print time&#10;&#10;&lt;p&gt;The layoit logic for forms is: &lt;br&gt;&#10;- if not printed: ignore &lt;br&gt;&#10;- set New Line Position &lt;br&gt;&#10;- new page &lt;br&gt;&#10;- new line, if something was printed since last new line&lt;br&gt;&#10;- format item&lt;br&gt;&#10;- print it (if not null/empty selected)&lt;br&gt;&#10;(i.e. supress null does not prevent new line)" xml:space="preserve"><![CDATA[Les variables ci-après sont disponibles :
+  <value column="Help" original="Item in the print format maintaining layout information.  The following additional variables are available when printing:&#10;&lt;p&gt;@*Page@ - the current page number&#10;&lt;br&gt;@*PageCount@ - the total number of pages&#10;&lt;br&gt;@*MultiPageInfo@ - &quot;Page x of y&quot; - only printed if more than one page&#10;&lt;br&gt;@*CopyInfo@ - if it is a copy of the document &quot;Duplicate&quot; is printed&#10;&lt;br&gt;@*ReportName@ - name of the report&#10;&lt;br&gt;@*Header@ - Full Header with user/tenant/org name and connection&#10;&lt;br&gt;@*CurrentDate@ - the print date&#10;&lt;br&gt;@*CurrentDateTime@ - the print time&#10;&#10;&lt;p&gt;The layoit logic for forms is: &lt;br&gt;&#10;- if not printed: ignore &lt;br&gt;&#10;- set New Line Position &lt;br&gt;&#10;- new page &lt;br&gt;&#10;- new line, if something was printed since last new line&lt;br&gt;&#10;- format item&lt;br&gt;&#10;- print it (if not null/empty selected)&lt;br&gt;&#10;(i.e. supress null does not prevent new line)" xml:space="preserve"><![CDATA[Les variables ci-après sont disponibles :
 <p>@*Page@ - the current page number
 <br>@*PageCount@ - the total number of pages
 <br>@*MultiPageInfo@ - "Page x of y" - only printed if more than one page
@@ -3157,7 +3157,7 @@ Note that the Document Number may be overwritten - depending on the Number contr
   <value column="Name" original="Org Access">Accès organisations</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain User Org Access">Paramétrage des accès aux organisations</value>
-  <value column="Help" original="Add the client and organizations the user has access to. Entries here are ignored, if in the Role, User Org Access is not selected or the role has access to all roles.&lt;br&gt;&#10;Note that access information is cached and requires re-login or reset of cache.">Sélection des organisations auxquelles l'utilisateur a accès.
+  <value column="Help" original="Add the tenant and organizations the user has access to. Entries here are ignored, if in the Role, User Org Access is not selected or the role has access to all roles.&lt;br&gt;&#10;Note that access information is cached and requires re-login or reset of cache.">Sélection des organisations auxquelles l'utilisateur a accès.
 Ces informations sont ignorées si, dans le rôle, on ne sélectionne pas les accès au niveau de l'utilisateur ou si le rôle permet l'accès à toutes les organisations.</value>
  </row>
  <row id="699" trl="N">
@@ -3226,7 +3226,7 @@ If a BOM is referenced  and enabled in Request Type, a BOM Change Request is aut
   <value column="Name" original="Web Store">Web Store</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Web Store">Define Web Store</value>
-  <value column="Help" original="Define the web store settings. The web server context must be unique and determines the settings used in the actual transaction. The selected warehouse determines the organization.  The email settings are tested with the client email settings. ">Define the web store settings. The web server context must be unique and determines the settings used in the actual transaction. The selected warehouse determines the organization.  The email settings are tested with the client email settings. </value>
+  <value column="Help" original="Define the web store settings. The web server context must be unique and determines the settings used in the actual transaction. The selected warehouse determines the organization.  The email settings are tested with the tenant email settings. ">Define the web store settings. The web server context must be unique and determines the settings used in the actual transaction. The selected warehouse determines the organization.  The email settings are tested with the client email settings. </value>
  </row>
  <row id="711" trl="N">
   <value column="Name" original="Store Translation">Store Translation</value>
@@ -3601,10 +3601,10 @@ Accounting Segments like Organization, Account, Product may have several hierarc
   <value column="Help" original=""/>
  </row>
  <row id="776" trl="N">
-  <value column="Name" original="Client Share">Client Share</value>
+  <value column="Name" original="Tenant Share">Client Share</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Force (not) sharing of client/org entities">Force (not) sharing of client/org entities</value>
-  <value column="Help" original="Business Partner can be either defined on Client level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization &quot;*&quot;) or if they are not shared (i.e. you cannot enter them with Organization &quot;*&quot;).&lt;br&gt;&#10;The creation of  &quot;Client and Org&quot; shared records is the default and is ignored." xml:space="preserve"><![CDATA[Business Partner can be either defined on Client level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization "*") or if they are not shared (i.e. you cannot enter them with Organization "*").<br>
+  <value column="Description" original="Force (not) sharing of tenant/org entities">Force (not) sharing of client/org entities</value>
+  <value column="Help" original="Business Partner can be either defined on Tenant level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization &quot;*&quot;) or if they are not shared (i.e. you cannot enter them with Organization &quot;*&quot;).&lt;br&gt;&#10;The creation of  &quot;Tenant and Org&quot; shared records is the default and is ignored." xml:space="preserve"><![CDATA[Business Partner can be either defined on Client level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization "*") or if they are not shared (i.e. you cannot enter them with Organization "*").<br>
 The creation of  "Client and Org" shared records is the default and is ignored.]]></value>
  </row>
  <row id="777" trl="N">
@@ -4016,7 +4016,7 @@ If the profile is exclude (default), the assignees can view all but the defined 
   <value column="Name" original="LDAP Server">LDAP Server</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="LDAP Server to authenticate and authorize external systems based on iDempiere">LDAP Server to authenticate and authorize external systems based on Adempiere</value>
-  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per Adempiere system.  The "o" is the Client key and the optional "ou" is the Interest Area key.</value>
+  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Tenant key and the optional &quot;ou&quot; is the Interest Area key.">The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per Adempiere system.  The "o" is the Client key and the optional "ou" is the Interest Area key.</value>
  </row>
  <row id="850" trl="N">
   <value column="Name" original="LDAP Server Log">LDAP Server Log</value>
@@ -4405,7 +4405,7 @@ If the profile is exclude (default), the assignees can view all but the defined 
   <value column="Help" original=""/>
  </row>
  <row id="53066" trl="N">
-  <value column="Name" original="Client Level">Client Level</value>
+  <value column="Name" original="Tenant Level">Client Level</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6337,7 +6337,7 @@ Printing:
   <value column="Help" original=""/>
  </row>
  <row id="200226" trl="N">
-  <value column="Name" original="Client">Client</value>
+  <value column="Name" original="Tenant">Client</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6380,6 +6380,18 @@ Printing:
  </row>
  <row id="200249" trl="N">
   <value column="Name" original="Print Header/Footer">Print Header/Footer</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200255" trl="N">
+  <value column="Name" original="Bank Transfer">Bank Transfer</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200256" trl="N">
+  <value column="Name" original="Payments">Payments</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6559,7 +6571,79 @@ Printing:
   <value column="Help" original=""/>
  </row>
  <row id="200302" trl="N">
-  <value column="Name" original="Client level messages">Messages niveau société</value>
+  <value column="Name" original="Tenant level messages">Messages niveau société</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200308" trl="N">
+  <value column="Name" original="Drill Rule">Drill Rule</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200309" trl="N">
+  <value column="Name" original="Drill Rule Parameter">Drill Rule Parameter</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200317" trl="N">
+  <value column="Name" original="Label Category">Label Category</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200318" trl="N">
+  <value column="Name" original="Table Access">Table Access</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200319" trl="N">
+  <value column="Name" original="Translation">Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200320" trl="N">
+  <value column="Name" original="Label">Label</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200321" trl="N">
+  <value column="Name" original="Translation">Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200322" trl="N">
+  <value column="Name" original="Drill Rule Translation">Drill Rule Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200324" trl="N">
+  <value column="Name" original="Assignment">Assignment</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200329" trl="N">
+  <value column="Name" original="Datasource Translation">Datasource Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200346" trl="N">
+  <value column="Name" original="Verify Migration">Verify Migration</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200347" trl="N">
+  <value column="Name" original="Verify Migration Process">Verify Migration Process</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>

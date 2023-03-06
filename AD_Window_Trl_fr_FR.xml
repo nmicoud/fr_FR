@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Window">
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Window">
  <row id="100" trl="N">
   <value column="Name" original="Table and Column">Table and Column</value>
   <value column="Description" original="Maintain Tables and Columns">Maintain Tables and Columns</value>
@@ -52,9 +52,9 @@ Verify the translation creates missing translation records. Start this process a
 Un utilisateur peut aussi être contact d'un tiers.</value>
  </row>
  <row id="109" trl="Y">
-  <value column="Name" original="Client">Société</value>
-  <value column="Description" original="Maintain Clients/Tenants">Maintain Clients/Tenants</value>
-  <value column="Help" original="The Client is the highest level of an independent business entity.  Each Client will have one or more Organizations reporting to it.  Each Client defines the accounting parameters (Accounting Schema, Tree definition, Non Monetary UOM's). To create new Clients, run the Initial Client Setup with the System Administrator Role.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">The Client is the highest level of an independent business entity.  Each Client will have one or more Organizations reporting to it.  Each Client defines the accounting parameters (Accounting Schema, Tree definition, Non Monetary UOM's). To create new Clients, run the Initial Client Setup with the System Administrator Role.
+  <value column="Name" original="Tenant">Société</value>
+  <value column="Description" original="Maintain Tenants">Maintain Clients/Tenants</value>
+  <value column="Help" original="The Tenant is the highest level of an independent business entity.  Each Tenant will have one or more Organizations reporting to it.  Each Tenant defines the accounting parameters (Accounting Schema, Tree definition, Non Monetary UOM's). To create new Tenants, run the Initial Tenant Setup with the System Administrator Role.&#10;Do not create a new tenant in this window, but use &quot;Initial Tenant Setup&quot; to set up the required security and access rules. If you create a new tenant here, you will not be able to view it and also the required tenant infrastructure would not have been set up.">The Client is the highest level of an independent business entity.  Each Client will have one or more Organizations reporting to it.  Each Client defines the accounting parameters (Accounting Schema, Tree definition, Non Monetary UOM's). To create new Clients, run the Initial Client Setup with the System Administrator Role.
 Do not create a new client in this window, but use "Initial Client Setup" to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.</value>
  </row>
  <row id="110" trl="Y">
@@ -65,7 +65,7 @@ Do not create a new client in this window, but use "Initial Client Setup" to set
  <row id="111" trl="Y">
   <value column="Name" original="Role">Rôles</value>
   <value column="Description" original="Maintain User Responsibilities">Paramétrage des rôles</value>
-  <value column="Help" original="The Role Window allows you to define the different roles that users of this system will have.  Roles control access to windows, tasks, reports, etc. For a client an Administrator and User role are predefined. You may add additional roles to control access for specific functionality or data.&#10;You can add users to the role.&#10;Note that access information is cached and requires re-login or reset of cache."/>
+  <value column="Help" original="The Role Window allows you to define the different roles that users of this system will have.  Roles control access to windows, tasks, reports, etc. For a tenant an Administrator and User role are predefined. You may add additional roles to control access for specific functionality or data.&#10;You can add users to the role.&#10;Note that access information is cached and requires re-login or reset of cache."/>
  </row>
  <row id="112" trl="Y">
   <value column="Name" original="Document Sequence">Numérotation</value>
@@ -85,7 +85,7 @@ Do not create a new client in this window, but use "Initial Client Setup" to set
  <row id="115" trl="Y">
   <value column="Name" original="Currency">Devises</value>
   <value column="Description" original="Maintain Currencies">Gestion des devises</value>
-  <value column="Help" original="The Currency Window defines any currency which will be used in documents or reporting. You would define used currencies on System level and add currencies on Client level only for statistical currencies (e.g. for instable currencies) ">Paramétrage des devises utilisées à travers l'application</value>
+  <value column="Help" original="The Currency Window defines any currency which will be used in documents or reporting. You would define used currencies on System level and add currencies on Tenant level only for statistical currencies (e.g. for instable currencies) ">Paramétrage des devises utilisées à travers l'application</value>
  </row>
  <row id="116" trl="N">
   <value column="Name" original="Currency Rate">Currency Rate</value>
@@ -141,7 +141,7 @@ Review and change the GL and Default accounts. The actual accounts used in trans
  </row>
  <row id="129" trl="Y">
   <value column="Name" original="Preference">Préférences</value>
-  <value column="Description" original="Maintain System Client Org and User Preferences">Préférences System, société, organisation et utilisateur</value>
+  <value column="Description" original="Maintain System Tenant Org and User Preferences">Préférences System, société, organisation et utilisateur</value>
   <value column="Help" original="System Admin use only.">Réservée aux administrateurs</value>
  </row>
  <row id="130" trl="N">
@@ -446,7 +446,7 @@ You may want to define several Project cycles to differentiate the different typ
  <row id="213" trl="N">
   <value column="Name" original="Performance Measure Calculation">Performance Measure Calculation</value>
   <value column="Description" original="Define how you calculate your performance measures">Define how you calculate your performance measures</value>
-  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. &#10;The sql needs to return a single value.  Please check examples.&lt;br&gt;&#10;The date trestriction is defined in the Goal. &#10;Any restrictions for Organizations, Business Partners, Products, etc. are  as Performance Goal Restrictions." xml:space="preserve"><![CDATA[The Performance Measure Calculation defines how performance measures will be calculated. 
+  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated.&#10;The sql needs to return a single value.  Please check examples.&lt;br&gt;&#10;The date restriction is defined in the Goal.&#10;Any restrictions for Organizations, Business Partners, Products, etc. are as Performance Goal Restrictions." xml:space="preserve"><![CDATA[The Performance Measure Calculation defines how performance measures will be calculated. 
 The sql needs to return a single value.  Please check examples.<br>
 The date trestriction is defined in the Goal. 
 Any restrictions for Organizations, Business Partners, Products, etc. are  as Performance Goal Restrictions.]]></value>
@@ -484,7 +484,7 @@ Any restrictions for Organizations, Business Partners, Products, etc. are  as Pe
  <row id="224" trl="N">
   <value column="Name" original="Print Form">Print Form</value>
   <value column="Description" original="Maintain Print Forms (Invoices, Checks, ..) used">Maintain Print Forms (Invoices, Checks, ..) used</value>
-  <value column="Help" original="Define the documents you use for this Client/Organnization.  Note that the check format is defined in the Bank (Account) Window.&lt;p&gt;&#10;The highest priotity has the Print Format, you define on a Document Type (example specific Export Invoice format). The next level is the set of Print Formats, you defined for the organziation of the document printed. The default is the set of Print Formats defines for all organizations of the Client (Organization=*)." xml:space="preserve"><![CDATA[Define the documents you use for this Client/Organnization.  Note that the check format is defined in the Bank (Account) Window.<p>
+  <value column="Help" original="Define the documents you use for this Tenant/Organnization.  Note that the check format is defined in the Bank (Account) Window.&lt;p&gt;&#10;The highest priotity has the Print Format, you define on a Document Type (example specific Export Invoice format). The next level is the set of Print Formats, you defined for the organziation of the document printed. The default is the set of Print Formats defines for all organizations of the Tenant (Organization=*)." xml:space="preserve"><![CDATA[Define the documents you use for this Client/Organnization.  Note that the check format is defined in the Bank (Account) Window.<p>
 The highest priotity has the Print Format, you define on a Document Type (example specific Export Invoice format). The next level is the set of Print Formats, you defined for the organziation of the document printed. The default is the set of Print Formats defines for all organizations of the Client (Organization=*).]]></value>
  </row>
  <row id="227" trl="N">
@@ -1723,13 +1723,13 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="200092" trl="N">
-  <value column="Name" original="All Clients">All Clients</value>
+  <value column="Name" original="All Tenants">All Clients</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200093" trl="N">
   <value column="Name" original="All Users">All Users</value>
-  <value column="Description" original="Users from All Clients">Users from All Clients</value>
+  <value column="Description" original="Users from All Tenants">Users from All Clients</value>
   <value column="Help" original=""/>
  </row>
  <row id="200095" trl="N">
@@ -1742,6 +1742,11 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original="Maintain Print Header/Footer">Maintain Print Header/Footer</value>
   <value column="Help" original=""/>
  </row>
+ <row id="200105" trl="N">
+  <value column="Name" original="Bank/Cash Transfer">Bank/Cash Transfer</value>
+  <value column="Description" original="Manage Bank Transfer">Manage Bank Transfer</value>
+  <value column="Help" original=""/>
+ </row>
  <row id="200107" trl="N">
   <value column="Name" original="All User Roles">All User Roles</value>
   <value column="Description" original=""/>
@@ -1749,7 +1754,7 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="200108" trl="N">
   <value column="Name" original="All Roles">All Roles</value>
-  <value column="Description" original="Roles from All Clients">Roles from All Clients</value>
+  <value column="Description" original="Roles from All Tenants">Roles from All Clients</value>
   <value column="Help" original=""/>
  </row>
  <row id="200109" trl="N">
@@ -1808,7 +1813,32 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="200120" trl="N">
-  <value column="Name" original="Client level messages">Messages niveau société</value>
+  <value column="Name" original="Tenant level messages">Messages niveau société</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200123" trl="N">
+  <value column="Name" original="Drill Rule">Drill Rule</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200128" trl="N">
+  <value column="Name" original="Label Category">Label Category</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200129" trl="N">
+  <value column="Name" original="Label">Label</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200130" trl="N">
+  <value column="Name" original="Label Assignment">Label Assignment</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200137" trl="N">
+  <value column="Name" original="Verify Migration">Verify Migration</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Form">
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Form">
  <row id="100" trl="Y">
   <value column="Name" original="Generate Invoices (manual)">Générer les factures (manuel)</value>
   <value column="Description" original="Select and generate invoices">Sélection des commandes à facturer</value>
@@ -39,11 +39,6 @@
   <value column="Name" original="Matching PO-Receipt-Invoice">Matching PO-Receipt-Invoice</value>
   <value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices">Match Purchase Orders, Receipts, Vendor Invoices</value>
   <value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected.">Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that "Same Quantity" is not selected.</value>
- </row>
- <row id="110" trl="Y">
-  <value column="Name" original="Generate Shipments (manual)">Générer les expéditions (manuel)</value>
-  <value column="Description" original="Select and generate shipments"/>
-  <value column="Help" original="Generate Shipments from Orders.  &#10;Select the orders to generate the shipments for.">Création des expéditions depuis les commandes</value>
  </row>
  <row id="111" trl="N">
   <value column="Name" original="SQL Process">SQL Process</value>
@@ -88,7 +83,7 @@ The From entity (e.g. Customer A) is deleted.
  <row id="118" trl="N">
   <value column="Name" original="Archive Viewer">Archive Viewer</value>
   <value column="Description" original="View automatically archived Documents">View automatically archived Documents</value>
-  <value column="Help" original="Depending on the Client Automatic Archive Level documents and reports are saved and available for view. In the Report Viewer you can manually archive Documents or Reports.  You can only view archives, if you have access to the original document.">Depending on the Client Automatic Archive Level documents and reports are saved and available for view. In the Report Viewer you can manually archive Documents or Reports.  You can only view archives, if you have access to the original document.</value>
+  <value column="Help" original="Depending on the Tenant Automatic Archive Level documents and reports are saved and available for view. In the Report Viewer you can manually archive Documents or Reports.  You can only view archives, if you have access to the original document.">Depending on the Client Automatic Archive Level documents and reports are saved and available for view. In the Report Viewer you can manually archive Documents or Reports.  You can only view archives, if you have access to the original document.</value>
  </row>
  <row id="119" trl="N">
   <value column="Name" original="Performance Indicators">Performance Indicators</value>
@@ -185,7 +180,7 @@ Finally a message box asks if you want to close the OM document, you should clic
   <value column="Help" original="Edit the graphical layout of manufacturing workflows">Edit the graphical layout of manufacturing workflows</value>
  </row>
  <row id="53016" trl="N">
-  <value column="Name" original="Accounting Fact Reconcilation (manual)">Accounting Fact Reconcilation (manual)</value>
+  <value column="Name" original="Accounting Fact Reconciliation (manual)">Accounting Fact Reconcilation (manual)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -260,5 +255,10 @@ Selecting the "Where Used" check box will display the BOMs that this product is 
   <value column="Name" original="Register MFA">Register MFA</value>
   <value column="Description" original="Register a multi-factor authentication mechanism">Register a multi-factor authentication mechanism</value>
   <value column="Help" original=""/>
+ </row>
+ <row id="200018" trl="N">
+  <value column="Name" original="SQL Query">SQL Query</value>
+  <value column="Description" original="Process SQL Queries">Process SQL Queries</value>
+  <value column="Help" original="Process SQL Queries">Process SQL Queries</value>
  </row>
 </idempiereTrl>

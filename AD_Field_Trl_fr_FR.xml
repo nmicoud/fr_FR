@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Field">
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Field">
  <row id="1546" trl="N">
   <value column="Name" original="Link Column">Link Column</value>
   <value column="Description" original="Link Column for Multi-Parent tables">Link Column for Multi-Parent tables</value>
@@ -114,7 +114,7 @@ Example: "Updated-Created" would list the age of the entry in days]]></value>
  <row id="12732" trl="N">
   <value column="Name" original="Language">Language</value>
   <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Language for this Business Partner if Multi-Language enabled</value>
-  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Tenant level, Multi-Lingual documents are selected and that you have created/loaded the language.">The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.</value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="13179" trl="N">
@@ -155,7 +155,7 @@ Email of the responsible person for the system (registered in WebStore)</value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="50069" trl="N">
-  <value column="Name" original="Client">Client</value>
+  <value column="Name" original="Tenant">Client</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -251,7 +251,7 @@ Email of the responsible person for the system (registered in WebStore)</value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="50092" trl="N">
-  <value column="Name" original="Client">Client</value>
+  <value column="Name" original="Tenant">Client</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -726,7 +726,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
  <row id="62779" trl="N">
   <value column="Name" original="Language">Language</value>
   <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Language for this Business Partner if Multi-Language enabled</value>
-  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Tenant level, Multi-Lingual documents are selected and that you have created/loaded the language.">The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.</value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="62991" trl="N">
@@ -928,15 +928,21 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Placeholder" original=""/>
  </row>
  <row id="205154" trl="N">
-  <value column="Name" original="Client">Client</value>
+  <value column="Name" original="Tenant">Client</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
  </row>
  <row id="205174" trl="N">
-  <value column="Name" original="Client">Client</value>
+  <value column="Name" original="Tenant">Client</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="205705" trl="N">
+  <value column="Name" original="To Business Partner ">To Business Partner </value>
+  <value column="Description" original="Identifies a Business Partner">Identifies a Business Partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson</value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="205898" trl="N">

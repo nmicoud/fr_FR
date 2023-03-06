@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 9_2021-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Reference">
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Reference">
  <row id="1" trl="N">
   <value column="Name" original="AD_Reference Data Types">AD_Reference Data Types</value>
   <value column="Description" original="Data Type selection">Data Type selection</value>
@@ -312,7 +312,7 @@
  </row>
  <row id="129" trl="N">
   <value column="Name" original="AD_Client">AD_Client</value>
-  <value column="Description" original="Client selection">Client selection</value>
+  <value column="Description" original="Tenant selection">Client selection</value>
   <value column="Help" original=""/>
  </row>
  <row id="130" trl="N">
@@ -327,7 +327,7 @@
  </row>
  <row id="132" trl="N">
   <value column="Name" original="Account_ID (Trx)">Account_ID (Trx)</value>
-  <value column="Description" original="Account selection based on Client">Account selection based on Client</value>
+  <value column="Description" original="Account selection based on Tenant">Account selection based on Client</value>
   <value column="Help" original=""/>
  </row>
  <row id="133" trl="N">
@@ -337,7 +337,7 @@
  </row>
  <row id="134" trl="N">
   <value column="Name" original="Account_ID - User1">Account_ID - User1</value>
-  <value column="Description" original="User1 selection based on Client">User1 selection based on Client</value>
+  <value column="Description" original="User1 selection based on Tenant">User1 selection based on Client</value>
   <value column="Help" original=""/>
  </row>
  <row id="135" trl="N">
@@ -352,7 +352,7 @@
  </row>
  <row id="137" trl="N">
   <value column="Name" original="Account_ID - User2">Account_ID - User2</value>
-  <value column="Description" original="User2 selection based on Client">User2 selection based on Client</value>
+  <value column="Description" original="User2 selection based on Tenant">User2 selection based on Client</value>
   <value column="Help" original=""/>
  </row>
  <row id="138" trl="N">
@@ -606,7 +606,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="197" trl="N">
-  <value column="Name" original="M_Warehouse of Client">M_Warehouse of Client</value>
+  <value column="Name" original="M_Warehouse of Tenant">M_Warehouse of Client</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -616,7 +616,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="199" trl="N">
-  <value column="Name" original="M_PriceList_Version for Client">M_PriceList_Version for Client</value>
+  <value column="Name" original="M_PriceList_Version for Tenant">M_PriceList_Version for Client</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1242,7 +1242,7 @@
  </row>
  <row id="331" trl="N">
   <value column="Name" original="Account_ID">Account_ID</value>
-  <value column="Description" original="Account selection based on Client">Account selection based on Client</value>
+  <value column="Description" original="Account selection based on Tenant">Account selection based on Client</value>
   <value column="Help" original=""/>
  </row>
  <row id="332" trl="N">
@@ -2322,7 +2322,7 @@
  </row>
  <row id="200022" trl="N">
   <value column="Name" original="AD_BroadcastMessage_Target">AD_BroadcastMessag_Target</value>
-  <value column="Description" original="Target Client">Target Client</value>
+  <value column="Description" original="Target Tenant">Target Client</value>
   <value column="Help" original=""/>
  </row>
  <row id="200023" trl="N">
@@ -2540,6 +2540,11 @@
   <value column="Description" original="Type of preference WEditor lie on (process, info window, window)">Type of preference WEditor lie on (process, info window, window)</value>
   <value column="Help" original=""/>
  </row>
+ <row id="200085" trl="N">
+  <value column="Name" original="DocSource Generate Shipments/Invoices (manual)">DocSource Generate Shipments/Invoices (manual)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="200092" trl="N">
   <value column="Name" original="Country Group">Country Group</value>
   <value column="Description" original=""/>
@@ -2590,19 +2595,29 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="200133" trl="N">
+  <value column="Name" original="Timestamp With Time Zone">Timestamp With Time Zone</value>
+  <value column="Description" original="Date and time with time zone">Date and time with time zone</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200135" trl="N">
+  <value column="Name" original="Time Zone">Time Zone</value>
+  <value column="Description" original="Time Zone">Time Zone</value>
+  <value column="Help" original=""/>
+ </row>
  <row id="200137" trl="N">
   <value column="Name" original="AD_Tree_Favorite_Node list">AD_Tree_Favorite_Node list</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200144" trl="N">
-  <value column="Name" original="AD_Client All Clients">AD_Client All Clients</value>
-  <value column="Description" original="Client selection">Client selection</value>
+  <value column="Name" original="AD_Client All Tenants">AD_Client All Clients</value>
+  <value column="Description" original="Tenant selection">Client selection</value>
   <value column="Help" original=""/>
  </row>
  <row id="200145" trl="N">
-  <value column="Name" original="AD_User Users from all Clients">AD_User Users from all Clients</value>
-  <value column="Description" original="Users from all clients">Users from all clients</value>
+  <value column="Name" original="AD_User Users from all Tenants">AD_User Users from all Clients</value>
+  <value column="Description" original="Users from all tenants">Users from all clients</value>
   <value column="Help" original=""/>
  </row>
  <row id="200152" trl="N">
@@ -2618,6 +2633,11 @@
  <row id="200158" trl="N">
   <value column="Name" original="AD_Process Multiple Execution">AD_Process Multiple Execution</value>
   <value column="Description" original="Multiple execution rule list">Multiple execution rule list</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200160" trl="N">
+  <value column="Name" original="C_Tax Posting Indicator">C_Tax Posting Indicator</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200161" trl="N">
@@ -2751,17 +2771,52 @@
   <value column="Help" original=""/>
  </row>
  <row id="200191" trl="N">
-  <value column="Name" original="MFA_Method - on client rule">MFA_Method - on client rule</value>
+  <value column="Name" original="MFA_Method - on tenant rule">MFA_Method - on client rule</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200194" trl="N">
-  <value column="Name" original="M_WarehouseTo of Client">M_WarehouseTo of Client</value>
+  <value column="Name" original="M_WarehouseTo of Tenant">M_WarehouseTo of Client</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200198" trl="N">
   <value column="Name" original="FinReport ExcludeAdjustmentPeriods">FinReport ExcludeAdjustmentPeriods</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200208" trl="N">
+  <value column="Name" original="C_DocType S.Order + RMA">C_DocType S.Order + RMA</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200215" trl="N">
+  <value column="Name" original="AD_Role RoleType - WebService">AD_Role RoleType - WebService</value>
+  <value column="Description" original="Roles with RoleType NULL or WebService">Roles with RoleType NULL or WebService</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200217" trl="N">
+  <value column="Name" original="DateSelectionMode">DateSelectionMode</value>
+  <value column="Description" original="Date Selection Mode">Date Selection Mode</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200221" trl="N">
+  <value column="Name" original="Months">Months</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200222" trl="N">
+  <value column="Name" original="Quarters">Quarters</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200224" trl="N">
+  <value column="Name" original="S_ResourceType">S_ResourceType</value>
+  <value column="Description" original="Resource Type">Resource Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200227" trl="N">
+  <value column="Name" original="PrintFormatItemSync Source">PrintFormatItemSync Source</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
