@@ -419,7 +419,7 @@ Continue?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="205" trl="N">
-  <value column="MsgText" original="Customize">Customize</value>
+  <value column="MsgText" original="Customize">Personnaliser</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="206" trl="N">
@@ -527,7 +527,7 @@ Continue?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="232" trl="N">
-  <value column="MsgText" original="EMail">EMail</value>
+  <value column="MsgText" original="EMail">Courriel</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="233" trl="Y">
@@ -627,7 +627,7 @@ Continue?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="257" trl="N">
-  <value column="MsgText" original="Import File Loader">Import File Loader</value>
+  <value column="MsgText" original="Import File Loader">Import données</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="258" trl="Y">
@@ -707,7 +707,7 @@ Continue?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="277" trl="Y">
-  <value column="MsgText" original="No Records found">Aucun résultalt</value>
+  <value column="MsgText" original="No Records found">Aucun résultat</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="278" trl="Y">
@@ -735,7 +735,7 @@ Continue?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="284" trl="Y">
-  <value column="MsgText" original="Go" xml:space="preserve"><![CDATA[Navi&Guer]]></value>
+  <value column="MsgText" original="Go">Naviguer</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="285" trl="N">
@@ -835,7 +835,7 @@ Continue?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="310" trl="N">
-  <value column="MsgText" original="Select shipments to generate invoices">Select shipments to generate invoices</value>
+  <value column="MsgText" original="Select shipments to generate invoices">Selection des expéditions pour générer les factures</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="311" trl="N">
@@ -1029,7 +1029,7 @@ Problème : </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="358" trl="N">
-  <value column="MsgText" original="No records found; Enter data for new record">No records found; Enter data for new record</value>
+  <value column="MsgText" original="No records found; Enter data for new record">Aucun enregistrement ; saisir des données pour un nouvel enregistrement</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="359" trl="N">
@@ -1053,7 +1053,7 @@ Problème : </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="364" trl="N">
-  <value column="MsgText" original="Not Unique:">Not Unique:</value>
+  <value column="MsgText" original="Not Unique:">Non unique :</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="365" trl="N">
@@ -1109,7 +1109,7 @@ Problème : </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="378" trl="N">
-  <value column="MsgText" original="Org">Bureau</value>
+  <value column="MsgText" original="Org">Organisation</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="379" trl="N">
@@ -1197,7 +1197,7 @@ Problème : </value>
   <value column="MsgTip" original="Create Payment Processor for your Bank Account.">Create Payment Processor for your Bank Account.</value>
  </row>
  <row id="400" trl="N">
-  <value column="MsgText" original="Payment process failed">Payment process failed</value>
+  <value column="MsgText" original="Payment process failed">Le traitement du règlement a échoué</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="401" trl="N">
@@ -1351,7 +1351,7 @@ Enter the payment after completing the transaction</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="438" trl="N">
-  <value column="MsgText" original="Process cancelled">Process cancelled</value>
+  <value column="MsgText" original="Process cancelled">Traitement annulé</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="439" trl="N">
@@ -1383,7 +1383,7 @@ Enter the payment after completing the transaction</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="446" trl="N">
-  <value column="MsgText" original="Process could not be submitted">Process could not be submitted</value>
+  <value column="MsgText" original="Process could not be submitted">Le traitement ne peut être exécuté</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="447" trl="Y">
@@ -1507,7 +1507,7 @@ Enter the payment after completing the transaction</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="477" trl="N">
-  <value column="MsgText" original="Could not send EMail">Could not send EMail</value>
+  <value column="MsgText" original="Could not send EMail">Impossible d'envoyer le courriel</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="478" trl="N">
@@ -1727,7 +1727,7 @@ Details: </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="530" trl="Y">
-  <value column="MsgText" original="Select Program">Bienvenue dans ADempiere TGI</value>
+  <value column="MsgText" original="Select Program">Bienvenue dans iDempiere TGI</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="531" trl="N">
@@ -1985,7 +1985,7 @@ Si non, le règlement n'est pas créé (ne pas imprimer)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="594" trl="N">
-  <value column="MsgText" original="Preference Value deleted">Preference Value deleted</value>
+  <value column="MsgText" original="Preference Value deleted">Valeur par défaut supprimée</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="595" trl="Y">
@@ -1993,11 +1993,11 @@ Si non, le règlement n'est pas créé (ne pas imprimer)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="596" trl="N">
-  <value column="MsgText" original="Preference Value NOT found">Preference Value NOT found</value>
+  <value column="MsgText" original="Preference Value NOT found">Valeur par défaut non trouvée</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="597" trl="N">
-  <value column="MsgText" original="Preference Value NOT set">Preference Value NOT set</value>
+  <value column="MsgText" original="Preference Value NOT set">Valeur par défaut non définie</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="598" trl="Y">
@@ -2434,7 +2434,7 @@ Please stop and migrate the database immediately.</value>
  </row>
  <row id="713" trl="N">
   <value column="MsgText" original="Dictionary Maintenance">Dictionary Maintenance</value>
-  <value column="MsgTip" original="Only for internal iDempiere Dictionary Maintenence - DO NOT SELECT">Only for internal Adempiere Dictionary Maintenence - DO NOT SELECT</value>
+  <value column="MsgTip" original="Only for internal iDempiere Dictionary Maintenence - DO NOT SELECT">Only for internal iDempiere Dictionary Maintenence - DO NOT SELECT</value>
  </row>
  <row id="714" trl="N">
   <value column="MsgText" original="No Translation">No Translation</value>
@@ -2513,7 +2513,7 @@ Please stop and migrate the database immediately.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="734" trl="N">
-  <value column="MsgText" original="Mean">Mean</value>
+  <value column="MsgText" original="Mean">Moyenne</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="735" trl="N">
@@ -2688,7 +2688,7 @@ Thank you for using Adempiere Customer Asset Management
   <value column="MsgTip" original=""/>
  </row>
  <row id="777" trl="N">
-  <value column="MsgText" original="Product">Product</value>
+  <value column="MsgText" original="Product">Article</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="778" trl="Y">
@@ -2736,7 +2736,7 @@ Thank you for using Adempiere Customer Asset Management
   <value column="MsgTip" original=""/>
  </row>
  <row id="789" trl="N">
-  <value column="MsgText" original="No Inventory Available:">No Inventory Available:</value>
+  <value column="MsgText" original="No Inventory Available:">Pas de stock suffisant : </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="790" trl="N">
@@ -2801,7 +2801,7 @@ Example: To convert Each to Pair, the Multiply Rate is 0.5]]></value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="805" trl="N">
-  <value column="MsgText" original="Product is not on Price List">Product is not on PriceList</value>
+  <value column="MsgText" original="Product is not on Price List">Le produit n'est pas sur le tarif</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="806" trl="Y">
@@ -2952,7 +2952,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="842" trl="N">
-  <value column="MsgText" original="Delete Line">Delete Line</value>
+  <value column="MsgText" original="Delete Line">Supprimer ligne</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="843" trl="N">
@@ -3324,7 +3324,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52030" trl="N">
-  <value column="MsgText" original="Add">Add</value>
+  <value column="MsgText" original="Add">Ajouter</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52031" trl="N">
@@ -3776,11 +3776,11 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52143" trl="N">
-  <value column="MsgText" original="Default">Default</value>
+  <value column="MsgText" original="Default">Défaut</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52144" trl="N">
-  <value column="MsgText" original="Delete">Delete</value>
+  <value column="MsgText" original="Delete">Supprimer</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52145" trl="N">
@@ -3824,7 +3824,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52155" trl="N">
-  <value column="MsgText" original="Edit">Edit</value>
+  <value column="MsgText" original="Edit">Editer</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52156" trl="N">
@@ -4464,7 +4464,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52315" trl="N">
-  <value column="MsgText" original="Save">Save</value>
+  <value column="MsgText" original="Save">Sauvegarder</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52316" trl="N">
@@ -4852,7 +4852,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52413" trl="N">
-  <value column="MsgText" original="To">To</value>
+  <value column="MsgText" original="To">à</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52414" trl="N">
@@ -4872,7 +4872,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52418" trl="N">
-  <value column="MsgText" original="Unallocated Payments">Unallocated Payments</value>
+  <value column="MsgText" original="Unallocated Payments">Règlements non affectés</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52419" trl="N">
@@ -4880,7 +4880,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52420" trl="N">
-  <value column="MsgText" original="User">User</value>
+  <value column="MsgText" original="User">Utilisateur</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52421" trl="N">
@@ -5560,7 +5560,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53127" trl="N">
-  <value column="MsgText" original="Credit">Credit</value>
+  <value column="MsgText" original="Credit">Crédits</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53128" trl="N">
@@ -5592,7 +5592,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53135" trl="N">
-  <value column="MsgText" original="Export current row only?">Export current row only?</value>
+  <value column="MsgText" original="Export current row only?">Exporter uniquement la ligne courante</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53136" trl="N">
@@ -5660,7 +5660,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200011" trl="N">
-  <value column="MsgText" original="Password Errors">Password Errors</value>
+  <value column="MsgText" original="Password Errors">Erreurs mot de passe</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200012" trl="N">
@@ -5668,11 +5668,11 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200013" trl="N">
-  <value column="MsgText" original="Properties">Properties</value>
+  <value column="MsgText" original="Properties">Propriétés</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200014" trl="N">
-  <value column="MsgText" original="{0} tasks completed from {1} ({2}% advance)">{0} tasks completed from {1} ({2}% advance)</value>
+  <value column="MsgText" original="{0} tasks completed from {1} ({2}% advance)">{0} tâche(s) terminée(s) sur {1} ({2}% avancement)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200015" trl="N">
@@ -5704,19 +5704,19 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200030" trl="N">
-  <value column="MsgText" original="Confirm New Password is Mandatory">New Password Confirm is Mandatory</value>
+  <value column="MsgText" original="Confirm New Password is Mandatory">La confirmation du nouveau mot de passe est obligatoire</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200031" trl="N">
-  <value column="MsgText" original="Password does not match the Confirm Password">Password does not match the confirm password</value>
+  <value column="MsgText" original="Password does not match the Confirm Password">Le mot de passe de confirmation n'est pas identique</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200032" trl="N">
-  <value column="MsgText" original="User account ({0}) is locked, please contact the system administrator">User account '{0}' is locked, please contact the system administrator</value>
+  <value column="MsgText" original="User account ({0}) is locked, please contact the system administrator">Le compte ({0}) est bloqué, contacter un administrateur</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200033" trl="N">
-  <value column="MsgText" original="Reached the maximum number of login attempts, user account ({0}) is locked">Reached the maximum number of login attempts, user account '{0}' is locked</value>
+  <value column="MsgText" original="Reached the maximum number of login attempts, user account ({0}) is locked">Vous avez atteint le nombre maximum de tentatives de connexion, le compte ({0}) est verrouillé</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200034" trl="N">
@@ -5736,7 +5736,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200038" trl="N">
-  <value column="MsgText" original="All Columns">All Columns</value>
+  <value column="MsgText" original="All Columns">Toutes les colonnes</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200039" trl="N">
@@ -5764,39 +5764,39 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200045" trl="N">
-  <value column="MsgText" original="Security Question">Security Question</value>
+  <value column="MsgText" original="Security Question">Question de sécurité</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200048" trl="N">
-  <value column="MsgText" original="Security Question is Mandatory">Security Question is Mandatory</value>
+  <value column="MsgText" original="Security Question is Mandatory">La question de sécurité est obligatoire</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200049" trl="N">
-  <value column="MsgText" original="Answer is Mandatory">Answer is Mandatory</value>
+  <value column="MsgText" original="Answer is Mandatory">La réponse est obligatoire</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200050" trl="N">
-  <value column="MsgText" original="Invalid Security Question and Answer!">Invalid Security Question and Answer!</value>
+  <value column="MsgText" original="Invalid Security Question and Answer!">La réponse ne correspond pas à la question de sécurité</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200051" trl="N">
-  <value column="MsgText" original="What was your childhood nickname?">What was your childhood nickname?</value>
+  <value column="MsgText" original="What was your childhood nickname?">Quel était votre surnom dans l'enfance ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200052" trl="N">
-  <value column="MsgText" original="Who was your childhood hero?">Who was your childhood hero?</value>
+  <value column="MsgText" original="Who was your childhood hero?">Qui était votre héros d'enfance ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200053" trl="N">
-  <value column="MsgText" original="What was the name of your elementary / primary school?">What was the name of your elementary / primary school?</value>
+  <value column="MsgText" original="What was the name of your elementary / primary school?">Quel était le nom de votre école primaire ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200054" trl="N">
-  <value column="MsgText" original="What are the last 5 digits of your driver's license number?">What are the last 5 digits of your driver's license number?</value>
+  <value column="MsgText" original="What are the last 5 digits of your driver's license number?">Quels sont les 5 derniers caractères de votre permis de conduire ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200055" trl="N">
-  <value column="MsgText" original="Where did you meet your spouse / significant other?">Where did you meet your spouse / significant other?</value>
+  <value column="MsgText" original="Where did you meet your spouse / significant other?">Où avez-vous rencontré votre conjoint ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200056" trl="N">
@@ -5812,11 +5812,11 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200059" trl="N">
-  <value column="MsgText" original="Invalid User Name and EMail!">Invalid User Name and EMail</value>
+  <value column="MsgText" original="Invalid User Name and EMail!">Login et courriel invalides</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200060" trl="N">
-  <value column="MsgText" original="Invoice Processed: ">Facture traitée : </value>
+  <value column="MsgText" original="Invoice Processed: ">Facture terminée : </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200061" trl="N">
@@ -5824,11 +5824,11 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200062" trl="N">
-  <value column="MsgText" original="Allocation Processed: ">Allocation Processed: </value>
+  <value column="MsgText" original="Allocation Processed: ">Affectation terminée : </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200063" trl="N">
-  <value column="MsgText" original="Shipment Processed: ">Shipment Processed: </value>
+  <value column="MsgText" original="Shipment Processed: ">Expédition générée : </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200064" trl="N">
@@ -5840,7 +5840,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200066" trl="N">
-  <value column="MsgText" original="New Password must differ from Old Password">New Password must differ from Old Password</value>
+  <value column="MsgText" original="New Password must differ from Old Password">Le nouveau mot de passe doit être différent de l'ancien</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200067" trl="N">
@@ -6080,7 +6080,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original="Import Mode">Import Mode</value>
  </row>
  <row id="200135" trl="N">
-  <value column="MsgText" original="Invalid User ID or Password">Invalid User ID or Password</value>
+  <value column="MsgText" original="Invalid User ID or Password">Utilisateur ou mot de passe incorrect</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200136" trl="N">
@@ -6140,7 +6140,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200150" trl="N">
-  <value column="MsgText" original="Entered value is more than the maximum ({0}) allowed">Entered value is more than the maximum ({0}) allowed</value>
+  <value column="MsgText" original="Entered value is more than the maximum ({0}) allowed">La valeur saisie est supérieure au maximum autorisé ({0})</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200151" trl="N">
@@ -6208,7 +6208,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200167" trl="N">
-  <value column="MsgText" original="5 Days">5 Days</value>
+  <value column="MsgText" original="5 Days">5 jours</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200168" trl="N">
@@ -6424,7 +6424,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200239" trl="N">
-  <value column="MsgText" original="more">more</value>
+  <value column="MsgText" original="more">suppl.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200240" trl="N">
@@ -6440,7 +6440,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200243" trl="N">
-  <value column="MsgText" original="Price list cannot be changed because the order contains product lines">Price list cannot be changed because the order contains product lines</value>
+  <value column="MsgText" original="Price list cannot be changed because the order contains product lines">Le tarif ne peut pas être modifié car la commande/devis contient des produits</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200244" trl="N">
@@ -6536,11 +6536,11 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200271" trl="N">
-  <value column="MsgText" original="Tabs">Tabs</value>
+  <value column="MsgText" original="Tabs">Onglets</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200272" trl="N">
-  <value column="MsgText" original="Fields">Fields</value>
+  <value column="MsgText" original="Fields">Champs</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200273" trl="N">
@@ -6584,7 +6584,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200332" trl="N">
-  <value column="MsgText" original="Could not unlock user account">Could not unlock user account</value>
+  <value column="MsgText" original="Could not unlock user account">Impossible de déverrouiller le compte utilisateur</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200333" trl="N">
@@ -6592,7 +6592,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200334" trl="N">
-  <value column="MsgText" original="locked account has been reset">locked account has been reset</value>
+  <value column="MsgText" original="locked account has been reset">comptes bloqués sont débloqués</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200349" trl="N">

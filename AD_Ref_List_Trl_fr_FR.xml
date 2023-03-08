@@ -4509,11 +4509,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="53637" trl="N">
-  <value column="Name" original="Area Chart">Area Chart</value>
+  <value column="Name" original="Area Chart">Aires</value>
   <value column="Description" original=""/>
  </row>
  <row id="53638" trl="N">
-  <value column="Name" original="Bar Chart">3D Area Chart</value>
+  <value column="Name" original="Bar Chart">Histogramme</value>
   <value column="Description" original=""/>
  </row>
  <row id="53639" trl="N">
@@ -4533,7 +4533,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53643" trl="N">
-  <value column="Name" original="Line Chart">Line Chart</value>
+  <value column="Name" original="Line Chart">Courbes</value>
   <value column="Description" original=""/>
  </row>
  <row id="53644" trl="N">
@@ -4541,11 +4541,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="53645" trl="N">
-  <value column="Name" original="Waterfall Chart">Waterfall Chart</value>
+  <value column="Name" original="Waterfall Chart">Diagramme waterfall</value>
   <value column="Description" original=""/>
  </row>
  <row id="53646" trl="N">
-  <value column="Name" original="Pie Chart">Pie Chart</value>
+  <value column="Name" original="Pie Chart">Secteurs</value>
   <value column="Description" original=""/>
  </row>
  <row id="53647" trl="N">
@@ -4553,7 +4553,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53648" trl="N">
-  <value column="Name" original="Ring Chart">Ring Chart</value>
+  <value column="Name" original="Ring Chart">Anneaux</value>
   <value column="Description" original=""/>
  </row>
  <row id="53660" trl="Y">

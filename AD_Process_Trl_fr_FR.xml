@@ -211,7 +211,7 @@ Movements are only created, if a sourcing warehouse is defined for the warehouse
   <value column="Help" original=""/>
  </row>
  <row id="145" trl="N">
-  <value column="Name" original="Open Items">Open Items</value>
+  <value column="Name" original="Open Items">Liste des factures non réglées</value>
   <value column="Description" original="Open Item (Invoice) List">Open Item (Invoice) List</value>
   <value column="Help" original="Displays all unpaid invoices for a given Business Partner and date range. Please note that Invoices paid in Cash will appear in Open Items until the Cash Journal is processed.">Displays all unpaid invoices for a given Business Partner and date range. Please note that Invoices paid in Cash will appear in Open Items until the Cash Journal is processed.</value>
  </row>
@@ -664,7 +664,7 @@ Ainsi, si un client a une facture de 100 € en date du 31/03 et un paiement le 
   <value column="Help" original=""/>
  </row>
  <row id="242" trl="N">
-  <value column="Name" original="Validate">Validate</value>
+  <value column="Name" original="Validate">Valider</value>
   <value column="Description" original="Validate Payment Schedule">Validate Payment Schedule</value>
   <value column="Help" original=""/>
  </row>

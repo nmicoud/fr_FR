@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Element">
  <row id="101" trl="N">
-  <value column="Name" original="Attachment">Attachment</value>
-  <value column="PrintName" original="Attachment">Attachment</value>
+  <value column="Name" original="Attachment">Pièce jointe</value>
+  <value column="PrintName" original="Attachment">Pièce jointe</value>
   <value column="Description" original="Attachment for the document">Attachment for the document</value>
   <value column="Help" original="Attachment can be of any document/file type and can be attached to any record in the system.">Attachment can be of any document/file type and can be attached to any record in the system.</value>
   <value column="Placeholder" original=""/>
@@ -144,9 +144,9 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="117" trl="N">
-  <value column="Name" original="Process">Process</value>
-  <value column="PrintName" original="Process">Process</value>
-  <value column="Description" original="Process or Report">Process or Report</value>
+  <value column="Name" original="Process">Traitement</value>
+  <value column="PrintName" original="Process">Traitement</value>
+  <value column="Description" original="Process or Report">Traitement ou état</value>
   <value column="Help" original="The Process field identifies a unique Process or Report in the system.">The Process field identifies a unique Process or Report in the system.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -562,8 +562,8 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="163" trl="N">
-  <value column="Name" original="Approval Amount">Approval Amount</value>
-  <value column="PrintName" original="Approval Amt">Approval Amt</value>
+  <value column="Name" original="Approval Amount">Montant d'approbation</value>
+  <value column="PrintName" original="Approval Amt">Montant d'approbation</value>
   <value column="Description" original="The approval amount limit for this role">The approval amount limit for this role</value>
   <value column="Help" original="The Approval Amount field indicates the amount limit this Role has for approval of documents.">The Approval Amount field indicates the amount limit this Role has for approval of documents.</value>
   <value column="Placeholder" original=""/>
@@ -717,9 +717,9 @@ Sinon, il appartient aux utilisateurs de le faire.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="191" trl="N">
-  <value column="Name" original="Conversion Rate">Conversion Rate</value>
-  <value column="PrintName" original="Conversion Rate">Conversion Rate</value>
-  <value column="Description" original="Rate used for converting currencies">Rate used for converting currencies</value>
+  <value column="Name" original="Conversion Rate">Taux de change</value>
+  <value column="PrintName" original="Conversion Rate">Taux de change</value>
+  <value column="Description" original="Rate used for converting currencies">Taux utilisé pour convertir des devises</value>
   <value column="Help" original="The Conversion Rate defines the rate (multiply or divide) to use when converting a source currency to an accounting currency.">The Conversion Rate defines the rate (multiply or divide) to use when converting a source currency to an accounting currency.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -750,9 +750,9 @@ Sinon, il appartient aux utilisateurs de le faire.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="195" trl="N">
-  <value column="Name" original="Currency To">Currency To</value>
-  <value column="PrintName" original="Currency To">Currency To</value>
-  <value column="Description" original="Target currency">Target currency</value>
+  <value column="Name" original="Currency To">Vers devise</value>
+  <value column="PrintName" original="Currency To">Vers devise</value>
+  <value column="Description" original="Target currency">Devise cible</value>
   <value column="Help" original="The Currency To defines the target currency for this conversion rate.">The Currency To defines the target currency for this conversion rate.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -915,9 +915,9 @@ Sinon, il appartient aux utilisateurs de le faire.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="211" trl="N">
-  <value column="Name" original="Tax Category">Tax Category</value>
-  <value column="PrintName" original="Tax Category">Tax Category</value>
-  <value column="Description" original="Tax Category">Tax Category</value>
+  <value column="Name" original="Tax Category">Catégorie taxe</value>
+  <value column="PrintName" original="Tax Category">Catégorie taxe</value>
+  <value column="Description" original="Tax Category">Catégorie taxe</value>
   <value column="Help" original="The Tax Category provides a method of grouping similar taxes.  For example, Sales Tax or Value Added Tax.">The Tax Category provides a method of grouping similar taxes.  For example, Sales Tax or Value Added Tax.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -1236,8 +1236,8 @@ Otherwise the total Debit amount must be equal to the control amount, before the
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="252" trl="N">
-  <value column="Name" original="Currency Balancing Acct">Currency Balancing Acct</value>
-  <value column="PrintName" original="Currency Balancing Acct">Currency Balancing Acct</value>
+  <value column="Name" original="Currency Balancing Acct">Compte écart conversion</value>
+  <value column="PrintName" original="Currency Balancing Acct">Compte écart conversion</value>
   <value column="Description" original="Account used when a currency is out of balance">Account used when a currency is out of balance</value>
   <value column="Help" original="The Currency Balancing Account indicates the account to used when a currency is out of balance (generally due to rounding)">The Currency Balancing Account indicates the account to used when a currency is out of balance (generally due to rounding)</value>
   <value column="Placeholder" original=""/>
@@ -1401,9 +1401,9 @@ Otherwise the total Debit amount must be equal to the control amount, before the
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="280" trl="N">
-  <value column="Name" original="Discount %">Discount %</value>
-  <value column="PrintName" original="Discount %">Discount %</value>
-  <value column="Description" original="Discount in percent">Discount in percent</value>
+  <value column="Name" original="Discount %">% Remise</value>
+  <value column="PrintName" original="Discount %">% Remise</value>
+  <value column="Description" original="Discount in percent">Pourcentage de remise</value>
   <value column="Help" original="The Discount indicates the discount applied or taken as a percentage.">The Discount indicates the discount applied or taken as a percentage.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -1412,9 +1412,9 @@ Otherwise the total Debit amount must be equal to the control amount, before the
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="281" trl="N">
-  <value column="Name" original="Discount Days">Discount Days</value>
-  <value column="PrintName" original="Discount Days">Discount Days</value>
-  <value column="Description" original="Number of days from invoice date to be eligible for discount">Number of days from invoice date to be eligible for discount</value>
+  <value column="Name" original="Discount Days">Jours de remise / escompte</value>
+  <value column="PrintName" original="Discount Days">Jours de remise / escompte</value>
+  <value column="Description" original="Number of days from invoice date to be eligible for discount">Nombre de jours pendant lesquels il est possible de déduire une remise / un escompte</value>
   <value column="Help" original="The Discount Days indicates the number of days that payment must be received in to be eligible for the stated discount.  ">The Discount Days indicates the number of days that payment must be received in to be eligible for the stated discount.  </value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -1656,7 +1656,7 @@ Example of format "(000)_000-0000"]]></value>
  <row id="301" trl="N">
   <value column="Name" original="Fax">Fax</value>
   <value column="PrintName" original="Fax">Fax</value>
-  <value column="Description" original="Facsimile number">Facsimile number</value>
+  <value column="Description" original="Facsimile number">Numéro de fax</value>
   <value column="Help" original="The Fax identifies a facsimile number for this Business Partner or  Location">The Fax identifies a facsimile number for this Business Partner or  Location</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -1753,8 +1753,8 @@ Example of format "(000)_000-0000"]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="315" trl="N">
-  <value column="Name" original="Journal">Ecriture</value>
-  <value column="PrintName" original="Journal">Ecriture</value>
+  <value column="Name" original="Journal">OD</value>
+  <value column="PrintName" original="Journal">OD</value>
   <value column="Description" original="General Ledger Journal"/>
   <value column="Help" original="The General Ledger Journal identifies a group of journal lines which represent a logical business transaction"/>
   <value column="Placeholder" original=""/>
@@ -1831,7 +1831,7 @@ Example of format "(000)_000-0000"]]></value>
  </row>
  <row id="326" trl="N">
   <value column="Name" original="Comment/Help">Commentaire/Aide</value>
-  <value column="PrintName" original="Comment">Dernière exécution</value>
+  <value column="PrintName" original="Comment">Commentaire/Aide</value>
   <value column="Description" original="Comment or Hint">Commentaires ou astuce</value>
   <value column="Help" original="The Help field contains a hint, comment or help about the use of this item.">Ce champ contient une astuce, un commentaire ou de l'aide</value>
   <value column="Placeholder" original=""/>
@@ -1885,8 +1885,8 @@ Example of format "(000)_000-0000"]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="337" trl="N">
-  <value column="Name" original="Intercompany Due From Acct">Intercompany Due From Acct</value>
-  <value column="PrintName" original="Intercompany Due From Acct">Intercompany Due From Acct</value>
+  <value column="Name" original="Intercompany Due From Acct">Compte créances inter bureaux</value>
+  <value column="PrintName" original="Intercompany Due From Acct">Compte créances inter bureaux</value>
   <value column="Description" original="Intercompany Due From / Receivables Account">Intercompany Due From / Receivables Account</value>
   <value column="Help" original="The Intercompany Due From account indicates the account that represents money owed to this organization from other organizations.">The Intercompany Due From account indicates the account that represents money owed to this organization from other organizations.</value>
   <value column="Placeholder" original=""/>
@@ -1896,8 +1896,8 @@ Example of format "(000)_000-0000"]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="338" trl="N">
-  <value column="Name" original="Intercompany Due To Acct">Intercompany Due To Acct</value>
-  <value column="PrintName" original="Intercompany Due To Acct">Intercompany Due To Acct</value>
+  <value column="Name" original="Intercompany Due To Acct">Compte dettes inter bureaux</value>
+  <value column="PrintName" original="Intercompany Due To Acct">Compte dettes inter bureaux</value>
   <value column="Description" original="Intercompany Due To / Payable Account">Intercompany Due To / Payable Account</value>
   <value column="Help" original="The Intercompany Due To Account indicates the account that represents money owed to other organizations.">The Intercompany Due To Account indicates the account that represents money owed to other organizations.</value>
   <value column="Placeholder" original=""/>
@@ -1982,8 +1982,8 @@ Pourquoi privilégier la désactivation :
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="351" trl="N">
-  <value column="Name" original="Approved">Approved</value>
-  <value column="PrintName" original="Approved">Approved</value>
+  <value column="Name" original="Approved">Approuvé</value>
+  <value column="PrintName" original="Approved">Approuvé</value>
   <value column="Description" original="Indicates if this document requires approval">Indicates if this document requires approval</value>
   <value column="Help" original="The Approved checkbox indicates if this document requires approval before it can be processed.">The Approved checkbox indicates if this document requires approval before it can be processed.</value>
   <value column="Placeholder" original=""/>
@@ -2015,8 +2015,8 @@ Pourquoi privilégier la désactivation :
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="354" trl="N">
-  <value column="Name" original="Balanced">Balanced</value>
-  <value column="PrintName" original="Balanced">Balanced</value>
+  <value column="Name" original="Balanced">Equilibré</value>
+  <value column="PrintName" original="Balanced">Equilibré</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -2402,7 +2402,7 @@ Data storage encryption (in Table/Column) - data is stored encrypted in the data
  </row>
  <row id="409" trl="N">
   <value column="Name" original="Sales Representative">Commercial</value>
-  <value column="PrintName" original="Sales Rep">Sales Rep</value>
+  <value column="PrintName" original="Sales Rep">Commercial</value>
   <value column="Description" original="Indicates if  the business partner is a sales representative or company agent">Indicates if  the business partner is a sales representative or company agent</value>
   <value column="Help" original="The Sales Rep checkbox indicates if this business partner is a sales representative. A sales representative may also be an employee, but does not need to be.">The Sales Rep checkbox indicates if this business partner is a sales representative. A sales representative may also be an employee, but does not need to be.</value>
   <value column="Placeholder" original=""/>
@@ -2765,8 +2765,8 @@ Data storage encryption (in Table/Column) - data is stored encrypted in the data
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="466" trl="N">
-  <value column="Name" original="Multiply Rate">Multiply Rate</value>
-  <value column="PrintName" original="Multiply Rate">Multiply Rate</value>
+  <value column="Name" original="Multiply Rate">Taux multiplicateur</value>
+  <value column="PrintName" original="Multiply Rate">Taux multiplicateur</value>
   <value column="Description" original="Rate to multiple the source by to calculate the target.">Rate to multiple the source by to calculate the target.</value>
   <value column="Help" original="To convert Source number to Target number, the Source is multiplied by the multiply rate.  If the Multiply Rate is entered, then the Divide Rate will be automatically calculated.">To convert Source number to Target number, the Source is multiplied by the multiply rate.  If the Multiply Rate is entered, then the Divide Rate will be automatically calculated.</value>
   <value column="Placeholder" original=""/>
@@ -2789,7 +2789,7 @@ Data storage encryption (in Table/Column) - data is stored encrypted in the data
  <row id="469" trl="N">
   <value column="Name" original="Name">Nom</value>
   <value column="PrintName" original="Name">Nom</value>
-  <value column="Description" original="Alphanumeric identifier of the entity">Alphanumeric identifier of the entity</value>
+  <value column="Description" original="Alphanumeric identifier of the entity">Identifiant alphanumérique de l'enregistrement</value>
   <value column="Help" original="The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.">Le nom d'un enregistrement peut être mis sur 60 caractères.
 Il est utilisé dans les recherches.</value>
   <value column="Placeholder" original=""/>
@@ -2944,7 +2944,7 @@ Il est utilisé dans les recherches.</value>
  <row id="498" trl="Y">
   <value column="Name" original="Password">Mot de passe</value>
   <value column="PrintName" original="Password">Mot de passe</value>
-  <value column="Description" original="Password of any length (case sensitive)"/>
+  <value column="Description" original="Password of any length (case sensitive)">Mot de passe (sensible aux majuscules et minuscules)</value>
   <value column="Help" original="The Password for this User.  Passwords are required to identify authorized users.  For iDempiere Users, you can change the password via the Process &quot;Reset Password&quot;."/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -2953,9 +2953,9 @@ Il est utilisé dans les recherches.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="499" trl="Y">
-  <value column="Name" original="Period Action">Action</value>
-  <value column="PrintName" original="Period Action">Action</value>
-  <value column="Description" original="Action taken for this period">Action à réaliser</value>
+  <value column="Name" original="Period Action">Action période</value>
+  <value column="PrintName" original="Period Action">Action période</value>
+  <value column="Description" original="Action taken for this period">Action à réaliser pour cette période</value>
   <value column="Help" original="The Period Action indicates the action to be taken for this period.  For example 'Close Period' or 'Open Period'."/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -3426,8 +3426,8 @@ Il est utilisé dans les recherches.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="558" trl="Y">
-  <value column="Name" original="Order">Commande</value>
-  <value column="PrintName" original="Order">Order</value>
+  <value column="Name" original="Order">Ordre de vente</value>
+  <value column="PrintName" original="Order">Ordre de vente</value>
   <value column="Description" original="Order">Order</value>
   <value column="Help" original="The Order is a control document.  The  Order is complete when the quantity ordered is the same as the quantity shipped and invoiced.  When you close an order, unshipped (backordered) quantities are cancelled.">The Order is a control document.  The  Order is complete when the quantity ordered is the same as the quantity shipped and invoiced.  When you close an order, unshipped (backordered) quantities are cancelled.</value>
   <value column="Placeholder" original=""/>
@@ -3571,7 +3571,7 @@ Ainsi, avec C_DocType_ID (1), DocumentNo (-2), on obtient un tri ascendant pour 
  </row>
  <row id="574" trl="Y">
   <value column="Name" original="Start Date">Date début</value>
-  <value column="PrintName" original="Start Date">Start Date</value>
+  <value column="PrintName" original="Start Date">Date début</value>
   <value column="Description" original="First effective day (inclusive)">Premier jour effectif (inclus)</value>
   <value column="Help" original="The Start Date indicates the first or starting date">Première date ou date de démarrage</value>
   <value column="Placeholder" original=""/>
@@ -3582,8 +3582,8 @@ Ainsi, avec C_DocType_ID (1), DocumentNo (-2), on obtient un tri ascendant pour 
  </row>
  <row id="575" trl="N">
   <value column="Name" original="Restart sequence every Year">Redémarrer la numérotation chaque année</value>
-  <value column="PrintName" original="Restart sequence every Year">Restart sequence every Year</value>
-  <value column="Description" original="Restart the sequence with Start on every 1/1">Restart the sequence with Start on every 1/1</value>
+  <value column="PrintName" original="Restart sequence every Year">Redémarrer la numérotation chaque année</value>
+  <value column="Description" original="Restart the sequence with Start on every 1/1">Redémarre la numérotation à chaque 1er janvier</value>
   <value column="Help" original="The Restart Sequence Every Year checkbox indicates that the documents sequencing should return to the starting number on the first day of the year.">The Restart Sequence Every Year checkbox indicates that the documents sequencing should return to the starting number on the first day of the year.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -3593,7 +3593,7 @@ Ainsi, avec C_DocType_ID (1), DocumentNo (-2), on obtient un tri ascendant pour 
  </row>
  <row id="576" trl="N">
   <value column="Name" original="Start No">Premier n°</value>
-  <value column="PrintName" original="Start No">Start No</value>
+  <value column="PrintName" original="Start No">Premier n°</value>
   <value column="Description" original="Starting number/position">Starting number/position</value>
   <value column="Help" original="The Start Number indicates the starting position in the line or field number in the line">The Start Number indicates the starting position in the line or field number in the line</value>
   <value column="Placeholder" original=""/>
@@ -3636,8 +3636,8 @@ Ainsi, avec C_DocType_ID (1), DocumentNo (-2), on obtient un tri ascendant pour 
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="580" trl="N">
-  <value column="Name" original="Suspense Balancing Acct">Suspense Balancing Acct</value>
-  <value column="PrintName" original="Suspense Balancing Acct">Suspense Balancing Acct</value>
+  <value column="Name" original="Suspense Balancing Acct">Compte d'équilibre</value>
+  <value column="PrintName" original="Suspense Balancing Acct">Compte d'équilibre</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -3757,10 +3757,10 @@ Ainsi, avec C_DocType_ID (1), DocumentNo (-2), on obtient un tri ascendant pour 
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="595" trl="N">
-  <value column="Name" original="To">To</value>
-  <value column="PrintName" original="To">To</value>
-  <value column="Description" original="Receiving Region">Receiving Region</value>
-  <value column="Help" original="The To Region indicates the receiving region on a document">The To Region indicates the receiving region on a document</value>
+  <value column="Name" original="To">Vers</value>
+  <value column="PrintName" original="To">Vers</value>
+  <value column="Description" original="Receiving Region">Région de destination</value>
+  <value column="Help" original="The To Region indicates the receiving region on a document">Indique la région destinatrice du document</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -3900,8 +3900,8 @@ Ainsi, avec C_DocType_ID (1), DocumentNo (-2), on obtient un tri ascendant pour 
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="609" trl="N">
-  <value column="Name" original="Use Currency Balancing">Use Currency Balancing</value>
-  <value column="PrintName" original="Use Currency Balancing">Use Currency Balancing</value>
+  <value column="Name" original="Use Currency Balancing">Ecarts de conversion</value>
+  <value column="PrintName" original="Use Currency Balancing">Ecarts de conversion</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -3911,8 +3911,8 @@ Ainsi, avec C_DocType_ID (1), DocumentNo (-2), on obtient un tri ascendant pour 
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="611" trl="N">
-  <value column="Name" original="Use Suspense Balancing">Use Suspense Balancing</value>
-  <value column="PrintName" original="Use Suspense Balancing">Use Suspense Balancing</value>
+  <value column="Name" original="Use Suspense Balancing">Autoriser les écritures déséquilibrées</value>
+  <value column="PrintName" original="Use Suspense Balancing">Autoriser les écritures déséquilibrées</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -4267,9 +4267,9 @@ Si le champ est laissé vide lors de la création, l'application en génère une
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="850" trl="N">
-  <value column="Name" original="Charge fee">Charge fee</value>
-  <value column="PrintName" original="Charge fee">Charge fee</value>
-  <value column="Description" original="Indicates if fees will be charged for overdue invoices">Indicates if fees will be charged for overdue invoices</value>
+  <value column="Name" original="Charge fee">Frais</value>
+  <value column="PrintName" original="Charge fee">Frais</value>
+  <value column="Description" original="Indicates if fees will be charged for overdue invoices">Indique si des frais seront facturés sur les retards de paiement</value>
   <value column="Help" original="The Charge Fee checkbox indicates if the dunning letter will include fees for overdue invoices">The Charge Fee checkbox indicates if the dunning letter will include fees for overdue invoices</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -4333,9 +4333,9 @@ Si le champ est laissé vide lors de la création, l'application en génère une
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="863" trl="N">
-  <value column="Name" original="Discount 2 %">Discount 2 %</value>
-  <value column="PrintName" original="Discount 2 %">Discount 2 %</value>
-  <value column="Description" original="Discount in percent">Discount in percent</value>
+  <value column="Name" original="Discount 2 %">% Remise 2</value>
+  <value column="PrintName" original="Discount 2 %">% Remise 2</value>
+  <value column="Description" original="Discount in percent">Pourcentage de remise</value>
   <value column="Help" original="The Discount indicates the discount applied or taken as a percentage.">The Discount indicates the discount applied or taken as a percentage.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -4344,10 +4344,10 @@ Si le champ est laissé vide lors de la création, l'application en génère une
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="864" trl="N">
-  <value column="Name" original="Discount Days 2">Discount Days 2</value>
-  <value column="PrintName" original="Discount Days 2">Discount Days 2</value>
-  <value column="Description" original="Number of days from invoice date to be eligible for discount">Number of days from invoice date to be eligible for discount</value>
-  <value column="Help" original="The Discount Days indicates the number of days that payment must be received in to be eligible for the stated discount.  ">The Discount Days indicates the number of days that payment must be received in to be eligible for the stated discount.  </value>
+  <value column="Name" original="Discount Days 2">Jours de remise 2</value>
+  <value column="PrintName" original="Discount Days 2">Jours de remise 2</value>
+  <value column="Description" original="Number of days from invoice date to be eligible for discount">Nombre de jours pendant lesquels il est possible de déduire une remise / un escompte</value>
+  <value column="Help" original="The Discount Days indicates the number of days that payment must be received in to be eligible for the stated discount.  ">Indique le nombre de jours pendant lesquels il est possible de déduire une remise / Escompte</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -4433,9 +4433,9 @@ Plusieurs document peuvent partager une document de base.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="889" trl="N">
-  <value column="Name" original="Fee Amount">Fee Amount</value>
-  <value column="PrintName" original="Fee">Fee</value>
-  <value column="Description" original="Fee amount in invoice currency">Fee amount in invoice currency</value>
+  <value column="Name" original="Fee Amount">Montant Frais</value>
+  <value column="PrintName" original="Fee">Mtt frais</value>
+  <value column="Description" original="Fee amount in invoice currency">Montant des frais dans la devise de la facture</value>
   <value column="Help" original="The Fee Amount indicates the charge amount on a dunning letter for overdue invoices.  This field will only display if the charge fee checkbox has been selected.">The Fee Amount indicates the charge amount on a dunning letter for overdue invoices.  This field will only display if the charge fee checkbox has been selected.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -4488,9 +4488,9 @@ Plusieurs document peuvent partager une document de base.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="895" trl="N">
-  <value column="Name" original="Grace Days">Grace Days</value>
-  <value column="PrintName" original="Grace Days">Grace Days</value>
-  <value column="Description" original="Days after due date to send first dunning letter">Days after due date to send first dunning letter</value>
+  <value column="Name" original="Grace Days">Franchise jours</value>
+  <value column="PrintName" original="Grace Days">Franchise jours</value>
+  <value column="Description" original="Days after due date to send first dunning letter">Jours d'attente avant l'envoi d'une relance</value>
   <value column="Help" original="The Grace Days indicates the number of days after the due date to send the first dunning letter.  This field displays only if the send dunning letters checkbox has been selected.">The Grace Days indicates the number of days after the due date to send the first dunning letter.  This field displays only if the send dunning letters checkbox has been selected.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -4543,9 +4543,9 @@ Plusieurs document peuvent partager une document de base.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="917" trl="N">
-  <value column="Name" original="Document Level">Document Level</value>
-  <value column="PrintName" original="Doc Level">Doc Level</value>
-  <value column="Description" original="Tax is calculated on document level (rather than line by line)">Tax is calculated on document level (rather than line by line)</value>
+  <value column="Name" original="Document Level">Calcul sur total</value>
+  <value column="PrintName" original="Doc Level">Calcul sur total</value>
+  <value column="Description" original="Tax is calculated on document level (rather than line by line)">Les montants sont calculés sur le total du document (et non pas ligne par ligne)</value>
   <value column="Help" original="If the tax is calculated on document level, all lines with that tax rate are added before calculating the total tax for the document.&#10;Otherwise the tax is calculated per line and then added.&#10;Due to rounding, the tax amount can differ.">If the tax is calculated on document level, all lines with that tax rate are added before calculating the total tax for the document.
 Otherwise the tax is calculated per line and then added.
 Due to rounding, the tax amount can differ.</value>
@@ -4600,9 +4600,9 @@ Due to rounding, the tax amount can differ.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="923" trl="Y">
-  <value column="Name" original="Own Bank">Banque utilisée en interne</value>
-  <value column="PrintName" original="Own Bank">Banque utilisée en interne</value>
-  <value column="Description" original="Bank for this Organization">Banque utilisée par une organisation</value>
+  <value column="Name" original="Own Bank">Banque société</value>
+  <value column="PrintName" original="Own Bank">Banque société</value>
+  <value column="Description" original="Bank for this Organization">Banque utilisée en interne</value>
   <value column="Help" original="The Own Bank field indicates if this bank is for this Organization as opposed to a Bank for a Business Partner."/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -4677,9 +4677,9 @@ Due to rounding, the tax amount can differ.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="930" trl="N">
-  <value column="Name" original="SO Tax exempt">SO Tax exempt</value>
-  <value column="PrintName" original="SO Tax exempt">SO Tax exempt</value>
-  <value column="Description" original="Business partner is exempt from tax on sales">Business partner is exempt from tax on sales</value>
+  <value column="Name" original="SO Tax exempt">Ventes exonérées</value>
+  <value column="PrintName" original="SO Tax exempt">Ventes exonérées</value>
+  <value column="Description" original="Business partner is exempt from tax on sales">Le client est exonéré de taxe sur ventes</value>
   <value column="Help" original="If a business partner is exempt from tax on sales, the exempt tax rate is used. For this, you need to set up a tax rate with a 0% rate and indicate that this is your tax exempt rate.  This is required for tax reporting, so that you can track tax exempt transactions.">If a business partner is exempt from tax on sales, the exempt tax rate is used. For this, you need to set up a tax rate with a 0% rate and indicate that this is your tax exempt rate.  This is required for tax reporting, so that you can track tax exempt transactions.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -4820,9 +4820,9 @@ Due to rounding, the tax amount can differ.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="957" trl="N">
-  <value column="Name" original="Standard Price">Standard Price</value>
-  <value column="PrintName" original="Std Price">Std Price</value>
-  <value column="Description" original="Standard Price">Standard Price</value>
+  <value column="Name" original="Standard Price">Prix</value>
+  <value column="PrintName" original="Std Price">Prix</value>
+  <value column="Description" original="Standard Price">Prix</value>
   <value column="Help" original="The Standard Price indicates the standard or normal price for a product on this price list">The Standard Price indicates the standard or normal price for a product on this price list</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -4919,8 +4919,8 @@ Due to rounding, the tax amount can differ.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="982" trl="N">
-  <value column="Name" original="Title">Title</value>
-  <value column="PrintName" original="Title">Title</value>
+  <value column="Name" original="Title">Titre</value>
+  <value column="PrintName" original="Title">Titre</value>
   <value column="Description" original="Name this entity is referred to as">Name this entity is referred to as</value>
   <value column="Help" original="The Title indicates the name that an entity is referred to as.">The Title indicates the name that an entity is referred to as.</value>
   <value column="Placeholder" original=""/>
@@ -5018,9 +5018,9 @@ Due to rounding, the tax amount can differ.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1012" trl="N">
-  <value column="Name" original="Credit Card">Credit Card</value>
-  <value column="PrintName" original="Credit Card">Credit Card</value>
-  <value column="Description" original="Credit Card (Visa, MC, AmEx)">Credit Card (Visa, MC, AmEx)</value>
+  <value column="Name" original="Credit Card">Carte de crédit</value>
+  <value column="PrintName" original="Credit Card">Carte de crédit</value>
+  <value column="Description" original="Credit Card (Visa, MC, AmEx)">Carte de crédit (Visa, MC, AmEx)</value>
   <value column="Help" original="The Credit Card drop down list box is used for selecting the type of Credit Card presented for payment.">The Credit Card drop down list box is used for selecting the type of Credit Card presented for payment.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -5029,9 +5029,9 @@ Due to rounding, the tax amount can differ.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1018" trl="N">
-  <value column="Name" original="SO Sub Type">Type de commande</value>
-  <value column="PrintName" original="SO Sub Type">Type de commande</value>
-  <value column="Description" original="Sales Order Sub Type">Sales Order Sub Type</value>
+  <value column="Name" original="SO Sub Type">Sous type OV</value>
+  <value column="PrintName" original="SO Sub Type">Sous type OV</value>
+  <value column="Description" original="Sales Order Sub Type">Sous type d'ordre de vente</value>
   <value column="Help" original="The SO Sub Type indicates the type of sales order this document refers to.  This field only appears when the Document Base Type is Sales Order.  The selection made here will determine which documents will be generated when an order is processed and which documents must be generated manually or in batches.  &lt;br&gt;&#10;The following outlines this process.&lt;br&gt;&#10;SO Sub Type of &lt;b&gt;Standard Order&lt;/b&gt; will generate just the &lt;b&gt;Order&lt;/b&gt; document when the order is processed.  &lt;br&gt;&#10;The &lt;b&gt;Delivery Note&lt;/b&gt;, &lt;b&gt;Invoice&lt;/b&gt; and &lt;b&gt;Receipt&lt;/b&gt; must be generated via other processes.  &lt;br&gt;&#10;SO Sub Type of &lt;b&gt;Warehouse Order&lt;/b&gt; will generate the &lt;b&gt;Order&lt;/b&gt; and &lt;b&gt;Delivery Note&lt;/b&gt;. &lt;br&gt; The &lt;b&gt;Invoice&lt;/b&gt; and &lt;b&gt;Receipt&lt;/b&gt; must be generated via other processes.&lt;br&gt;&#10;SO Sub Type of &lt;b&gt;Credit Order&lt;/b&gt; will generate the &lt;b&gt;Order&lt;/b&gt;, &lt;b&gt;Delivery Note&lt;/b&gt; and &lt;b&gt;Invoice&lt;/b&gt;. &lt;br&gt; The &lt;b&gt;Receipt&lt;/b&gt; must be generated via other processes.&lt;br&gt;&#10;SO Sub Type of &lt;b&gt;POS&lt;/b&gt; (Point of Sale) will generate all document" xml:space="preserve"><![CDATA[The SO Sub Type indicates the type of sales order this document refers to.  This field only appears when the Document Base Type is Sales Order.  The selection made here will determine which documents will be generated when an order is processed and which documents must be generated manually or in batches.  <br>
 The following outlines this process.<br>
 SO Sub Type of <b>Standard Order</b> will generate just the <b>Order</b> document when the order is processed.  <br>
@@ -5090,15 +5090,15 @@ SO Sub Type of <b>POS</b> (Point of Sale) will generate all document]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1025" trl="N">
-  <value column="Name" original="Shipment/Receipt">Shipment/Receipt</value>
-  <value column="PrintName" original="Shipment/Receipt">Shipment/Receipt</value>
+  <value column="Name" original="Shipment/Receipt">Expédition</value>
+  <value column="PrintName" original="Shipment/Receipt">Expédition</value>
   <value column="Description" original="Material Shipment Document">Material Shipment Document</value>
   <value column="Help" original="The Material Shipment / Receipt ">The Material Shipment / Receipt </value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original="Material Receipt Document">Material Receipt Document</value>
   <value column="PO_Help" original="The Material Shipment / Receipt ">The Material Shipment / Receipt </value>
-  <value column="PO_Name" original="Receipt">Receipt</value>
-  <value column="PO_PrintName" original="Receipt">Receipt</value>
+  <value column="PO_Name" original="Receipt">Réception</value>
+  <value column="PO_PrintName" original="Receipt">Réception</value>
  </row>
  <row id="1026" trl="N">
   <value column="Name" original="Shipment/Receipt Line">Ligne d'expédition</value>
@@ -5200,8 +5200,8 @@ SO Sub Type of <b>POS</b> (Point of Sale) will generate all document]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1037" trl="N">
-  <value column="Name" original="Movement Date">Movement Date</value>
-  <value column="PrintName" original="Movement Date">Movement Date</value>
+  <value column="Name" original="Movement Date">Date mouvement</value>
+  <value column="PrintName" original="Movement Date">Date mouvement</value>
   <value column="Description" original="Date a product was moved in or out of inventory">Date a product was moved in or out of inventory</value>
   <value column="Help" original="The Movement Date indicates the date that a product moved in or out of inventory.  This is the result of a shipment, receipt or inventory movement.">The Movement Date indicates the date that a product moved in or out of inventory.  This is the result of a shipment, receipt or inventory movement.</value>
   <value column="Placeholder" original=""/>
@@ -5222,8 +5222,8 @@ SO Sub Type of <b>POS</b> (Point of Sale) will generate all document]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1039" trl="N">
-  <value column="Name" original="Movement Type">Movement Type</value>
-  <value column="PrintName" original="Movement Type">Movement Type</value>
+  <value column="Name" original="Movement Type">Type mouvement</value>
+  <value column="PrintName" original="Movement Type">Type mouvement</value>
   <value column="Description" original="Method of moving the inventory">Method of moving the inventory</value>
   <value column="Help" original="The Movement Type indicates the type of movement (in, out, to production, etc)">The Movement Type indicates the type of movement (in, out, to production, etc)</value>
   <value column="Placeholder" original=""/>
@@ -5376,8 +5376,8 @@ SO Sub Type of <b>POS</b> (Point of Sale) will generate all document]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1061" trl="N">
-  <value column="Name" original="Warehouse Differences">Warehouse Differences</value>
-  <value column="PrintName" original="Warehouse Differences">Warehouse Differences</value>
+  <value column="Name" original="Warehouse Differences">Ecart de stock</value>
+  <value column="PrintName" original="Warehouse Differences">Ecart de stock</value>
   <value column="Description" original="Warehouse Differences Account">Warehouse Differences Account</value>
   <value column="Help" original="The Warehouse Differences Account indicates the account used recording differences identified during inventory counts.">The Warehouse Differences Account indicates the account used recording differences identified during inventory counts.</value>
   <value column="Placeholder" original=""/>
@@ -5486,8 +5486,8 @@ SO Sub Type of <b>POS</b> (Point of Sale) will generate all document]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1074" trl="N">
-  <value column="Name" original="Document Type for Shipment">Document Type for Shipment</value>
-  <value column="PrintName" original="Doc Type Shipment">Doc Type Shipment</value>
+  <value column="Name" original="Document Type for Shipment">Document Type pour expédition</value>
+  <value column="PrintName" original="Doc Type Shipment">Document Type pour expédition</value>
   <value column="Description" original="Document type used for shipments generated from this sales document">Document type used for shipments generated from this sales document</value>
   <value column="Help" original="he Document Type for Shipments indicates the document type that will be used when a shipment is generated from this sales document.  This field will display only when the base document type is Sales Order.">he Document Type for Shipments indicates the document type that will be used when a shipment is generated from this sales document.  This field will display only when the base document type is Sales Order.</value>
   <value column="Placeholder" original=""/>
@@ -5574,10 +5574,10 @@ SO Sub Type of <b>POS</b> (Point of Sale) will generate all document]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1084" trl="N">
-  <value column="Name" original="Exp. Month">Exp. Month</value>
-  <value column="PrintName" original="Exp. Month">Exp. Month</value>
-  <value column="Description" original="Expiry Month">Expiry Month</value>
-  <value column="Help" original="The Expiry Month indicates the expiry month for this credit card.">The Expiry Month indicates the expiry month for this credit card.</value>
+  <value column="Name" original="Exp. Month">Exp. Mois</value>
+  <value column="PrintName" original="Exp. Month">Exp. Mois</value>
+  <value column="Description" original="Expiry Month">Mois d'expiration</value>
+  <value column="Help" original="The Expiry Month indicates the expiry month for this credit card.">Mois expiration pour cette carte de crédit</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -5585,10 +5585,10 @@ SO Sub Type of <b>POS</b> (Point of Sale) will generate all document]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1085" trl="N">
-  <value column="Name" original="Exp. Year">Exp. Year</value>
-  <value column="PrintName" original="Exp. Year">Exp. Year</value>
-  <value column="Description" original="Expiry Year">Expiry Year</value>
-  <value column="Help" original="The Expiry Year indicates the expiry year for this credit card.">The Expiry Year indicates the expiry year for this credit card.</value>
+  <value column="Name" original="Exp. Year">Exp. année</value>
+  <value column="PrintName" original="Exp. Year">Exp. année</value>
+  <value column="Description" original="Expiry Year">Année d'expiration</value>
+  <value column="Help" original="The Expiry Year indicates the expiry year for this credit card.">Année d'expiration de la carte de crédit</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -5653,7 +5653,7 @@ SO Sub Type of <b>POS</b> (Point of Sale) will generate all document]]></value>
  <row id="1092" trl="Y">
   <value column="Name" original="Days after due date">Jours après échéance</value>
   <value column="PrintName" original="Days after due date">Jours après échéance</value>
-  <value column="Description" original="Days after due date to dun (if negative days until due)">Days after due date to dun (if negative days until due)</value>
+  <value column="Description" original="Days after due date to dun (if negative days until due)">Nbres de jours de franchise avant d'envoyer une relance</value>
   <value column="Help" original="The Days After Due Date indicates the number of days after the payment due date to initiate dunning. If the number is negative, it includes not the not due invoices.">Ce champ indique le nombre de jours minimum après la date d'échéance pour que la facture fasse l'objet d'une relance. If the number is negative, it includes not the not due invoices.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -6058,10 +6058,10 @@ SO Sub Type of <b>POS</b> (Point of Sale) will generate all document]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1135" trl="N">
-  <value column="Name" original="Tax Indicator">Tax Indicator</value>
-  <value column="PrintName" original="Tax Indicator">Tax Indicator</value>
-  <value column="Description" original="Short form for Tax to be printed on documents">Short form for Tax to be printed on documents</value>
-  <value column="Help" original="The Tax Indicator identifies the short name that will print on documents referencing this tax.">The Tax Indicator identifies the short name that will print on documents referencing this tax.</value>
+  <value column="Name" original="Tax Indicator">Libellé à afficher</value>
+  <value column="PrintName" original="Tax Indicator">Libellé à afficher</value>
+  <value column="Description" original="Short form for Tax to be printed on documents">Texte court pour l'impression</value>
+  <value column="Help" original="The Tax Indicator identifies the short name that will print on documents referencing this tax.">Indique le libellé qui apparaitra sur les documents</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -6236,10 +6236,10 @@ Incoming receipts are stored at the location with the highest priority, if not e
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1214" trl="N">
-  <value column="Name" original="Conversion Date">Conversion Date</value>
-  <value column="PrintName" original="Conversion Date">Conversion Date</value>
-  <value column="Description" original="Date for selecting conversion rate">Date for selecting conversion rate</value>
-  <value column="Help" original="The Conversion Date identifies the date used for currency conversion. The conversion rate chosen must include this date in it's date range">The Conversion Date identifies the date used for currency conversion. The conversion rate chosen must include this date in it's date range</value>
+  <value column="Name" original="Conversion Date">Date de conversion</value>
+  <value column="PrintName" original="Conversion Date">Date de conversion</value>
+  <value column="Description" original="Date for selecting conversion rate">Date à laquelle s'effectue la conversion</value>
+  <value column="Help" original="The Conversion Date identifies the date used for currency conversion. The conversion rate chosen must include this date in it's date range">La date utilisée pour chercher le taux de change</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -7085,8 +7085,8 @@ Incoming receipts are stored at the location with the highest priority, if not e
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1310" trl="N">
-  <value column="Name" original="Error">Error</value>
-  <value column="PrintName" original="Error">Error</value>
+  <value column="Name" original="Error">Erreur</value>
+  <value column="PrintName" original="Error">Erreur</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -7525,8 +7525,8 @@ Incoming receipts are stored at the location with the highest priority, if not e
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1370" trl="N">
-  <value column="Name" original="Bank Interest Expense">Bank Interest Expense</value>
-  <value column="PrintName" original="Bank Interest Expense">Bank Interest Expense</value>
+  <value column="Name" original="Bank Interest Expense">Frais bancaires</value>
+  <value column="PrintName" original="Bank Interest Expense">Frais bancaires</value>
   <value column="Description" original="Bank Interest Expense Account">Bank Interest Expense Account</value>
   <value column="Help" original="The Bank Interest Expense Account identifies the account to be used for recording interest expenses.">The Bank Interest Expense Account identifies the account to be used for recording interest expenses.</value>
   <value column="Placeholder" original=""/>
@@ -7536,8 +7536,8 @@ Incoming receipts are stored at the location with the highest priority, if not e
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1371" trl="N">
-  <value column="Name" original="Bank Interest Revenue">Bank Interest Revenue</value>
-  <value column="PrintName" original="Bank Interest Revenue">Bank Interest Revenue</value>
+  <value column="Name" original="Bank Interest Revenue">Intérêts bancaires</value>
+  <value column="PrintName" original="Bank Interest Revenue">Intérêts bancaires</value>
   <value column="Description" original="Bank Interest Revenue Account">Bank Interest Revenue Account</value>
   <value column="Help" original="The Bank Interest Revenue Account identifies the account to be used for recording interest revenue from this Bank.">The Bank Interest Revenue Account identifies the account to be used for recording interest revenue from this Bank.</value>
   <value column="Placeholder" original=""/>
@@ -7636,7 +7636,7 @@ Incoming receipts are stored at the location with the highest priority, if not e
  </row>
  <row id="1381" trl="Y">
   <value column="Name" original="Bank Statement">Relevé bancaire</value>
-  <value column="PrintName" original="Bank Statement">Relevébancaire</value>
+  <value column="PrintName" original="Bank Statement">Relevé bancaire</value>
   <value column="Description" original="Bank Statement of account"/>
   <value column="Help" original="The Bank Statement identifies a unique Bank Statement for a defined time period.  The statement defines all transactions that occurred">Identifie un relevé bancaire qui comprend toutes les transactions de la période</value>
   <value column="Placeholder" original=""/>
@@ -8251,8 +8251,8 @@ Incoming receipts are stored at the location with the highest priority, if not e
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1449" trl="N">
-  <value column="Name" original="Write-off">Write-off</value>
-  <value column="PrintName" original="Write-off">Write-off</value>
+  <value column="Name" original="Write-off">Ecart de règlement</value>
+  <value column="PrintName" original="Write-off">Ecart de règlement</value>
   <value column="Description" original="Account for Receivables write-off">Account for Receivables write-off</value>
   <value column="Help" original="The Write Off Account identifies the account to book write off transactions to.">The Write Off Account identifies the account to book write off transactions to.</value>
   <value column="Placeholder" original=""/>
@@ -8284,8 +8284,8 @@ Incoming receipts are stored at the location with the highest priority, if not e
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1452" trl="N">
-  <value column="Name" original="And/Or">And/Or</value>
-  <value column="PrintName" original="And/Or">And/Or</value>
+  <value column="Name" original="And/Or">Et/ou</value>
+  <value column="PrintName" original="And/Or">Et/ou</value>
   <value column="Description" original="Logical operation: AND or OR">Logical operation: AND or OR</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -8306,8 +8306,8 @@ Incoming receipts are stored at the location with the highest priority, if not e
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1454" trl="N">
-  <value column="Name" original="Operation">Operation</value>
-  <value column="PrintName" original="Operation">Operation</value>
+  <value column="Name" original="Operation">Opération</value>
+  <value column="PrintName" original="Operation">Opération</value>
   <value column="Description" original="Compare Operation">Compare Operation</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -8659,8 +8659,8 @@ Example implementations are Optimal Payments: org.compiere.model.PP_Optimal or V
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1498" trl="N">
-  <value column="Name" original="Paid Amount">Paid Amount</value>
-  <value column="PrintName" original="Paid">Paid</value>
+  <value column="Name" original="Paid Amount">Montant réglé</value>
+  <value column="PrintName" original="Paid">Réglé</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -9453,8 +9453,8 @@ Dans le cas d'un système multi-langue, c'est la langue du tiers qui est utilis�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1588" trl="N">
-  <value column="Name" original="Measure Actual">Measure Actual</value>
-  <value column="PrintName" original="Measure Actual">Measure Actual</value>
+  <value column="Name" original="Measure Actual">Valeur réelle</value>
+  <value column="PrintName" original="Measure Actual">Valeur réelle</value>
   <value column="Description" original="Actual value that has been measured.">Actual value that has been measured.</value>
   <value column="Help" original="The Measure Actual indicates the actual measured value. The measured values are used in determining if a performance goal has been met">The Measure Actual indicates the actual measured value. The measured values are used in determining if a performance goal has been met</value>
   <value column="Placeholder" original=""/>
@@ -9464,8 +9464,8 @@ Dans le cas d'un système multi-langue, c'est la langue du tiers qui est utilis�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1589" trl="N">
-  <value column="Name" original="Measure Target">Measure Target</value>
-  <value column="PrintName" original="Measure Target">Measure Target</value>
+  <value column="Name" original="Measure Target">Valeur cible</value>
+  <value column="PrintName" original="Measure Target">Valeur cible</value>
   <value column="Description" original="Target value for measure">Target value for measure</value>
   <value column="Help" original="The Measure Target indicates the target or goal for this measure.  It is used as in comparing against the actual measures">The Measure Target indicates the target or goal for this measure.  It is used as in comparing against the actual measures</value>
   <value column="Placeholder" original=""/>
@@ -10207,7 +10207,7 @@ Strings may be in single quotes (optional)]]></value>
  <row id="1669" trl="Y">
   <value column="Name" original="Delete old/existing records">Suppression anciens enregistrements</value>
   <value column="PrintName" original="Delete old/existing records">Suppression anciens enregistrements</value>
-  <value column="Description" original="Otherwise records will be added"/>
+  <value column="Description" original="Otherwise records will be added">Sinon, les enregistrements seront ajoutés</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -10625,9 +10625,9 @@ For customizations, copy the entity and select "User"!</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1712" trl="N">
-  <value column="Name" original="Flat Discount %">Flat Discount %</value>
-  <value column="PrintName" original="Flat Discount">Flat Discount</value>
-  <value column="Description" original="Flat discount percentage ">Flat discount percentage </value>
+  <value column="Name" original="Flat Discount %">Pourcentage remise</value>
+  <value column="PrintName" original="Flat Discount">Pourcentage remise</value>
+  <value column="Description" original="Flat discount percentage ">Pourcentage de remise</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -10647,9 +10647,9 @@ For customizations, copy the entity and select "User"!</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1714" trl="N">
-  <value column="Name" original="Discount Schema">Discount Schema</value>
-  <value column="PrintName" original="Discount Schema">Discount Schema</value>
-  <value column="Description" original="Schema to calculate the trade discount percentage">Schema to calculate the trade discount percentage</value>
+  <value column="Name" original="Discount Schema">Schéma remises</value>
+  <value column="PrintName" original="Discount Schema">Schéma remises</value>
+  <value column="Description" original="Schema to calculate the trade discount percentage">Schéma pour le calcul des remises commerciales</value>
   <value column="Help" original="After calculation of the (standard) price, the trade discount percentage is calculated and applied resulting in the final price.">After calculation of the (standard) price, the trade discount percentage is calculated and applied resulting in the final price.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original="Schema to calculate price lists">Schema to calculate price lists</value>
@@ -10680,9 +10680,9 @@ For customizations, copy the entity and select "User"!</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1717" trl="N">
-  <value column="Name" original="PO Discount Schema">PO Discount Schema</value>
-  <value column="PrintName" original="PO Discount Schema">PO Discount Schema</value>
-  <value column="Description" original="Schema to calculate the purchase trade discount percentage">Schema to calculate the purchase trade discount percentage</value>
+  <value column="Name" original="PO Discount Schema">Schéma remises sur achats</value>
+  <value column="PrintName" original="PO Discount Schema">Schéma remises sur achats</value>
+  <value column="Description" original="Schema to calculate the purchase trade discount percentage">Schéma calcul du pourcentage de remises sur achats</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -11175,8 +11175,8 @@ For customizations, copy the entity and select "User"!</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1763" trl="N">
-  <value column="Name" original="Confirmed">Confirmed</value>
-  <value column="PrintName" original="Confirmed">Confirmed</value>
+  <value column="Name" original="Confirmed">Confirmé</value>
+  <value column="PrintName" original="Confirmed">Confirmé</value>
   <value column="Description" original="Assignment is confirmed">Assignment is confirmed</value>
   <value column="Help" original="Resource assignment is confirmed">Resource assignment is confirmed</value>
   <value column="Placeholder" original=""/>
@@ -11846,9 +11846,9 @@ For customizations, copy the entity and select "User"!</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1831" trl="N">
-  <value column="Name" original="Coordinates">Coordinates</value>
-  <value column="PrintName" original="Coordinates">Coordinates</value>
-  <value column="Description" original="Location coordinate">Location coordinate</value>
+  <value column="Name" original="Coordinates">Coordonnées</value>
+  <value column="PrintName" original="Coordinates">Coordonnées</value>
+  <value column="Description" original="Location coordinate">Coordonnées de l'adresse</value>
   <value column="Help" original="This column contains the geographical coordinates (latitude/longitude) of the location.&lt;p&gt;&#10;In order to avoid unnecessary use of non-standard characters and space, the following standard presentation is used:&lt;br&gt;&#10;0000N 00000W 0000S 00000E &lt;br&gt;&#10;where the two last digits refer to minutes and the two or three first digits indicate the degrees" xml:space="preserve"><![CDATA[This column contains the geographical coordinates (latitude/longitude) of the location.<p>
 In order to avoid unnecessary use of non-standard characters and space, the following standard presentation is used:<br>
 0000N 00000W 0000S 00000E <br>
@@ -12007,9 +12007,9 @@ Dans un état standard, si tous les éléments d'une même colonne sont NULL, la
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1847" trl="N">
-  <value column="Name" original="Payment Term">Payment Term</value>
-  <value column="PrintName" original="Payment Term">Payment Term</value>
-  <value column="Description" original="Payment Term">Payment Term</value>
+  <value column="Name" original="Payment Term">Délai de paiement</value>
+  <value column="PrintName" original="Payment Term">Délai de paiement</value>
+  <value column="Description" original="Payment Term">Délai de paiement</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -12018,9 +12018,9 @@ Dans un état standard, si tous les éléments d'une même colonne sont NULL, la
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1848" trl="N">
-  <value column="Name" original="Payment Term Note">Payment Term Note</value>
-  <value column="PrintName" original="Payment Term Note">Payment Term Note</value>
-  <value column="Description" original="Note of a Payment Term">Note of a Payment Term</value>
+  <value column="Name" original="Payment Term Note">Note délai de paiement</value>
+  <value column="PrintName" original="Payment Term Note">Note délai de paiement</value>
+  <value column="Description" original="Note of a Payment Term"/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -12348,9 +12348,9 @@ Dans un état standard, si tous les éléments d'une même colonne sont NULL, la
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1879" trl="N">
-  <value column="Name" original="Dunning Run">Dunning Run</value>
-  <value column="PrintName" original="Dunning Run">Dunning Run</value>
-  <value column="Description" original="Dunning Run">Dunning Run</value>
+  <value column="Name" original="Dunning Run">Relance</value>
+  <value column="PrintName" original="Dunning Run">Relance</value>
+  <value column="Description" original="Dunning Run"/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -13635,8 +13635,8 @@ Dans un état standard, si tous les éléments d'une même colonne sont NULL, la
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2003" trl="Y">
-  <value column="Name" original="Net Day">Jour</value>
-  <value column="PrintName" original="Net Day">Jour</value>
+  <value column="Name" original="Net Day">Jour net</value>
+  <value column="PrintName" original="Net Day">Jour net</value>
   <value column="Description" original="Day when payment is due net">Jour pour lequel le paiement est dû </value>
   <value column="Help" original="When defined, overwrites the number of net days with the relative number of days to the the day defined.">Lorsque défini, écrase le champ nombre de jours avec le nombre de jours jusqu'au jour sélectionné.</value>
   <value column="Placeholder" original=""/>
@@ -14429,8 +14429,8 @@ If none is entered, the default printer is used. You specify your default printe
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2082" trl="N">
-  <value column="Name" original="Time Type">Time Type</value>
-  <value column="PrintName" original="Time Type">Time Type</value>
+  <value column="Name" original="Time Type">Nature</value>
+  <value column="PrintName" original="Time Type">Nature de temps</value>
   <value column="Description" original="Type of time recorded">Type of time recorded</value>
   <value column="Help" original="Differentiate time types for reporting purposes (In parallel to Activities)">Differentiate time types for reporting purposes (In parallel to Activities)</value>
   <value column="Placeholder" original=""/>
@@ -15728,9 +15728,9 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2205" trl="N">
-  <value column="Name" original="Can Report">Can Report</value>
-  <value column="PrintName" original="Can Report">Can Report</value>
-  <value column="Description" original="Users with this role can create reports">Users with this role can create reports</value>
+  <value column="Name" original="Can Report">Accès aux états</value>
+  <value column="PrintName" original="Can Report">Accès aux états</value>
+  <value column="Description" original="Users with this role can create reports">Les utilisateurs peuvent lancer des états</value>
   <value column="Help" original="You can restrict the ability to report on data.">You can restrict the ability to report on data.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -16084,8 +16084,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2241" trl="N">
-  <value column="Name" original="Due Today">Due Today</value>
-  <value column="PrintName" original="Due Today">Due Today</value>
+  <value column="Name" original="Due Today">A échoir aujourd'hui</value>
+  <value column="PrintName" original="Due Today">A éch. auj</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16095,8 +16095,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2242" trl="N">
-  <value column="Name" original="Due Today-30">Due Today-30</value>
-  <value column="PrintName" original="Due Today-30">Due Today-30</value>
+  <value column="Name" original="Due Today-30">A échoir 0 à 30 j</value>
+  <value column="PrintName" original="Due Today-30">A échoir 0 à 30 j</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16106,8 +16106,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2243" trl="N">
-  <value column="Name" original="Due Today-7">Due Today-7</value>
-  <value column="PrintName" original="Due Today-7">Due Today-7</value>
+  <value column="Name" original="Due Today-7">A échoir 0 à 7 j</value>
+  <value column="PrintName" original="Due Today-7">A échoir 0 à 7 j</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16128,8 +16128,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2245" trl="N">
-  <value column="Name" original="Due 31-60">Due 31-60</value>
-  <value column="PrintName" original="Due 31-60">Due 31-60</value>
+  <value column="Name" original="Due 31-60">A échoir 31 à 60 j</value>
+  <value column="PrintName" original="Due 31-60">A éch. 31 à 60 j</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16139,8 +16139,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2246" trl="N">
-  <value column="Name" original="Due &gt; 31" xml:space="preserve"><![CDATA[Due > 31]]></value>
-  <value column="PrintName" original="Due &gt; 31" xml:space="preserve"><![CDATA[Due > 31]]></value>
+  <value column="Name" original="Due &gt; 31" xml:space="preserve"><![CDATA[A échoir > 30 j]]></value>
+  <value column="PrintName" original="Due &gt; 31" xml:space="preserve"><![CDATA[A éch. > 31 j]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16150,8 +16150,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2247" trl="N">
-  <value column="Name" original="Due 61-90">Due 61-90</value>
-  <value column="PrintName" original="Due 61-90">Due 61-90</value>
+  <value column="Name" original="Due 61-90">A échoir 61 à 90 j</value>
+  <value column="PrintName" original="Due 61-90">A éch. 61 à 90 j</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16172,8 +16172,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2249" trl="N">
-  <value column="Name" original="Due 8-30">Due 8-30</value>
-  <value column="PrintName" original="Due 8-30">Due 8-30</value>
+  <value column="Name" original="Due 8-30">A échoir 8 à 30 j</value>
+  <value column="PrintName" original="Due 8-30">A éch. 8 à 30 j</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16183,8 +16183,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2250" trl="N">
-  <value column="Name" original="Due &gt; 91" xml:space="preserve"><![CDATA[Due > 91]]></value>
-  <value column="PrintName" original="Due &gt; 91" xml:space="preserve"><![CDATA[Due > 91]]></value>
+  <value column="Name" original="Due &gt; 91">A échoir + 90 j</value>
+  <value column="PrintName" original="Due &gt; 91" xml:space="preserve"><![CDATA[A éch. > 91 j]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16194,8 +16194,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2251" trl="N">
-  <value column="Name" original="Past Due 1-30">Past Due 1-30</value>
-  <value column="PrintName" original="Past Due 1-30">Past Due 1-30</value>
+  <value column="Name" original="Past Due 1-30">Echu 1 à 30 j</value>
+  <value column="PrintName" original="Past Due 1-30">Echu 1 à 30 j</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16205,8 +16205,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2252" trl="N">
-  <value column="Name" original="Past Due 1-7">Past Due 1-7</value>
-  <value column="PrintName" original="Past Due 1-7">Past Due 1-7</value>
+  <value column="Name" original="Past Due 1-7">Echu 1 à 7 j</value>
+  <value column="PrintName" original="Past Due 1-7">Echu 1 à 7 j</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16216,8 +16216,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2253" trl="N">
-  <value column="Name" original="Past Due 31-60">Past Due 31-60</value>
-  <value column="PrintName" original="Past Due 31-60">Past Due 31-60</value>
+  <value column="Name" original="Past Due 31-60">Echu 31 à 60 j</value>
+  <value column="PrintName" original="Past Due 31-60">Echu 31 à 60 j</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16227,8 +16227,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2254" trl="N">
-  <value column="Name" original="Past Due &gt; 31" xml:space="preserve"><![CDATA[Past Due > 31]]></value>
-  <value column="PrintName" original="Past Due &gt; 31" xml:space="preserve"><![CDATA[Past Due > 31]]></value>
+  <value column="Name" original="Past Due &gt; 31" xml:space="preserve"><![CDATA[Echu > 31 j]]></value>
+  <value column="PrintName" original="Past Due &gt; 31" xml:space="preserve"><![CDATA[Echu > 31 j]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16238,8 +16238,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2255" trl="N">
-  <value column="Name" original="Past Due 61-90">Past Due 61-90</value>
-  <value column="PrintName" original="Past Due 61-90">Past Due 61-90</value>
+  <value column="Name" original="Past Due 61-90">Echu 61 à 90 j</value>
+  <value column="PrintName" original="Past Due 61-90">Echu 61 à 90 j</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16249,8 +16249,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2256" trl="N">
-  <value column="Name" original="Past Due &gt; 61" xml:space="preserve"><![CDATA[Past Due > 61]]></value>
-  <value column="PrintName" original="Past Due &gt; 61" xml:space="preserve"><![CDATA[Past Due > 61]]></value>
+  <value column="Name" original="Past Due &gt; 61" xml:space="preserve"><![CDATA[Echu > 61 j]]></value>
+  <value column="PrintName" original="Past Due &gt; 61" xml:space="preserve"><![CDATA[Echu > 61 j]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16260,8 +16260,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2257" trl="N">
-  <value column="Name" original="Past Due 8-30">Past Due 8-30</value>
-  <value column="PrintName" original="Past Due 8-30">Past Due 8-30</value>
+  <value column="Name" original="Past Due 8-30">Echu 8 à 30 j</value>
+  <value column="PrintName" original="Past Due 8-30">Echu 8 à 30 j</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16271,8 +16271,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2258" trl="N">
-  <value column="Name" original="Past Due &gt; 91" xml:space="preserve"><![CDATA[Past Due > 91]]></value>
-  <value column="PrintName" original="Past Due &gt; 91" xml:space="preserve"><![CDATA[Past Due > 91]]></value>
+  <value column="Name" original="Past Due &gt; 91" xml:space="preserve"><![CDATA[Echu > 91 j]]></value>
+  <value column="PrintName" original="Past Due &gt; 91" xml:space="preserve"><![CDATA[Echu > 91 j]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16282,8 +16282,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2259" trl="N">
-  <value column="Name" original="Past Due">Past Due</value>
-  <value column="PrintName" original="Past Due">Past Due</value>
+  <value column="Name" original="Past Due">Montant échu</value>
+  <value column="PrintName" original="Past Due">Montant échu</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16293,8 +16293,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2260" trl="N">
-  <value column="Name" original="List Invoices">List Invoices</value>
-  <value column="PrintName" original="List Invoices">List Invoices</value>
+  <value column="Name" original="List Invoices">Liste factures</value>
+  <value column="PrintName" original="List Invoices">Liste factures</value>
   <value column="Description" original="Include List of Invoices">Include List of Invoices</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -16535,8 +16535,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2286" trl="N">
-  <value column="Name" original="Date Format">Date Format</value>
-  <value column="PrintName" original="Date Format">Date Format</value>
+  <value column="Name" original="Date Format">Format de date</value>
+  <value column="PrintName" original="Date Format">Format de date</value>
   <value column="Description" original="Date format used in the input format">Date format used in the input format</value>
   <value column="Help" original="The date format is usually detected, but sometimes need to be defined.">The date format is usually detected, but sometimes need to be defined.</value>
   <value column="Placeholder" original=""/>
@@ -16623,8 +16623,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2295" trl="N">
-  <value column="Name" original="File Name">File Name</value>
-  <value column="PrintName" original="File Name">File Name</value>
+  <value column="Name" original="File Name">Nom fichier</value>
+  <value column="PrintName" original="File Name">Nom fichier</value>
   <value column="Description" original="Name of the local file or URL">Name of the local file or URL</value>
   <value column="Help" original="Name of a file in the local directory space - or URL (file://.., http://.., ftp://..)">Name of a file in the local directory space - or URL (file://.., http://.., ftp://..)</value>
   <value column="Placeholder" original=""/>
@@ -16876,8 +16876,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2320" trl="N">
-  <value column="Name" original="Duration">Duration</value>
-  <value column="PrintName" original="Duration">Duration</value>
+  <value column="Name" original="Duration">Durée</value>
+  <value column="PrintName" original="Duration">Durée</value>
   <value column="Description" original="Normal Duration in Duration Unit">Normal Duration in Duration Unit</value>
   <value column="Help" original="Expected (normal) Length of time for the execution">Expected (normal) Length of time for the execution</value>
   <value column="Placeholder" original=""/>
@@ -18421,10 +18421,10 @@ If the ratio and quantity is not 0, the quantity is calculated based on the rati
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2467" trl="N">
-  <value column="Name" original="Approve own Documents">Approve own Documents</value>
-  <value column="PrintName" original="Approve own">Approve own</value>
-  <value column="Description" original="Users with this role can approve their own documents">Users with this role can approve their own documents</value>
-  <value column="Help" original="If a user cannot approve their own documents (orders, etc.), it needs to be approved by someone else.">If a user cannot approve their own documents (orders, etc.), it needs to be approved by someone else.</value>
+  <value column="Name" original="Approve own Documents">Appouver ses documents</value>
+  <value column="PrintName" original="Approve own">Appouver ses documents</value>
+  <value column="Description" original="Users with this role can approve their own documents">Les utilisateurs avec ce rôle peuvent approuver leurs propres documents</value>
+  <value column="Help" original="If a user cannot approve their own documents (orders, etc.), it needs to be approved by someone else.">S'ils ne peuvent pas les approuver, ils devront l'être par d'autres utilisateurs</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -19569,9 +19569,9 @@ Ce champ peut aussi être utilisé sans que le LDAP soit activé. On se connecte
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2579" trl="N">
-  <value column="Name" original="Value">Value</value>
-  <value column="PrintName" original="Value">Value</value>
-  <value column="Description" original="Numeric Value">Numeric Value</value>
+  <value column="Name" original="Value">Valeur</value>
+  <value column="PrintName" original="Value">Valeur</value>
+  <value column="Description" original="Numeric Value">Valeur numérique</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -20492,7 +20492,7 @@ The Remind Days are the days when the next email reminder is sent.</value>
   <value column="Name" original="IBAN">IBAN</value>
   <value column="PrintName" original="IBAN">IBAN</value>
   <value column="Description" original="International Bank Account Number">International Bank Account Number</value>
-  <value column="Help" original="If your bank provides an International Bank Account Number, enter it here&#10;Details ISO 13616 and http://www.ecbs.org. The account number has the maximum length of 22 characters (without spaces). The IBAN is often printed with a apace after 4 characters. Do not enter the spaces in iDempiere.">Si votre banque fournit un 'International Bank Account Number', le saisir ici.   (Détails ISO 13616 et http://www.ecbs.org)Ce numéro possède un maximum de 22 caractères maximum (sans espace)  ; il  est souvent imprimé avec un espace après 4 caractères.NE PAS SAISIR LES ESPACES dans Expert Light.</value>
+  <value column="Help" original="If your bank provides an International Bank Account Number, enter it here&#10;Details ISO 13616 and http://www.ecbs.org. The account number has the maximum length of 22 characters (without spaces). The IBAN is often printed with a apace after 4 characters. Do not enter the spaces in iDempiere.">Si votre banque fournit un 'International Bank Account Number', le saisir ici.   (Détails ISO 13616 et http://www.ecbs.org)Ce numéro possède un maximum de 22 caractères maximum (sans espace)  ; il  est souvent imprimé avec un espace après 4 caractères.NE PAS SAISIR LES ESPACES</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -20503,7 +20503,8 @@ The Remind Days are the days when the next email reminder is sent.</value>
   <value column="Name" original="Price Precision">Nb de décimales</value>
   <value column="PrintName" original="Price Precision">Nb de décimales</value>
   <value column="Description" original="Precision (number of decimals) for the Price">Précision du prix (nombre de décimales)</value>
-  <value column="Help" original="The prices of the price list are rounded to the precision entered.  This allows to have prices with below currency precision, e.g. $0.005. Enter the number of decimals or -1 for no rounding.">Les prix sont arrondis selon le nombre de décimales.</value>
+  <value column="Help" original="The prices of the price list are rounded to the precision entered.  This allows to have prices with below currency precision, e.g. $0.005. Enter the number of decimals or -1 for no rounding.">Les prix sont arrondis selon le nombre de décimales.
+Entrer le nombre de décimale(s) ou  -1 pour aucune décimale</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -21000,8 +21001,8 @@ Example: "Updated-Created" would list the age of the entry in days]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2713" trl="N">
-  <value column="Name" original="Start Time">Start Time</value>
-  <value column="PrintName" original="Start Time">Start Time</value>
+  <value column="Name" original="Start Time">Débute le</value>
+  <value column="PrintName" original="Start Time">Débute le</value>
   <value column="Description" original="Time started">Time started</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -21011,8 +21012,8 @@ Example: "Updated-Created" would list the age of the entry in days]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2714" trl="N">
-  <value column="Name" original="End Time">End Time</value>
-  <value column="PrintName" original="End Time">End Time</value>
+  <value column="Name" original="End Time">Fini le</value>
+  <value column="PrintName" original="End Time">Fini le</value>
   <value column="Description" original="End of the time span">End of the time span</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -21880,8 +21881,8 @@ Example: "Updated-Created" would list the age of the entry in days]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2798" trl="N">
-  <value column="Name" original="Only If BP has Balance">Only If BP has Balance</value>
-  <value column="PrintName" original="Only If BP has Balance">Only If BP has Balance</value>
+  <value column="Name" original="Only If BP has Balance">Uniquement si le tiers a des impayés</value>
+  <value column="PrintName" original="Only If BP has Balance">Uniquement si le tiers a des impayés</value>
   <value column="Description" original="Include only if Business Partner has outstanding Balance">Include only if Business Partner has outstanding Balance</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -22744,9 +22745,9 @@ Accounting Segments like Organization, Account, Product may have several hierarc
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2879" trl="N">
-  <value column="Name" original="EMail Recipient">EMail Recipient</value>
-  <value column="PrintName" original="EMail Recipient">EMail Recipient</value>
-  <value column="Description" original="Recipient of the EMail">Recipient of the EMail</value>
+  <value column="Name" original="EMail Recipient">Destinataire(s) courriel</value>
+  <value column="PrintName" original="EMail Recipient">Destinataire(s) courriel</value>
+  <value column="Description" original="Recipient of the EMail">Destinataire du courriel</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -22943,8 +22944,8 @@ Example: if the purchase price is $100 and the tolerance is 1 (percent), the inv
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2897" trl="N">
-  <value column="Name" original="Include All Currencies">Include All Currencies</value>
-  <value column="PrintName" original="All Currencies">All Currencies</value>
+  <value column="Name" original="Include All Currencies">Inclure toutes les devises</value>
+  <value column="PrintName" original="All Currencies">Toutes les devises</value>
   <value column="Description" original="Report not just foreign currency Invoices">Report not just foreign currency Invoices</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -24181,8 +24182,8 @@ Time represents a values at a given time (e.g. Invoice Amount on 1/1) - History 
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="3021" trl="N">
-  <value column="Name" original="Last Result">Last Result</value>
-  <value column="PrintName" original="Last Result">Last Result</value>
+  <value column="Name" original="Last Result">Dernier résultat</value>
+  <value column="PrintName" original="Last Result">Dernier résultat</value>
   <value column="Description" original="Contains data on the last check result">Contains data on the last check result</value>
   <value column="Help" original="If we ran into errors etc. you will find the details in here">If we ran into errors etc. you will find the details in here</value>
   <value column="Placeholder" original=""/>
@@ -24589,9 +24590,9 @@ The ID is related 1 to 1 to the container ID</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="3059" trl="N">
-  <value column="Name" original="Last Synchronized">Last Synchronized</value>
-  <value column="PrintName" original="Last Synchronized">Last Synchronized</value>
-  <value column="Description" original="Date when last synchronized">Date when last synchronized</value>
+  <value column="Name" original="Last Synchronized">Dernière synchronisation</value>
+  <value column="PrintName" original="Last Synchronized">Dernière synchronisation</value>
+  <value column="Description" original="Date when last synchronized">Date de la dernière synchronisation</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -24908,9 +24909,9 @@ The ID is related 1 to 1 to the container ID</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="3088" trl="N">
-  <value column="Name" original="Show All Due">Show All Due</value>
-  <value column="PrintName" original="Show All Due">Show All Due</value>
-  <value column="Description" original="Show/print all due invoices">Show/print all due invoices</value>
+  <value column="Name" original="Show All Due">Voir les échues</value>
+  <value column="PrintName" original="Show All Due">Voir les échues</value>
+  <value column="Description" original="Show/print all due invoices">Prise en compte des factures dûes</value>
   <value column="Help" original="The dunning letter with this level includes all due invoices.">The dunning letter with this level includes all due invoices.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -24919,10 +24920,10 @@ The ID is related 1 to 1 to the container ID</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="3089" trl="N">
-  <value column="Name" original="Show Not Due">Show Not Due</value>
-  <value column="PrintName" original="Show Not Due">Show Not Due</value>
-  <value column="Description" original="Show/print all invoices which are not due (yet).">Show/print all invoices which are not due (yet).</value>
-  <value column="Help" original="The dunning letter with this level includes all not due invoices.">The dunning letter with this level includes all not due invoices.</value>
+  <value column="Name" original="Show Not Due">Voir les non échues</value>
+  <value column="PrintName" original="Show Not Due">Voir les non échues</value>
+  <value column="Description" original="Show/print all invoices which are not due (yet).">Prise en compte des factures non encore échues</value>
+  <value column="Help" original="The dunning letter with this level includes all not due invoices.">La relance intègrera toutes les factures non dues</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -24932,7 +24933,7 @@ The ID is related 1 to 1 to the container ID</value>
  <row id="3090" trl="N">
   <value column="Name" original="Credit Stop">Credit Stop</value>
   <value column="PrintName" original="Credit Stop">Credit Stop</value>
-  <value column="Description" original="Set the business partner to credit stop">Set the business partner to credit stop</value>
+  <value column="Description" original="Set the business partner to credit stop">Passe le tiers en 'credit stop'</value>
   <value column="Help" original="If a dunning letter of this level is created, the business partner is set to Credit Stop (needs to be manually changed).">If a dunning letter of this level is created, the business partner is set to Credit Stop (needs to be manually changed).</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -24941,10 +24942,10 @@ The ID is related 1 to 1 to the container ID</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="3091" trl="N">
-  <value column="Name" original="Set Payment Term">Set Payment Term</value>
-  <value column="PrintName" original="Set Payment Term">Set Payment Term</value>
-  <value column="Description" original="Set the payment term of the Business Partner">Set the payment term of the Business Partner</value>
-  <value column="Help" original="If a dunning letter of this level is created, the payment term of this business partner is overwritten.">If a dunning letter of this level is created, the payment term of this business partner is overwritten.</value>
+  <value column="Name" original="Set Payment Term">Modifier le délai de paiement</value>
+  <value column="PrintName" original="Set Payment Term">Modifier le délai de paiement</value>
+  <value column="Description" original="Set the payment term of the Business Partner">Défini un nouveau délai de paiement</value>
+  <value column="Help" original="If a dunning letter of this level is created, the payment term of this business partner is overwritten.">Si une relance de ce niveau est générée, le délai de paiement du business partner sera mis à jour.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -24952,8 +24953,8 @@ The ID is related 1 to 1 to the container ID</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="3092" trl="N">
-  <value column="Name" original="Collection Status">Collection Status</value>
-  <value column="PrintName" original="Collection Status">Collection Status</value>
+  <value column="Name" original="Collection Status">Etat recouvrement</value>
+  <value column="PrintName" original="Collection Status">Etat recouvrement</value>
   <value column="Description" original="Invoice Collection Status">Invoice Collection Status</value>
   <value column="Help" original="Status of the invoice collection process">Status of the invoice collection process</value>
   <value column="Placeholder" original=""/>
@@ -25920,15 +25921,15 @@ The ID is related 1 to 1 to the container ID</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="52000" trl="N">
-  <value column="Name" original="Shipment/Receipt">Shipment/Receipt</value>
-  <value column="PrintName" original="Shipment/Receipt">Shipment/Receipt</value>
+  <value column="Name" original="Shipment/Receipt">Expédition</value>
+  <value column="PrintName" original="Shipment/Receipt">Expédition</value>
   <value column="Description" original="MaterialShipment Document">MaterialShipment Document</value>
   <value column="Help" original="The Material Shipment / Receipt ">The Material Shipment / Receipt </value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original="Material Receipt Document">Material Receipt Document</value>
   <value column="PO_Help" original="The Material Shipment / Receipt ">The Material Shipment / Receipt </value>
-  <value column="PO_Name" original="Receipt">Receipt</value>
-  <value column="PO_PrintName" original="Receipt">Receipt</value>
+  <value column="PO_Name" original="Receipt">Réception</value>
+  <value column="PO_PrintName" original="Receipt">Réception</value>
  </row>
  <row id="52001" trl="N">
   <value column="Name" original="Black List Cheque">Black List Cheque</value>
@@ -26107,8 +26108,8 @@ The ID is related 1 to 1 to the container ID</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="52017" trl="Y">
-  <value column="Name" original="Category">Categorie</value>
-  <value column="PrintName" original="Category">Categorie</value>
+  <value column="Name" original="Category">Catégorie</value>
+  <value column="PrintName" original="Category">Catégorie</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -26393,8 +26394,8 @@ The ID is related 1 to 1 to the container ID</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="52044" trl="N">
-  <value column="Name" original="Locked">Locked</value>
-  <value column="PrintName" original="Locked">Locked</value>
+  <value column="Name" original="Locked">Bloqué</value>
+  <value column="PrintName" original="Locked">Bloqué</value>
   <value column="Description" original="Whether the terminal is locked">Whether the terminal is locked</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -26558,8 +26559,8 @@ The ID is related 1 to 1 to the container ID</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53224" trl="N">
-  <value column="Name" original="Print Unprocessed Entries Only">Print Unprocessed Entries Only</value>
-  <value column="PrintName" original="Print Unprocessed Entries Only">Print Unprocessed Entries Only</value>
+  <value column="Name" original="Print Unprocessed Entries Only">N'imprimer que les relances non traitées</value>
+  <value column="PrintName" original="Print Unprocessed Entries Only">N'imprimer que les relances non traitées</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -27635,8 +27636,8 @@ The sum the Current Cost Price + Current Cost Price Lower Level is the total cos
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53321" trl="N">
-  <value column="Name" original="Definite Sequence">Definite Sequence</value>
-  <value column="PrintName" original="Definite Sequence">Definite Sequence</value>
+  <value column="Name" original="Definite Sequence">Numérotation définitive</value>
+  <value column="PrintName" original="Definite Sequence">Numérotation définitive</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -31928,8 +31929,8 @@ Credit Work in Process Account]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53894" trl="N">
-  <value column="Name" original="Chart Type">Chart Type</value>
-  <value column="PrintName" original="Chart Type">Chart Type</value>
+  <value column="Name" original="Chart Type">Type de graphique</value>
+  <value column="PrintName" original="Chart Type">Type de graphique</value>
   <value column="Description" original="Type of chart to render">Type fo chart to render</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -32016,8 +32017,8 @@ Credit Work in Process Account]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53926" trl="N">
-  <value column="Name" original="PO Tax exempt">PO Tax exempt</value>
-  <value column="PrintName" original="PO Tax exempt">PO Tax exempt</value>
+  <value column="Name" original="PO Tax exempt">Achats exonérés</value>
+  <value column="PrintName" original="PO Tax exempt">Achats exonérés</value>
   <value column="Description" original="Business partner is exempt from tax on purchases">Business partner is exempt from tax on purchases</value>
   <value column="Help" original="If a business partner is exempt from tax on purchases, the exempt tax rate is used. For this, you need to set up a tax rate with a 0% rate and indicate that this is your tax exempt rate.  This is required for tax reporting, so that you can track tax exempt transactions.">If a business partner is exempt from tax on purchases, the exempt tax rate is used. For this, you need to set up a tax rate with a 0% rate and indicate that this is your tax exempt rate.  This is required for tax reporting, so that you can track tax exempt transactions.</value>
   <value column="Placeholder" original=""/>
@@ -33646,8 +33647,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54396" trl="N">
-  <value column="Name" original="Probability">Probability</value>
-  <value column="PrintName" original="Probability">Probability</value>
+  <value column="Name" original="Probability">Probabilité</value>
+  <value column="PrintName" original="Probability">Probabilité</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -41929,8 +41930,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="55290" trl="N">
-  <value column="Name" original="Won">Won</value>
-  <value column="PrintName" original="Won">Won</value>
+  <value column="Name" original="Won">Gagné</value>
+  <value column="PrintName" original="Won">Gagné</value>
   <value column="Description" original="The opportunity was won">The opportunity was won</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -41951,8 +41952,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="55293" trl="N">
-  <value column="Name" original="Weighted Amount">Weighted Amount</value>
-  <value column="PrintName" original="Weighted Amount">Weighted Amount</value>
+  <value column="Name" original="Weighted Amount">Montant pondéré</value>
+  <value column="PrintName" original="Weighted Amount">Montant pondéré</value>
   <value column="Description" original="The amount adjusted by the probability.">The amount adjusted by the probability.</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -41962,8 +41963,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="55294" trl="N">
-  <value column="Name" original="Opportunity by Campaign">Opportunity by Campaign</value>
-  <value column="PrintName" original="Opportunity by Campaign">Opportunity by Campaign</value>
+  <value column="Name" original="Opportunity by Campaign">Opportunités par campagne</value>
+  <value column="PrintName" original="Opportunity by Campaign">Opportunités par campagne</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -42325,8 +42326,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200024" trl="N">
-  <value column="Name" original="Password Policies">AD_PasswordRule</value>
-  <value column="PrintName" original="Password Policies">AD_PasswordRule</value>
+  <value column="Name" original="Password Policies">Règles mot de passe</value>
+  <value column="PrintName" original="Password Policies">Règles mot de passe</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -42545,8 +42546,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200064" trl="N">
-  <value column="Name" original="New Password Confirm">NewPasswordConfirm</value>
-  <value column="PrintName" original="New Password Confirm">NewPasswordConfirm</value>
+  <value column="Name" original="New Password Confirm">Confirmation nouveau mot de passe</value>
+  <value column="PrintName" original="New Password Confirm">Confirmation nouveau mot de passe</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -42864,8 +42865,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200111" trl="N">
-  <value column="Name" original="Locked">Locked</value>
-  <value column="PrintName" original="Locked">Locked</value>
+  <value column="Name" original="Locked">Bloqué</value>
+  <value column="PrintName" original="Locked">Bloqué</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -42875,8 +42876,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200112" trl="N">
-  <value column="Name" original="Date Account Locked">Date Account Locked</value>
-  <value column="PrintName" original="Date Account Locked">Date Account Locked</value>
+  <value column="Name" original="Date Account Locked">Date blocage du compte</value>
+  <value column="PrintName" original="Date Account Locked">Date blocage du compte</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -42886,8 +42887,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200113" trl="N">
-  <value column="Name" original="Failed Login Count">Failed Login Count</value>
-  <value column="PrintName" original="Failed Login Count">Failed Login Count</value>
+  <value column="Name" original="Failed Login Count">Nombre connexion(s) abortée(s)</value>
+  <value column="PrintName" original="Failed Login Count">Nombre connexion(s) abortée(s)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -42897,8 +42898,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200114" trl="N">
-  <value column="Name" original="Date Password Changed">Date Password Changed</value>
-  <value column="PrintName" original="Date Password Changed">Date Password Changed</value>
+  <value column="Name" original="Date Password Changed">Mot de passe changé le</value>
+  <value column="PrintName" original="Date Password Changed">Mot de passe changé le</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -43040,8 +43041,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200127" trl="N">
-  <value column="Name" original="Security Question">Security Question</value>
-  <value column="PrintName" original="Security Question">Security Question</value>
+  <value column="Name" original="Security Question">Question de sécurité</value>
+  <value column="PrintName" original="Security Question">Question de sécurité</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -43051,8 +43052,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200128" trl="N">
-  <value column="Name" original="Answer">Answer</value>
-  <value column="PrintName" original="Answer">Answer</value>
+  <value column="Name" original="Answer">Réponse</value>
+  <value column="PrintName" original="Answer">Réponse</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -43513,8 +43514,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200197" trl="N">
-  <value column="Name" original="User Name">User Name</value>
-  <value column="PrintName" original="User Name">User Name</value>
+  <value column="Name" original="User Name">Nom d'utilisateur</value>
+  <value column="PrintName" original="User Name">Nom d'utilisateur</value>
   <value column="Description" original=""/>
   <value column="Help" original="Login User Name"/>
   <value column="Placeholder" original=""/>
@@ -47968,8 +47969,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200982" trl="N">
-  <value column="Name" original="bp_created">bp_created</value>
-  <value column="PrintName" original="bp_created">bp_created</value>
+  <value column="Name" original="bp_created">Date création bpartner</value>
+  <value column="PrintName" original="bp_created">Date création bpartner</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -52357,8 +52358,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201478" trl="N">
-  <value column="Name" original="c_invoice_c_currency_id">c_invoice_c_currency_id</value>
-  <value column="PrintName" original="c_invoice_c_currency_id">c_invoice_c_currency_id</value>
+  <value column="Name" original="c_invoice_c_currency_id">Devise facture</value>
+  <value column="PrintName" original="c_invoice_c_currency_id">Devise facture</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -60667,8 +60668,8 @@ Strings may be in single quotes (optional)]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202672" trl="N">
-  <value column="Name" original="To">To</value>
-  <value column="PrintName" original="To">To</value>
+  <value column="Name" original="To">Pour</value>
+  <value column="PrintName" original="To">Pour</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>

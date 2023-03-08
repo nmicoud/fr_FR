@@ -37,7 +37,7 @@
   <value column="Name" original="Project Accounts">Projet</value>
  </row>
  <row id="113" trl="N">
-  <value column="Name" original="General">General</value>
+  <value column="Name" original="General">Général</value>
  </row>
  <row id="114" trl="N">
   <value column="Name" original="Action">Action</value>
@@ -61,7 +61,7 @@
   <value column="Name" original="Web Store">Web Store</value>
  </row>
  <row id="121" trl="N">
-  <value column="Name" original="Internal">Internal</value>
+  <value column="Name" original="Internal">Infos de connexion</value>
  </row>
  <row id="122" trl="N">
   <value column="Name" original="External">External</value>
@@ -163,7 +163,7 @@
   <value column="Name" original="Web Position">Web Position</value>
  </row>
  <row id="200003" trl="N">
-  <value column="Name" original="User Locking">User Locking</value>
+  <value column="Name" original="User Locking">Blocage utilisateur</value>
  </row>
  <row id="200004" trl="N">
   <value column="Name" original="Overwritten From Column">Overwritten From Column</value>
@@ -178,10 +178,10 @@
   <value column="Name" original="Sales Information">Sales Information</value>
  </row>
  <row id="200008" trl="N">
-  <value column="Name" original="Document Preferences">Document Preferences</value>
+  <value column="Name" original="Document Preferences">Préférences Document</value>
  </row>
  <row id="200009" trl="N">
-  <value column="Name" original="Charge Account">Charge</value>
+  <value column="Name" original="Charge Account">Charges</value>
  </row>
  <row id="200010" trl="N">
   <value column="Name" original="Business Partner Accounts">Business Partner Accounts</value>
