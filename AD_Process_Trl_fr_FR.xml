@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Process">
+<!--iDempiere(r) Release 12_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Process">
  <row id="100" trl="Y">
   <value column="Name" original="Create Periods ">Créer les périodes</value>
   <value column="Description" original="Create 12 standard calendar periods.">Créé 12 périodes standards qui correspondent aux 12 mois de l'année</value>
@@ -124,12 +124,6 @@ Possibilité de consolider les commandes par adresse de livraison du tiers.</val
   <value column="Description" original="Product Transaction Summary">Product Transaction Summary</value>
   <value column="Help" original="The report shows transaction summary for stored products">The report shows transaction summary for stored products</value>
  </row>
- <row id="125" trl="N">
-  <value column="Name" original="Replenish Report">Replenish Report</value>
-  <value column="Description" original="Inventory Replenish Report">Inventory Replenish Report</value>
-  <value column="Help" original="Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.&lt;br&gt;&#10;Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished." xml:space="preserve"><![CDATA[Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.<br>
-Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished.]]></value>
- </row>
  <row id="127" trl="N">
   <value column="Name" original="Invoice Transactions (Acct)">Invoice Transactions (Acct)</value>
   <value column="Description" original="Invoice Transactions by Accounting Date">Invoice Transactions by Accounting Date</value>
@@ -211,9 +205,9 @@ Movements are only created, if a sourcing warehouse is defined for the warehouse
   <value column="Help" original=""/>
  </row>
  <row id="145" trl="N">
-  <value column="Name" original="Open Items">Liste des factures non réglées</value>
-  <value column="Description" original="Open Item (Invoice) List">Open Item (Invoice) List</value>
-  <value column="Help" original="Displays all unpaid invoices for a given Business Partner and date range. Please note that Invoices paid in Cash will appear in Open Items until the Cash Journal is processed.">Displays all unpaid invoices for a given Business Partner and date range. Please note that Invoices paid in Cash will appear in Open Items until the Cash Journal is processed.</value>
+  <value column="Name" original="Open Items (Aging)">Liste des factures non réglées</value>
+  <value column="Description" original="Open Items (Invoice and Aging) List">Open Item (Invoice) List</value>
+  <value column="Help" original="Displays all unpaid invoices for a given Business Partner and date range.">Displays all unpaid invoices for a given Business Partner and date range. Please note that Invoices paid in Cash will appear in Open Items until the Cash Journal is processed.</value>
  </row>
  <row id="146" trl="Y">
   <value column="Name" original="UnReconciled Payments">Paiements non rapprochés</value>
@@ -246,7 +240,7 @@ Movements are only created, if a sourcing warehouse is defined for the warehouse
   <value column="Help" original="The report lists the invoice transactions by invoice date"/>
  </row>
  <row id="152" trl="Y">
-  <value column="Name" original="Invoice Detail &amp; Margin">Détail facturation</value>
+  <value column="Name" original="Invoice Detail and Margin">Détail facturation</value>
   <value column="Description" original="Invoice (Line) Detail and Margin Report">Détail des lignes de factures et marge</value>
   <value column="Help" original="The Report lists Customer and Vendor Invoice Details with Margines.">Cet état affiche les informations des lignes de facture d'achat et de vente. Il peut donner les marges</value>
  </row>
@@ -344,7 +338,7 @@ Sinon, il est possible de générer des paiements</value>
  <row id="179" trl="N">
   <value column="Name" original="Language Maintenance">Language Maintenance</value>
   <value column="Description" original="Maintain language translation in system">Maintain language translation in system</value>
-  <value column="Help" original="You can Add Missing Translation entries (required after activating an additional System Language) - Delete Translation Records - or Re-Create the translation Records (first delete and add missing entries).&#10;Note that Adding the Missing Translation records creates them by copying the System Language (English).  You would apply the Language Pack after that process.  Run Syncronize Terminology after importing the translation.">You can Add Missing Translation entries (required after activating an additional System Language) - Delete Translation Records - or Re-Create the translation Records (first delete and add missing entries).
+  <value column="Help" original="You can Add Missing Translation entries (required after activating an additional System Language) - Delete Translation Records - or Re-Create the translation Records (first delete and add missing entries).&#10;Note that Adding the Missing Translation records creates them by copying the System Language (English).  You would apply the Language Pack after that process.  Run Synchronize Terminology after importing the translation.">You can Add Missing Translation entries (required after activating an additional System Language) - Delete Translation Records - or Re-Create the translation Records (first delete and add missing entries).
 Note that Adding the Missing Translation records creates them by copying the System Language (English).  You would apply the Language Pack after that process.  Run Syncronize Terminology after importing the translation.</value>
  </row>
  <row id="180" trl="N">
@@ -455,7 +449,7 @@ If you select this, make sure that you not multiple default accounts using one n
  <row id="200" trl="Y">
   <value column="Name" original="Print Invoices">Imprimer les factures</value>
   <value column="Description" original="Print Invoices to paper or send PDF">Print Invoices to paper or send PDF</value>
-  <value column="Help" original="(Re)Print Invoices or send them as PDF attachments to the Business Partner Contact with a valid EMail addres.&#10;&lt;br&gt;&#10;Remark: If you only enter a Document No FROM value, all invoices greater or equal that document number are printed; you can alternatively use the % character as a widcard." xml:space="preserve"><![CDATA[(Re)Print Invoices or send them as PDF attachments to the Business Partner Contact with a valid EMail addres.
+  <value column="Help" original="(Re)Print Invoices or send them as PDF attachments to the Business Partner Contact with a valid EMail address.&#10;&lt;br&gt;&#10;Remark: If you only enter a Document No FROM value, all invoices greater or equal that document number are printed; you can alternatively use the % character as a widcard." xml:space="preserve"><![CDATA[(Re)Print Invoices or send them as PDF attachments to the Business Partner Contact with a valid EMail addres.
 <br>
 Remark: If you only enter a Document No FROM value, all invoices greater or equal that document number are printed; you can alternatively use the % character as a widcard.]]></value>
  </row>
@@ -764,12 +758,12 @@ It will help us, if you would allow to publish your use of Adempiere. We will co
 If you create a new Organization, you may supply a Organization Type.  If you select a Role, the access to the new Organization is limited to that role, otherwise all (non manual) roles of the Client will have access to the new Organization.</value>
  </row>
  <row id="261" trl="N">
-  <value column="Name" original="Create &amp; Invite" xml:space="preserve"><![CDATA[Create & Invite]]></value>
+  <value column="Name" original="Create and Invite" xml:space="preserve"><![CDATA[Create & Invite]]></value>
   <value column="Description" original="Create RfQ and Invite Vendors">Create RfQ and Invite Vendors</value>
   <value column="Help" original="Create (missing) RfQ Responses and optionally send EMail Invitation/Reminder to Vendors to respond to RfQ">Create (missing) RfQ Responses and optionally send EMail Invitation/Reminder to Vendors to respond to RfQ</value>
  </row>
  <row id="262" trl="N">
-  <value column="Name" original="Invite &amp; Remind" xml:space="preserve"><![CDATA[Invite & Remind]]></value>
+  <value column="Name" original="Invite and Remind" xml:space="preserve"><![CDATA[Invite & Remind]]></value>
   <value column="Description" original="EMail Invite or Remind Vendor to answer RfQ">EMail Invite or Remind Vendor to answer RfQ</value>
   <value column="Help" original="Send Invitation/Reminder to Vendors to respond to RfQ per email">Send Invitation/Reminder to Vendors to respond to RfQ per email</value>
  </row>
@@ -786,14 +780,14 @@ If you create a new Organization, you may supply a Organization Type.  If you se
  <row id="265" trl="N">
   <value column="Name" original="Rank Responses">Rank Responses</value>
   <value column="Description" original="Rank Completed RfQ Responses">Rank Completed RfQ Responses</value>
-  <value column="Help" original="Invalid responses are ranked with 999 per Quantity. The Quantity Responses are ranked among each other and the RfQ Best Response updated.  The response Lines is maked as Selected winner, where the line quantity purchase quantity is selected.  A total winner is only selected, if the RfQ type is &quot;Quote All Lines&quot; or &quot;Quote Total only&quot;.&#10;&#10;Then the rankings of all Quantity Responses are added for the total ranking of the response. The response with the lowest total ranking is marked as Selected Winner.">Invalid responses are ranked with 999 per Quantity. The Quantity Responses are ranked among each other and the RfQ Best Response updated.  The response Lines is maked as Selected winner, where the line quantity purchase quantity is selected.  A total winner is only selected, if the RfQ type is "Quote All Lines" or "Quote Total only".
+  <value column="Help" original="Invalid responses are ranked with 999 per Quantity. The Quantity Responses are ranked among each other and the RfQ Best Response updated.  The response Lines is marked as Selected winner, where the line quantity purchase quantity is selected.  A total winner is only selected, if the RfQ type is &quot;Quote All Lines&quot; or &quot;Quote Total only&quot;.&#10;&#10;Then the rankings of all Quantity Responses are added for the total ranking of the response. The response with the lowest total ranking is marked as Selected Winner.">Invalid responses are ranked with 999 per Quantity. The Quantity Responses are ranked among each other and the RfQ Best Response updated.  The response Lines is maked as Selected winner, where the line quantity purchase quantity is selected.  A total winner is only selected, if the RfQ type is "Quote All Lines" or "Quote Total only".
 
 Then the rankings of all Quantity Responses are added for the total ranking of the response. The response with the lowest total ranking is marked as Selected Winner.</value>
  </row>
  <row id="266" trl="N">
   <value column="Name" original="Create Purchase Order">Create Purchase Order</value>
   <value column="Description" original="Create Purchase Order(s) for RfQ Winner(s)">Create Purchase Order(s) for RfQ Winner(s)</value>
-  <value column="Help" original="Create purchase order(s) for the resonse(s) and lines marked as Selected Winner using the selected Purchase Quantity (in RfQ Line Quantity) . If a Response is marked as Selected Winner, all lines are created (and Selected Winner of other responses ignored).  If there is no response marked as Selected Winner, the lines are used.">Create purchase order(s) for the resonse(s) and lines marked as Selected Winner using the selected Purchase Quantity (in RfQ Line Quantity) . If a Response is marked as Selected Winner, all lines are created (and Selected Winner of other responses ignored).  If there is no response marked as Selected Winner, the lines are used.</value>
+  <value column="Help" original="Create purchase order(s) for the response(s) and lines marked as Selected Winner using the selected Purchase Quantity (in RfQ Line Quantity) . If a Response is marked as Selected Winner, all lines are created (and Selected Winner of other responses ignored).  If there is no response marked as Selected Winner, the lines are used.">Create purchase order(s) for the resonse(s) and lines marked as Selected Winner using the selected Purchase Quantity (in RfQ Line Quantity) . If a Response is marked as Selected Winner, all lines are created (and Selected Winner of other responses ignored).  If there is no response marked as Selected Winner, the lines are used.</value>
  </row>
  <row id="267" trl="N">
   <value column="Name" original="Create Sales Order">Create Sales Order</value>
@@ -934,7 +928,7 @@ If a magin is entered on RfQ Line Quantity, it overwrites the general margin.  T
  <row id="295" trl="Y">
   <value column="Name" original="Role Access Update">Mise à jour droits accès</value>
   <value column="Description" original="Update the access rights of a role or roles of a tenant">Met à jour les droits d'accès d'un rôle ou des rôles d'une entité</value>
-  <value column="Help" original="Update the access rights of a role or all roles of a tenant to windows, forms, processes and workflows. Note that a role is only updated if it is not marked as manual. Note that if is executed from System tenant and role is not set, all tenant will be udpated">Permet de mettre à jour les droits d'accès aux fenêtres, états, traitements, formulaires et workflows. Un rôle n'est impacté que s'il n'est pas typé comme étant "manuel".</value>
+  <value column="Help" original="Update the access rights of a role or all roles of a tenant to windows, forms, processes and workflows. Note that a role is only updated if it is not marked as manual. Note that if is executed from System tenant and role is not set, all tenants will be updated">Permet de mettre à jour les droits d'accès aux fenêtres, états, traitements, formulaires et workflows. Un rôle n'est impacté que s'il n'est pas typé comme étant "manuel".</value>
  </row>
  <row id="296" trl="N">
   <value column="Name" original="Import Confirmations">Import Confirmations</value>
@@ -1010,7 +1004,7 @@ Il n'y a plus de trace de l'affectation (elle est détruite, pas annulée)</valu
  <row id="312" trl="Y">
   <value column="Name" original="Print Dunning Letters">Impression des relances</value>
   <value column="Description" original="Print Dunning letters to paper or send PDF">Impression ou envoi en PDF</value>
-  <value column="Help" original="(Re)Print Dunning Letters or send them as PDF attachments to the Business Partner Contact with a valid EMail addres.&#10;">Impression des relances ou envoi d'un PDF comme pièce jointe au contact du tiers (celui-ci doit avoir une adresse de courriel valide).
+  <value column="Help" original="(Re)Print Dunning Letters or send them as PDF attachments to the Business Partner Contact with a valid EMail address.&#10;">Impression des relances ou envoi d'un PDF comme pièce jointe au contact du tiers (celui-ci doit avoir une adresse de courriel valide).
 </value>
  </row>
  <row id="313" trl="N">
@@ -1056,7 +1050,7 @@ Il n'y a plus de trace de l'affectation (elle est détruite, pas annulée)</valu
  <row id="321" trl="N">
   <value column="Name" original="Synchronize Doc Translation">Synchronize Doc Translation</value>
   <value column="Description" original="Synchronize Document Translation">Synchronize Document Translation</value>
-  <value column="Help" original="This applies to the tenant defined document translations, e.g. for UoM, Payment Terms, Product Info, etc.&lt;br&gt; &#10;&lt;br&gt; &#10;If the current tenant has multi-lingual documents enabled, then the main record is copied to the tenant language (defined in Tenant window).  BE CAREFUL as this option can potentially damage data you modified, it is recommended to take a backup and plan carefully what you're doing if this is the first time running this process.&lt;br&gt; &#10;&lt;br&gt; &#10;If the current tenant has not multi-lingual documents enabled, the translations for documents are synchronized with the main record (i.e. it copies the content of the main record to the translation records).  This process is necessary when swiching to a mono-lingual environment as there the terminoligy is maintained not in the translation records." xml:space="preserve"><![CDATA[If the current client has not multi-lingual documents enabled, the translations for documents are synchronized with the main record (i.e. it copies the content of the main record to the translation records).  This process is necessary when swiching to a mono-lingual environment as there the terminoligy is maintained not in the translation records.<br>
+  <value column="Help" original="This applies to the tenant defined document translations, e.g. for UoM, Payment Terms, Product Info, etc.&lt;br&gt;&#10;&lt;br&gt;&#10;If the current tenant has multi-lingual documents enabled, then the main record is copied to the tenant language (defined in Tenant window).  BE CAREFUL as this option can potentially damage data you modified, it is recommended to take a backup and plan carefully what you're doing if this is the first time running this process.&lt;br&gt;&#10;&lt;br&gt;&#10;If the current tenant has not multi-lingual documents enabled, the translations for documents are synchronized with the main record (i.e. it copies the content of the main record to the translation records).  This process is necessary when switching to a mono-lingual environment as there the terminology is maintained not in the translation records." xml:space="preserve"><![CDATA[If the current client has not multi-lingual documents enabled, the translations for documents are synchronized with the main record (i.e. it copies the content of the main record to the translation records).  This process is necessary when swiching to a mono-lingual environment as there the terminoligy is maintained not in the translation records.<br>
 This applies to the client defined document translations, e.g. for UoM, Payment Terms, Product Info, etc.]]></value>
  </row>
  <row id="322" trl="N">
@@ -1221,7 +1215,7 @@ Note that support is restricted to setup and test, but not data recovery.]]></va
  </row>
  <row id="50010" trl="N">
   <value column="Name" original="Copy Role">Copy Role</value>
-  <value column="Description" original="Copy Role">Copy Role</value>
+  <value column="Description" original="WARNING! when executing the process, all Role to access records will be lost, being replaced by Role from records">Copy Role</value>
   <value column="Help" original="Copy role access records from one role to another.  The existing access records for the destination role will be deleted.  This process can be executed just by advanced roles.">Copy role access records from one role to another.  The existing access records for the destination role will be deleted.</value>
  </row>
  <row id="50011" trl="N">
@@ -1255,7 +1249,7 @@ Note that support is restricted to setup and test, but not data recovery.]]></va
   <value column="Help" original="This process copies BOM Lines from the Selected BOM to the Current BOM. The BOM being copied to must have any existing BOM Lines">This process copies BOM Lines from the Selected BOM to the Current BOM. The BOM being copied to must have any existing BOM Lines</value>
  </row>
  <row id="53006" trl="N">
-  <value column="Name" original="Multi Level BOM &amp; Formula Detail" xml:space="preserve"><![CDATA[Multi Level BOM & Formula Detail]]></value>
+  <value column="Name" original="Multi Level BOM and Formula Detail" xml:space="preserve"><![CDATA[Multi Level BOM & Formula Detail]]></value>
   <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Shows in two different panels the parent-component relationship for the product entered in the Product field.</value>
   <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it." xml:space="preserve"><![CDATA[The BOM & Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.
 
@@ -1268,7 +1262,7 @@ You need to introduce the parent product you want to see its components then cli
 The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it.]]></value>
  </row>
  <row id="53008" trl="N">
-  <value column="Name" original="Mutiple Components Change">Mutiple Components Change</value>
+  <value column="Name" original="Multiple Components Change">Mutiple Components Change</value>
   <value column="Description" original="This option allows the change of any component into BOM or Formula">This option allows the change of any component into BOM or Formula</value>
   <value column="Help" original="This option allows the change of any component into BOM or Formula">This option allows the change of any component into BOM or Formula</value>
  </row>
@@ -1293,8 +1287,8 @@ Generally, this process is only performed during the implementation of MRP</valu
  </row>
  <row id="53016" trl="N">
   <value column="Name" original="Calculate Material Plan">Calculate Material Plan</value>
-  <value column="Description" original="This process calcualte the demand, approved and open orders for a product.">This process calcualte the demand, approved and open orders for a product.</value>
-  <value column="Help" original="This process calcualte the demand, approved and open orders for a product.">This process calcualte the demand, approved and open orders for a product.</value>
+  <value column="Description" original="This process calculates the demand, approved and open orders for a product.">This process calcualte the demand, approved and open orders for a product.</value>
+  <value column="Help" original="This process calculates the demand, approved and open orders for a product.">This process calcualte the demand, approved and open orders for a product.</value>
  </row>
  <row id="53018" trl="N">
   <value column="Name" original="MRP Details">MRP Details</value>
@@ -1353,7 +1347,7 @@ the on-hand inventory at the beginning of a period.
   <value column="Help" original="Before you complete a MO it is necessary to validate the components are available in the warehouse, in order to track the components availability you get a report which shows among other data: the Required Quantity for the MO, the Reserved Quantity, the On Hand Quantity and the Available Quantity.">Before you complete a MO it is necessary to validate the components are available in the warehouse, in order to track the components availability you get a report which shows among other data: the Required Quantity for the MO, the Reserved Quantity, the On Hand Quantity and the Available Quantity.</value>
  </row>
  <row id="53034" trl="N">
-  <value column="Name" original="Print &amp; Release Order" xml:space="preserve"><![CDATA[Print & Release Order]]></value>
+  <value column="Name" original="Print and Release Order" xml:space="preserve"><![CDATA[Print & Release Order]]></value>
   <value column="Description" original="Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture.">Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture.</value>
   <value column="Help" original="Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture. If you wish to print the warehouse and shop floor documentation you must tick the adequate check box:&#10;&#10;If you tick the Print Pick List check box you will get a report with the required components and quantities to help the warehouse clerk to issue the material to the shop floor. The next report is an example of this:&#10;&#10;If you tick the Print Pack List check box you will get a report with the required components and containing the material with a Component Type of Packing and Tools recorded in the BOM Window.&#10;&#10;Another report which is part of the Manufacturing Order Release Package is the Workflow(Routing). &#10;&#10;You can print this report with tick in the Print Workflow check box and it shows to the shop floor personnel the necessary steps for the manufacture of the product. &#10;&#10;This Report contains the place where the product should be made, the standard times, the tools and necessary devices. &#10;&#10;If you wish to print this report tick the check box Print Workflow.">Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture. If you wish to print the warehouse and shop floor documentation you must tick the adequate check box:
 
@@ -1397,7 +1391,7 @@ If you wish to print this report tick the check box Print Workflow.</value>
  <row id="53046" trl="N">
   <value column="Name" original="Generate Movement">Generate Movement</value>
   <value column="Description" original="Generate and print Movement from open Distribution Orders">Generate and print Movement from open Distribution Orders</value>
-  <value column="Help" original="Movement for open Distribution Orders are created based on the delivery rule of the Distribution Order and the relative order priority.  If a Promise Date is selected only orders up to (including) the date are selected.&lt;br&gt;&#10;If several Distribution Orders of a business partner have the same location, the Distribution orders can be consolidated into one Movement.&lt;br&gt;&#10;You can also include Distibution orders who have outstanding confirmations (e.g. ordered=10 - not confirmed movements=4 - would create a new movement of 6 if available)." xml:space="preserve"><![CDATA[Movement for open Distribution Orders are created based on the delivery rule of the Distribution Order and the relative order priority.  If a Promise Date is selected only orders up to (including) the date are selected.<br>
+  <value column="Help" original="Movement for open Distribution Orders are created based on the delivery rule of the Distribution Order and the relative order priority.  If a Date Promised is selected only orders up to (including) the date are selected.&lt;br&gt;&#10;If several Distribution Orders of a business partner have the same location, the Distribution orders can be consolidated into one Movement.&lt;br&gt;&#10;You can also include Distribution orders who have outstanding confirmations (e.g. ordered=10 - not confirmed movements=4 - would create a new movement of 6 if available)." xml:space="preserve"><![CDATA[Movement for open Distribution Orders are created based on the delivery rule of the Distribution Order and the relative order priority.  If a Promise Date is selected only orders up to (including) the date are selected.<br>
 If several Distribution Orders of a business partner have the same location, the Distribution orders can be consolidated into one Movement.<br>
 You can also include Distibution orders who have outstanding confirmations (e.g. ordered=10 - not confirmed movements=4 - would create a new movement of 6 if available).]]></value>
  </row>
@@ -1436,7 +1430,7 @@ Cost Workflow = Labor Cost Workflow + Overhead Cost Workflow
 </value>
  </row>
  <row id="53062" trl="N">
-  <value column="Name" original="Bill of Material &amp; Formula Cost Roll-UP" xml:space="preserve"><![CDATA[Bill of Material & Formula Cost Roll-UP]]></value>
+  <value column="Name" original="Bill of Material and Formula Cost Roll-Up" xml:space="preserve"><![CDATA[Bill of Material & Formula Cost Roll-UP]]></value>
   <value column="Description" original="This Process allow integrate Bill of Material &amp; Formula Cost" xml:space="preserve"><![CDATA[This Process allow integrate Bill of Material & Formula Cost]]></value>
   <value column="Help" original="This Process allow integrate Bill of Material &amp; Formula Cost&#10;&#10;Element Cost = Element Cost this level + Element Cost this low level &#10;&#10;Total BOM Cost = Sum every Element Cost" xml:space="preserve"><![CDATA[This Process allow integrate Bill of Material & Formula Cost
 
@@ -1526,7 +1520,7 @@ Total BOM Cost = Sum every Element Cost]]></value>
  </row>
  <row id="53099" trl="N">
   <value column="Name" original="Asset Transfer Entry">Asset Transfer Entry</value>
-  <value column="Description" original="Used to review Assets Transfered Entry ">Used to review Assets Transfered Entry </value>
+  <value column="Description" original="Used to review Assets Transferred Entry ">Used to review Assets Transfered Entry </value>
   <value column="Help" original=""/>
  </row>
  <row id="53101" trl="N">
@@ -1860,7 +1854,7 @@ specific BP is updated and depending sales orders are also updated.</value>
   <value column="Help" original=""/>
  </row>
  <row id="53267" trl="N">
-  <value column="Name" original="Replenish Report incl. Production">Replenish Report incl. Production</value>
+  <value column="Name" original="Replenish Report">Replenish Report incl. Production</value>
   <value column="Description" original="Inventory Replenish Report">Inventory Replenish Report</value>
   <value column="Help" original="Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.&lt;br&gt; &#10;Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished." xml:space="preserve"><![CDATA[Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.<br> 
 Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished.]]></value>
@@ -1991,11 +1985,6 @@ d. Transaction Date, will become in-service-date for the newly created asset.</v
  </row>
  <row id="200030" trl="N">
   <value column="Name" original="Online Shipping Sales Order Rate Inquiry">Online Shipping Sales Order Rate Inquiry</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="200031" trl="N">
-  <value column="Name" original="Deposit Batch Close">Deposit Batch Close</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2226,8 +2215,8 @@ For example:<br />
 ]]></value>
  </row>
  <row id="200118" trl="N">
-  <value column="Name" original="Create Window, Tab &amp; Field from Table" xml:space="preserve"><![CDATA[Create Window, Tab & Field from Table]]></value>
-  <value column="Description" original="Create Window, Tab &amp; Field record of the Table" xml:space="preserve"><![CDATA[Create Window, Tab & Field record of the Table]]></value>
+  <value column="Name" original="Create Window, Tab and Field from Table" xml:space="preserve"><![CDATA[Create Window, Tab & Field from Table]]></value>
+  <value column="Description" original="Create Window, Tab and Field record of the Table" xml:space="preserve"><![CDATA[Create Window, Tab & Field record of the Table]]></value>
   <value column="Help" original="This process will take the table definition and create the Window/Tab and field record with these options:&lt;br&gt;&#10;&#10;New Window: if selected the process will create a new Window record. Otherwise, the process will create a new tab and add it to the selected window.&lt;br&gt;&#10;Create Menu: if selected the process creates the menu record for the new window." xml:space="preserve"><![CDATA[This process will take the table definition and create the Window/Tab and field record with these options:<br>
 
 New Window: if selected the process will create a new Window record. Otherwise, the process will create a new tab and add it to the selected window.<br>
@@ -2339,8 +2328,18 @@ Create Menu: if selected the process creates the menu record for the new window.
   <value column="Help" original=""/>
  </row>
  <row id="200146" trl="N">
-  <value column="Name" original="Synchronize Print Format Items">Formats d'impression : Synchronisation des élements</value>
+  <value column="Name" original="Synchronize Print Format based on Report View">Formats d'impression : Synchronisation des élements</value>
   <value column="Description" original="">Ce traitement permet d'ajouter les colonnes manquantes sur les formats d'impression</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200147" trl="N">
+  <value column="Name" original="Validate">Validate</value>
+  <value column="Description" original="Validate Drill Rule Parameters">Validate Drill Rule Parameters</value>
+  <value column="Help" original="Validate the Drill Rule, if all mandatory parameters are set.">Validate the Drill Rule, if all mandatory parameters are set.</value>
+ </row>
+ <row id="200148" trl="N">
+  <value column="Name" original="Process Deposit Batch">Process Deposit Batch</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200149" trl="N">
@@ -2352,5 +2351,40 @@ Create Menu: if selected the process creates the menu record for the new window.
   <value column="Name" original="Discard this Verify Migration">Discard this Verify Migration</value>
   <value column="Description" original="Discard the current record of verify migration process">Discard the current record of verify migration process</value>
   <value column="Help" original="This process discards the current record of verify migration process, deleting all the associated details.  It cannot be discarded when there are records marked as Ignore.">This process discards the current record of verify migration process, deleting all the associated details.  It cannot be discarded when there are records marked as Ignore.</value>
+ </row>
+ <row id="200153" trl="N">
+  <value column="Name" original="TestUU Form Report">TestUU Form Report</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200154" trl="N">
+  <value column="Name" original="Generate Model">Generate Model</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200155" trl="N">
+  <value column="Name" original="Switch Active Flag on this Test UU and its Details">Switch Active Flag on this Test UU and its Details</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200156" trl="N">
+  <value column="Name" original="Delete Trace Logs">Delete Trace Logs</value>
+  <value column="Description" original="delete log files with last modified older than n days of current time">delete log files with last modified older than n days of current time</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200157" trl="N">
+  <value column="Name" original="Create/Update Table Partition">Create/update partition</value>
+  <value column="Description" original="Process which create or update table partitions based on the table and column records">Process which create or update table partitions based on the table and column records</value>
+  <value column="Help" original="The Create/update partition process will create or update table partitions based on the information in the table and column records">The Create/update partition process will create or update table partitions based on the information in the table and column records</value>
+ </row>
+ <row id="200158" trl="N">
+  <value column="Name" original="Detach/re-attach Table Partition">Detach/re-attach Table Partition</value>
+  <value column="Description" original="Detach or re-attach table partition">Detach or re-attach table partition</value>
+  <value column="Help" original="Detach an attached table partition or re-attach a detached table partition">Detach an attached table partition or re-attach a detached table partition</value>
+ </row>
+ <row id="200162" trl="N">
+  <value column="Name" original="Customize Grid View">Customize Grid View</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
 </idempiereTrl>

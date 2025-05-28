@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Message">
+<!--iDempiere(r) Release 12_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Message">
  <row id="101" trl="N">
   <value column="MsgText" original="zero">zéro</value>
   <value column="MsgTip" original=""/>
@@ -217,8 +217,8 @@
   <value column="MsgTip" original="Automatic calculation of write-off amount to close the open item">Calcul automatique du montant à passer en écart de règlement pour affecter en totalité le montant ouvert</value>
  </row>
  <row id="155" trl="Y">
-  <value column="MsgText" original="Automatic Commit">Enregistrement automatique</value>
-  <value column="MsgTip" original="Automatic saving of data">Les données modifiées sont sauvegardées automatiquement</value>
+  <value column="MsgText" original="Save on Navigate">Enregistrement automatique</value>
+  <value column="MsgTip" original="Automatically save changes to the current record when the user navigates to another record, switches to a detail tab, or performs an action (e.g., running a process) that requires saving the current changes.">Les données modifiées sont sauvegardées automatiquement</value>
  </row>
  <row id="156" trl="Y">
   <value column="MsgText" original="Automatic Login">Connexion automatique</value>
@@ -1534,7 +1534,7 @@ No destination (to) address - Check Contact</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="483" trl="N">
-  <value column="MsgText" original="Request {0} was transferred by {1} from {2} to {3} ">Request {0} was transferred by {1} from {2} to {3} </value>
+  <value column="MsgText" original="Request {0} was transferred by {1} from {2} to {3} ">La requête {0} a été transférée par {1} de {2} à {3} </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="484" trl="N">
@@ -1827,7 +1827,7 @@ Details: </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="555" trl="N">
-  <value column="MsgText" original="Process completed successfully">Process completed successfully</value>
+  <value column="MsgText" original="Process completed successfully">Traitement terminé avec succès</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="556" trl="Y">
@@ -2434,7 +2434,7 @@ Please stop and migrate the database immediately.</value>
  </row>
  <row id="713" trl="N">
   <value column="MsgText" original="Dictionary Maintenance">Dictionary Maintenance</value>
-  <value column="MsgTip" original="Only for internal iDempiere Dictionary Maintenence - DO NOT SELECT">Only for internal iDempiere Dictionary Maintenence - DO NOT SELECT</value>
+  <value column="MsgTip" original="Only for internal iDempiere Dictionary Maintenance - DO NOT SELECT">Only for internal iDempiere Dictionary Maintenence - DO NOT SELECT</value>
  </row>
  <row id="714" trl="N">
   <value column="MsgText" original="No Translation">No Translation</value>
@@ -2992,7 +2992,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="852" trl="N">
-  <value column="MsgText" original="Query returned more records then allowed in role - requery">La recherche retourne plus de résultats qu'autorisé pour votre rôle :  limite </value>
+  <value column="MsgText" original="The query returned more records than allowed, consider adding more filters.">La recherche retourne plus de résultats qu'autorisé pour votre rôle :  limite </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="853" trl="Y">
@@ -4096,7 +4096,7 @@ Voulez-vous continuer ?</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52223" trl="N">
-  <value column="MsgText" original="Mobile No">Moblie No</value>
+  <value column="MsgText" original="Mobile No">N° mobile</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52224" trl="N">
@@ -5237,7 +5237,7 @@ Voulez-vous continuer ?</value>
  </row>
  <row id="53015" trl="N">
   <value column="MsgText" original="Release Due For">Release Due For</value>
-  <value column="MsgTip" original="Indicate tha a supply order should be released. if it is a draft order , it must also be approved.">Indicate tha a supply order should be released. if it is a draft order , it must also be approved.</value>
+  <value column="MsgTip" original="Indicates that a supply order should be released. if it is a draft order , it must also be approved.">Indicate tha a supply order should be released. if it is a draft order , it must also be approved.</value>
  </row>
  <row id="53016" trl="N">
   <value column="MsgText" original="Release Past Due For">Release Past Due For</value>
@@ -5424,11 +5424,11 @@ Positionnez-vous sur l'onglet et actualisez</value>
  </row>
  <row id="53079" trl="N">
   <value column="MsgText" original="Unknown MRP Error">Unknown MRP Error</value>
-  <value column="MsgTip" original="Indicates that there was an unclassified error durring MRP process">Indicates that there was an unclassified error durring MRP process</value>
+  <value column="MsgTip" original="Indicates that there was an unclassified error during MRP process">Indicates that there was an unclassified error durring MRP process</value>
  </row>
  <row id="53080" trl="N">
   <value column="MsgText" original="Cannot Create Document">Cannot Create Document</value>
-  <value column="MsgTip" original="Indicates that there was an error durring document creation">Indicates that there was an error durring document creation</value>
+  <value column="MsgTip" original="Indicates that there was an error during document creation">Indicates that there was an error durring document creation</value>
  </row>
  <row id="53081" trl="N">
   <value column="MsgText" original="No UOM conversion found">No UOM conversion found</value>
@@ -5588,7 +5588,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53134" trl="N">
-  <value column="MsgText" original="zip - 2Pack zip file">zip - 2Pack zip file</value>
+  <value column="MsgText" original="zip - 2Pack zip file (not Official Dictionary)">zip - 2Pack zip file</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53135" trl="N">
@@ -6615,6 +6615,10 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgText" original="Locator not available for shipping">Locator not available for shipping</value>
   <value column="MsgTip" original=""/>
  </row>
+ <row id="200354" trl="N">
+  <value column="MsgText" original="Do you want to create a new account combination ?">Voulez-vous créer une nouvelle combinaison ?</value>
+  <value column="MsgTip" original=""/>
+ </row>
  <row id="200355" trl="N">
   <value column="MsgText" original="Selected {0} rows">{0} ligne(s) sélectionnée(s)</value>
   <value column="MsgTip" original=""/>
@@ -7204,7 +7208,7 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200592" trl="N">
-  <value column="MsgText" original="Allocation date updated">Allocation date updated</value>
+  <value column="MsgText" original="Allocation date updated">Date affectation mise à jour</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200593" trl="N">
@@ -7721,25 +7725,25 @@ This will solve the problem if you're trying to access a new feature.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200752" trl="N">
-  <value column="MsgText" original="Copy Report">Copy Report</value>
+  <value column="MsgText" original="Copy Report">Copier format</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200753" trl="N">
-  <value column="MsgText" original="You selected the Copy Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views&lt;br /&gt;&#10;Print Format Name:" xml:space="preserve"><![CDATA[You selected the Copy Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views<br />
-Print Format Name:]]></value>
+  <value column="MsgText" original="You selected the Copy Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views&lt;br /&gt;&#10;Print Format Name:" xml:space="preserve"><![CDATA[Vous avez sélectionné la copie d'un format existant. Un nouveau format va être créé que vous pourrez modifier<br />
+Nom du nouveau format :]]></value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200754" trl="N">
-  <value column="MsgText" original="You selected the New Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views&lt;br /&gt;&#10;Print Format Name:" xml:space="preserve"><![CDATA[You selected the New Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views<br />
-Print Format Name:]]></value>
+  <value column="MsgText" original="You selected the New Report function. It creates a brand new Print Format which you can modify, update, change. This is usually used for improving reporting to get additional information views&lt;br /&gt;&#10;Print Format Name:">Vous avez sélectionné la création d'un format existant.
+Nom du nouveau format :</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200755" trl="N">
-  <value column="MsgText" original="Create Print Format Copy">Create Print Format Copy</value>
+  <value column="MsgText" original="Create Print Format Copy">Dupliquer un format d'impression</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200756" trl="N">
-  <value column="MsgText" original="Create New Print Format">Create New Print Format</value>
+  <value column="MsgText" original="Create New Print Format">Créer nouveau format d'impression</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200757" trl="N">
@@ -7751,7 +7755,7 @@ Print Format Name:]]></value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200759" trl="N">
-  <value column="MsgText" original="Type to Search or Create">Type to Search or Create</value>
+  <value column="MsgText" original="Type to Search or Create">Recherche / Création</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200761" trl="N">
@@ -7759,8 +7763,8 @@ Print Format Name:]]></value>
   <value column="MsgTip" original="You can enable Drill Across in Application Dictionary as System User in the Table window.">You can enable Drill Across in Application Dictionary as System User in the Table window.</value>
  </row>
  <row id="200762" trl="N">
-  <value column="MsgText" original="Cannot find Drill Rule for the selected Column.">Cannot find Drill Rule for the selected Column.</value>
-  <value column="MsgTip" original="You can define new definitions in Drill Rule window.">You can define new definitions in Drill Rule window.</value>
+  <value column="MsgText" original="Cannot find any valid Drill Rules for the selected Column.">Cannot find Drill Rule for the selected Column.</value>
+  <value column="MsgTip" original="You can define new definitions in Drill Rule window, then run the 'Validate' process.">You can define new definitions in Drill Rule window.</value>
  </row>
  <row id="200763" trl="N">
   <value column="MsgText" original="Do you want to delete the record?&lt;br /&gt;&#10;Please confirm by typing: &lt;b&gt;{0}&lt;b/&gt;" xml:space="preserve"><![CDATA[Do you want to delete the record?<br />
@@ -7784,8 +7788,32 @@ Please confirm by typing: <b>{1}<b/>]]></value>
   <value column="MsgText" original="Fill Mandatory Drill Rule Parameters">Fill Mandatory Drill Rule Parameters</value>
   <value column="MsgTip" original=""/>
  </row>
+ <row id="200769" trl="N">
+  <value column="MsgText" original="Payment and Deposit Batch both should not be entered">Payment and Deposit Batch both should not be entered</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200770" trl="N">
+  <value column="MsgText" original="Deposit Batch is not Processed">Deposit Batch is not Processed</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200772" trl="N">
+  <value column="MsgText" original="Fail to get Payments Into Batch amount">Fail to get Payments Into Batch amount</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200773" trl="N">
+  <value column="MsgText" original="Payment is already Reconciled ">Payment is already Reconciled </value>
+  <value column="MsgTip" original=""/>
+ </row>
  <row id="200781" trl="N">
-  <value column="MsgText" original="No Data Available">No Data Available</value>
+  <value column="MsgText" original="No Data Available">Aucune donnée disponible</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200784" trl="N">
+  <value column="MsgText" original="The user has no access">The user has no access</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200785" trl="N">
+  <value column="MsgText" original="User not found">User not found</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200786" trl="N">
@@ -7876,6 +7904,14 @@ Please confirm by typing: <b>{1}<b/>]]></value>
   <value column="MsgText" original="Text">Texte</value>
   <value column="MsgTip" original=""/>
  </row>
+ <row id="200809" trl="N">
+  <value column="MsgText" original="Table">Table</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200810" trl="N">
+  <value column="MsgText" original="Choose Related Record">Choose Related Record</value>
+  <value column="MsgTip" original=""/>
+ </row>
  <row id="200811" trl="N">
   <value column="MsgText" original="{0} recursively contains {1}">{0} recursively contains {1}</value>
   <value column="MsgTip" original=""/>
@@ -7892,6 +7928,10 @@ Please confirm by typing: <b>{1}<b/>]]></value>
   <value column="MsgText" original="BOM {0} for product {1} does not have lines">BOM {0} for product {1} does not have lines</value>
   <value column="MsgTip" original=""/>
  </row>
+ <row id="200815" trl="N">
+  <value column="MsgText" original="Can not reactivate reconciled Payment.">Can not reactivate reconciled Payment.</value>
+  <value column="MsgTip" original=""/>
+ </row>
  <row id="200816" trl="N">
   <value column="MsgText" original="Expected Value differs from Current Value.&#10;The column {0} in record {1} was customized on {2,date,long} by {3}">Expected Value differs from Current Value.
 The column {0} in record {1} was customized on {2,date,long} by {3}</value>
@@ -7902,13 +7942,396 @@ The column {0} in record {1} was customized on {2,date,long} by {3}</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200818" trl="N">
-  <value column="MsgText" original="Column View does not exist in database.&#10;The custom view column {0} was created on {1,date,long} by {2}">Column View does not exist in database.
+  <value column="MsgText" original="Column View does not exist in database.&#10;The view column {0} was created on {1,date,long} by {2}">Column View does not exist in database.
 The custom view column {0} was created on {1,date,long} by {2}</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200819" trl="N">
   <value column="MsgText" original="A customized record does not exist in the database.&#10;The column {0} was customized on {1,date,long} by {2} in record {3} that no longer exists">A customized record does not exist in the database.
 The column {0} was customized on {1,date,long} by {2} in record {3} that no longer exists</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200820" trl="N">
+  <value column="MsgText" original="Field {0} not found in tab {1}">Field {0} not found in tab {1}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200821" trl="N">
+  <value column="MsgText" original="Post all Unposted Documents before closing the Period.">Post all Unposted Documents before closing the Period.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200822" trl="N">
+  <value column="MsgText" original="Could not close Period Control because of un-processed Documents:">Could not close Period Control because of un-processed Documents:</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200823" trl="N">
+  <value column="MsgText" original="All Drill Rules in System which have at least one Drill Rule Parameter with a mandatory Process Parameter must have the Show Help field set to value 'Show Help'">All Drill Rules in System which have at least one Drill Rule Parameter with a mandatory Process Parameter must have the Show Help field set to value 'Show Help'</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200824" trl="N">
+  <value column="MsgText" original="Fill mandatory parameters: {0}; Mandatory parameters should be filled in the Process Parameter field of the Dashboard Content.">Fill mandatory parameters: {0}; Mandatory parameters should be filled in the Process Parameter field of the Dashboard Content.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200825" trl="N">
+  <value column="MsgText" original="zip - SQL Insert scripts zip archive">zip - SQL Insert scripts zip archive</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200826" trl="N">
+  <value column="MsgText" original="This Table has no Key Column">This Table has no Key Column</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200827" trl="N">
+  <value column="MsgText" original="UUID Columns must end with suffix _UU">UUID Columns must end with suffix _UU</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200828" trl="N">
+  <value column="MsgText" original="Document Base Type must be unique for the Document Base Type Group.">Document Base Type must be unique for the Document Base Type Group.</value>
+  <value column="MsgTip" original="A Document Base Type Group Line with this Document Base Type already exists.">A Document Base Type Group Line with this Document Base Type already exists.</value>
+ </row>
+ <row id="200829" trl="N">
+  <value column="MsgText" original="Please review the definition of Process Parameters">Please review the definition of Process Parameters</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200830" trl="N">
+  <value column="MsgText" original="UUID based table is not compatible with Record_ID">UUID based table is not compatible with Record_ID</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200831" trl="N">
+  <value column="MsgText" original="Roles must be different">Roles must be different</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200832" trl="N">
+  <value column="MsgText" original="Role Copied">Role Copied</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200833" trl="N">
+  <value column="MsgText" original="Row count: {0}">Nombre de lignes : {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200834" trl="N">
+  <value column="MsgText" original="{0} {1}{0,choice,1#|1&lt;s} Ago" xml:space="preserve"><![CDATA[{0} {1}{0,choice,1#|1<s} Ago]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200836" trl="N">
+  <value column="MsgText" original="View does not exist in database.&#10;The view {0} was created on {1,date,long} by {2}">View does not exist in database.
+The view {0} was created on {1,date,long} by {2}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200837" trl="N">
+  <value column="MsgText" original="Column View does not exist in dictionary.&#10;The view column {0} exists in database but is not defined in dictionary">Column View does not exist in dictionary.
+The view column {0} exists in database but is not defined in dictionary</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200838" trl="N">
+  <value column="MsgText" original="Record not deleted - there are dependent records in the table {0} for the column {1}">Enregistrement non supprimé - il y a des enregistrements dépendants dans ''{0}'' via ''{1}''</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200845" trl="N">
+  <value column="MsgText" original="Failed to rename the original table">Failed to rename the original table</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200846" trl="N">
+  <value column="MsgText" original="Partitioning Method not supported: {0}">Partitioning Method not supported: {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200847" trl="N">
+  <value column="MsgText" original="Failed to migrate database constraints">Failed to migrate database constraints</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200848" trl="N">
+  <value column="MsgText" original="Failed to attach default partition">Failed to attach default partition</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200849" trl="N">
+  <value column="MsgText" original="Failed to create the partitioned table">Failed to create the partitioned table</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200850" trl="N">
+  <value column="MsgText" original="Failed to migrate data">Failed to migrate data</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200851" trl="N">
+  <value column="MsgText" original="Failed to run post migration data">Failed to run post migration data</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200852" trl="N">
+  <value column="MsgText" original="At least one partition key column is required">At least one partition key column is required</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200853" trl="N">
+  <value column="MsgText" original="Your changes to the current table partition configuration are not supported">Your changes to the current table partition configuration are not supported</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200854" trl="N">
+  <value column="MsgText" original="Table partition is not empty">Table partition is not empty</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200855" trl="N">
+  <value column="MsgText" original="Invalid Range Partition Interval">Invalid Range Partition Interval</value>
+  <value column="MsgTip" original="The Range Partition Interval has to match the date/number patterns: ^([1-9]{1}[0-9]?)\s+year(?:s)?\s+([1-9]{1}[0-9]?)\s+month(?:s)?$; ^([1-9]{1}[0-9]?)\s+(year)(?:s)?$; ^([1-9]{1}[0-9]?)\s+(month)(?:s)?$; ^[1-9]\d*$">The Range Partition Interval has to match the date/number patterns: ^([1-9]{1}[0-9]?)\s+year(?:s)?\s+([1-9]{1}[0-9]?)\s+month(?:s)?$; ^([1-9]{1}[0-9]?)\s+(year)(?:s)?$; ^([1-9]{1}[0-9]?)\s+(month)(?:s)?$; ^[1-9]\d*$</value>
+ </row>
+ <row id="200856" trl="N">
+  <value column="MsgText" original="Range partition key type not supported">Range partition key type not supported</value>
+  <value column="MsgTip" original="Support date and numeric types only">Support date and numeric types only</value>
+ </row>
+ <row id="200857" trl="N">
+  <value column="MsgText" original="Database adapter doesn't have table partition support">Database adapter doesn't have table partition support</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200858" trl="N">
+  <value column="MsgText" original="Only one partition key column is allowed">Only one partition key column is allowed</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200859" trl="N">
+  <value column="MsgText" original="Can't detach or re-attach default partition">Can't detach or re-attach default partition</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200860" trl="N">
+  <value column="MsgText" original="The partition {0} has been successfully detached from table {1}">The partition {0} has been successfully detached from table {1}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200861" trl="N">
+  <value column="MsgText" original="The partition {0} has been successfully re-attached to table {1}">The partition {0} has been successfully re-attached to table {1}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200862" trl="N">
+  <value column="MsgText" original="A maximum of two columns can be specified as partition keys. The first column defines the primary partition, and the second (optional) column defines the subpartition">A maximum of two columns can be specified as partition keys. The first column defines the primary partition, and the second (optional) column defines the subpartition</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200863" trl="N">
+  <value column="MsgText" original="Business Partner has no Location">Business Partner has no Location</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200864" trl="N">
+  <value column="MsgText" original="Business Partner Location has no Address">Business Partner Location has no Address</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200865" trl="N">
+  <value column="MsgText" original="Organization not saved">Organization not saved</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200866" trl="N">
+  <value column="MsgText" original="Warehouse not saved">Warehouse not saved</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200867" trl="N">
+  <value column="MsgText" original="Organization Info not saved">Organization Info not saved</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200868" trl="N">
+  <value column="MsgText" original="Business Partner not updated">Business Partner not updated</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200869" trl="N">
+  <value column="MsgText" original="Business Partner - Organization Link created">Business Partner - Organization Link created</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200870" trl="N">
+  <value column="MsgText" original="Organization {0} already linked Business Partner {1}">Organization {0} already linked Business Partner {1}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200871" trl="N">
+  <value column="MsgText" original="Could not reactivate payment: payment is allocated">Impossible de réactiver le paiement, il est affecté</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200872" trl="N">
+  <value column="MsgText" original="Could not reactivate payment: payment is used on a bank statement line">Impossible de réactiver le paiement, il est sur une ligne de relevé bancaire</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200873" trl="N">
+  <value column="MsgText" original="Could not reactivate payment: payment is used in a bank transfer">Impossible de réactiver le paiement, il est utilisé sur un virement</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200874" trl="N">
+  <value column="MsgText" original="Could not reactivate payment: payment is used on a dunning run line">Could not reactivate payment: payment is used on a dunning run line</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200875" trl="N">
+  <value column="MsgText" original="Could not reactivate payment: payment is used on a request">Impossible de réactiver le paiement, il est utilisé sur une requête</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200876" trl="N">
+  <value column="MsgText" original="Invalid JSON">Invalid JSON</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200878" trl="N">
+  <value column="MsgText" original="There was an error converting the Excel file to CSV">There was an error converting the Excel file to CSV</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200879" trl="N">
+  <value column="MsgText" original="CSV Header Column not found -&gt; {0}" xml:space="preserve"><![CDATA[CSV Header Column not found -> {0}]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200880" trl="N">
+  <value column="MsgText" original="The query returns more than one record">The query returns more than one record</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200883" trl="N">
+  <value column="MsgText" original="Could not modify the currency once batch line has been added">Could not modify the currency once batch line has been added</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200884" trl="N">
+  <value column="MsgText" original="Multiple currency payments are not allowed in a single batch. All batch line payments must be in the {0} currency">Multiple currency payments are not allowed in a single batch. All batch line payments must be in the {0} currency</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200885" trl="N">
+  <value column="MsgText" original="CSV Alias Header is not valid, it must have the same number of columns as the CSV Header">CSV Alias Header is not valid, it must have the same number of columns as the CSV Header</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200886" trl="N">
+  <value column="MsgText" original="The entered value does not match the required regular expression: {0}">The entered value does not match the required regular expression: {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200887" trl="N">
+  <value column="MsgText" original="The initial count query timed out, loading records ...">The initial count query timed out, loading records ...</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200893" trl="N">
+  <value column="MsgText" original="The data query for the report took too much time to execute (over {0} seconds) exceeding the allowed limit">The data query for the report took too much time to execute (over {0} seconds) exceeding the allowed limit</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200894" trl="N">
+  <value column="MsgText" original="The report data exceeds the maximum limit of {0} rows">The report data exceeds the maximum limit of {0} rows</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200895" trl="N">
+  <value column="MsgText" original="Freeze Column">Freeze Column</value>
+  <value column="MsgTip" original="Freeze this column to keep it visible when scrolling horizontally">Freeze this column to keep it visible when scrolling horizontally</value>
+ </row>
+ <row id="200896" trl="N">
+  <value column="MsgText" original="Reset Freeze Column">Reset Freeze Column</value>
+  <value column="MsgTip" original="Reset freeze to indicator column (default)">Reset freeze to indicator column (default)</value>
+ </row>
+ <row id="200897" trl="N">
+  <value column="MsgText" original="Products or charges configured as 'Freight Product' or 'Freight Charge' cannot be added to this order due to the combination of delivery via rule and freight cost rule">Products or charges configured as 'Freight Product' or 'Freight Charge' cannot be added to this order due to the combination of delivery via rule and freight cost rule</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200899" trl="N">
+  <value column="MsgText" original="Payment Not Allocated">Payment Not Allocated</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200900" trl="N">
+  <value column="MsgText" original="Read-only session">Session en lecture seule</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200901" trl="N">
+  <value column="MsgText" original="&lt;h2 style=&quot;text-align: center;&quot;&gt;&#10;   &lt;div style=&quot;{2,choice,-1#color:red;|0#color:gray;|0&lt;color:green;}&quot;&gt;{2,number,#.#}&lt;/div&gt;&#10;&lt;/h2&gt;&#10;&lt;div style=&quot;font-size: small; text-align: center;&quot;&gt;Order Count&lt;/div&gt;&#10;&lt;div style=&quot;font-size: small; color: gray; margin-top: 5px;&quot;&gt;&#10;   Top Year (2002): {1}&#10;&lt;/div&gt;&#10;&lt;div style=&quot;font-size: small; color: gray; margin-top: 5px;&quot;&gt;&#10;   Current Year: {0}&#10;&lt;/div&gt;" xml:space="preserve"><![CDATA[<h2 style="text-align: center;">
+   <div style="{2,choice,-1#color:red;|0#color:gray;|0<color:green;}">{2,number,#.#}</div>
+</h2>
+<div style="font-size: small; text-align: center;">Order Count</div>
+<div style="font-size: small; color: gray; margin-top: 5px;">
+   Top Year (2002): {1}
+</div>
+<div style="font-size: small; color: gray; margin-top: 5px;">
+   Current Year: {0}
+</div>]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200902" trl="N">
+  <value column="MsgText" original="Total Sales: {0,number,currency}">Total Sales: {0,number,currency}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200903" trl="N">
+  <value column="MsgText" original="Back-Date transaction not allowed">Back-Date transaction not allowed</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200904" trl="N">
+  <value column="MsgText" original="Insufficient Stock Coverage. A shipment should not be allowed if there is insufficient stock before the shipment’s movement date.">Insufficient Stock Coverage. A shipment should not be allowed if there is insufficient stock before the shipment’s movement date.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200905" trl="N">
+  <value column="MsgText" original="Account Date cannot be changed">Account Date cannot be changed</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200908" trl="N">
+  <value column="MsgText" original="Login">Login</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200909" trl="N">
+  <value column="MsgText" original="Insufficient Stock Coverage. A reversal of shipment/project issue is required to replenish stock before reversal.">Insufficient Stock Coverage. A reversal of shipment/project issue is required to replenish stock before reversal.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200911" trl="N">
+  <value column="MsgText" original="Drag and Drop here to delete recent item">Glisser-déposer pour supprimer l'élément de l'historique</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200913" trl="N">
+  <value column="MsgText" original="Deposit Batch is Processed: ">Deposit Batch is Processed: </value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200914" trl="N">
+  <value column="MsgText" original="This is a system or tenant parameter, you can't save it as organization parameter">This is a system or tenant parameter, you can't save it as organization parameter</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200915" trl="N">
+  <value column="MsgText" original="This is a system parameter, you can't save it as tenant parameter">This is a system parameter, you can't save it as tenant parameter</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200917" trl="N">
+  <value column="MsgText" original="&lt;div style=&quot;background-color:yellow;&quot;&gt;{0,choice,0#Do not forget to set SysConfig MESSAGES_AT_TENANT_LEVEL=Y to enable this feature|1#}&lt;/div&gt;" xml:space="preserve"><![CDATA[<div style="background-color:yellow;">{0,choice,0#Do not forget to set SysConfig MESSAGES_AT_TENANT_LEVEL=Y to enable this feature|1#}</div>]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200919" trl="N">
+  <value column="MsgText" original="Create Line Per Payment">Create Line Per Payment</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200920" trl="N">
+  <value column="MsgText" original="Could not reactivate deposit batch: deposit batch is used on a bank statement line">Could not reactivate deposit batch: deposit batch is used on a bank statement line</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200921" trl="N">
+  <value column="MsgText" original="Could not void deposit batch: deposit batch is used on a bank statement line">Could not void deposit batch: deposit batch is used on a bank statement line</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200926" trl="N">
+  <value column="MsgText" original="Total of Base values is 0 - {0}">Total of Base values is 0 - {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200927" trl="N">
+  <value column="MsgText" original="The background loading of the records has finished.">The background loading of the records has finished.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200930" trl="N">
+  <value column="MsgText" original="Template/Mode not allowed for this role">Template/Mode not allowed for this role</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200931" trl="N">
+  <value column="MsgText" original="No Active Tab">No Active Tab</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200932" trl="N">
+  <value column="MsgText" original="No CSV importer">No CSV importer</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200933" trl="N">
+  <value column="MsgText" original="Table doesn't match with updated tab">Table doesn't match with updated tab</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200934" trl="N">
+  <value column="MsgText" original="There are payments with no value for Amount Due or Payment Amount, this is usually caused by missing currency exchange rates.">There are payments with no value for Amount Due or Payment Amount, this is usually caused by missing currency exchange rates.</value>
+  <value column="MsgTip" original="Please deselect the payments without amounts or configure the currency rate correctly.">Please deselect the payments without amounts or configure the currency rate correctly.</value>
+ </row>
+ <row id="200935" trl="N">
+  <value column="MsgText" original="Could not reactivate invoice: invoice is allocated">Impossible de réactiver la facture, elle est affectée</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200936" trl="N">
+  <value column="MsgText" original="Could not reactivate invoice: invoice is used on a Match Invoice record">Could not reactivate invoice: invoice is used on a Match Invoice record</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200937" trl="N">
+  <value column="MsgText" original="Could not reactivate invoice: invoice is used on a Match PO record">Could not reactivate invoice: invoice is used on a Match PO record</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200941" trl="N">
+  <value column="MsgText" original="{0} cannot be reactivated">{0} ne peut pas être réactivé</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200942" trl="N">
+  <value column="MsgText" original="This plugin does not exist in this server, saving this record is dangerous as potentially the server cannot be started next time">This plugin does not exist in this server, saving this record is dangerous as potentially the server cannot be started next time</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200943" trl="N">
+  <value column="MsgText" original="The plugin exists, but is in a different state, saving this record is dangerous as potentially the server cannot be started next time">The plugin exists, but is in a different state, saving this record is dangerous as potentially the server cannot be started next time</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="520010" trl="N">

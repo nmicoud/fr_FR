@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Window">
+<!--iDempiere(r) Release 12_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Window">
  <row id="100" trl="N">
   <value column="Name" original="Table and Column">Table and Column</value>
   <value column="Description" original="Maintain Tables and Columns">Maintain Tables and Columns</value>
@@ -11,7 +11,7 @@
   <value column="Help" original="The Reference Window defines field/display types and validations. This window is for System Admin use only.">The Reference Window defines field/display types and validations. This window is for System Admin use only.</value>
  </row>
  <row id="102" trl="N">
-  <value column="Name" original="Window, Tab &amp; Field" xml:space="preserve"><![CDATA[Window, Tab & Field]]></value>
+  <value column="Name" original="Window, Tab and Field" xml:space="preserve"><![CDATA[Window, Tab & Field]]></value>
   <value column="Description" original="Maintain Windows, Tabs &amp; Fields" xml:space="preserve"><![CDATA[Maintain Windows, Tabs & Fields]]></value>
   <value column="Help" original="The Window, Tab &amp; Field Window defines the presentation of tables and columns within each window." xml:space="preserve"><![CDATA[The Window, Tab & Field Window defines the presentation of tables and columns within each window.]]></value>
  </row>
@@ -98,7 +98,7 @@ Do not create a new client in this window, but use "Initial Client Setup" to set
   <value column="Help" original="The Calendar Year and Periods defines the calendars that will be used for period control and reporting. You can also define non-standard calendars (e.g. business year from July to June).">C'est ici que l'on crée les années et que l'on gère les ouvertures et fermetures de période.</value>
  </row>
  <row id="118" trl="Y">
-  <value column="Name" original="Account Element">Plans comptables</value>
+  <value column="Name" original="Account Element (Chart of Accounts)">Plans comptables</value>
   <value column="Description" original="Maintain Account Elements">Gestion des plans comptables</value>
   <value column="Help" original="The Account Element Window is used to define and maintain the Accounting Element and User Defined Elements. &#10;One of the account segments is your natural account segment (Chart of Account). You may add a new account element for parallel reporting or for user defined accounting segments."/>
  </row>
@@ -180,7 +180,7 @@ Review and change the GL and Default accounts. The actual accounts used in trans
   <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.</value>
  </row>
  <row id="139" trl="Y">
-  <value column="Name" original="Warehouse &amp; Locators" xml:space="preserve"><![CDATA[Entrepôts & Emplacements]]></value>
+  <value column="Name" original="Warehouse and Locators" xml:space="preserve"><![CDATA[Entrepôts & Emplacements]]></value>
   <value column="Description" original="Maintain Warehouses and Locators"/>
   <value column="Help" original="The Warehouse and Locators Window defines each Warehouse, any Locators for that Warehouse and the Accounting parameters to be used for inventory in that Warehouse."/>
  </row>
@@ -256,9 +256,9 @@ Pricelists can be calculated and copied.  To speed up the calculation, the param
   <value column="Help" original=""/>
  </row>
  <row id="158" trl="N">
-  <value column="Name" original="Bank / Cash">Banques</value>
-  <value column="Description" original="Maintain Bank / Cash"/>
-  <value column="Help" original="The Bank / Cash Window is used to define the banks and accounts associated with an organization or business partner">Paramétrage des banques et comptes bancaires utilisés dans l'application</value>
+  <value column="Name" original="Bank/Cash">Banques</value>
+  <value column="Description" original="Maintain Bank/Cash"/>
+  <value column="Help" original="The Bank/Cash Window is used to define the banks and accounts associated with an organization or business partner">Paramétrage des banques et comptes bancaires utilisés dans l'application</value>
  </row>
  <row id="159" trl="Y">
   <value column="Name" original="Dunning">Paramétrage des relances</value>
@@ -281,13 +281,13 @@ Pricelists can be calculated and copied.  To speed up the calculation, the param
   <value column="Help" original="The Tree Window defines the descriptors and images that will be used when a Tree is displayed."/>
  </row>
  <row id="165" trl="N">
-  <value column="Name" original="Report &amp; Process" xml:space="preserve"><![CDATA[Report & Process]]></value>
+  <value column="Name" original="Report and Process" xml:space="preserve"><![CDATA[Report & Process]]></value>
   <value column="Description" original="Maintain Reports &amp; Processes" xml:space="preserve"><![CDATA[Maintain Reports & Processes]]></value>
   <value column="Help" original="The Report &amp; Process Window is used to define the parameters and access rules for every Report and Process within the system.  This window is for System Admin use only." xml:space="preserve"><![CDATA[The Report & Process Window is used to define the parameters and access rules for every Report and Process within the system.  This window is for System Admin use only.]]></value>
  </row>
  <row id="167" trl="Y">
-  <value column="Name" original="Invoice (Customer)">Factures (Client)</value>
-  <value column="Description" original="Customer Invoice Entry">Vos factures émises</value>
+  <value column="Name" original="Sales Invoice and Credit/Debit Note">Factures (Client)</value>
+  <value column="Description" original="Customer Sales Invoice and Credit/Debit Note">Vos factures émises</value>
   <value column="Help" original="The Customer Invoice Window allows you to display and enter invoices for a customer.  Invoices can also be generated from Sales Orders or Delivery documents.">Affichage et saisie des factures clients</value>
  </row>
  <row id="168" trl="N">
@@ -336,8 +336,8 @@ Pricelists can be calculated and copied.  To speed up the calculation, the param
   <value column="Help" original="The Purchase Order Window defines a purchase order for an organization.  When a Purchase Order has been entered you can generate a Shipment Document or Invoice from this Purchase Order"/>
  </row>
  <row id="183" trl="Y">
-  <value column="Name" original="Invoice (Vendor)" xml:space="preserve"><![CDATA[Factures (Fournisseurs & Salariés)]]></value>
-  <value column="Description" original="Vendor Invoice Entry">Les factures reçues et les notes de frais</value>
+  <value column="Name" original="Purchase Invoice and Credit/Debit Note" xml:space="preserve"><![CDATA[Factures (Fournisseurs & Salariés)]]></value>
+  <value column="Description" original="Vendor Purchase Invoice and Credit/Debit Note">Les factures reçues et les notes de frais</value>
   <value column="Help" original="The Vendor Invoice Window allows you to display and enter Invoices from a Vendor.  Vendor Invoices can also be generated from Purchase Orders or Delivery Receipts."/>
  </row>
  <row id="184" trl="Y">
@@ -376,7 +376,7 @@ Pricelists can be calculated and copied.  To speed up the calculation, the param
   <value column="Help" original="The Process Bank Statements window allows you to reconcile your Bank Statements.  You can either enter the line items from the statement in the Statement Line tab or select the 'Create From' button to automatically generate the statement from all unreconciled payments to this bank account.  Once you have completed reconciling, select the 'Process Statement' button to mark the payments as reconciled and update the appropriate GL accounts."/>
  </row>
  <row id="195" trl="Y">
-  <value column="Name" original="Payment">Règlements</value>
+  <value column="Name" original="Payment and Receipt">Règlements</value>
   <value column="Description" original="Process Payments and Receipts">Règlements (clients et fournisseurs)</value>
   <value column="Help" original="The Process Payments Window allows you to enter payments and reaipts for invoices.  If the payment is for a single invoice then it can be processed here.  If it is for multiple invoices or is a partial payment then it should be processed in the Payment Allocation Window."/>
  </row>
@@ -484,7 +484,7 @@ Any restrictions for Organizations, Business Partners, Products, etc. are  as Pe
  <row id="224" trl="N">
   <value column="Name" original="Print Form">Print Form</value>
   <value column="Description" original="Maintain Print Forms (Invoices, Checks, ..) used">Maintain Print Forms (Invoices, Checks, ..) used</value>
-  <value column="Help" original="Define the documents you use for this Tenant/Organnization.  Note that the check format is defined in the Bank (Account) Window.&lt;p&gt;&#10;The highest priotity has the Print Format, you define on a Document Type (example specific Export Invoice format). The next level is the set of Print Formats, you defined for the organziation of the document printed. The default is the set of Print Formats defines for all organizations of the Tenant (Organization=*)." xml:space="preserve"><![CDATA[Define the documents you use for this Client/Organnization.  Note that the check format is defined in the Bank (Account) Window.<p>
+  <value column="Help" original="Define the documents you use for this Tenant/Organization.  Note that the check format is defined in the Bank (Account) Window.&lt;p&gt;&#10;The highest priority has the Print Format you define on a Document Type (example specific Export Invoice format). The next level is the set of Print Formats you defined for the organization of the document printed. The default is the set of Print Formats defines for all organizations of the Tenant (Organization=*)." xml:space="preserve"><![CDATA[Define the documents you use for this Client/Organnization.  Note that the check format is defined in the Bank (Account) Window.<p>
 The highest priotity has the Print Format, you define on a Document Type (example specific Export Invoice format). The next level is the set of Print Formats, you defined for the organziation of the document printed. The default is the set of Print Formats defines for all organizations of the Client (Organization=*).]]></value>
  </row>
  <row id="227" trl="N">
@@ -742,12 +742,12 @@ Before(!) entering transactions, Start the Replication Run to set up the remote 
  <row id="285" trl="N">
   <value column="Name" original="Replication Strategy">Replication Strategy</value>
   <value column="Description" original="Maintain Data Replication Strategy">Maintain Data Replication Strategy</value>
-  <value column="Help" original="The Data Replication Strategy determines which tables and how they are replicated. Note that the migration does not syncronize Application Dictionary items.">The Data Replication Strategy determines which tables and how they are replicated. Note that the migration does not syncronize Application Dictionary items.</value>
+  <value column="Help" original="The Data Replication Strategy determines which tables and how they are replicated. Note that the migration does not synchronize Application Dictionary items.">The Data Replication Strategy determines which tables and how they are replicated. Note that the migration does not syncronize Application Dictionary items.</value>
  </row>
  <row id="286" trl="N">
   <value column="Name" original="Project (Lines/Issues)">Project (Lines/Issues)</value>
   <value column="Description" original="Maintain Sales Order and Work Order Details">Maintain Sales Order and Work Order Details</value>
-  <value column="Help" original="The Project Window is used to maintain details of Projects Lines and Issues accross Phases/Tasks">The Project Window is used to maintain details of Projects Lines and Issues accross Phases/Tasks</value>
+  <value column="Help" original="The Project Window is used to maintain details of Projects Lines and Issues across Phases/Tasks">The Project Window is used to maintain details of Projects Lines and Issues accross Phases/Tasks</value>
  </row>
  <row id="291" trl="N">
   <value column="Name" original="Business Partner Info">Business Partner Info</value>
@@ -942,8 +942,8 @@ If not defined, the first matching document type is used (e.g. AR Invoice - firs
   <value column="Help" original=""/>
  </row>
  <row id="341" trl="N">
-  <value column="Name" original="Internal Use Inventory">Internal Use Inventory</value>
-  <value column="Description" original="Enter Internal Use of Inventory">Enter Internal Use of Inventory</value>
+  <value column="Name" original="Inventory Decrease/Increase">Internal Use Inventory</value>
+  <value column="Description" original="Enter Inventory Decrease/Increase (for example Internal Use of Inventory)">Enter Internal Use of Inventory</value>
   <value column="Help" original="The Internal Use of Inventory Window allows enter the quantity of used products.">The Internal Use of Inventory Window allows enter the quantity of used products.</value>
  </row>
  <row id="342" trl="N">
@@ -1024,7 +1024,7 @@ If not defined, the first matching document type is used (e.g. AR Invoice - firs
  <row id="360" trl="N">
   <value column="Name" original="Reporting Hierarchy">Reporting Hierarchy</value>
   <value column="Description" original="Define Reporting Hierarchy">Define Reporting Hierarchy</value>
-  <value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business">Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.
+  <value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accommodate different views on the business">Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.
 Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business</value>
  </row>
  <row id="363" trl="N">
@@ -1035,7 +1035,7 @@ Accounting Segments like Organization, Account, Product may have several hierarc
  <row id="364" trl="N">
   <value column="Name" original="Performance Color Schema">Performance Color Schema</value>
   <value column="Description" original="Maintain Performance Color Schema">Maintain Performance Color Schema</value>
-  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).">Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  Adempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).</value>
+  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere supports two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be between 0 and unlimited (i.e. above 100%).">Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  Adempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).</value>
  </row>
  <row id="365" trl="N">
   <value column="Name" original="Performance Benchmark">Performance Benchmark</value>
@@ -1117,7 +1117,7 @@ A Specific production facility consisting of one or more people and/or machines 
   <value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.</value>
  </row>
  <row id="53006" trl="N">
-  <value column="Name" original="Bill of Materials &amp; Formula" xml:space="preserve"><![CDATA[Bill of Materials & Formula ]]></value>
+  <value column="Name" original="Bill of Materials and Formula" xml:space="preserve"><![CDATA[Bill of Materials & Formula ]]></value>
   <value column="Description" original="Maintain Product Bill of Materials &amp; Formula" xml:space="preserve"><![CDATA[Maintain Product Bill of Materials & Formula ]]></value>
   <value column="Help" original="It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called &quot;formula&quot;, &quot;recipe&quot;, &quot;ingredients list&quot; in certain industries.&#10;It answers the question, what are the components of the product?">It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called "formula", "recipe", "ingredients list" in certain industries.
 It answers the question, what are the components of the product?</value>
@@ -1249,7 +1249,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53045" trl="N">
   <value column="Name" original="Asset Revaluation Index">Asset Revaluation Index</value>
   <value column="Description" original="Set the Revaluate Assets Index or Factors">Set the Revaluate Assets Index or Factors</value>
-  <value column="Help" original="The Asset Revaluation Index window allow you to setup the values of indexs or factors to be used in revaluation of assets">The Asset Revaluation Index window allow you to setup the values of indexs or factors to be used in revaluation of assets</value>
+  <value column="Help" original="The Asset Revaluation Index window allow you to setup the values of indexes or factors to be used in revaluation of assets">The Asset Revaluation Index window allow you to setup the values of indexs or factors to be used in revaluation of assets</value>
  </row>
  <row id="53046" trl="N">
   <value column="Name" original="Transfer Asset Entry">Transfer Asset Entry</value>
@@ -1309,7 +1309,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53061" trl="N">
   <value column="Name" original="Depreciation Calculation Method">Depreciation Calculation Method</value>
   <value column="Description" original="Define Calculation Methods used in depreciation expense calculation">Define Calculation Methods used in depreciation expense calculation</value>
-  <value column="Help" original="The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled">The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled</value>
+  <value column="Help" original="The Depreciation Calculation Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled">The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled</value>
  </row>
  <row id="53062" trl="N">
   <value column="Name" original="Charge Type">Charge Type</value>
@@ -1345,16 +1345,6 @@ MRP - 110	 No exists Dem</value>
   <value column="Name" original="Import Price List">Import Price List</value>
   <value column="Description" original="Import Price Lists">Import Price Lists</value>
   <value column="Help" original="The Import Price List Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">The Import Price List Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.</value>
- </row>
- <row id="53073" trl="N">
-  <value column="Name" original="Promotion Group">Promotion Group</value>
-  <value column="Description" original="Grouping of product for promotion setup">Grouping of product for promotion setup</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53074" trl="N">
-  <value column="Name" original="Promotion">Promotion</value>
-  <value column="Description" original="Setup promotion rule">Setup promotion rule</value>
-  <value column="Help" original=""/>
  </row>
  <row id="53078" trl="N">
   <value column="Name" original="Report Cube">Report Cube</value>
@@ -1743,8 +1733,8 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="200105" trl="N">
-  <value column="Name" original="Bank/Cash Transfer">Bank/Cash Transfer</value>
-  <value column="Description" original="Manage Bank Transfer">Manage Bank Transfer</value>
+  <value column="Name" original="Bank/Cash Transfer">Virements bancaires</value>
+  <value column="Description" original="Manage Bank Transfer">Gestion des virements bancaires</value>
   <value column="Help" original=""/>
  </row>
  <row id="200107" trl="N">
@@ -1823,7 +1813,7 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="200128" trl="N">
-  <value column="Name" original="Label Category">Label Category</value>
+  <value column="Name" original="Label Category">Label Catégories</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1837,8 +1827,53 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="200132" trl="N">
+  <value column="Name" original="SSO Configuration">SSO Configuration</value>
+  <value column="Description" original="Single sign-on Configuration">Single sign-on Configuration</value>
+  <value column="Help" original="Single sign-on is an authentication scheme that allows a user to log in with a single ID to any of several related, yet independent, software systems.">Single sign-on is an authentication scheme that allows a user to log in with a single ID to any of several related, yet independent, software systems.</value>
+ </row>
  <row id="200137" trl="N">
   <value column="Name" original="Verify Migration">Verify Migration</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200138" trl="N">
+  <value column="Name" original="Test UU Based Table">Test UU Based Table</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200139" trl="N">
+  <value column="Name" original="Test UU Detail">Test UU Detail</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200140" trl="N">
+  <value column="Name" original="Document Base Type Group">Document Base Type Group</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200141" trl="N">
+  <value column="Name" original="Model Generator Template">Model Generator Template</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200147" trl="N">
+  <value column="Name" original="Private Access">Private Access</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200150" trl="N">
+  <value column="Name" original="Dynamic Validation per Table">Dynamic Validation per Table</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200151" trl="N">
+  <value column="Name" original="Theme Customization">Theme Customization</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200155" trl="N">
+  <value column="Name" original="Required Plugin">Required Plugin</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

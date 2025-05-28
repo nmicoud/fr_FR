@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Ref_List">
+<!--iDempiere(r) Release 12_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Ref_List">
  <row id="51" trl="N">
   <value column="Name" original="Organization">Organization</value>
   <value column="Description" original=""/>
@@ -1173,15 +1173,15 @@
   <value column="Description" original=""/>
  </row>
  <row id="442" trl="N">
-  <value column="Name" original="Overdue">Overdue</value>
+  <value column="Name" original="Overdue">En retard</value>
   <value column="Description" original=""/>
  </row>
  <row id="443" trl="N">
-  <value column="Name" original="Due">Due</value>
+  <value column="Name" original="Due">Immédiat</value>
   <value column="Description" original=""/>
  </row>
  <row id="444" trl="N">
-  <value column="Name" original="Scheduled">Scheduled</value>
+  <value column="Name" original="Scheduled">Programmée</value>
   <value column="Description" original=""/>
  </row>
  <row id="445" trl="N">
@@ -2601,7 +2601,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="818" trl="N">
-  <value column="Name" original=" 80% Nearly Done"> 80% Nearly Done</value>
+  <value column="Name" original=" 80% Nearly Done"> 80% Presque terminé</value>
   <value column="Description" original=""/>
  </row>
  <row id="819" trl="N">
@@ -2613,15 +2613,15 @@
   <value column="Description" original=""/>
  </row>
  <row id="821" trl="N">
-  <value column="Name" original=" 90% Finishing"> 90% Finishing</value>
+  <value column="Name" original=" 90% Finishing"> 90% Finition</value>
   <value column="Description" original=""/>
  </row>
  <row id="822" trl="N">
-  <value column="Name" original=" 95% Almost Done"> 95% Almost Done</value>
+  <value column="Name" original=" 95% Almost Done"> 95% Presque terminé</value>
   <value column="Description" original=""/>
  </row>
  <row id="823" trl="N">
-  <value column="Name" original=" 99% Cleaning up"> 99% Finitions</value>
+  <value column="Name" original=" 99% Cleaning up"> 99% Nettoyage</value>
   <value column="Description" original=""/>
  </row>
  <row id="824" trl="N">
@@ -2877,7 +2877,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="894" trl="N">
-  <value column="Name" original="Time&amp;Material max Comitted" xml:space="preserve"><![CDATA[Time&Material max Comitted]]></value>
+  <value column="Name" original="Time&amp;Material max Committed" xml:space="preserve"><![CDATA[Time&Material max Comitted]]></value>
   <value column="Description" original=""/>
  </row>
  <row id="895" trl="N">
@@ -3108,18 +3108,6 @@
   <value column="Name" original="All Database Types">All Database Types</value>
   <value column="Description" original="Use this when a SQL command syntax is the same between database types">Use this when a SQL command syntax is the same between database types</value>
  </row>
- <row id="50013" trl="N">
-  <value column="Name" original="DB2">DB2</value>
-  <value column="Description" original="DB2 Database">DB2 Database</value>
- </row>
- <row id="50014" trl="N">
-  <value column="Name" original="Firebird">Firebird</value>
-  <value column="Description" original="Firebird Database">Firebird Database</value>
- </row>
- <row id="50015" trl="N">
-  <value column="Name" original="MySQL">MySQL</value>
-  <value column="Description" original="MySQL Database">MySQL Database</value>
- </row>
  <row id="50016" trl="N">
   <value column="Name" original="Oracle">Oracle</value>
   <value column="Description" original="Oracle Database">Oracle Database</value>
@@ -3127,14 +3115,6 @@
  <row id="50017" trl="N">
   <value column="Name" original="Postgres">Postgres</value>
   <value column="Description" original="Postgres Database">Postgres Database</value>
- </row>
- <row id="50018" trl="N">
-  <value column="Name" original="SQL Server">SQL Server</value>
-  <value column="Description" original="SQL Server Database">SQL Server Database</value>
- </row>
- <row id="50019" trl="N">
-  <value column="Name" original="Sybase">Sybase</value>
-  <value column="Description" original="Sybase Database">Sybase Database</value>
  </row>
  <row id="50022" trl="N">
   <value column="Name" original="Data">Data</value>
@@ -3314,11 +3294,11 @@
  </row>
  <row id="53251" trl="N">
   <value column="Name" original="Batch Flow ">Batch Flow </value>
-  <value column="Description" original="The diferent Continuos Flow is that two or more products are manufactured in the same facility (long setup times the run time is hours or several days.)">The diferent Continuos Flow is that two or more products are manufactured in the same facility (long setup times the run time is hours or several days.)</value>
+  <value column="Description" original="The different Continuous Flow is that two or more products are manufactured in the same facility (long setup times the run time is hours or several days.)">The diferent Continuos Flow is that two or more products are manufactured in the same facility (long setup times the run time is hours or several days.)</value>
  </row>
  <row id="53252" trl="N">
   <value column="Name" original="Continuous Flow">Continuous Flow</value>
-  <value column="Description" original="Continuous flow usually referes to the production or processing of fluids waster powders basic metals  etc.">Continuous flow usually referes to the production or processing of fluids waster powders basic metals  etc.</value>
+  <value column="Description" original="Continuous flow usually refers to the production or processing of fluids waster powders basic metals  etc.">Continuous flow usually referes to the production or processing of fluids waster powders basic metals  etc.</value>
  </row>
  <row id="53253" trl="N">
   <value column="Name" original="Dedicate Repetititive Flow">Dedicate Repetititive Flow</value>
@@ -3326,7 +3306,7 @@
  </row>
  <row id="53254" trl="N">
   <value column="Name" original="Job Shop">Job Shop</value>
-  <value column="Description" original="A Job Shop is characterized by the organitation of similar equipmnnet by function. As Job flow from Work Center to Work Center or Departament to Departament and the diferent type of operation is performance in each center or departament">A Job Shop is characterized by the organitation of similar equipmnnet by function. As Job flow from Work Center to Work Center or Departament to Departament and the diferent type of operation is performance in each center or departament</value>
+  <value column="Description" original="A Job Shop is characterized by the organization of similar equipment by function. As Job flow from Work Center to Work Center or Department to Department and the different type of operation is performed in each center or department">A Job Shop is characterized by the organitation of similar equipmnnet by function. As Job flow from Work Center to Work Center or Departament to Departament and the diferent type of operation is performance in each center or departament</value>
  </row>
  <row id="53255" trl="N">
   <value column="Name" original="Mixed Repetitive Flow">Mixed Repetitive Flow</value>
@@ -3753,7 +3733,7 @@
   <value column="Description" original="Revaluation Code Type is an Index ">Revaluation Code Type is an Index </value>
  </row>
  <row id="53371" trl="N">
-  <value column="Name" original="Date Aquired">Date Aquired</value>
+  <value column="Name" original="Date Acquired">Date Aquired</value>
   <value column="Description" original=""/>
  </row>
  <row id="53372" trl="N">
@@ -3894,7 +3874,7 @@
  </row>
  <row id="53409" trl="N">
   <value column="Name" original="Transfer">Transfer</value>
-  <value column="Description" original="Asset Transfered">Asset Transfered</value>
+  <value column="Description" original="Asset Transferred">Asset Transfered</value>
  </row>
  <row id="53410" trl="N">
   <value column="Name" original="Update">Update</value>
@@ -3922,7 +3902,7 @@
  </row>
  <row id="53417" trl="N">
   <value column="Name" original="Expense">Expense</value>
-  <value column="Description" original="Inidicates this charge is an expense">Inidicates this charge is an expense</value>
+  <value column="Description" original="Indicates this charge is an expense">Inidicates this charge is an expense</value>
  </row>
  <row id="53418" trl="N">
   <value column="Name" original="Account">Account</value>
@@ -4021,7 +4001,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53444" trl="N">
-  <value column="Name" original="Usege Variance">Usege Variance</value>
+  <value column="Name" original="Usage Variance">Usege Variance</value>
   <value column="Description" original=""/>
  </row>
  <row id="53445" trl="N">
@@ -4046,7 +4026,7 @@
  </row>
  <row id="53450" trl="N">
   <value column="Name" original="Make-To-Kit">Make-To-Kit</value>
-  <value column="Description" original="Create a Manufacturing Order, Receipt the finish product and issue the Components automaticaly ">Create a Manufacturing Order, Receipt the finish product and issue the Components automaticaly </value>
+  <value column="Description" original="Create a Manufacturing Order, Receipt the finish product and issue the Components automatically ">Create a Manufacturing Order, Receipt the finish product and issue the Components automaticaly </value>
  </row>
  <row id="53451" trl="N">
   <value column="Name" original="Constant">Constant</value>
@@ -4640,10 +4620,6 @@
   <value column="Name" original="Discount">Discount</value>
   <value column="Description" original=""/>
  </row>
- <row id="53708" trl="N">
-  <value column="Name" original="Distribution Order">Distribution Order</value>
-  <value column="Description" original=""/>
- </row>
  <row id="53709" trl="N">
   <value column="Name" original="Inventory Movement">Inventory Movement</value>
   <value column="Description" original=""/>
@@ -4653,7 +4629,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53711" trl="N">
-  <value column="Name" original="Requistion">Requistion</value>
+  <value column="Name" original="Requisition">Requistion</value>
   <value column="Description" original=""/>
  </row>
  <row id="53712" trl="N">
@@ -4781,11 +4757,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="200025" trl="N">
-  <value column="Name" original="Cash">Cash</value>
+  <value column="Name" original="Cash">Espèces</value>
   <value column="Description" original=""/>
  </row>
  <row id="200026" trl="N">
-  <value column="Name" original="Card">Card</value>
+  <value column="Name" original="Card">Carte</value>
   <value column="Description" original=""/>
  </row>
  <row id="200027" trl="N">
@@ -5225,11 +5201,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="200161" trl="N">
-  <value column="Name" original="Do Not Create">Do Not Create</value>
+  <value column="Name" original="Do Not Create - Ignore">Do Not Create</value>
   <value column="Description" original=""/>
  </row>
  <row id="200162" trl="N">
-  <value column="Name" original="No Action">No Action</value>
+  <value column="Name" original="No Action - Forbid Deletion">No Action</value>
   <value column="Description" original=""/>
  </row>
  <row id="200163" trl="N">
@@ -5389,12 +5365,12 @@
   <value column="Description" original="It forces the report/process to always run on foreground.">It forces the report/process to always run on foreground.</value>
  </row>
  <row id="200440" trl="N">
-  <value column="Name" original="Disallow multiple executions">Disallow multiple executions</value>
-  <value column="Description" original="Never allow to execute a process that is already running">Never allow to execute a process that is already running</value>
+  <value column="Name" original="Not from same user">Disallow multiple executions</value>
+  <value column="Description" original="Do not allow to execute a process that is already running by the same user">Never allow to execute a process that is already running</value>
  </row>
  <row id="200441" trl="N">
-  <value column="Name" original="Disallow multiple executions with the same parameters">Disallow multiple executions with the same parameters</value>
-  <value column="Description" original="Allow to execute a process multiple times with different parameters.">Allow to execute a process multiple times with different parameters.</value>
+  <value column="Name" original="Not from same user and parameters">Disallow multiple executions with the same parameters</value>
+  <value column="Description" original="Do not allow to execute a process concurrently with same parameters and same user">Allow to execute a process multiple times with different parameters.</value>
  </row>
  <row id="200445" trl="N">
   <value column="Name" original="Info Window">Info Window</value>
@@ -5746,6 +5722,142 @@
  </row>
  <row id="200621" trl="N">
   <value column="Name" original="ReportView Column">ReportView Column</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200622" trl="N">
+  <value column="Name" original="Date Editor and Range Picker">Date Editor and Range Picker</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200623" trl="N">
+  <value column="Name" original="Text and Range Picker">Text and Range Picker</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200626" trl="N">
+  <value column="Name" original="No">No</value>
+  <value column="Description" original="No Inactive Records">No Inactive Records</value>
+ </row>
+ <row id="200627" trl="N">
+  <value column="Name" original="Yes">Yes</value>
+  <value column="Description" original="Show all records (active/inactive)">Show all records (active/inactive)</value>
+ </row>
+ <row id="200628" trl="N">
+  <value column="Name" original="Document closed">Document closed</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200629" trl="N">
+  <value column="Name" original="Document Close Period">Document Close Period</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200632" trl="N">
+  <value column="Name" original="SSO Only">SSO Only</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200633" trl="N">
+  <value column="Name" original="Application Only">Application Only</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200634" trl="N">
+  <value column="Name" original="Application and SSO">Application and SSO</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200635" trl="N">
+  <value column="Name" original="Ago">Ago</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200636" trl="N">
+  <value column="Name" original="Do Nothing">Do Nothing</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200637" trl="N">
+  <value column="Name" original="Status">Status</value>
+  <value column="Description" original="Shows the current status of a process metric, e.g. progress in percents.">Shows the current status of a process metric, e.g. progress in percents.</value>
+ </row>
+ <row id="200638" trl="N">
+  <value column="Name" original="Progress">Progress</value>
+  <value column="Description" original="Logs created continuously during the execution of the process.">Logs created continuously during the execution of the process.</value>
+ </row>
+ <row id="200639" trl="N">
+  <value column="Name" original="Result">Result</value>
+  <value column="Description" original="Logs created after the process is executed.">Logs created after the process is executed.</value>
+ </row>
+ <row id="200640" trl="N">
+  <value column="Name" original="Model Set Null">Model Set Null</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200641" trl="N">
+  <value column="Name" original="Model No Action - Forbid Deletion">Model No Action - Forbid Deletion</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200642" trl="N">
+  <value column="Name" original="Form">Form</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200643" trl="N">
+  <value column="Name" original="Info Window">Info Window</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200646" trl="N">
+  <value column="Name" original="Not from any user">Not from any user</value>
+  <value column="Description" original="Do not allow to execute a process that is already running by any user">Do not allow to execute a process that is already running by any user</value>
+ </row>
+ <row id="200647" trl="N">
+  <value column="Name" original="Not from any user and same parameters">Not from any user and same parameters</value>
+  <value column="Description" original="Do not allow to execute a process concurrently with same parameters from any user">Do not allow to execute a process concurrently with same parameters from any user</value>
+ </row>
+ <row id="200648" trl="N">
+  <value column="Name" original="Yes">Yes</value>
+  <value column="Description" original="Allow concurrent execution">Allow concurrent execution</value>
+ </row>
+ <row id="200656" trl="N">
+  <value column="Name" original="OpenID Connect">OpenID Connect</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200684" trl="N">
+  <value column="Name" original="Range">Range</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200685" trl="N">
+  <value column="Name" original="List">List</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200703" trl="N">
+  <value column="Name" original="Chosen Multiple Selection List">Chosen Multiple Selection List</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200704" trl="N">
+  <value column="Name" original="Comma-separated values (CSV)">CSV</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200706" trl="N">
+  <value column="Name" original="Excel (XLS/XLSX)">XLSX</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200717" trl="N">
+  <value column="Name" original="ACTIVE">ACTIVE</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200718" trl="N">
+  <value column="Name" original="INSTALLED">INSTALLED</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200719" trl="N">
+  <value column="Name" original="RESOLVED">RESOLVED</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200720" trl="N">
+  <value column="Name" original="STARTING">STARTING</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200721" trl="N">
+  <value column="Name" original="STOPPING">STOPPING</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200722" trl="N">
+  <value column="Name" original="UNINSTALLED">UNINSTALLED</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200723" trl="N">
+  <value column="Name" original="UNKNOWN">UNKNOWN</value>
   <value column="Description" original=""/>
  </row>
 </idempiereTrl>

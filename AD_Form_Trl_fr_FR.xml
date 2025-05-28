@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Form">
+<!--iDempiere(r) Release 12_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Form">
  <row id="100" trl="Y">
   <value column="Name" original="Generate Invoices (manual)">Générer les factures (manuel)</value>
   <value column="Description" original="Select and generate invoices">Sélection des commandes à facturer</value>
@@ -58,7 +58,7 @@ The From entity (e.g. Customer A) is deleted.
  <row id="113" trl="N">
   <value column="Name" original="POS">POS</value>
   <value column="Description" original="Point Of Sales Terminal">Point Of Sales Terminal</value>
-  <value column="Help" original="Enter Transactions via a POS Terminal.  Automatically, scans or credit card swipes are recongized.">Enter Transactions via a POS Terminal.  Automatically, scans or credit card swipes are recongized.</value>
+  <value column="Help" original="Enter Transactions via a POS Terminal.  Automatically, scans or credit card swipes are recognized.">Enter Transactions via a POS Terminal.  Automatically, scans or credit card swipes are recongized.</value>
  </row>
  <row id="114" trl="N">
   <value column="Name" original="BOM Drop">BOM Drop</value>
@@ -78,7 +78,7 @@ The From entity (e.g. Customer A) is deleted.
  <row id="117" trl="N">
   <value column="Name" original="Workflow Activities">Workflow Activities</value>
   <value column="Description" original="My active workflow activities">My active workflow activities</value>
-  <value column="Help" original="View active worflow activities">View active worflow activities</value>
+  <value column="Help" original="View active workflow activities">View active worflow activities</value>
  </row>
  <row id="118" trl="N">
   <value column="Name" original="Archive Viewer">Archive Viewer</value>
@@ -96,7 +96,7 @@ The From entity (e.g. Customer A) is deleted.
   <value column="Help" original="Select one or two attributes if a Product Attribute and display/maintain products in a row or table grid.">Select one or two attributes if a Product Attribute and display/maintain products in a row or table grid.</value>
  </row>
  <row id="53001" trl="N">
-  <value column="Name" original="BOM &amp; Formula Info" xml:space="preserve"><![CDATA[BOM & Formula Info]]></value>
+  <value column="Name" original="BOM and Formula Info" xml:space="preserve"><![CDATA[BOM & Formula Info]]></value>
   <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Shows in two different panels the parent-component relationship for the product entered in the Product field.</value>
   <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it" xml:space="preserve"><![CDATA[The BOM & Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.
 
@@ -111,7 +111,7 @@ The left panel shows the BOM hierarchies in a tree form. The right panel shows t
  <row id="53002" trl="N">
   <value column="Name" original="Product Configuration BOM">Product Configuration BOM</value>
   <value column="Description" original="This form let create a product configure with multy level using options and variants">This form let create a product configure with multy level using options and variants</value>
-  <value column="Help" original="A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.&#10;&#10;The CBOM is used to dynamically create &quot;end-items&quot; that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by &quot;configurator&quot; software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to &quot;configure&quot; an end-item.">A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.
+  <value column="Help" original="A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.&#10;&#10;The CBOM is used to dynamically create &quot;end-items&quot; that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by &quot;configurator&quot; software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutations and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to &quot;configure&quot; an end-item.">A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.
 
 The CBOM is used to dynamically create "end-items" that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by "configurator" software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to "configure" an end-item.</value>
  </row>
@@ -138,8 +138,8 @@ When you approve a planned order you are telling the system that the manufacturi
   <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource.">It shows graphically of the required and available time for each manufacturing resource.</value>
  </row>
  <row id="53007" trl="N">
-  <value column="Name" original="Order Receipt &amp; Issue" xml:space="preserve"><![CDATA[Order Receipt & Issue]]></value>
-  <value column="Description" original="Order Receipt &amp; Issue" xml:space="preserve"><![CDATA[Order Receipt & Issue]]></value>
+  <value column="Name" original="Order Receipt and Issue" xml:space="preserve"><![CDATA[Order Receipt & Issue]]></value>
+  <value column="Description" original="Order Receipt and Issue" xml:space="preserve"><![CDATA[Order Receipt & Issue]]></value>
   <value column="Help" original="The form shows at the upper side static information around the product and the manufacturing resource where it has to be made, it also shows a summary of the quantities to be controlled in the MO such as the Original and delivered quantities and the Quantity to deliver for the MO up to date.&#10;&#10;If the production process requires production in batch, then the Qty Batchs shows the Number of batches the shop floor needs to do and the Qty Batch Size contains the size of every batch to be produced.&#10;&#10;&#10;If you want to issue the MO components before you receive the finished product you should tick the checkbox Is Delivery, this case is recommended when you have a long to medium lead time and you want to have the inventory quantities as reliable as possible at every moment.&#10;&#10;If you have small lead time and you wish to save clerk time then you must tick Is Backflush checkbox and you will receive the finished product at the same time you issue automatically the components&#10;&#10;The Backflush Group field is used when you want to issue just components belonging to this group. (This characteristic could not be included in the current version).&#10;&#10;At the lower part of the window you can find the list of every MO component, this can be modified according with the real products and quantities given to the shop floor.&#10;&#10;The quantities to be issued are selected with the checkbox at the first column of the list of components. If the actual quantity is different from the standard quantity showed in the column Qty to deliver you should edit this field to enter the right quantity to be issued.&#10;&#10;Finally a message box asks if you want to close the OM document, you should click the ok button if this MO does not have any more transactions and has to be closed.&#10;&#10;">The form shows at the upper side static information around the product and the manufacturing resource where it has to be made, it also shows a summary of the quantities to be controlled in the MO such as the Original and delivered quantities and the Quantity to deliver for the MO up to date.
 
 If the production process requires production in batch, then the Qty Batchs shows the Number of batches the shop floor needs to do and the Qty Batch Size contains the size of every batch to be produced.
@@ -166,7 +166,7 @@ Finally a message box asks if you want to close the OM document, you should clic
  </row>
  <row id="53009" trl="N">
   <value column="Name" original="Payroll Action Notice">Payroll Action Notice</value>
-  <value column="Description" original="Payroll Action Notice let entry the events that happend with any Employee">Payroll Action Notice let entry the events that happend with any Employee</value>
+  <value column="Description" original="Payroll Action Notice allows to entry the events that happened with any Employee">Payroll Action Notice let entry the events that happend with any Employee</value>
   <value column="Help" original=""/>
  </row>
  <row id="53012" trl="N">
@@ -260,5 +260,10 @@ Selecting the "Where Used" check box will display the BOMs that this product is 
   <value column="Name" original="SQL Query">SQL Query</value>
   <value column="Description" original="Process SQL Queries">Process SQL Queries</value>
   <value column="Help" original="Process SQL Queries">Process SQL Queries</value>
+ </row>
+ <row id="200019" trl="N">
+  <value column="Name" original="Customize Grid View">Customize Grid View</value>
+  <value column="Description" original="Form to customize the grid view of tabs in window customization">Form to customize the grid view of tabs in window customization</value>
+  <value column="Help" original=""/>
  </row>
 </idempiereTrl>

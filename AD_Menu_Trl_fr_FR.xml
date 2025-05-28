@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Menu">
+<!--iDempiere(r) Release 12_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Menu">
  <row id="100" trl="N">
   <value column="Name" original="Invoice Inquiry">Invoice Inquiry</value>
   <value column="Description" original=""/>
@@ -49,7 +49,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="166" trl="Y">
-  <value column="Name" original="Quote-to-Invoice">Ventes</value>
+  <value column="Name" original="Quote-to-Invoice (Sales) ">Ventes</value>
   <value column="Description" original=""/>
  </row>
  <row id="167" trl="Y">
@@ -61,11 +61,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="183" trl="Y">
-  <value column="Name" original="Material Management">Gestion des articles</value>
+  <value column="Name" original="Material Management and Pricing">Gestion des articles</value>
   <value column="Description" original=""/>
  </row>
  <row id="203" trl="Y">
-  <value column="Name" original="Requisition-to-Invoice">Achats</value>
+  <value column="Name" original="Requisition-to-Invoice (Purchasing)">Achats</value>
   <value column="Description" original=""/>
  </row>
  <row id="218" trl="Y">
@@ -73,7 +73,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="236" trl="N">
-  <value column="Name" original="Open Items">Open Items</value>
+  <value column="Name" original="Open Items (Financial Movements and Aging)">Open Items</value>
   <value column="Description" original=""/>
  </row>
  <row id="263" trl="Y">
@@ -89,7 +89,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="278" trl="N">
-  <value column="Name" original="Performance Analysis">Performance Analysis</value>
+  <value column="Name" original="Performance Analysis and Accounting">Performance Analysis</value>
   <value column="Description" original=""/>
  </row>
  <row id="280" trl="Y">
@@ -186,10 +186,6 @@
  </row>
  <row id="53363" trl="N">
   <value column="Name" original="Sales Management">Sales Management</value>
-  <value column="Description" original=""/>
- </row>
- <row id="200095" trl="N">
-  <value column="Name" original="Import Template">Import Template</value>
   <value column="Description" original=""/>
  </row>
  <row id="200178" trl="N">

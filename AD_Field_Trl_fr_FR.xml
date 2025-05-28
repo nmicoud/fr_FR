@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Field">
+<!--iDempiere(r) Release 12_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Field">
  <row id="1546" trl="N">
   <value column="Name" original="Link Column">Link Column</value>
   <value column="Description" original="Link Column for Multi-Parent tables">Link Column for Multi-Parent tables</value>
@@ -363,8 +363,8 @@ When you enter dates in the fields Valid From - To we give the the period of tim
  </row>
  <row id="53480" trl="N">
   <value column="Name" original="Copy BOM Lines From">Copy BOM Lines From</value>
-  <value column="Description" original="Copy BOM Lines from an exising BOM">Copy BOM Lines from an exising BOM</value>
-  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.</value>
+  <value column="Description" original="Copy BOM Lines from an existing BOM">Copy BOM Lines from an exising BOM</value>
+  <value column="Help" original="Copy BOM Lines from an existing BOM. The BOM being copied to, must not have any existing BOM Lines.">Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.</value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="53490" trl="N">
@@ -398,7 +398,7 @@ Warehouse place where you locate and control the products</value>
  <row id="53518" trl="N">
   <value column="Name" original="Workflow">Workflow</value>
   <value column="Description" original="Workflow or combination of tasks">Workflow or combination of tasks</value>
-  <value column="Help" original="The Workflow field identifies a unique Workflow in the system.&#10;&#10;The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.">The Workflow field identifies a unique Workflow in the system.
+  <value column="Help" original="The Workflow field identifies a unique Workflow in the system.&#10;&#10;The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the default Workflow for the entity will be the Workflow with the same name as the product.">The Workflow field identifies a unique Workflow in the system.
 
 The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.</value>
   <value column="Placeholder" original=""/>
@@ -645,8 +645,8 @@ To Manufacturing Order is the date when the last manufacturing order movement is
  </row>
  <row id="58101" trl="N">
   <value column="Name" original="Copy BOM Lines From">Copy BOM Lines From</value>
-  <value column="Description" original="Copy BOM Lines from an exising BOM">Copy BOM Lines from an exising BOM</value>
-  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.</value>
+  <value column="Description" original="Copy BOM Lines from an existing BOM">Copy BOM Lines from an exising BOM</value>
+  <value column="Help" original="Copy BOM Lines from an existing BOM. The BOM being copied to, must not have any existing BOM Lines.">Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.</value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="58114" trl="N">
@@ -986,6 +986,31 @@ will filter orders by active and where the sales representative is the current u
   <value column="Name" original="Invoice Contact">Invoice Contact</value>
   <value column="Description" original="Business Partner Invoice/Bill Contact">Business Partner Invoice/Bill Contact</value>
   <value column="Help" original="If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.">If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="207695" trl="N">
+  <value column="Name" original="DB Table Name">DB Table Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original="You can use % or a comma separated list of table names (case sensitive)&#10;Using '@TableName@' will change to current table when executing the process">You can use % or a comma separated list of table names (case sensitive)
+Using '@TableName@' will change to current table when executing the process</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="207825" trl="N">
+  <value column="Name" original="Country Group">Country Group</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="207826" trl="N">
+  <value column="Name" original="To">To</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="208363" trl="N">
+  <value column="Name" original="SQL Filter">SQL Filter</value>
+  <value column="Description" original="SQL Filter">SQL Filter</value>
+  <value column="Help" original="Enter a valid WHERE SQL fully qualified clause.  The WHERE is not needed, the code will be surrounded within parenthesis before applied">Enter a valid WHERE SQL fully qualified clause.  The WHERE is not needed, the code will be surrounded within parenthesis before applied</value>
   <value column="Placeholder" original=""/>
  </row>
 </idempiereTrl>

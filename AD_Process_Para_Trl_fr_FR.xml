@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Process_Para">
+<!--iDempiere(r) Release 12_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Process_Para">
  <row id="133" trl="Y">
   <value column="Name" original="Warehouse">Entrepôt</value>
   <value column="Description" original="Storage Warehouse and Service Point"/>
@@ -235,20 +235,6 @@
   <value column="Name" original="Dunning Currency">Dunning Currency</value>
   <value column="Description" original="Currency to create Dunning Letters">Currency to create Dunning Letters</value>
   <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row id="50001" trl="N">
-  <value column="Name" original="Role To">Role To</value>
-  <value column="Description" original="Responsibility Role">Responsibility Role</value>
-  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">The Role determines security and access a user who has this Role will have in the System.</value>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row id="50002" trl="N">
-  <value column="Name" original="Role From">Role From</value>
-  <value column="Description" original="Responsibility Role">Responsibility Role</value>
-  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">The Role determines security and access a user who has this Role will have in the System.</value>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
@@ -845,6 +831,41 @@ this field define where request, error,.. occupy.</value>
   <value column="Name" original="Date To">Date To</value>
   <value column="Description" original="Last Date to verify Change Log">Last Date to verify Change Log</value>
   <value column="Help" original="The change log is verified until this date (useful for example to exclude the application of some 2Packs)">The change log is verified until this date (useful for example to exclude the application of some 2Packs)</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200433" trl="N">
+  <value column="Name" original="Link Column">Link Column</value>
+  <value column="Description" original="Link Column for Multi-Parent tables">Link Column for Multi-Parent tables</value>
+  <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200441" trl="N">
+  <value column="Name" original="Table Like">Table Like</value>
+  <value column="Description" original="You can use % or a comma separated list of table names enclosed within single quotes (case sensitive)">You can use % or a comma separated list of table names enclosed within single quotes (case sensitive)</value>
+  <value column="Help" original="The DB Table Name indicates the name of the table in database.">The DB Table Name indicates the name of the table in database.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200447" trl="N">
+  <value column="Name" original="Keep Log Days">Keep Log Days</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200448" trl="N">
+  <value column="Name" original="Partitioning Method">Partitioning Method</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200449" trl="N">
+  <value column="Name" original="Table Name">Table Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>

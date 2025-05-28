@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="C_UOM">
+<!--iDempiere(r) Release 12_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="C_UOM">
  <row id="100" trl="Y">
   <value column="Name" original="Each">Pièce</value>
   <value column="Description" original=""/>
@@ -17,7 +17,7 @@
  </row>
  <row id="103" trl="Y">
   <value column="Name" original="Minutes">Minutes</value>
-  <value column="Description" original="(lowest unit for resorce assigments)">(la plus petite unité pour l'assignation de ressources)</value>
+  <value column="Description" original="(lowest unit for resource assignments)">(la plus petite unité pour l'assignation de ressources)</value>
   <value column="UOMSymbol" original="m  ">min</value>
  </row>
  <row id="104" trl="Y">

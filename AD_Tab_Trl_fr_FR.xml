@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Tab">
+<!--iDempiere(r) Release 12_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Tab">
  <row id="100" trl="N">
   <value column="Name" original="Table">Table</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Table definitions">Table definitions</value>
-  <value column="Help" original="Table (header) definition - Note that the name of most tables is automatically syncronized.">Table (header) definition - Note that the name of most tables is automatically syncronized.</value>
+  <value column="Help" original="Table (header) definition - Note that the name of most tables is automatically synchronized.">Table (header) definition - Note that the name of most tables is automatically syncronized.</value>
  </row>
  <row id="101" trl="N">
   <value column="Name" original="Column">Column</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Table Column definitions">Table Column definitions</value>
-  <value column="Help" original="Defines the columns of a table. Note thet the name of the column is automatically syncronized.">Defines the columns of a table. Note thet the name of the column is automatically syncronized.</value>
+  <value column="Help" original="Defines the columns of a table. Note that the name of the column is automatically synchronized.">Defines the columns of a table. Note thet the name of the column is automatically syncronized.</value>
  </row>
  <row id="102" trl="N">
   <value column="Name" original="Reference">Reference</value>
@@ -112,7 +112,7 @@
   <value column="Name" original="Role">Rôle</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define responsibility roles"/>
-  <value column="Help" original="Define the role and add the tenant and organizations the role has access to. You can give users access to this role and modify the access of this role to windows, forms, processes and reports as well as tasks. &lt;br&gt;&#10;If the Role User Level is Manual, the assigned acces rights are not automatically updated (e.g. if a role has a restricted number of Windows/Processes it can access). You need to add organizational access unless the role has access to all organizations. The SuperUser and the user creating a new role are assigned to the role automatically.  &lt;br&gt;&#10;If you select an Organization Tree, the user has access to the leaves of  summary organizations.&#10;Note: You cannot change the System Administrator role."/>
+  <value column="Help" original="Define the role and add the organizations the role has access to. You can give users access to this role and modify the access of this role to windows, forms, processes and reports as well as tasks. &lt;br&gt;&#10;If the Role User Level is Manual, the assigned access rights are not automatically updated (e.g. if a role has a restricted number of Windows/Processes it can access). You need to add organizational access unless the role has access to all organizations. The SuperUser and the user creating a new role are assigned to the role automatically.  &lt;br&gt;&#10;If you select an Organization Tree, the user has access to the leaves of  summary organizations.&#10;Note: You cannot change the System Administrator role."/>
  </row>
  <row id="120" trl="Y">
   <value column="Name" original="User Assignment">Utilisateurs</value>
@@ -570,7 +570,7 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records."/>
  </row>
  <row id="227" trl="N">
-  <value column="Name" original="Bank / Cash">Banques</value>
+  <value column="Name" original="Bank/Cash">Banques</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Bank">Maintain Bank</value>
   <value column="Help" original="The Bank Tab defines a bank that is used by an organization or business partner.  Each Bank is given an identifying Name, Address, Routing No and Swift Code">Une banque est utilisée par une organisation ou un tiers.</value>
@@ -1599,7 +1599,7 @@ Please note that the Business Partner <b>must</b> be an Employee with an Address
   <value column="Name" original="Format Item">Eléments</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Print Format Item">Print Format Item</value>
-  <value column="Help" original="Item in the print format maintaining layout information.  The following additional variables are available when printing:&#10;&lt;p&gt;@*Page@ - the current page number&#10;&lt;br&gt;@*PageCount@ - the total number of pages&#10;&lt;br&gt;@*MultiPageInfo@ - &quot;Page x of y&quot; - only printed if more than one page&#10;&lt;br&gt;@*CopyInfo@ - if it is a copy of the document &quot;Duplicate&quot; is printed&#10;&lt;br&gt;@*ReportName@ - name of the report&#10;&lt;br&gt;@*Header@ - Full Header with user/tenant/org name and connection&#10;&lt;br&gt;@*CurrentDate@ - the print date&#10;&lt;br&gt;@*CurrentDateTime@ - the print time&#10;&#10;&lt;p&gt;The layoit logic for forms is: &lt;br&gt;&#10;- if not printed: ignore &lt;br&gt;&#10;- set New Line Position &lt;br&gt;&#10;- new page &lt;br&gt;&#10;- new line, if something was printed since last new line&lt;br&gt;&#10;- format item&lt;br&gt;&#10;- print it (if not null/empty selected)&lt;br&gt;&#10;(i.e. supress null does not prevent new line)" xml:space="preserve"><![CDATA[Les variables ci-après sont disponibles :
+  <value column="Help" original="Item in the print format maintaining layout information.  The following additional variables are available when printing:&#10;&lt;p&gt;@*Page@ - the current page number&#10;&lt;br&gt;@*PageCount@ - the total number of pages&#10;&lt;br&gt;@*MultiPageInfo@ - &quot;Page x of y&quot; - only printed if more than one page&#10;&lt;br&gt;@*CopyInfo@ - if it is a copy of the document &quot;Duplicate&quot; is printed&#10;&lt;br&gt;@*ReportName@ - name of the report&#10;&lt;br&gt;@*Header@ - Full Header with user/tenant/org name and connection&#10;&lt;br&gt;@*CurrentDate@ - the print date&#10;&lt;br&gt;@*CurrentDateTime@ - the print time&#10;&#10;&lt;p&gt;The layout logic for forms is: &lt;br&gt;&#10;- if not printed: ignore &lt;br&gt;&#10;- set New Line Position &lt;br&gt;&#10;- new page &lt;br&gt;&#10;- new line, if something was printed since last new line&lt;br&gt;&#10;- format item&lt;br&gt;&#10;- print it (if not null/empty selected)&lt;br&gt;&#10;(i.e. suppress null does not prevent new line)" xml:space="preserve"><![CDATA[Les variables ci-après sont disponibles :
 <p>@*Page@ - the current page number
 <br>@*PageCount@ - the total number of pages
 <br>@*MultiPageInfo@ - "Page x of y" - only printed if more than one page
@@ -1940,7 +1940,7 @@ A Physical Inventory is created per Warehouse and Movement Date.]]></value>
   <value column="Name" original="Table Access">Table Access</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Table Access">Maintain Table Access</value>
-  <value column="Help" original="If listed here, the Role can(not) access all data of this table, even if the role has access to the functionality.&#10;&lt;br&gt;If you Include Access to a table and select Read Only, you can only read data (otherwise full access).&#10;&lt;br&gt;If you Exclude Access to a table and select Read Only, you can only read data (otherwise no access).&#10;&lt;br&gt;Please note that table access rules here are in addition to the Data Access Levels defined for a Table and the User Level defined for a Role. These rules are evaulated first and you only need to define the exceptions to these rules here.&#10;&lt;p&gt;&#10;Note that access information is cached and requires re-login or reset of cache. Be aware that if you use Include rules, that you need to include also several supporting entiries. As an alternative, grant access only to functionality required." xml:space="preserve"><![CDATA[If listed here, the Role can(not) access all data of this table, even if the role has access to the functionality.
+  <value column="Help" original="If listed here, the Role can(not) access all data of this table, even if the role has access to the functionality.&#10;&lt;br&gt;If you Include Access to a table and select Read Only, you can only read data (otherwise full access).&#10;&lt;br&gt;If you Exclude Access to a table and select Read Only, you can only read data (otherwise no access).&#10;&lt;br&gt;Please note that table access rules here are in addition to the Data Access Levels defined for a Table and the User Level defined for a Role. These rules are evaluated first and you only need to define the exceptions to these rules here.&#10;&lt;p&gt;&#10;Note that access information is cached and requires re-login or reset of cache. Be aware that if you use Include rules, then you need to include also several supporting entities. As an alternative, grant access only to functionality required." xml:space="preserve"><![CDATA[If listed here, the Role can(not) access all data of this table, even if the role has access to the functionality.
 <br>If you Include Access to a table and select Read Only, you can only read data (otherwise full access).
 <br>If you Exclude Access to a table and select Read Only, you can only read data (otherwise no access).
 <br>Please note that table access rules here are in addition to the Data Access Levels defined for a Table and the User Level defined for a Role. These rules are evaulated first and you only need to define the exceptions to these rules here.
@@ -2098,7 +2098,7 @@ Note that access information is cached and requires re-login or reset of cache.<
   <value column="Name" original="General Ledger">OD</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Import General Ledger"/>
-  <value column="Help" original="A new Journal Batch is created, if the Batch Document No or accounting schema are different. A new Journal is created, if the Document No, Currency, Document Type, GL Category, Posting Type or Accounting type is different. You can also force the creation of a new Batch or Jornal by selecting the creat new flag.&lt;p&gt;&#10;Please note that there are three Organization Fields: The Document Organization is the owner of the document and set directly or per parameter default. The Organization is part of the accounting key and only required id no Valid Account Comination is specified; If not defined it is derived from the Document Organization. The Transaction Organization is part of the account combination.&lt;br&gt;&#10;The optional balance check applies to the entire import, not for individual batches or journals.&#10;&lt;br&gt;The document numbers will be overwritten if the document type is not set to manual sequences." xml:space="preserve"><![CDATA[A new Journal Batch is created, if the Batch Document No or accounting schema are different. A new Journal is created, if the Document No, Currency, Document Type, GL Category, Posting Type or Accounting type is different. You can also force the creation of a new Batch or Jornal by selecting the creat new flag.<p>
+  <value column="Help" original="A new Journal Batch is created, if the Batch Document No or accounting schema are different. A new Journal is created, if the Document No, Currency, Document Type, GL Category, Posting Type or Accounting type is different. You can also force the creation of a new Batch or Journal by selecting the create new flag.&lt;p&gt;&#10;Please note that there are three Organization Fields: The Document Organization is the owner of the document and set directly or per parameter default. The Organization is part of the accounting key and only required if no Valid Account Combination is specified; If not defined it is derived from the Document Organization. The Transaction Organization is part of the account combination.&lt;br&gt;&#10;The optional balance check applies to the entire import, not for individual batches or journals.&#10;&lt;br&gt;The document numbers will be overwritten if the document type is not set to manual sequences." xml:space="preserve"><![CDATA[A new Journal Batch is created, if the Batch Document No or accounting schema are different. A new Journal is created, if the Document No, Currency, Document Type, GL Category, Posting Type or Accounting type is different. You can also force the creation of a new Batch or Jornal by selecting the creat new flag.<p>
 Please note that there are three Organization Fields: The Document Organization is the owner of the document and set directly or per parameter default. The Organization is part of the accounting key and only required id no Valid Account Comination is specified; If not defined it is derived from the Document Organization. The Transaction Organization is part of the account combination.<br>
 The optional balance check applies to the entire import, not for individual batches or journals.
 <br>The document numbers will be overwritten if the document type is not set to manual sequences.]]></value>
@@ -2197,7 +2197,7 @@ The optional balance check applies to the entire import, not for individual batc
   <value column="Name" original="Replication Strategy">Replication Strategy</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Data Replication Strategy">Data Replication Strategy</value>
-  <value column="Help" original="The Data Replication Strategy determines which tables and how they are replicated. Note that the migration does not syncronize Application Dictionary items.">The Data Replication Strategy determines which tables and how they are replicated. Note that the migration does not syncronize Application Dictionary items.</value>
+  <value column="Help" original="The Data Replication Strategy determines which tables and how they are replicated. Note that the migration does not synchronize Application Dictionary items.">The Data Replication Strategy determines which tables and how they are replicated. Note that the migration does not syncronize Application Dictionary items.</value>
  </row>
  <row id="525" trl="N">
   <value column="Name" original="Replication Table">Replication Table</value>
@@ -2300,7 +2300,7 @@ The optional balance check applies to the entire import, not for individual batc
   <value column="Name" original="Type">Type</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Knowledge Type">Knowledge Type</value>
-  <value column="Help" original="Area of knowlege - A Type has multiple Topics">Area of knowlege - A Type has multiple Topics</value>
+  <value column="Help" original="Area of knowledge - A Type has multiple Topics">Area of knowlege - A Type has multiple Topics</value>
  </row>
  <row id="542" trl="N">
   <value column="Name" original="Topic">Topic</value>
@@ -2318,13 +2318,13 @@ The optional balance check applies to the entire import, not for individual batc
   <value column="Name" original="Category">Category</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Knowledge Category">Knowledge Category</value>
-  <value column="Help" original="Assiged Category - Value for the Knowlede Entry">Assiged Category - Value for the Knowlede Entry</value>
+  <value column="Help" original="Assigned Category - Value for the Knowledge Entry">Assiged Category - Value for the Knowlede Entry</value>
  </row>
  <row id="545" trl="N">
   <value column="Name" original="Related">Related</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Related Knowlege Entry">Related Knowlege Entry</value>
-  <value column="Help" original="Related Knowlege Entry for this Knowledge Entry">Related Knowlege Entry for this Knowledge Entry</value>
+  <value column="Description" original="Related Knowledge Entry">Related Knowlege Entry</value>
+  <value column="Help" original="Related Knowledge Entry for this Knowledge Entry">Related Knowlege Entry for this Knowledge Entry</value>
  </row>
  <row id="546" trl="N">
   <value column="Name" original="Comment">Comment</value>
@@ -2336,12 +2336,12 @@ The optional balance check applies to the entire import, not for individual batc
   <value column="Name" original="Knowledge Source">Knowledge Source</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Source of Knowledge Entries">Source of Knowledge Entries</value>
-  <value column="Help" original="The Source of a Knowlegde Entry is a pointer to the originating system. The Knowledge Entry has an additional entry (Description URL)  for more detailed info.">The Source of a Knowlegde Entry is a pointer to the originating system. The Knowledge Entry has an additional entry (Description URL)  for more detailed info.</value>
+  <value column="Help" original="The Source of a Knowledge Entry is a pointer to the originating system. The Knowledge Entry has an additional entry (Description URL)  for more detailed info.">The Source of a Knowlegde Entry is a pointer to the originating system. The Knowledge Entry has an additional entry (Description URL)  for more detailed info.</value>
  </row>
  <row id="548" trl="N">
   <value column="Name" original="Knowledge Synonym">Knowledge Synonym</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Knowlege Keyword Synonym">Knowlege Keyword Synonym</value>
+  <value column="Description" original="Knowledge Keyword Synonym">Knowlege Keyword Synonym</value>
   <value column="Help" original="Search Synonyms for Knowledge Keywords; Example: Product = Item">Search Synonyms for Knowledge Keywords; Example: Product = Item</value>
  </row>
  <row id="549" trl="N">
@@ -2468,7 +2468,7 @@ The optional balance check applies to the entire import, not for individual batc
   <value column="Name" original="Statement Loader">Statement Loader</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Definition of Bank Statement Loader (SWIFT, OFX)">Definition of Bank Statement Loader (SWIFT, OFX)</value>
-  <value column="Help" original="The loader definition privides the parameters to load bank statements from EFT formats like SWIFT (MT940) or OFX. The required parameters depend on the actual statement loader class">The loader definition privides the parameters to load bank statements from EFT formats like SWIFT (MT940) or OFX. The required parameters depend on the actual statement loader class</value>
+  <value column="Help" original="The loader definition provides the parameters to load bank statements from EFT formats like SWIFT (MT940) or OFX. The required parameters depend on the actual statement loader class">The loader definition privides the parameters to load bank statements from EFT formats like SWIFT (MT940) or OFX. The required parameters depend on the actual statement loader class</value>
  </row>
  <row id="572" trl="N">
   <value column="Name" original="Import Currency Rate">Import Currency Rate</value>
@@ -2594,7 +2594,7 @@ The optional balance check applies to the entire import, not for individual batc
   <value column="Name" original="Bid">Bid</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="View bids for a Topic">View bids for a Topic</value>
-  <value column="Help" original="You can create a bid for a topic.  Depening on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.">You can create a bid for a topic.  Depening on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.</value>
+  <value column="Help" original="You can create a bid for a topic.  Depending on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.">You can create a bid for a topic.  Depening on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.</value>
  </row>
  <row id="596" trl="N">
   <value column="Name" original="Offer">Offer</value>
@@ -2606,13 +2606,13 @@ The optional balance check applies to the entire import, not for individual batc
   <value column="Name" original="Bid Funds">Bid Funds</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Buyer Funds for Bid on Topic">Buyer Funds for Bid on Topic</value>
-  <value column="Help" original="Committed or Uncommited funds for Bids">Committed or Uncommited funds for Bids</value>
+  <value column="Help" original="Committed or Uncommitted funds for Bids">Committed or Uncommited funds for Bids</value>
  </row>
  <row id="598" trl="N">
   <value column="Name" original="Offer Funds">Offer Funds</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Seller Funds from Offers on Topics">Seller Funds from Offers on Topics</value>
-  <value column="Help" original="Committed or Uncommited funds from Offers">Committed or Uncommited funds from Offers</value>
+  <value column="Help" original="Committed or Uncommitted funds from Offers">Committed or Uncommited funds from Offers</value>
  </row>
  <row id="599" trl="N">
   <value column="Name" original="Topic Type">Topic Type</value>
@@ -2642,7 +2642,7 @@ The optional balance check applies to the entire import, not for individual batc
   <value column="Name" original="Funds">Funds</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Seller Funds from Offers on Topics">Seller Funds from Offers on Topics</value>
-  <value column="Help" original="Available Funds (for Payments) and Committed or Uncommited funds from Offers">Available Funds (for Payments) and Committed or Uncommited funds from Offers</value>
+  <value column="Help" original="Available Funds (for Payments) and Committed or Uncommitted funds from Offers">Available Funds (for Payments) and Committed or Uncommited funds from Offers</value>
  </row>
  <row id="604" trl="N">
   <value column="Name" original="Offer">Offer</value>
@@ -2660,13 +2660,13 @@ The optional balance check applies to the entire import, not for individual batc
   <value column="Name" original="Funds">Funds</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Buyer Funds available for Bids on Topics">Buyer Funds available for Bids on Topics</value>
-  <value column="Help" original="Available Funds (Payments) and Committed or Uncommited funds for Bids">Available Funds (Payments) and Committed or Uncommited funds for Bids</value>
+  <value column="Help" original="Available Funds (Payments) and Committed or Uncommitted funds for Bids">Available Funds (Payments) and Committed or Uncommited funds for Bids</value>
  </row>
  <row id="607" trl="N">
   <value column="Name" original="Bid">Bid</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Bid for a Topic">Bid for a Topic</value>
-  <value column="Help" original="You can create a bid for a topic.  Depening on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.">You can create a bid for a topic.  Depening on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.</value>
+  <value column="Help" original="You can create a bid for a topic.  Depending on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.">You can create a bid for a topic.  Depening on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.</value>
  </row>
  <row id="608" trl="N">
   <value column="Name" original="Accounting Processor">Accounting Processor</value>
@@ -2895,7 +2895,7 @@ The distribution is prorated based on the percentage of the lines. If the total 
  <row id="650" trl="N">
   <value column="Name" original="Product Assignment">Product Assignment</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Assignment of Atrributes to Products">Assignment of Atrributes to Products</value>
+  <value column="Description" original="Assignment of Attributes to Products">Assignment of Atrributes to Products</value>
   <value column="Help" original="Determines, which attributes are assigned to a product">Determines, which attributes are assigned to a product</value>
  </row>
  <row id="652" trl="N">
@@ -3366,7 +3366,7 @@ Indirect: Users with Role, Subscribers of updates for Request Category, Type, Gr
   <value column="Name" original="BOM Change Request">BOM Change Request</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="BOM (Engineering) Change Requests">BOM (Engineering) Change Requests</value>
-  <value column="Help" original="Change requests for a Bill of Materials. They can be automatically created from Requests, if enabled in the Request Type and the Request Group referres to a Bill of Materials">Change requests for a Bill of Materials. They can be automatically created from Requests, if enabled in the Request Type and the Request Group referres to a Bill of Materials</value>
+  <value column="Help" original="Change requests for a Bill of Materials. They can be automatically created from Requests, if enabled in the Request Type and the Request Group refers to a Bill of Materials">Change requests for a Bill of Materials. They can be automatically created from Requests, if enabled in the Request Type and the Request Group referres to a Bill of Materials</value>
  </row>
  <row id="736" trl="N">
   <value column="Name" original="Fixed Change Requests">Fixed Change Requests</value>
@@ -3384,7 +3384,7 @@ Indirect: Users with Role, Subscribers of updates for Request Category, Type, Gr
   <value column="Name" original="BOM Component">BOM Component</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Bill of Material Component (Product)">Bill of Material Component (Product)</value>
-  <value column="Help" original="The Bill of Material Compoment determines what products, services and outside processing is included in producing the Product. It references the operation and determines it's sequence.">The Bill of Material Compoment determines what products, services and outside processing is included in producing the Product. It references the operation and determines it's sequence.</value>
+  <value column="Help" original="The Bill of Material Component determines what products, services and outside processing is included in producing the Product. It references the operation and determines its sequence.">The Bill of Material Compoment determines what products, services and outside processing is included in producing the Product. It references the operation and determines it's sequence.</value>
  </row>
  <row id="739" trl="Y">
   <value column="Name" original="Updates">Mises à jour</value>
@@ -3537,7 +3537,7 @@ Note that the information is cached. To have effect you may have to re-login or 
   <value column="Name" original="Accounting">Accounting</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Tax Accounting Reconciliation ">Tax Accounting Reconciliation </value>
-  <value column="Help" original="Displays all accounting related information for reconcilation with documents. It includes all revenue/expense and tax entries as a base for detail reporting">Displays all accounting related information for reconcilation with documents. It includes all revenue/expense and tax entries as a base for detail reporting</value>
+  <value column="Help" original="Displays all accounting related information for reconciliation with documents. It includes all revenue/expense and tax entries as a base for detail reporting">Displays all accounting related information for reconcilation with documents. It includes all revenue/expense and tax entries as a base for detail reporting</value>
  </row>
  <row id="766" trl="N">
   <value column="Name" original="Reporting Hierarchy">Reporting Hierarchy</value>
@@ -3623,7 +3623,7 @@ The creation of  "Client and Org" shared records is the default and is ignored.]
   <value column="Name" original="Color Schema">Color Schema</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Performance Color Schema">Performance Color Schema</value>
-  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).">Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  Adempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).</value>
+  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere supports two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be between 0 and unlimited (i.e. above 100%).">Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  Adempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).</value>
  </row>
  <row id="780" trl="N">
   <value column="Name" original="Restriction">Restriction</value>
@@ -4004,7 +4004,7 @@ If the profile is exclude (default), the assignees can view all but the defined 
   <value column="Name" original="Index Stop">Index Stop</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Keyword not to be indexed">Keyword not to be indexed</value>
-  <value column="Help" original="Keyword not to be indexed, optional restriced to specific Document Type, Container or Request Type">Keyword not to be indexed, optional restriced to specific Document Type, Container or Request Type</value>
+  <value column="Help" original="Keyword not to be indexed, optional restricted to specific Document Type, Container or Request Type">Keyword not to be indexed, optional restriced to specific Document Type, Container or Request Type</value>
  </row>
  <row id="848" trl="N">
   <value column="Name" original="Log">Log</value>
@@ -4646,7 +4646,7 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Name" original="Employee Attributes">Employee Attributes</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Employee Attributes">Maintain Employee Attributes</value>
-  <value column="Help" original="The Employee Attributes are used to define aditional data for a employee">The Employee Attributes are used to define aditional data for a employee</value>
+  <value column="Help" original="The Employee Attributes are used to define additional data for an employee">The Employee Attributes are used to define aditional data for a employee</value>
  </row>
  <row id="53114" trl="N">
   <value column="Name" original="Process">Process</value>
@@ -4795,7 +4795,7 @@ Valid From/To is determined by the parent tax.]]></value>
  <row id="53150" trl="N">
   <value column="Name" original="Step1 Select Asset">Step1 Select Asset</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Select the asset to be transfered">Select the asset to be transfered</value>
+  <value column="Description" original="Select the asset to be transferred">Select the asset to be transfered</value>
   <value column="Help" original=""/>
  </row>
  <row id="53151" trl="N">
@@ -5014,48 +5014,6 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Description" original="Concept Ordering">Concept Ordering</value>
   <value column="Help" original=""/>
  </row>
- <row id="53201" trl="N">
-  <value column="Name" original="Promotion Group">Promotion Group</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53202" trl="N">
-  <value column="Name" original="Group Line">Group Line</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53203" trl="N">
-  <value column="Name" original="Promotion">Promotion</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53204" trl="N">
-  <value column="Name" original="Pre Condition">Pre Condition</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53205" trl="N">
-  <value column="Name" original="Promotion Line">Promotion Line</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53206" trl="N">
-  <value column="Name" original="Quantity Distribution">Quantity Distribution</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53207" trl="N">
-  <value column="Name" original="Reward">Reward</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
  <row id="53210" trl="N">
   <value column="Name" original="Translation">Traduction</value>
   <value column="CommitWarning" original=""/>
@@ -5254,7 +5212,7 @@ Printing:
   <value column="Name" original="Components">Components</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Components">Components</value>
-  <value column="Help" original="Components of Bill fo Material">Components of Bill fo Material</value>
+  <value column="Help" original="Components of Bill of Materials">Components of Bill fo Material</value>
  </row>
  <row id="53289" trl="N">
   <value column="Name" original="Costs">Costs</value>
@@ -6385,13 +6343,13 @@ Printing:
   <value column="Help" original=""/>
  </row>
  <row id="200255" trl="N">
-  <value column="Name" original="Bank Transfer">Bank Transfer</value>
+  <value column="Name" original="Bank Transfer">Virements</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200256" trl="N">
-  <value column="Name" original="Payments">Payments</value>
+  <value column="Name" original="Payments">Paiements</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6589,19 +6547,19 @@ Printing:
   <value column="Help" original=""/>
  </row>
  <row id="200317" trl="N">
-  <value column="Name" original="Label Category">Label Category</value>
+  <value column="Name" original="Label Category">Label Catégories</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200318" trl="N">
-  <value column="Name" original="Table Access">Table Access</value>
+  <value column="Name" original="Table Access">Accès Tables</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200319" trl="N">
-  <value column="Name" original="Translation">Translation</value>
+  <value column="Name" original="Translation">Traduction</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6613,7 +6571,7 @@ Printing:
   <value column="Help" original=""/>
  </row>
  <row id="200321" trl="N">
-  <value column="Name" original="Translation">Translation</value>
+  <value column="Name" original="Translation">Traduction</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6626,6 +6584,12 @@ Printing:
  </row>
  <row id="200324" trl="N">
   <value column="Name" original="Assignment">Assignment</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200328" trl="N">
+  <value column="Name" original="SSO Configuration">SSO Configuration</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6644,6 +6608,114 @@ Printing:
  </row>
  <row id="200347" trl="N">
   <value column="Name" original="Verify Migration Process">Verify Migration Process</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200348" trl="N">
+  <value column="Name" original="Test UU Based Table">Test UU Based Table</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200349" trl="N">
+  <value column="Name" original="Test UU Detail">Test UU Detail</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200350" trl="N">
+  <value column="Name" original="Test UU Detail">Test UU Detail</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200351" trl="N">
+  <value column="Name" original="Document Base Type Group">Document Base Type Group</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200352" trl="N">
+  <value column="Name" original="Document Base Type Group Line">Document Base Type Group Line</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200353" trl="N">
+  <value column="Name" original="Model Generator Template">Model Generator Template</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200355" trl="N">
+  <value column="Name" original="Info Window Translation">Info Window Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200356" trl="N">
+  <value column="Name" original="Info Column Translation">Info Column Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200358" trl="N">
+  <value column="Name" original="Table Translation">Table Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200359" trl="N">
+  <value column="Name" original="Column Translation">Column Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200361" trl="N">
+  <value column="Name" original="Tax Rate">Tax Rate</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200371" trl="N">
+  <value column="Name" original="Test UU Based Table Trl">Test UU Based Table Trl</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200381" trl="N">
+  <value column="Name" original="Table Partition">Table Partition</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200382" trl="N">
+  <value column="Name" original="Private Access">Private Access</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200385" trl="N">
+  <value column="Name" original="Dynamic Validation per Table">Dynamic Validation per Table</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200386" trl="N">
+  <value column="Name" original="Theme Customization">Theme Customization</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200387" trl="N">
+  <value column="Name" original="Theme Customization Detail">Theme Customization Detail</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200394" trl="N">
+  <value column="Name" original="Required Plugin">Required Plugin</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
